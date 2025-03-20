@@ -1,5 +1,5 @@
 # Hugo configuration file
-# baseURL: "https://alias-bitsignal.github.io/bismuthcoin/"
+baseURL: "https://alias-bitsignal.github.io/bismuthcoin/"
 title: bismuthcoin.org
 
 # import hextra as module
