@@ -1,0 +1,71 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bismuthcoin.org – Android</title>
+    <link>https://alias-bitsignal.github.io/bismuthcoin/tags/android/</link>
+    <description>Recent content in Android on bismuthcoin.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://alias-bitsignal.github.io/bismuthcoin/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Bismuth Mobile Wallet - Genesis and Reward</title>
+      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2021-01-15-mobile-wallet/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2021-01-15-mobile-wallet/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2021-01-15-mobile-wallet.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+For way too long, Bismuth had no proper mobile wallet.&lt;/p&gt;
+&lt;p&gt;One historical reason is that – despite being the fastest growing language – Python on mobile still is not mainstream. Sure, you can run a fully functional Tornado wallet on Android, but that’s not a 2 click install.&lt;/p&gt;
+&lt;p&gt;That’s certainly not an excuse however and the team saw the need for an easy to install and operate mobile wallet.&lt;/p&gt;
+&lt;h3&gt;The chameleon episode&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-chameleon-episode&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#the-chameleon-episode&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Then, we paid an external team to integrate Bismuth as part of a multi-currency wallet. April 2019, Bismuth was available on the Chameleon wallet. A closed source multi currency wallet from Chainzilla.
+There was two benefits for Bismuth:
+– Instantly working wallet, from experienced team. No wasted time, no debug or support.
+– Chameleon user base. We certainly gained some exposure being present on that wallet, and our potential user base grew immediately.&lt;/p&gt;
+&lt;p&gt;Alas, late 2020 Chainzilla announced they were stopping the wallet and would open source it. Despite numerous emails and tweets, to day the code is not available yet, and we got no answer from Chainzilla about the custom derivation scheme they used at start.&lt;/p&gt;
+&lt;p&gt;We were then in a worse position than ever… No more wallet, plus users stuck with a seed they couldn’t use anymore!
+Later on, we were able to recover one of the two derivation scheme, the older one still is missing.&lt;/p&gt;
+&lt;h3&gt;Behind the scenes work&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;behind-the-scenes-work&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#behind-the-scenes-work&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In the mean time, there was several aborted attempts to code our own wallet. This did not went through for lack of in house competences and time, but we had a few constraints in mind anyway, mainly with maintenance in mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use a known and future proof language and framework&lt;/li&gt;
+&lt;li&gt;Aim for minimalist features first&lt;/li&gt;
+&lt;li&gt;Ability to publish the wallet on app stores&lt;/li&gt;
+&lt;li&gt;Cross platform&lt;/li&gt;
+&lt;li&gt;Single code base if possible across platforms&lt;/li&gt;
+&lt;li&gt;As close to native as possible&lt;/li&gt;
+&lt;li&gt;We did some PWA – Progressive Web Apps experiments, looked at svelte.js, electron, and saw more and more mentions of Dart and Flutter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Flutter looked like a really great candidate, fulfilling all of our criterion.
+We began to search for Flutter experimented developers, and that’s when RedDwarf enters 🙂&lt;/p&gt;
+&lt;p&gt;RedDwarf had some experience with a previous crypto mobile app with flutter, and was happy to offer his help. He ended up doing way more than that, since he fully developed the current “my Bismuth Wallet” app.
+The code is based upon Natrium Flutter wallet and is fully open source.&lt;/p&gt;
+&lt;h3&gt;End result and reward&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;end-result-and-reward&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#end-result-and-reward&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If we aimed for a minimalist app to start with, RedDwarf worked faster than we could test and we finally have a full featured wallet that also includes tokens management for instance.&lt;/p&gt;
+&lt;p&gt;The team was very pleased to work with him and the end result really is impressive.
+The Bismuth team happily awards a 20,000 BIS reward to RedDwarf and offers him free HN hosting if he needs.&lt;/p&gt;
+&lt;p&gt;The wallet is available on &lt;a href=&#34;https://play.google.com/store/apps/details?src=AppAgg.com&amp;amp;id=io.reddwarf.my_bismuth_wallet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Play Android&lt;/a&gt; and the source code at &lt;a href=&#34;https://github.com/redDwarf03/my_bismuth_wallet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;iOS Version&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ios-version&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ios-version&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;iOS Version is already working, thanks to Flutter and Dart, but Apple decided otherwise.
+Very recent policies change at Apple store made it so Crypto related app (namely, wallets) are subject to pretty restrictive conditions to be released. As a result the iOS version is not publicly available for the time being, but the team is working on a solution. We expect good news in the next weeks or months.&lt;/p&gt;
+&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?src=AppAgg.com&amp;amp;id=io.reddwarf.my_bismuth_wallet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Play Android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/my_bismuth_wallet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - My Bismuth Wallet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,388 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bismuthcoin.org – Interview</title>
+    <link>https://alias-bitsignal.github.io/bismuthcoin/tags/interview/</link>
+    <description>Recent content in Interview on bismuthcoin.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://alias-bitsignal.github.io/bismuthcoin/tags/interview/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>BisBabble Interview - ShadowCrypto</title>
+      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2020-02-07-interview/</link>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2020-02-07-interview/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2020-01-18-interview.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+Welcome to another edition of &lt;strong&gt;BisBabble&lt;/strong&gt;! In this episode, we chat with &lt;strong&gt;ShadowCrypto&lt;/strong&gt;, a dedicated &lt;strong&gt;Bismuth supporter&lt;/strong&gt; and key contributor to the &lt;strong&gt;Pawer bot&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;The Interview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-interview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#the-interview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Q: Hello Shadow! We heard about you in a previous BisBabble episode. You are a vibrant supporter of Bismuth and a much-appreciated code contributor to the Pawer bot. Can you tell us a little about yourself?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-hello-shadow-we-heard-about-you-in-a-previous-bisbabble-episode-you-are-a-vibrant-supporter-of-bismuth-and-a-much-appreciated-code-contributor-to-the-pawer-bot-can-you-tell-us-a-little-about-yourself&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-hello-shadow-we-heard-about-you-in-a-previous-bisbabble-episode-you-are-a-vibrant-supporter-of-bismuth-and-a-much-appreciated-code-contributor-to-the-pawer-bot-can-you-tell-us-a-little-about-yourself&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I’m a &lt;strong&gt;programmer by profession&lt;/strong&gt; and a &lt;strong&gt;photographer by passion&lt;/strong&gt;, drawn to both &lt;strong&gt;shadows and crypto&lt;/strong&gt;—hence my username (pun intended).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: Since forums don’t allow for direct observation, how do you describe yourself at dinner parties?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-since-forums-dont-allow-for-direct-observation-how-do-you-describe-yourself-at-dinner-parties&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-since-forums-dont-allow-for-direct-observation-how-do-you-describe-yourself-at-dinner-parties&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; As an &lt;strong&gt;introvert&lt;/strong&gt;, I prefer to stay silent and focus on the main purpose—&lt;strong&gt;eating, a lot!&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: Well, introvert maybe, but you were the one who brought @aravindballa to the party—thanks for that! How did you get into programming in the first place?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-well-introvert-maybe-but-you-were-the-one-who-brought-aravindballa-to-the-partythanks-for-that-how-did-you-get-into-programming-in-the-first-place&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-well-introvert-maybe-but-you-were-the-one-who-brought-aravindballa-to-the-partythanks-for-that-how-did-you-get-into-programming-in-the-first-place&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I have an interesting backstory for this.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When I finished school and had to choose a field of study, I told my cousin, &lt;strong&gt;“Anything except computers.”&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;A couple of years later, I ended up doing my &lt;strong&gt;undergraduate degree in Computer Science&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I &lt;strong&gt;never regretted it&lt;/strong&gt;—every day was fun!&lt;br&gt;
+I first encountered coding through coursework and was &lt;strong&gt;fascinated&lt;/strong&gt; by how &lt;strong&gt;a few lines of code&lt;/strong&gt; could perform &lt;strong&gt;complex tasks&lt;/strong&gt;.&lt;br&gt;
+That simple realization keeps me &lt;strong&gt;motivated&lt;/strong&gt; to this day.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: The preferred minimalism can be seen in your code. So, programming is your day job?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-the-preferred-minimalism-can-be-seen-in-your-code-so-programming-is-your-day-job&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-the-preferred-minimalism-can-be-seen-in-your-code-so-programming-is-your-day-job&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Yes, I &lt;strong&gt;pay my bills&lt;/strong&gt; with programming.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: How did you get introduced to blockchain?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-how-did-you-get-introduced-to-blockchain&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-how-did-you-get-introduced-to-blockchain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Like many others—&lt;strong&gt;through Bitcoin&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Initially, I was interested in &lt;strong&gt;crypto as an investment&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;At first, &lt;strong&gt;Bitcoin’s technical details were overwhelming&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Over time, I took the time to &lt;strong&gt;understand it better&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;I still don’t know &lt;strong&gt;everything in detail&lt;/strong&gt;, but I now have a &lt;strong&gt;decent high-level understanding&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: What’s the piece of code you’re most proud of?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-whats-the-piece-of-code-youre-most-proud-of&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-whats-the-piece-of-code-youre-most-proud-of&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt;&lt;br&gt;
+Back when I was &lt;strong&gt;new to HTML &amp;amp; CSS&lt;/strong&gt;, I worked on &lt;strong&gt;email templates&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I migrated existing templates to &lt;strong&gt;plain HTML &amp;amp; CSS/SASS&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Reduced &lt;strong&gt;1700 lines of code to 450&lt;/strong&gt; per template.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supported all browsers &amp;amp; mail clients.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;There were &lt;strong&gt;10 such templates&lt;/strong&gt; in total!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It was a great &lt;strong&gt;learning and implementation experience&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: Minimalism again! What programming languages have you worked with?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-minimalism-again-what-programming-languages-have-you-worked-with&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-minimalism-again-what-programming-languages-have-you-worked-with&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt; &amp;amp; &lt;strong&gt;Java&lt;/strong&gt; (mostly).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;C/C++?&lt;/strong&gt; Still unsure if I should count them—I started with them but didn’t continue afterward.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: What led you to Bismuth?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-led-you-to-bismuth&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-led-you-to-bismuth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;@cryptotyrion&lt;/strong&gt; introduced me to Bismuth.&lt;br&gt;
+The fact that it was &lt;strong&gt;written in Python&lt;/strong&gt; (my favorite language) made me &lt;strong&gt;dig deeper&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: What’s your experience in the crypto field?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-whats-your-experience-in-the-crypto-field&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-whats-your-experience-in-the-crypto-field&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I’ve been an &lt;strong&gt;investor/trader since 2017&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: What would you say is Bismuth’s biggest strength?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-would-you-say-is-bismuths-biggest-strength&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-would-you-say-is-bismuths-biggest-strength&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;The devs.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I’m amazed at how &lt;strong&gt;hard and smart they work&lt;/strong&gt;, even in the toughest times.&lt;br&gt;
+Also, the &lt;strong&gt;community is incredibly welcoming&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Bismuth was my &lt;strong&gt;first open-source contribution&lt;/strong&gt;.&lt;br&gt;
+At first, I had &lt;strong&gt;many fears&lt;/strong&gt; about where to start, but the &lt;strong&gt;devs made it easy&lt;/strong&gt; and were &lt;strong&gt;super helpful&lt;/strong&gt;.&lt;br&gt;
+It’s a &lt;strong&gt;perfect learning environment&lt;/strong&gt; for blockchain development—especially in &lt;strong&gt;Python&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: Thanks! We try to be welcoming because we need contributors like you—and you’ve proved yourself! What would you say is Bismuth’s biggest weakness?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-thanks-we-try-to-be-welcoming-because-we-need-contributors-like-youand-youve-proved-yourself-what-would-you-say-is-bismuths-biggest-weakness&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-thanks-we-try-to-be-welcoming-because-we-need-contributors-like-youand-youve-proved-yourself-what-would-you-say-is-bismuths-biggest-weakness&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;The business model.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I may be &lt;strong&gt;wrong or less informed&lt;/strong&gt;, but I don’t fully understand how &lt;strong&gt;Bismuth generates money&lt;/strong&gt; within its ecosystem.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: You’ve mainly worked on the Pawer Discord bot. Are there other parts of Bismuth’s ecosystem you’d like to explore?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-youve-mainly-worked-on-the-pawer-discord-bot-are-there-other-parts-of-bismuths-ecosystem-youd-like-to-explore&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-youve-mainly-worked-on-the-pawer-discord-bot-are-there-other-parts-of-bismuths-ecosystem-youd-like-to-explore&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;Absolutely!&lt;/strong&gt;&lt;br&gt;
+I’d love to explore:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ZircoDice&lt;/strong&gt; 🎲&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dragginator&lt;/strong&gt; 🐉&lt;/li&gt;
+&lt;li&gt;Other &lt;strong&gt;DApps&lt;/strong&gt; 🚀&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I also want to &lt;strong&gt;build my own DApp&lt;/strong&gt;.&lt;br&gt;
+If anyone has &lt;strong&gt;ideas and needs a partner, hit me up!&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: Most loved programming language &amp;amp; why?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-most-loved-programming-language--why&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-most-loved-programming-language--why&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;Python&lt;/strong&gt;—as simple as &lt;strong&gt;writing a few statements in English&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: Most hated programming language &amp;amp; why?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-most-hated-programming-language--why&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-most-hated-programming-language--why&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I haven’t figured that out yet.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: You’ll live longer if you only love and don’t hate—good call! On a more personal note, what are you up to when you’re not coding?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-youll-live-longer-if-you-only-love-and-dont-hategood-call-on-a-more-personal-note-what-are-you-up-to-when-youre-not-coding&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-youll-live-longer-if-you-only-love-and-dont-hategood-call-on-a-more-personal-note-what-are-you-up-to-when-youre-not-coding&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I’m a &lt;strong&gt;photographer at heart&lt;/strong&gt;—that’s what keeps me alive. 📷&lt;/p&gt;
+&lt;p&gt;I love finding &lt;strong&gt;patterns, symmetry, and silhouettes&lt;/strong&gt; in unexpected places.&lt;br&gt;
+Also, I won a &lt;strong&gt;national-level award&lt;/strong&gt; and received a &lt;strong&gt;few other recognitions&lt;/strong&gt;—making my parents proud at a young age.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: Do you see any connections between photography and coding?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-do-you-see-any-connections-between-photography-and-coding&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-do-you-see-any-connections-between-photography-and-coding&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;Great question!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For me, &lt;strong&gt;programming is also an art form&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;People express &lt;strong&gt;creativity in different ways&lt;/strong&gt;—programming is one of them.&lt;/li&gt;
+&lt;li&gt;Photography and coding &lt;strong&gt;share similarities&lt;/strong&gt;—composing a &lt;strong&gt;shot&lt;/strong&gt; vs. composing a &lt;strong&gt;function&lt;/strong&gt;,&lt;br&gt;
+keeping things &lt;strong&gt;minimal&lt;/strong&gt;, finding &lt;strong&gt;patterns&lt;/strong&gt;, and &lt;strong&gt;reusing&lt;/strong&gt; them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both give me the &lt;strong&gt;same dopamine hit&lt;/strong&gt;—whether I &lt;strong&gt;capture a great photo&lt;/strong&gt; or &lt;strong&gt;write a beautiful script&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Q: Your best piece of programming advice?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-your-best-piece-of-programming-advice&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-your-best-piece-of-programming-advice&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;💡 &lt;strong&gt;Programming is evolving fast&lt;/strong&gt;—it takes just a few days to start learning a language (especially Python).&lt;br&gt;
+💡 &lt;strong&gt;You can automate daily tasks or build fun projects—just for fun!&lt;/strong&gt;&lt;br&gt;
+💡 &lt;strong&gt;Not everything you learn has to make money—enjoy programming!&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Thanks a lot, ShadowCrypto, for answering our questions! May the good vibes stay with you!&lt;/strong&gt; 🚀&lt;/p&gt;
+&lt;h4&gt;Meet ShadowCrypto&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;meet-shadowcrypto&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#meet-shadowcrypto&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;You can connect with &lt;strong&gt;ShadowCrypto&lt;/strong&gt; on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bismuth &lt;a href=&#34;https://discord.gg/DsEuMQ3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discord&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter: &lt;a href=&#34;https://twitter.com/_shadow_crypto&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@_shadow_crypto&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://discord.gg/DsEuMQ3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discord&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/_shadow_crypto&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitter @_shadow_crypto&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>BisBabble Interview - Endogen</title>
+      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2020-01-18-interview/</link>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2020-01-18-interview/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2020-01-18-interview.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+In this second issue of the &lt;strong&gt;“BisBabble”&lt;/strong&gt; series we welcome &lt;strong&gt;Endogen&lt;/strong&gt;, a long-time Bismuth supporter and developer of the &lt;strong&gt;Bismuth Telegram Bot, Bauer&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;📝 The Interview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-the-interview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-the-interview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;&lt;strong&gt;Q: Can you tell us a little about yourself?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-can-you-tell-us-a-little-about-yourself&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-can-you-tell-us-a-little-about-yourself&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Sure! I’m a &lt;strong&gt;38-year-old software engineer from Germany&lt;/strong&gt;, but I’ve only been in the software industry for about &lt;strong&gt;8 years&lt;/strong&gt;.&lt;br&gt;
+Before that, I worked as a &lt;strong&gt;retail salesman for an electronics retailer&lt;/strong&gt;, but I didn’t enjoy it—so I decided to &lt;strong&gt;study Software Engineering&lt;/strong&gt; 🙂.&lt;/p&gt;
+&lt;p&gt;As a kid, I was naturally drawn to the &lt;strong&gt;internet&lt;/strong&gt; and fascinated by &lt;strong&gt;software&lt;/strong&gt;. Unlike everything else that seemed to decay over time, software &lt;strong&gt;stayed the same&lt;/strong&gt;—I found that really interesting.&lt;/p&gt;
+&lt;p&gt;Today, I work as a &lt;strong&gt;SAP consultant&lt;/strong&gt;, helping companies implement &lt;strong&gt;SAP ME (Manufacturing Execution)&lt;/strong&gt; to create &lt;strong&gt;paperless plants&lt;/strong&gt;. Unfortunately, I no longer code at work, but I still love it and do it privately for fun.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: How do you describe yourself at dinner parties?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-how-do-you-describe-yourself-at-dinner-parties&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-how-do-you-describe-yourself-at-dinner-parties&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I &lt;strong&gt;don’t&lt;/strong&gt;. I prefer to stay in the background and listen to people 😉.&lt;/p&gt;
+&lt;p&gt;But if I had to, I’d say I’m &lt;strong&gt;drawn to things outside the mainstream&lt;/strong&gt;. Life is too short to be bored by &lt;strong&gt;mediocre stuff&lt;/strong&gt;.&lt;br&gt;
+For example, I’ve always been fascinated by &lt;strong&gt;psychoactive drugs, consciousness, and philosophical theories&lt;/strong&gt;.&lt;br&gt;
+However, after having &lt;strong&gt;two kids&lt;/strong&gt;, responsibility took over—but I’m sure I’m still &lt;strong&gt;strange as hell&lt;/strong&gt; 😆.&lt;/p&gt;
+&lt;p&gt;That’s what I’d say at a dinner party. And the &lt;strong&gt;one or two people still cool with me after that?&lt;/strong&gt; Those are the ones I’d have a beer with.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What made you want to start coding?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-made-you-want-to-start-coding&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-made-you-want-to-start-coding&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I love the idea of &lt;strong&gt;creating something from nothing&lt;/strong&gt;. Software is especially interesting because of its &lt;strong&gt;unique properties&lt;/strong&gt;—once it exists, it can be &lt;strong&gt;used anywhere by anyone&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The fact that &lt;strong&gt;someone can write code, publish it on GitHub, and people worldwide can use it&lt;/strong&gt; fascinates me.&lt;br&gt;
+I believe &lt;strong&gt;proprietary software will become niche&lt;/strong&gt; in the future—so everything I code privately will always be &lt;strong&gt;open source&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: Is programming your day job or a hobby?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-is-programming-your-day-job-or-a-hobby&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-is-programming-your-day-job-or-a-hobby&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; It was my &lt;strong&gt;day job for a short time&lt;/strong&gt;, but now it’s just a &lt;strong&gt;hobby&lt;/strong&gt;.&lt;br&gt;
+I’m not the &lt;strong&gt;best&lt;/strong&gt; programmer, and I have &lt;strong&gt;other skills&lt;/strong&gt;, but I &lt;strong&gt;love coding&lt;/strong&gt; and do it in my free time.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: How did you get introduced to blockchain?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-how-did-you-get-introduced-to-blockchain&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-how-did-you-get-introduced-to-blockchain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I first heard about &lt;strong&gt;Bitcoin&lt;/strong&gt; while studying. I thought it was cool but didn’t look into it much.&lt;br&gt;
+Years later, when I saw that these &lt;strong&gt;coins actually had value&lt;/strong&gt;, I started digging deeper.&lt;/p&gt;
+&lt;p&gt;I was fascinated by the &lt;strong&gt;decentralization, censorship resistance, and independence from traditional finance&lt;/strong&gt;.&lt;br&gt;
+It was obvious—&lt;strong&gt;this is the start of a new paradigm&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What piece of code do you wish you had written?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-piece-of-code-do-you-wish-you-had-written&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-piece-of-code-do-you-wish-you-had-written&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;TensorFlow&lt;/strong&gt; 😀&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What code are you most proud of?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-code-are-you-most-proud-of&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-code-are-you-most-proud-of&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Honestly? &lt;strong&gt;The Bismuth Telegram Bot&lt;/strong&gt;.&lt;br&gt;
+It may sound silly, but it’s the &lt;strong&gt;first&lt;/strong&gt; project where I really liked how the code was structured.&lt;/p&gt;
+&lt;p&gt;And hey—I even got &lt;strong&gt;paid&lt;/strong&gt; for coding in my free time! YAY! 🎉&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What programming languages have you worked with?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-programming-languages-have-you-worked-with&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-programming-languages-have-you-worked-with&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Java&lt;/strong&gt; (for work) – liked it at first.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt; (privately) – loved it. Since then, I never touched any other language.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JavaScript &amp;amp; Vue&lt;/strong&gt; – played around briefly, but nothing serious.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What led you to Bismuth?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-led-you-to-bismuth&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-led-you-to-bismuth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I love the &lt;strong&gt;crypto industry&lt;/strong&gt;—it’s hilariously &lt;strong&gt;scammy, overblown, and overvalued&lt;/strong&gt;. But on a serious note, it’s &lt;strong&gt;the future&lt;/strong&gt;.&lt;br&gt;
+No one can stop it—it will &lt;strong&gt;drag the world with it&lt;/strong&gt;, no matter what anyone tries to do.&lt;/p&gt;
+&lt;p&gt;Since I’m also &lt;strong&gt;obsessed with Python&lt;/strong&gt;, I looked for a &lt;strong&gt;Python-based blockchain&lt;/strong&gt;.&lt;br&gt;
+I didn’t want just a &lt;strong&gt;Python client&lt;/strong&gt;—I wanted something I could &lt;strong&gt;tear apart and understand&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;That’s how I found &lt;strong&gt;Bismuth&lt;/strong&gt;. When I saw the &lt;strong&gt;logo&lt;/strong&gt; and its connection to the &lt;strong&gt;chemical element&lt;/strong&gt;, I was hooked.&lt;br&gt;
+I love &lt;strong&gt;fractals&lt;/strong&gt;, and &lt;strong&gt;Bismuth reminds me of that&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What’s your experience in the crypto field?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-whats-your-experience-in-the-crypto-field&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-whats-your-experience-in-the-crypto-field&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First got into &lt;strong&gt;Bitcoin&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Then found &lt;strong&gt;Monero (XMR)&lt;/strong&gt;—loved the idea, but disliked &lt;strong&gt;C++&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Got involved with &lt;strong&gt;Monero’s ecosystem&lt;/strong&gt; (created a proposal for a Monero Marketplace Bot – &lt;a href=&#34;https://tinyurl.com/y4xc98x4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🔗 Proposal&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;With Bismuth, I could finally get into the code&lt;/strong&gt;, which I loved.&lt;/li&gt;
+&lt;li&gt;I also &lt;strong&gt;enjoy trading&lt;/strong&gt;—not good at it, but for me, it’s a &lt;strong&gt;game &amp;amp; hobby&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What would you say is Bismuth’s biggest strength?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-would-you-say-is-bismuths-biggest-strength&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-would-you-say-is-bismuths-biggest-strength&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;It’s coded in Python.&lt;/strong&gt;&lt;br&gt;
+That fact alone attracts a lot of &lt;strong&gt;competent developers&lt;/strong&gt;.&lt;br&gt;
+Combined with Bismuth’s &lt;strong&gt;features&lt;/strong&gt;, it’s an &lt;strong&gt;exciting and fun&lt;/strong&gt; project.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What would you say is Bismuth’s biggest weakness?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-would-you-say-is-bismuths-biggest-weakness&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-would-you-say-is-bismuths-biggest-weakness&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;The code itself.&lt;/strong&gt;&lt;br&gt;
+The ideas behind Bismuth are &lt;strong&gt;brilliant&lt;/strong&gt;, and &lt;strong&gt;HCLivess (Bismuth’s creator) is godlike&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;However, the &lt;strong&gt;code structure needs improvement&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: Any thoughts on the current crypto industry?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-any-thoughts-on-the-current-crypto-industry&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-any-thoughts-on-the-current-crypto-industry&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; The next big thing? &lt;strong&gt;Mining isn’t the way forward.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We need &lt;strong&gt;nodes that directly validate and store transactions&lt;/strong&gt;, receiving fees &lt;strong&gt;without intermediaries&lt;/strong&gt;.&lt;br&gt;
+If your blockchain &lt;strong&gt;requires a second layer&lt;/strong&gt;, then your &lt;strong&gt;first layer isn’t the future&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Also—&lt;strong&gt;Gossip protocols, WTF.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: Most loved programming language, and why?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-most-loved-programming-language-and-why&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-most-loved-programming-language-and-why&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;Python! Python! Python!&lt;/strong&gt; 🚀&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: Most hated programming language, and why?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-most-hated-programming-language-and-why&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-most-hated-programming-language-and-why&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I can’t judge many languages, but between &lt;strong&gt;Python and Java&lt;/strong&gt;—I find Java &lt;strong&gt;boring&lt;/strong&gt;.&lt;br&gt;
+After &lt;strong&gt;falling in love with Python&lt;/strong&gt;, I &lt;strong&gt;never needed anything else&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What are you up to when you’re not coding?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-are-you-up-to-when-youre-not-coding&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-are-you-up-to-when-youre-not-coding&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Playing with my &lt;strong&gt;kids&lt;/strong&gt; 👨‍👩‍👧‍👦&lt;/li&gt;
+&lt;li&gt;Thinking about &lt;strong&gt;obscure stuff&lt;/strong&gt; 🤯&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gardening&lt;/strong&gt; 🌱&lt;/li&gt;
+&lt;li&gt;Hanging out with &lt;strong&gt;friends&lt;/strong&gt; 🍻&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Downhill biking&lt;/strong&gt; 🚴 (but no time for it anymore—kids come first!).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I &lt;strong&gt;don’t&lt;/strong&gt; take life &lt;strong&gt;too seriously&lt;/strong&gt; and avoid most &lt;strong&gt;social activities&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: Your best piece of programming advice?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-your-best-piece-of-programming-advice&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-your-best-piece-of-programming-advice&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt;&lt;br&gt;
+❌ &lt;strong&gt;Don’t read books about programming.&lt;/strong&gt;&lt;br&gt;
+✅ &lt;strong&gt;Just code.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;🙏 &lt;strong&gt;Thanks a lot, Endogen, for answering our questions! Keep up the great work!&lt;/strong&gt; 🚀&lt;/p&gt;
+&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Endogen/Telegram-Bauer-Bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - Bismuth Telegram Bauer Bot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>BisBabble Interview - Aravind</title>
+      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2019-12-18-interview/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2019-12-18-interview/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2020-01-18-interview.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+Welcome to the &lt;strong&gt;BisBabble&lt;/strong&gt; series! In this issue, we chat with &lt;strong&gt;Aravind&lt;/strong&gt;, a recent contributor to the Bismuth project.&lt;br&gt;
+He shares insights into his background, interests, and development work.&lt;/p&gt;
+&lt;h2&gt;📝 The Interview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-the-interview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-the-interview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;&lt;strong&gt;Q: Can you tell us a little about yourself?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-can-you-tell-us-a-little-about-yourself&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-can-you-tell-us-a-little-about-yourself&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I make sure I taste &lt;strong&gt;all the varieties&lt;/strong&gt; of food being served. 🍽️&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: Is programming your day job or a hobby?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-is-programming-your-day-job-or-a-hobby&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-is-programming-your-day-job-or-a-hobby&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; It’s my &lt;strong&gt;day job&lt;/strong&gt;—I work as a &lt;strong&gt;JavaScript Developer&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: Code you’re most proud of?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-code-youre-most-proud-of&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-code-youre-most-proud-of&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; My &lt;strong&gt;personal website&lt;/strong&gt; (I guess).&lt;br&gt;
+There’s a module that &lt;strong&gt;dynamically generates social media preview images (Open Graph) when the site builds&lt;/strong&gt;—I really like that part.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What programming languages have you worked with?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-programming-languages-have-you-worked-with&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-programming-languages-have-you-worked-with&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;C&lt;/strong&gt; – Learned it, but never liked it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt; – Enjoyed using &lt;strong&gt;Django&lt;/strong&gt; to build things.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Java&lt;/strong&gt; – My first paid job was in Java, but I wasn’t a fan—maybe because of how I learned it in college.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: You give talks about cutting-edge tech (like Gatsby). Do you see that as part of your job?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-you-give-talks-about-cutting-edge-tech-like-gatsby-do-you-see-that-as-part-of-your-job&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-you-give-talks-about-cutting-edge-tech-like-gatsby-do-you-see-that-as-part-of-your-job&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I love &lt;strong&gt;sharing what I learn&lt;/strong&gt; and helping others on their developer journey. That’s why I &lt;strong&gt;write a blog&lt;/strong&gt;, too—it’s a pleasure!&lt;br&gt;
+Also, I feel &lt;strong&gt;noticed in the community&lt;/strong&gt; when I talk about what I’ve learned.&lt;br&gt;
+I believe &lt;strong&gt;everyone should share&lt;/strong&gt;, because it’s &lt;strong&gt;beautiful to see different perspectives&lt;/strong&gt;—sometimes they &lt;strong&gt;open new doors&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What’s your experience in the crypto field?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-whats-your-experience-in-the-crypto-field&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-whats-your-experience-in-the-crypto-field&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I’d say I’m a &lt;strong&gt;beginner&lt;/strong&gt; who &lt;strong&gt;understands what a blockchain is&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: How did you get introduced to blockchain?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-how-did-you-get-introduced-to-blockchain&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-how-did-you-get-introduced-to-blockchain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In college, I heard about a guy &lt;strong&gt;making money trading crypto&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;I asked him &lt;strong&gt;what a blockchain was&lt;/strong&gt;—he couldn’t explain it properly.&lt;/li&gt;
+&lt;li&gt;That led me to &lt;strong&gt;do some research&lt;/strong&gt;, but I was still confused.&lt;/li&gt;
+&lt;li&gt;A year ago, I met someone who &lt;strong&gt;runs a blockchain-based company&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Talking to him gave me &lt;strong&gt;clarity&lt;/strong&gt; and motivated me to &lt;strong&gt;learn more&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What led you to Bismuth specifically?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-led-you-to-bismuth-specifically&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-led-you-to-bismuth-specifically&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;All because of Shadowcrypto.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: Has the perception of crypto changed for you since that college trader?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-has-the-perception-of-crypto-changed-for-you-since-that-college-trader&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-has-the-perception-of-crypto-changed-for-you-since-that-college-trader&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Absolutely—&lt;strong&gt;a lot has changed&lt;/strong&gt;.&lt;br&gt;
+For me, &lt;strong&gt;crypto is already influencing the world&lt;/strong&gt;, but it will take time for people around me to &lt;strong&gt;fully adopt it&lt;/strong&gt;.&lt;br&gt;
+I’ve even read that &lt;strong&gt;my state government is using blockchain (not exactly crypto) for certain projects&lt;/strong&gt;, which is interesting!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What do you like about Bismuth?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-do-you-like-about-bismuth&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-do-you-like-about-bismuth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; The &lt;strong&gt;community&lt;/strong&gt;—you all are so nice! 🤗&lt;br&gt;
+Also, Bismuth is &lt;strong&gt;written in Python&lt;/strong&gt;, the only language I understand apart from &lt;strong&gt;JavaScript&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: Most loved programming language &amp;amp; why?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-most-loved-programming-language--why&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-most-loved-programming-language--why&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;JavaScript&lt;/strong&gt; (of course).&lt;/p&gt;
+&lt;p&gt;It started as just a &lt;strong&gt;browser scripting language&lt;/strong&gt;, but after the &lt;strong&gt;V8 engine&lt;/strong&gt;, it became &lt;strong&gt;much more powerful&lt;/strong&gt;.&lt;br&gt;
+Now, you can &lt;strong&gt;write it anywhere&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Webpages&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Servers&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile (Ionic, React Native)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IoT devices&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Learn once, use everywhere!&lt;/strong&gt; 🚀&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: Many modern developers rely on libraries and frameworks (e.g., React, Laravel). Do you see this as a good thing?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-many-modern-developers-rely-on-libraries-and-frameworks-eg-react-laravel-do-you-see-this-as-a-good-thing&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-many-modern-developers-rely-on-libraries-and-frameworks-eg-react-laravel-do-you-see-this-as-a-good-thing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;I think it’s a positive evolution&lt;/strong&gt; (though I could be wrong).&lt;/p&gt;
+&lt;p&gt;Frameworks &lt;strong&gt;abstract things developers don’t need to worry about&lt;/strong&gt;, allowing them to &lt;strong&gt;focus on business logic&lt;/strong&gt;.&lt;br&gt;
+For example, &lt;strong&gt;React&lt;/strong&gt; abstracts &lt;strong&gt;DOM updates&lt;/strong&gt; with its &lt;strong&gt;Virtual DOM&lt;/strong&gt;, making it far better than manually updating the DOM with &lt;strong&gt;JavaScript or jQuery&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: What do you do when you’re not coding?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-what-do-you-do-when-youre-not-coding&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-what-do-you-do-when-youre-not-coding&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Trekking in the Himalayas&lt;/strong&gt; 🏔️ (most of my vacations this year were for that).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hiking&lt;/strong&gt; 🚶&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Drawing&lt;/strong&gt; 🎨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: Is your off-work routine completely separate from your work, or do you get “aha” moments?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-is-your-off-work-routine-completely-separate-from-your-work-or-do-you-get-aha-moments&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-is-your-off-work-routine-completely-separate-from-your-work-or-do-you-get-aha-moments&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I don’t have a &lt;strong&gt;fixed routine&lt;/strong&gt;, but I &lt;strong&gt;enjoy&lt;/strong&gt; the things I do in my breaks.&lt;br&gt;
+Sometimes, I work on an &lt;strong&gt;interesting side project&lt;/strong&gt; (involving code), and that feels like a &lt;strong&gt;good break, too&lt;/strong&gt;.&lt;br&gt;
+So it’s a &lt;strong&gt;mix and match&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: Developers are often stereotyped as geeks, but the best programmers often have creative/artistic sides. Do you agree?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-developers-are-often-stereotyped-as-geeks-but-the-best-programmers-often-have-creativeartistic-sides-do-you-agree&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-developers-are-often-stereotyped-as-geeks-but-the-best-programmers-often-have-creativeartistic-sides-do-you-agree&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Absolutely! I &lt;strong&gt;see code as art&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I recently started &lt;strong&gt;reading other people’s code&lt;/strong&gt;, and it’s &lt;strong&gt;beautiful&lt;/strong&gt;.&lt;br&gt;
+Creativity isn’t just about &lt;strong&gt;UI or aesthetics&lt;/strong&gt;—it’s also about &lt;strong&gt;how elegantly the code is written&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Q: Your best piece of programming advice?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;q-your-best-piece-of-programming-advice&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#q-your-best-piece-of-programming-advice&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt;&lt;br&gt;
+💡 &lt;strong&gt;“It’s not rocket science. Someone else wrote it, so if you spend time on it, you’ll understand. Patience!”&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;🙏 &lt;strong&gt;Thanks a lot, Aravind, for answering our questions! We can’t wait to see your next contributions to Bismuth!&lt;/strong&gt; 🚀&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;&lt;strong&gt;About Aravind&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;about-aravind&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#about-aravind&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Software developer&lt;/strong&gt; specializing in &lt;strong&gt;JavaScript&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Contributed to Bismuth’s &lt;strong&gt;client-side voting helper&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Currently working on a &lt;strong&gt;modern client-side web wallet for Bismuth&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📢 &lt;strong&gt;Connect with Aravind&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-connect-with-aravind&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-connect-with-aravind&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Twitter:&lt;/strong&gt; &lt;a href=&#34;https://twitter.com/aravindballa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@aravindballa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Website &amp;amp; Blog:&lt;/strong&gt; &lt;a href=&#34;https://aravindballa.com/writings&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aravindballa.com/writings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bismuthfoundation.github.io/Bismuth-Voting/client-side/dist/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Governance-Voting App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-Voting&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - Governance-Voting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,129 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bismuthcoin.org – Tools</title>
+    <link>https://alias-bitsignal.github.io/bismuthcoin/tags/tools/</link>
+    <description>Recent content in Tools on bismuthcoin.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://alias-bitsignal.github.io/bismuthcoin/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Bismuth Toolbox, interview and reward</title>
+      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2021-01-01-toolbox/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2021-01-01-toolbox/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2021-01-01-toolbox.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+Months ago, Bismuth user “Whatever” developed a shiny app to monitor his BIS mining rigs, wallets and Hypernodes.
+Apps you code for yourself, because you feel an urging need for it can end up most useful, and this one makes no exception.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2021-01-01-toolbox-01.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Preview of the Bismuth toolbox main screen&lt;/p&gt;
+&lt;p&gt;As a followup, Whatever also added more useful intel with hypernodes related data and monitoring
+The Hypernode monitoring section
+This app was already showcased in previous progress report:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;June 15, 2020 progress report&lt;/li&gt;
+&lt;li&gt;September 2020, progress report&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Interview with Whatever&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;interview-with-whatever&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#interview-with-whatever&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Very nice work and a much-needed app! So, we had to get in touch and ask him a few questions. 🙂&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Getting to Know You&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;getting-to-know-you&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#getting-to-know-you&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Can you tell us a little about yourself?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I’m an elder guy (&amp;gt;25 y.o.) with a young soul (~25 y.o.), working a 9-to-5 job and enjoying hobbies like programming and cryptocurrencies.&lt;br&gt;
+My job isn’t in IT, and I’m not a professional coder—just an enthusiast. However, I do use programming at work (mainly MATLAB) for data modeling and process automation.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; When did you first encounter computers and coding?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I got my first PC in college—an Intel Celeron 100MHz, as I recall.&lt;br&gt;
+My programming journey started with Pascal and Basic (if you don’t know these, consider yourself lucky 😆).&lt;br&gt;
+Sadly, my career path didn’t require coding, so it remained a hobby.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Introduction to Blockchain &amp;amp; Bismuth&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;introduction-to-blockchain--bismuth&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#introduction-to-blockchain--bismuth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; How did you first get introduced to blockchain?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; It was early 2017, just before the global crypto hype. ETH was around $10 at the time.&lt;br&gt;
+I asked myself, &lt;em&gt;“WTF is this Bitcoin everyone is talking about?”&lt;/em&gt; and started reading about blockchains, BTC, ETH, and mining.&lt;br&gt;
+It all seemed &lt;strong&gt;new and complicated&lt;/strong&gt;—which made me dive in.&lt;br&gt;
+I had some cash to burn, so I built my first GPU mining rig and started mining ETH. Later, I discovered BIS in late 2018.&lt;br&gt;
+BIS was different—it wasn’t just “another shitcoin to mine.” I actually took the time to understand the project.&lt;br&gt;
+What kept me around was the &lt;strong&gt;friendly and supportive community&lt;/strong&gt; (shoutout to EggdraSyl, Evilpokerqueen, Raetch, and others).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Tech &amp;amp; Development&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tech--development&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tech--development&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Is there a piece of code you wish you had written?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I wish I had written Microsoft Windows—or, at the very least, I wish they would stop developing it (they have no idea what they’re doing 😆).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Any code you’re particularly proud of?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; None, honestly. I’m not a professional coder, and I’ve never been formally trained.&lt;br&gt;
+If anything, I’m ashamed of most of my code.&lt;br&gt;
+However, I’m proud of the &lt;strong&gt;scientific solutions&lt;/strong&gt; I’ve achieved using my ugly code.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Strengths &amp;amp; Weaknesses of Bismuth&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;strengths--weaknesses-of-bismuth&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#strengths--weaknesses-of-bismuth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; What do you think is Bismuth’s biggest strength?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; A &lt;strong&gt;talented dev team&lt;/strong&gt; and an &lt;strong&gt;engaged, supportive community&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; And its biggest weakness?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;Lack of marketing.&lt;/strong&gt; It’s a result of limited resources—there aren’t enough people with the right expertise in the team or community.&lt;br&gt;
+A great product isn’t enough; it needs to be &lt;strong&gt;marketed&lt;/strong&gt;.&lt;br&gt;
+The dev team has done excellent work, but now it’s time to &lt;strong&gt;sell it&lt;/strong&gt;. BIS has strong features that should be showcased.&lt;br&gt;
+&lt;strong&gt;The time has come to sketch out a real marketing campaign.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Programming Preferences&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;programming-preferences&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#programming-preferences&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Your most loved programming language, and why?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Hard to pick just one. If I had to choose two:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt; (for general-purpose coding)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MATLAB&lt;/strong&gt; (for scientific computing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’ve only written a handful of lines in Python, but I love its simplicity.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Most hated programming language, and why?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;Java.&lt;/strong&gt; I do a lot of Android development in Java, and I hate it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Too much &lt;strong&gt;boilerplate code&lt;/strong&gt; for simple tasks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Null exceptions&lt;/strong&gt;—hated by everyone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’m switching to Kotlin as soon as I finish my current project (&lt;strong&gt;Bismuth Toolbox&lt;/strong&gt;).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Final Words &amp;amp; Reward&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;final-words--reward&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#final-words--reward&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; “Keep your friends close and your enemies closer” could be your dev motto? 😆&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Haha! Honestly, I’m not one to give programming advice—I should be the one receiving it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Bismuth Toolbox has proven its value, and that’s all we needed!&lt;br&gt;
+Thank you for your &lt;strong&gt;support of Bismuth&lt;/strong&gt; and your &lt;strong&gt;contributions to its ecosystem&lt;/strong&gt;—much appreciated!&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Reward Time 🎉&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;reward-time-&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#reward-time-&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The &lt;strong&gt;Bismuth team&lt;/strong&gt; is currently redefining its bounty system and priorities, but we always reward valuable community contributions.&lt;br&gt;
+Since &lt;strong&gt;Bismuth Toolbox&lt;/strong&gt; has been released as &lt;strong&gt;open-source&lt;/strong&gt; (&lt;a href=&#34;https://github.com/DoNutsLise/BismuthToolbox&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Repo&lt;/a&gt;), we are awarding &lt;strong&gt;Whatever&lt;/strong&gt; a &lt;strong&gt;10,000 $BIS reward&lt;/strong&gt; for his &lt;strong&gt;work and dedication&lt;/strong&gt;. 🎉&lt;/p&gt;
+&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/DoNutsLise/BismuthToolbox&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - Bismuth Toolbox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

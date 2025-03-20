@@ -1,0 +1,226 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bismuthcoin.org – App</title>
+    <link>https://alias-bitsignal.github.io/bismuthcoin/tags/app/</link>
+    <description>Recent content in App on bismuthcoin.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://alias-bitsignal.github.io/bismuthcoin/tags/app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Bismuth Toolbox, interview and reward</title>
+      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2021-01-01-toolbox/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2021-01-01-toolbox/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2021-01-01-toolbox.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+Months ago, Bismuth user “Whatever” developed a shiny app to monitor his BIS mining rigs, wallets and Hypernodes.
+Apps you code for yourself, because you feel an urging need for it can end up most useful, and this one makes no exception.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2021-01-01-toolbox-01.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Preview of the Bismuth toolbox main screen&lt;/p&gt;
+&lt;p&gt;As a followup, Whatever also added more useful intel with hypernodes related data and monitoring
+The Hypernode monitoring section
+This app was already showcased in previous progress report:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;June 15, 2020 progress report&lt;/li&gt;
+&lt;li&gt;September 2020, progress report&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Interview with Whatever&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;interview-with-whatever&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#interview-with-whatever&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Very nice work and a much-needed app! So, we had to get in touch and ask him a few questions. 🙂&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Getting to Know You&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;getting-to-know-you&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#getting-to-know-you&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Can you tell us a little about yourself?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I’m an elder guy (&amp;gt;25 y.o.) with a young soul (~25 y.o.), working a 9-to-5 job and enjoying hobbies like programming and cryptocurrencies.&lt;br&gt;
+My job isn’t in IT, and I’m not a professional coder—just an enthusiast. However, I do use programming at work (mainly MATLAB) for data modeling and process automation.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; When did you first encounter computers and coding?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I got my first PC in college—an Intel Celeron 100MHz, as I recall.&lt;br&gt;
+My programming journey started with Pascal and Basic (if you don’t know these, consider yourself lucky 😆).&lt;br&gt;
+Sadly, my career path didn’t require coding, so it remained a hobby.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Introduction to Blockchain &amp;amp; Bismuth&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;introduction-to-blockchain--bismuth&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#introduction-to-blockchain--bismuth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; How did you first get introduced to blockchain?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; It was early 2017, just before the global crypto hype. ETH was around $10 at the time.&lt;br&gt;
+I asked myself, &lt;em&gt;“WTF is this Bitcoin everyone is talking about?”&lt;/em&gt; and started reading about blockchains, BTC, ETH, and mining.&lt;br&gt;
+It all seemed &lt;strong&gt;new and complicated&lt;/strong&gt;—which made me dive in.&lt;br&gt;
+I had some cash to burn, so I built my first GPU mining rig and started mining ETH. Later, I discovered BIS in late 2018.&lt;br&gt;
+BIS was different—it wasn’t just “another shitcoin to mine.” I actually took the time to understand the project.&lt;br&gt;
+What kept me around was the &lt;strong&gt;friendly and supportive community&lt;/strong&gt; (shoutout to EggdraSyl, Evilpokerqueen, Raetch, and others).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Tech &amp;amp; Development&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tech--development&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tech--development&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Is there a piece of code you wish you had written?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I wish I had written Microsoft Windows—or, at the very least, I wish they would stop developing it (they have no idea what they’re doing 😆).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Any code you’re particularly proud of?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; None, honestly. I’m not a professional coder, and I’ve never been formally trained.&lt;br&gt;
+If anything, I’m ashamed of most of my code.&lt;br&gt;
+However, I’m proud of the &lt;strong&gt;scientific solutions&lt;/strong&gt; I’ve achieved using my ugly code.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Strengths &amp;amp; Weaknesses of Bismuth&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;strengths--weaknesses-of-bismuth&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#strengths--weaknesses-of-bismuth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; What do you think is Bismuth’s biggest strength?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; A &lt;strong&gt;talented dev team&lt;/strong&gt; and an &lt;strong&gt;engaged, supportive community&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; And its biggest weakness?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;Lack of marketing.&lt;/strong&gt; It’s a result of limited resources—there aren’t enough people with the right expertise in the team or community.&lt;br&gt;
+A great product isn’t enough; it needs to be &lt;strong&gt;marketed&lt;/strong&gt;.&lt;br&gt;
+The dev team has done excellent work, but now it’s time to &lt;strong&gt;sell it&lt;/strong&gt;. BIS has strong features that should be showcased.&lt;br&gt;
+&lt;strong&gt;The time has come to sketch out a real marketing campaign.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Programming Preferences&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;programming-preferences&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#programming-preferences&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Your most loved programming language, and why?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Hard to pick just one. If I had to choose two:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt; (for general-purpose coding)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MATLAB&lt;/strong&gt; (for scientific computing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’ve only written a handful of lines in Python, but I love its simplicity.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Most hated programming language, and why?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; &lt;strong&gt;Java.&lt;/strong&gt; I do a lot of Android development in Java, and I hate it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Too much &lt;strong&gt;boilerplate code&lt;/strong&gt; for simple tasks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Null exceptions&lt;/strong&gt;—hated by everyone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’m switching to Kotlin as soon as I finish my current project (&lt;strong&gt;Bismuth Toolbox&lt;/strong&gt;).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;Final Words &amp;amp; Reward&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;final-words--reward&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#final-words--reward&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; “Keep your friends close and your enemies closer” could be your dev motto? 😆&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Haha! Honestly, I’m not one to give programming advice—I should be the one receiving it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Bismuth Toolbox has proven its value, and that’s all we needed!&lt;br&gt;
+Thank you for your &lt;strong&gt;support of Bismuth&lt;/strong&gt; and your &lt;strong&gt;contributions to its ecosystem&lt;/strong&gt;—much appreciated!&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Reward Time 🎉&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;reward-time-&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#reward-time-&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The &lt;strong&gt;Bismuth team&lt;/strong&gt; is currently redefining its bounty system and priorities, but we always reward valuable community contributions.&lt;br&gt;
+Since &lt;strong&gt;Bismuth Toolbox&lt;/strong&gt; has been released as &lt;strong&gt;open-source&lt;/strong&gt; (&lt;a href=&#34;https://github.com/DoNutsLise/BismuthToolbox&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Repo&lt;/a&gt;), we are awarding &lt;strong&gt;Whatever&lt;/strong&gt; a &lt;strong&gt;10,000 $BIS reward&lt;/strong&gt; for his &lt;strong&gt;work and dedication&lt;/strong&gt;. 🎉&lt;/p&gt;
+&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/DoNutsLise/BismuthToolbox&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - Bismuth Toolbox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Decentralized Condition Monitoring</title>
+      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2020-04-30-condition-monitoring/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2020-04-30-condition-monitoring/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2020-04-30-condition-monitoring.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+Condition monitoring (CM) is the basis for condition based maintenance (CBM). CBM is an alternative to calendar based maintenance, where an asset is serviced in regular time intervals.&lt;/p&gt;
+&lt;p&gt;Calendar based maintenance is easy to plan and schedule but it has some weaknesses:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Assets which are in a good condition do not need to be regularly taken out of production for service, and&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;an asset can still fail between regular calendar based maintenance events, causing downtime in production. CM and CBM are therefore used by many industries as an alternative to calendar based maintenance to strike a balance between maintenance costs and costs associated with unplanned downtime in production.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;One example from everyday life is the annual service of your car. Since it is done on a regular basis without considering the actual condition of the car, this would be classified as calendar based maintenance. On the other hand, if you one day start to feel a small vibration in the steering wheel while driving and you take the car to service because of this observation, that would be classified as condition based maintenance.&lt;/p&gt;
+&lt;p&gt;CM and CBM work well in a single organisation where traditional database tools (or data historians) are used to store and secure the data. This single organisation then owns the data and can control who has access. However, when more than one organisation or individual are involved, CM and CBM initiatives often fail because of the following issue: who owns the data and controls the server storing the data? Data and data analysis can have large potential value, and organisations and individuals are often reluctant to give this value away for free or lose control.&lt;/p&gt;
+&lt;p&gt;However, data sharing among many participants can have large overall benefits for the group or society as a whole. A single asset does not normally operate in isolation, but forms part of a larger machinery or a plant. A condition which may be optimal for a single asset, may not be optimal for the overall machinery. By sharing data between participants, the performance of the overall machinery or industrial plant can be analyzed and optimized. Another example is the case where there are hundreds, thousands or millions of identical assets operating in the consumer industries. By sharing data, under-performing assets can be identified and corrective actions can be taken- benefiting society as a whole.&lt;/p&gt;
+&lt;p&gt;In the article &lt;a href=&#34;https://ieeexplore.ieee.org/document/8048838&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;“Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem”&lt;/a&gt;, IEEE Spectrum, 2017, Morgan E. Peck presented the chart below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2020-04-30-condition-monitoring-002.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+Image from: Morgan E. Peck, “Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem“, IEEE Spectrum, 2017.&lt;/p&gt;
+&lt;p&gt;This chart illustrates that a public blockchain may be a good solution for problems where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;More than one participant needs to be able to submit and update data.&lt;/li&gt;
+&lt;li&gt;The participants do not need to know and trust each other.&lt;/li&gt;
+&lt;li&gt;The data does not need to be private.&lt;/li&gt;
+&lt;li&gt;The database needs to be resistant to attacks or censorship.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this article it will be explained how the Bismuth public blockchain can be used to implement a system for distributed condition monitoring. For more information about Bismuth, see the &lt;a href=&#34;https://alias-bitsignal.github.io/bismuthcoin/pdf/whitepaper.pdf&#34; &gt;whitepaper&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Bismuth is ideally suited to this type of applications, because it contains two fields in the transaction structure which are named “operation” and “datafield”. These two fields allow for building new meta protocols on top of the core blockchain software. In this article it will be demonstrated how a new meta protocol can be used in the development of a solution for decentralized condition monitoring.&lt;/p&gt;
+&lt;p&gt;One general problem with a decentralized public blockchain is spam. Any participant can submit any data to the chain and this can not be avoided. Instead of trying to prevent spam from occurring completely, a supplementary approach would be to filter out fake data. There are several ways spam protection and filtering can be achieved, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Introducing fees to submit data. Anyone can still submit spam, but it will be expensive to do so.&lt;/li&gt;
+&lt;li&gt;Introduce a meta protocol built on top of Bismuth’s operation and data fields to allow for filtering of fake data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The class &lt;a href=&#34;https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BismuthSimpleAsset&lt;/a&gt; was written with this purpose, to provide tools for filtering of fake data. This class implements at the time of writing three operations in the meta protocol:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;myapp:register
+myapp:unregister
+myapp:transfer&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The app name, in this example &lt;code&gt;myapp&lt;/code&gt;, can be renamed to distinguish the implementation from other use-cases also using the same public blockchain.&lt;/p&gt;
+&lt;p&gt;A physical asset often comes with a serial number or identification code printed on the asset itself somewhere. This number is in general not publicly available, but only known by the manufacturer initially, and later the customer. The manufacturer or the customer can use this identification number in Bismuth’s datafield, together with the &lt;strong&gt;operation&lt;/strong&gt; &lt;code&gt;myapp:register&lt;/code&gt; to link the serial number of the asset with his or her public/private key on the Bismuth blockchain.&lt;br&gt;
+Valid &lt;strong&gt;asset registrations&lt;/strong&gt; in this &lt;code&gt;myapp&lt;/code&gt; example can also be filtered with a minimum amount paid, to discourage spammers from randomly guessing and submitting asset id numbers. In addition to being a tool for filtering spam, a registration amount also gives the developer of the myapp use-case an income which can be used to maintain and further develop the service. Similarly, there could be an amount requirement also on the actual asset data submitted.&lt;/p&gt;
+&lt;p&gt;One decentralized system everyone is familiar with and where everyone is allowed to submit data, is the email system. Anyone can set up a new email server and start sending from it. One of the techniques used in filtering email spam is to use a PTR record. A pointer record, or PTR record, maps an IP address to a FQDN (fully qualified domain name). It is the counterpart to the A record and is used for reverse DNS lookup, which can help with blocking spammers. Many SMTP servers reject emails if no PTR record is found for the sending server.&lt;/p&gt;
+&lt;p&gt;The proposed approach presented in this article where an asset id number is linked to the public/private key on the blockchain to filter spam is similar to the reverse DNS method to filter email spam. The first user to link the asset’s identification number to his or her account, can be considered to be the rightful owner of the asset. This information can then later be used to filter out fake data about this asset submitted by other users. The following Python function in &lt;strong&gt;BismuthSimpleAsset&lt;/strong&gt; returns the valid registrant given an asset id:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;def get_registrant(self,asset_id):
+    &amp;#34;&amp;#34;&amp;#34;Returns the current registrant of a specified asset id&amp;#34;&amp;#34;&amp;#34;
+    regs = self.__get_reg_unreg_sorted(asset_id)
+    registrant = self.__get_registrant_from_regs(regs)
+    return registrant&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If the asset owner later wants to release his or her registration of the asset, this can be done by submitting the &lt;strong&gt;operation&lt;/strong&gt; &lt;code&gt;myapp:unregister&lt;/code&gt; together with the asset id in the &lt;strong&gt;datafield&lt;/strong&gt;. Alternatively, the asset owner can transfer the ownership of the asset to another account by submitting the operation myapp:transfer together with the following in the &lt;strong&gt;datafield&lt;/strong&gt;: &lt;code&gt;asset_id,new address&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Another function in the BismuthSimpleAsset class- &lt;code&gt;get_all_asset_ids()&lt;/code&gt; -returns all valid asset id numbers and associated Bismuth accounts. This function handles multiple register, unregister and transfer events of assets.&lt;/p&gt;
+&lt;p&gt;Whenever a participant submits data to the public blockchain, the command &lt;code&gt;myapp:data&lt;/code&gt; can for example be used, or something more specific, for example &lt;code&gt;myapp:vibration_data&lt;/code&gt;. In the datafield a JSON string can be submitted, allowing for a flexible list of variables to be used. The asset id should be part of this JSON structure, to allow the filtering of fake data. Bismuth allows for a string of up to &lt;strong&gt;100,000 characters in the datafield&lt;/strong&gt;, so relatively large amount of data can be submitted. However, the transaction fee increases linearly with the data size.&lt;/p&gt;
+&lt;p&gt;Having a decentralized public blockchain with open data for everyone to access has potentially many benefits. Some of the benefits are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It allows for independent 3rd party data analysts to offer services to the participants. This analysis can for example tell you about the performance of your asset, and what you can do to improve it.&lt;/li&gt;
+&lt;li&gt;If someone registers a valid asset id and starts submitting fake data, this can potentially be detected by 3rd party data analysis. For example, some physical variables like the odometer value of a car can only increase over time. Invalid data based on more complex relationships between variables can potentially also be detected. The 3rd party service could then for example offer a whitelist and blacklist of asset id numbers, to allow for even more advanced data filtering.&lt;/li&gt;
+&lt;li&gt;The owner of an asset can compare the performance of his or her asset with other peers, detect sub-optimal performance, and apply corrective actions.
+If the owner later wants to sell the asset to someone else, he or she can provide proof of asset performance during it’s lifetime to the new owner by using the publicly available data. By giving proof that the asset has been operated with care and within the specifications, the resale value of the asset may be higher than it otherwise would be.&lt;/li&gt;
+&lt;li&gt;An increasing number of assets and consumer products are connected to the internet, and come with API interfaces which the owner or operator can use. Hence, the submission of data to the public blockchain can easily be automated or semi-automated for such assets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article has given an introduction to some building blocks for decentralized condition monitoring using the Bismuth public blockchain. Several future applications and implementations using the principles laid out here are currently being worked on and will be published separately when ready.&lt;/p&gt;
+&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;hhttps://ieeexplore.ieee.org/document/8048838&#34; &gt;Blockchain World - Do you need a blockchain?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/bismuthcoin/pdf/whitepaper.pdf&#34; &gt;Bismuth Whitepaper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - Bismuth SimpleAsset&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>
