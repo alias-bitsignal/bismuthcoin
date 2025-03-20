@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bismuthcoin.org – App</title>
-    <link>https://alias-bitsignal.github.io/bismuthcoin/tags/app/</link>
+    <link>https://alias-bitsignal.github.io/tags/app/</link>
     <description>Recent content in App on bismuthcoin.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://alias-bitsignal.github.io/bismuthcoin/tags/app/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://alias-bitsignal.github.io/tags/app/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,17 +17,17 @@
     
     <item>
       <title>Bismuth Toolbox, interview and reward</title>
-      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2021-01-01-toolbox/</link>
+      <link>https://alias-bitsignal.github.io/blog/2021-01-01-toolbox/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2021-01-01-toolbox/</guid>
+      <guid>https://alias-bitsignal.github.io/blog/2021-01-01-toolbox/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2021-01-01-toolbox.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-01-01-toolbox.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
 Months ago, Bismuth user “Whatever” developed a shiny app to monitor his BIS mining rigs, wallets and Hypernodes.
 Apps you code for yourself, because you feel an urging need for it can end up most useful, and this one makes no exception.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2021-01-01-toolbox-01.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-01-01-toolbox-01.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Preview of the Bismuth toolbox main screen&lt;/p&gt;
 &lt;p&gt;As a followup, Whatever also added more useful intel with hypernodes related data and monitoring
 The Hypernode monitoring section
@@ -127,14 +127,14 @@ Since &lt;strong&gt;Bismuth Toolbox&lt;/strong&gt; has been released as &lt;stro
     
     <item>
       <title>Decentralized Condition Monitoring</title>
-      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2020-04-30-condition-monitoring/</link>
+      <link>https://alias-bitsignal.github.io/blog/2020-04-30-condition-monitoring/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2020-04-30-condition-monitoring/</guid>
+      <guid>https://alias-bitsignal.github.io/blog/2020-04-30-condition-monitoring/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2020-04-30-condition-monitoring.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-04-30-condition-monitoring.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
 Condition monitoring (CM) is the basis for condition based maintenance (CBM). CBM is an alternative to calendar based maintenance, where an asset is serviced in regular time intervals.&lt;/p&gt;
 &lt;p&gt;Calendar based maintenance is easy to plan and schedule but it has some weaknesses:&lt;/p&gt;
 &lt;ol&gt;
@@ -149,7 +149,7 @@ Condition monitoring (CM) is the basis for condition based maintenance (CBM). CB
 &lt;p&gt;CM and CBM work well in a single organisation where traditional database tools (or data historians) are used to store and secure the data. This single organisation then owns the data and can control who has access. However, when more than one organisation or individual are involved, CM and CBM initiatives often fail because of the following issue: who owns the data and controls the server storing the data? Data and data analysis can have large potential value, and organisations and individuals are often reluctant to give this value away for free or lose control.&lt;/p&gt;
 &lt;p&gt;However, data sharing among many participants can have large overall benefits for the group or society as a whole. A single asset does not normally operate in isolation, but forms part of a larger machinery or a plant. A condition which may be optimal for a single asset, may not be optimal for the overall machinery. By sharing data between participants, the performance of the overall machinery or industrial plant can be analyzed and optimized. Another example is the case where there are hundreds, thousands or millions of identical assets operating in the consumer industries. By sharing data, under-performing assets can be identified and corrective actions can be taken- benefiting society as a whole.&lt;/p&gt;
 &lt;p&gt;In the article &lt;a href=&#34;https://ieeexplore.ieee.org/document/8048838&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;“Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem”&lt;/a&gt;, IEEE Spectrum, 2017, Morgan E. Peck presented the chart below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2020-04-30-condition-monitoring-002.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-04-30-condition-monitoring-002.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
 Image from: Morgan E. Peck, “Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem“, IEEE Spectrum, 2017.&lt;/p&gt;
 &lt;p&gt;This chart illustrates that a public blockchain may be a good solution for problems where:&lt;/p&gt;
 &lt;ul&gt;
@@ -158,7 +158,7 @@ Image from: Morgan E. Peck, “Blockchain world – Do you need a blockchain? Th
 &lt;li&gt;The data does not need to be private.&lt;/li&gt;
 &lt;li&gt;The database needs to be resistant to attacks or censorship.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this article it will be explained how the Bismuth public blockchain can be used to implement a system for distributed condition monitoring. For more information about Bismuth, see the &lt;a href=&#34;https://alias-bitsignal.github.io/bismuthcoin/pdf/whitepaper.pdf&#34; &gt;whitepaper&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this article it will be explained how the Bismuth public blockchain can be used to implement a system for distributed condition monitoring. For more information about Bismuth, see the &lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper.pdf&#34; &gt;whitepaper&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Bismuth is ideally suited to this type of applications, because it contains two fields in the transaction structure which are named “operation” and “datafield”. These two fields allow for building new meta protocols on top of the core blockchain software. In this article it will be demonstrated how a new meta protocol can be used in the development of a solution for decentralized condition monitoring.&lt;/p&gt;
 &lt;p&gt;One general problem with a decentralized public blockchain is spam. Any participant can submit any data to the chain and this can not be avoided. Instead of trying to prevent spam from occurring completely, a supplementary approach would be to filter out fake data. There are several ways spam protection and filtering can be achieved, for example:&lt;/p&gt;
 &lt;ul&gt;
@@ -216,7 +216,7 @@ If the owner later wants to sell the asset to someone else, he or she can provid
 &lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;hhttps://ieeexplore.ieee.org/document/8048838&#34; &gt;Blockchain World - Do you need a blockchain?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/bismuthcoin/pdf/whitepaper.pdf&#34; &gt;Bismuth Whitepaper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper.pdf&#34; &gt;Bismuth Whitepaper&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - Bismuth SimpleAsset&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
       </description>
