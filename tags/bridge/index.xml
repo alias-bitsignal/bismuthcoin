@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bismuthcoin.org – Bridge</title>
-    <link>https://bismuthcoin.org/tags/bridge/</link>
+    <link>https://alias-bitsignal.github.io/tags/bridge/</link>
     <description>Recent content in Bridge on bismuthcoin.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://bismuthcoin.org/tags/bridge/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://alias-bitsignal.github.io/tags/bridge/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,14 +17,14 @@
     
     <item>
       <title>Using the BIS&lt;&gt;BSC Bridge Crystal</title>
-      <link>https://bismuthcoin.org/blog/2021-05-12-bsc-bridge/</link>
+      <link>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bismuthcoin.org/blog/2021-05-12-bsc-bridge/</guid>
+      <guid>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2021-05-12-bsc_bridge.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-05-12-bsc_bridge.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;To swap between native BIS and BNB wBIS token, you need the newest Tornado wallet (v0.1.43 or more) with the BscBridge Crystal activated, as pictured above.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tornado Bismuth Wallet releases&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Another version of this help, with more detailed info, can be found on our &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Bismuth FAQ&lt;/a&gt;.&lt;/p&gt;
@@ -36,7 +36,7 @@
 &lt;li&gt;Name: Wrapped BIS&lt;/li&gt;
 &lt;li&gt;Decimals: 8 (same as native BIS)&lt;/li&gt;
 &lt;li&gt;Custom logo: &lt;a href=&#34;https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&lt;/a&gt;
-&lt;img src=&#34;https://bismuthcoin.org/images/2021-05-12-wbis125x125.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-05-12-wbis125x125.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The Bsc bridge crystal comes with a one-click button to set up the correct custom token on your metamask extension.&lt;/p&gt;
 &lt;p&gt;The Bridge is decentralized and runs thanks to a custom BIS protocol.
@@ -104,14 +104,14 @@ Staking on the farm will provide rewards as wBIS.&lt;/p&gt;
     
     <item>
       <title>Using the BIS&lt;&gt;ETH Bridge Crystal</title>
-      <link>https://bismuthcoin.org/blog/2021-04-21-eth-bridge/</link>
+      <link>https://alias-bitsignal.github.io/blog/2021-04-21-eth-bridge/</link>
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bismuthcoin.org/blog/2021-04-21-eth-bridge/</guid>
+      <guid>https://alias-bitsignal.github.io/blog/2021-04-21-eth-bridge/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2021-04-21-eth_bridge.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-04-21-eth_bridge.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;To swap between native BIS and ETH wBIS token, you need the newest Tornado wallet (v0.1.41 or more) with the EthBridge Crystal activated, as pictured above.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tornado Bismuth Wallet releases&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Another version of this help, with more detailed info, can be found on our &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Bismuth FAQ&lt;/a&gt;.&lt;/p&gt;
@@ -123,7 +123,7 @@ Staking on the farm will provide rewards as wBIS.&lt;/p&gt;
 &lt;li&gt;Name: Wrapped BIS&lt;/li&gt;
 &lt;li&gt;Decimals: 8 (same as native BIS)&lt;/li&gt;
 &lt;li&gt;Custom logo: &lt;code&gt;https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&lt;/code&gt;
-&lt;img src=&#34;https://bismuthcoin.org/images/2021-05-12-wbis125x125.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-05-12-wbis125x125.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The Eth bridge crystal comes with a one-click button to set up the correct custom token on your metamask extension.&lt;/p&gt;
 &lt;p&gt;The Bridge is decentralized and runs thanks to a custom BIS protocol.

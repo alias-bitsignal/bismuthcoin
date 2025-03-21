@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bismuthcoin.org – Rewards</title>
-    <link>https://bismuthcoin.org/tags/rewards/</link>
+    <link>https://alias-bitsignal.github.io/tags/rewards/</link>
     <description>Recent content in Rewards on bismuthcoin.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://bismuthcoin.org/tags/rewards/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://alias-bitsignal.github.io/tags/rewards/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,14 +17,14 @@
     
     <item>
       <title>Coin Supply</title>
-      <link>https://bismuthcoin.org/blog/2019-07-03-supply/</link>
+      <link>https://alias-bitsignal.github.io/blog/2019-07-03-supply/</link>
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bismuthcoin.org/blog/2019-07-03-supply/</guid>
+      <guid>https://alias-bitsignal.github.io/blog/2019-07-03-supply/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-07-03-supply-001.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-07-03-supply-001.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
 When designing the coin supply and rewards model for a cryptocurrency, there are many factors to take into consideration.&lt;/p&gt;
 &lt;h3&gt;Bismuth Coin Supply and Rewards Model&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bismuth-coin-supply-and-rewards-model&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#bismuth-coin-supply-and-rewards-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Some of the factors are:&lt;/strong&gt;&lt;/p&gt;
@@ -44,11 +44,11 @@ When designing the coin supply and rewards model for a cryptocurrency, there are
 &lt;/ol&gt;
 &lt;p&gt;The figure below shows the initial rewards model in blue color.
 The formula for the miners rewards was: &lt;code&gt;15-x/1e6&lt;/code&gt; where x is the block height. This means the mining reward was decreasing linearly with time, unlike the btc abrupt halvings.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-07-03-supply-002.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-07-03-supply-002.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;At block height 800,000 Bismuth’s Hypernodes were launched, and at the same time the rewards model was modified. The miners rewards formula was modified to make it decrease faster. As seen from the figure below (red curve) the miners rewards decrease twice as fast as previously while the 0.8 taken from the miners were allocated to Hypernode rewards instead (green curve below).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-07-03-supply-003.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-07-03-supply-003.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;At block height 1,200,000 Bismuth’s reward formulas were modified again, to reward hypernodes relatively more compared to miners, see the figure below. The amount of 1.6 BIS per block were subtracted from the miners reward and added to the hypernodes rewards. The overall inflation was reduced only marginally because of this change.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-07-03-supply-004.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-07-03-supply-004.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Python code to calculate Bismuth’s coin supply is available at the following link:
 &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/tree/master/CoinSupply&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/bismuthfoundation/Bismuth-FAQ/tree/master/CoinSupply&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The Bismuth blockchain started May 1, 2017 and the inflation rates during the following 10 years are shown in the table below:&lt;/p&gt;
@@ -113,8 +113,8 @@ The formula for the miners rewards was: &lt;code&gt;15-x/1e6&lt;/code&gt; where 
 &lt;p&gt;At the time of writing approximately 4.5m BIS or almost 25% of the entire coin supply is locked in collateral by the hypernodes.&lt;/p&gt;
 &lt;h3&gt;Bitcoin Rewards, Coin Supply and Inflation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bitcoin-rewards-coin-supply-and-inflation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#bitcoin-rewards-coin-supply-and-inflation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The Bismuth rewards and coin supply model is compared with Bitcoin, the original cryptocurrency. Bitcoin was chosen for comparison, because this coin had no ICO and no pre-mine, just like Bismuth. The plots below show the Bitcoin block rewards which started at 50 BTC and halved every 210,000 blocks. The total coin supply in Bitcoin will eventually reach approximately 21 million BTC.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-07-03-supply-005.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-07-03-supply-006.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-07-03-supply-005.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-07-03-supply-006.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The Bitcoin blockchain started January 2009 and the inflation rates during the following 10 years are shown in the table below:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -169,8 +169,8 @@ The formula for the miners rewards was: &lt;code&gt;15-x/1e6&lt;/code&gt; where 
 &lt;p&gt;As seen from this table, although the numbers are different, the reduction in inflation rate from year to year is quite similar between Bitcoin and Bismuth.&lt;/p&gt;
 &lt;h3&gt;Zcash Rewards, Coin Supply and Inflation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;zcash-rewards-coin-supply-and-inflation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#zcash-rewards-coin-supply-and-inflation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Another cryptocurrency which is interesting to compare with Bismuth is Zcash, since it is largely limited to GPU mining rigs, just like Bismuth. The block rewards in Zcash started on 0.000625 ZEC and ramped up linearly to a block reward of 12.5 ZEC occuring at block height 20,000. Just like Bitcoin, Zcash has a reward halving. The blocktime in Zcash is 2,5 minutes, four times faster than Bitcoin. Hence, to achieve the same coin supply as Bitcoin with an upper limit of 21 million ZEC, the halving period measured in blocks for Zcash is every 840,000 blocks, 4 times higher than Bitcoin’s halving period. The halving period measured in days is the same for Zcash as for Bitcoin, since both the blocktime and the halving period have the factor 4 and cancel each other out. From the initial reward of 12.5 ZEC, 2.5 ZEC or 20% goes to the founders (core developers), as compared to 10% for the Bismuth project. The following two figures show the linear ramp up in Zcash block rewards and the total coin supply vs. block height.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-07-03-supply-007.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-07-03-supply-008.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-07-03-supply-007.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-07-03-supply-008.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The Zcash blockchain started on October 28, 2016 and the inflation rates during the following 10 years are shown in the table below:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -226,8 +226,8 @@ The formula for the miners rewards was: &lt;code&gt;15-x/1e6&lt;/code&gt; where 
 &lt;h3&gt;Ethereum Rewards, Coin Supply and Inflation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ethereum-rewards-coin-supply-and-inflation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#ethereum-rewards-coin-supply-and-inflation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The cryptocurrency Ethereum has taken a different approach to block rewards. Initially, the block reward started out at 5 ETH. At block height 4,370,000 the reward dropped to 3 ETH in the Byzantium hardfork. At the upcoming Constantinople hardfork the plan is to reduce the block reward further to 2 ETH, see &lt;a href=&#34;https://web.archive.org/web/20201112015105/https://ethereumworldnews.com/ethereum-developers-cut-rewards-curb-inflation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EWN Article&lt;/a&gt;. At the time of writing this reward reduction has not yet happened, but for the analysis below we will assume that this adjustment will be made at block height 7,500,000 and stay at 2 ETH indefinitely.&lt;/p&gt;
 &lt;p&gt;With these assumptions the Ethereum block rewards and the total coin supply vs. block height are shown in the two figures below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-07-03-supply-009.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-07-03-supply-0010.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-07-03-supply-009.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-07-03-supply-0010.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The Ethereum blockchain started on July 30, 2015 and the inflation rates during the following 10 years are shown in the table below:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -283,8 +283,8 @@ The formula for the miners rewards was: &lt;code&gt;15-x/1e6&lt;/code&gt; where 
 &lt;h3&gt;Grin Rewards, Coin Supply and Inflation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;grin-rewards-coin-supply-and-inflation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#grin-rewards-coin-supply-and-inflation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Grin is a new cryptocurrency project launched in 2019. The currency has 1 minute block time, 60 GRIN block reward and no limit on coin supply or reward halving. There are no ICO, founders reward, pre-mine or masternodes available for this project. The block reward stays at 60 GRIN indefinitely.&lt;/p&gt;
 &lt;p&gt;The block rewards and the total coin supply vs. block height for GRIN are shown in the two figures below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-07-03-supply-0011.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-07-03-supply-0012.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-07-03-supply-0011.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-07-03-supply-0012.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;As can be seen from the plots above, GRIN is an inflationary cryptocurrency with no upper limit on the total coin supply. The inflation rates for such a currency, especially when the coin supply starts at zero, are naturally expected to be high. The table below shows the inflation rates for the first 10 years of this project:&lt;/p&gt;
 &lt;p&gt;The GRIN blockchain started on January 15, 2019 and the inflation rates during the following 10 years are shown in the table below:&lt;/p&gt;
 &lt;table&gt;

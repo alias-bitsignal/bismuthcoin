@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bismuthcoin.org – Mainnet</title>
-    <link>https://bismuthcoin.org/tags/mainnet/</link>
+    <link>https://alias-bitsignal.github.io/tags/mainnet/</link>
     <description>Recent content in Mainnet on bismuthcoin.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://bismuthcoin.org/tags/mainnet/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://alias-bitsignal.github.io/tags/mainnet/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,14 +17,14 @@
     
     <item>
       <title>Bismuth 2.0 - Official Announcement</title>
-      <link>https://bismuthcoin.org/blog/2021-02-24-bis-2.0/</link>
+      <link>https://alias-bitsignal.github.io/blog/2021-02-24-bis-2.0/</link>
       <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bismuthcoin.org/blog/2021-02-24-bis-2.0/</guid>
+      <guid>https://alias-bitsignal.github.io/blog/2021-02-24-bis-2.0/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2021-02-24-bis-2.0.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-02-24-bis-2.0.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
 Late last year, the Bismuth Foundation unveiled “Bismuth2.0”. The reveal was brief, did not go into any detail and the team remained silent on the topic for the following months.&lt;/p&gt;
 &lt;p&gt;We would like to thank everyone for their patience, the time has finally come for the big reveal! Let’s get right into it.&lt;/p&gt;
 &lt;h2&gt;The Basics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-basics&#34;&gt;&lt;/span&gt;
@@ -126,23 +126,23 @@ This device will support signing of BIS transactions but also paves the way to m
 &lt;li&gt;&lt;a href=&#34;https://xeggex.com/market/BIS_USDT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crypto Exchange&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.coingecko.com/en/coins/bismuth&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Coingecko&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://coinmarketcap.com/currencies/bismuth/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Coinmarketcap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bismuthcoin.org/blog&#34; &gt;Bismuth Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/blog&#34; &gt;Bismuth Blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
       </description>
     </item>
     
     <item>
       <title>Bismuth Hard Fork</title>
-      <link>https://bismuthcoin.org/blog/2019-11-19-hardfork/</link>
+      <link>https://alias-bitsignal.github.io/blog/2019-11-19-hardfork/</link>
       <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bismuthcoin.org/blog/2019-11-19-hardfork/</guid>
+      <guid>https://alias-bitsignal.github.io/blog/2019-11-19-hardfork/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-11-19-hardfork.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-11-19-hardfork.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
 During November 2019 the Bismuth community went with the first governance vote, about supply emission. The issue was overwhelming votes for a fork to support a supply reduction.&lt;/p&gt;
-&lt;p&gt;If you missed it, you can find the &lt;a href=&#34;https://bismuthcoin.org/blog/2019-11-06-governance-vote/&#34; &gt;link here&lt;/a&gt;. Since then, the team worked hard to implement the change and release a stable version, now out.
+&lt;p&gt;If you missed it, you can find the &lt;a href=&#34;https://alias-bitsignal.github.io/blog/2019-11-06-governance-vote/&#34; &gt;link here&lt;/a&gt;. Since then, the team worked hard to implement the change and release a stable version, now out.
 Questions and answers regarding this fork have been divided into three categories- Regular users, Hypernode owners, and miners.&lt;/p&gt;
 &lt;h2&gt;Bismuth Hard Fork at block 1,450,000 – Nov 26.&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bismuth-hard-fork-at-block-1450000--nov-26&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#bismuth-hard-fork-at-block-1450000--nov-26&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Hard Fork FAQ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;hard-fork-faq&#34;&gt;&lt;/span&gt;
@@ -161,7 +161,7 @@ Questions and answers regarding this fork have been divided into three categorie
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; The “old” (Legacy) wallet remains compatible and usable. You don’t have to worry about the wallet. Yours will continue to work. As a user, the only critical responsibility is to securely back up your wallet.der/json file, containing your private key(s).&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Can you summarize the current daily emission and what it will be after the hard fork?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; See the emission curve and blog post &lt;a href=&#34;https://bismuthcoin.org/blog/2019-11-06-governance-vote/&#34; &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; See the emission curve and blog post &lt;a href=&#34;https://alias-bitsignal.github.io/blog/2019-11-06-governance-vote/&#34; &gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; What will be the new total BIS supply?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; By 2032, at block height 8,000,000, the total BIS supply will reach 49.3 million BIS, compared to 63.5 million BIS under the previous emissions curve. Thus, the supply will decrease by more than 14 million BIS over the next 13 years. After 2032, the supply will slowly increase (less than 2% annually) to account for lost wallets and maintain incentives for miners and Hypernode operators.&lt;/p&gt;
@@ -216,14 +216,14 @@ Questions and answers regarding this fork have been divided into three categorie
     
     <item>
       <title>Bismuth Governance Shift - Part 2</title>
-      <link>https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/</link>
+      <link>https://alias-bitsignal.github.io/blog/2019-08-30-governance-shift-part_2/</link>
       <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/</guid>
+      <guid>https://alias-bitsignal.github.io/blog/2019-08-30-governance-shift-part_2/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-08-30-governance-shift-part_2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-08-30-governance-shift-part_2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;Preamble&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;preamble&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#preamble&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In the previous post, the governance shift that is to take place with Bismuth was introduced, and the ETH voting protocol was examined. It was shown that this protocol does come with several issues that could be important flaws in the Bismuth context.&lt;/p&gt;
 &lt;h3&gt;Issues with the ETH voting protocol&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;issues-with-the-eth-voting-protocol&#34;&gt;&lt;/span&gt;
@@ -306,14 +306,14 @@ The vote issue is an Oracle whose value is only known once the decision is immut
     
     <item>
       <title>Bismuth Governance Shift - Part 1</title>
-      <link>https://bismuthcoin.org/blog/2019-08-29-governance-shift-part_1/</link>
+      <link>https://alias-bitsignal.github.io/blog/2019-08-29-governance-shift-part_1/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bismuthcoin.org/blog/2019-08-29-governance-shift-part_1/</guid>
+      <guid>https://alias-bitsignal.github.io/blog/2019-08-29-governance-shift-part_1/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-08-29-governance-shift-part_1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-08-29-governance-shift-part_1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
 During the first two and a half years of the Bismuth blockchain project, important governance actions have been decided by the group of foundation members. Now the core team finds it is time to involve the community deeper into governance questions, and make more use of community feedback.&lt;/p&gt;
 &lt;p&gt;The Bismuth project has had a very active Discord community since the beginning, and it is seen as a very valuable resource for the project and it makes sense to consult the community more than in the past for input on important decisions. Therefore, the foundation members have decided to introduce a shift in the governance, by letting the stakeholders involved vote on important decisions concerning the future of the project.&lt;/p&gt;
 &lt;p&gt;Discord alone however can’t be seen as a source of actionable feedback:&lt;/p&gt;
@@ -334,7 +334,7 @@ During the first two and a half years of the Bismuth blockchain project, importa
 &lt;p&gt;Now, the core team feels that the time has come to let users hold their responsibilities and take the decision for everyone’s best interest, via a voting process. The team would prepare options to vote upon, the users will decide, the team will take action based on the final voting results.&lt;/p&gt;
 &lt;h3&gt;The first vote in Bismuth History&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-first-vote-in-bismuth-history&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#the-first-vote-in-bismuth-history&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If you are familiar with the discord, you cannot avoid the economists lobbying for a supply modification.&lt;/p&gt;
-&lt;p&gt;The latest fork (&lt;a href=&#34;https://bismuthcoin.org/blog/2019-05-17-hard-fork-v4.3.0.0/&#34; &gt;see here&lt;/a&gt;) was tailored to account for increased services to be provided by the Hypernodes, while not raising the dilution. It already went in the direction of reducing miner rewards. Currently the most vocal suggestions aim to address the dropping price concern, and are to significantly reduce the supply by cutting the emission: that is both block rewards and HN rewards.&lt;/p&gt;
+&lt;p&gt;The latest fork (&lt;a href=&#34;https://alias-bitsignal.github.io/blog/2019-05-17-hard-fork-v4.3.0.0/&#34; &gt;see here&lt;/a&gt;) was tailored to account for increased services to be provided by the Hypernodes, while not raising the dilution. It already went in the direction of reducing miner rewards. Currently the most vocal suggestions aim to address the dropping price concern, and are to significantly reduce the supply by cutting the emission: that is both block rewards and HN rewards.&lt;/p&gt;
 &lt;p&gt;The team ran simulations, examined the available data but still it is not clear what the global implications can be, nor how action or inaction would be welcome by the users and the markets. The problem really is complex with implications at the ethical, economical level, involving the equilibrium of the whole system. The more you dig, the more it appears complex.&lt;/p&gt;
 &lt;p&gt;It looks like it is the perfect case where a community vote is needed and will make sense.&lt;/p&gt;
 &lt;p&gt;A voting process can be an equally daunting task, because blockchain based voting is tricky and dangerous. The difficulty is two fold:&lt;/p&gt;
@@ -387,14 +387,14 @@ The first issue stakeholders will be able to vote upon is the need or not to cha
     
     <item>
       <title>Bismuth Strategic Hard Fork v4.3.0.0</title>
-      <link>https://bismuthcoin.org/blog/2019-05-17-hard-fork-v4.3.0.0/</link>
+      <link>https://alias-bitsignal.github.io/blog/2019-05-17-hard-fork-v4.3.0.0/</link>
       <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bismuthcoin.org/blog/2019-05-17-hard-fork-v4.3.0.0/</guid>
+      <guid>https://alias-bitsignal.github.io/blog/2019-05-17-hard-fork-v4.3.0.0/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-05-17-BIS-HARD-FORK-3.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-05-17-BIS-HARD-FORK-3.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
 Over the past couple of months, Bismuth has undergone major shifts- technologically, socially, and economically. We witnessed a massive upgrade and restructuring of the core code that spanned over 200 commits, that was finalized in version 4.2.9.2 in late March of this year.&lt;/p&gt;
 &lt;p&gt;Fast forward to the start of May, and we made our first announcement for Hyperlanes- an infinitely scaling form of direct data exchange between nodes which enables the inter-connectivity of the future- coined “Internet Within Blockchain”. We have made strides in expanding our team to include new members that are actively assisting in areas where we were weakest. Although most of this goes under the radar, the effects of it all should be felt over the coming weeks and months.&lt;/p&gt;
 &lt;p&gt;Economically and socially, the overall bear market has caused much turmoil within the entirety of the cryptocurrency community. The Bismuth project wasn’t spared and unfortunately received the brunt of the market downturn as we have witnessed a precipitous drop from the peak in early 2018. Although the Bismuth foundation cannot exert control over the free market, there are factors and variables that can be adjusted by the development team when consensus within the community is reached. One of such factors is the inflation question, which has been widely debated within our social channels and internally.&lt;/p&gt;

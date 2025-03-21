@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bismuthcoin.org – Android</title>
-    <link>https://bismuthcoin.org/tags/android/</link>
+    <link>https://alias-bitsignal.github.io/tags/android/</link>
     <description>Recent content in Android on bismuthcoin.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://bismuthcoin.org/tags/android/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://alias-bitsignal.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,14 +17,14 @@
     
     <item>
       <title>Bismuth Mobile Wallet - Genesis and Reward</title>
-      <link>https://bismuthcoin.org/blog/2021-01-15-mobile-wallet/</link>
+      <link>https://alias-bitsignal.github.io/blog/2021-01-15-mobile-wallet/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bismuthcoin.org/blog/2021-01-15-mobile-wallet/</guid>
+      <guid>https://alias-bitsignal.github.io/blog/2021-01-15-mobile-wallet/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2021-01-15-mobile-wallet.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
 For way too long, Bismuth had no proper mobile wallet.&lt;/p&gt;
 &lt;p&gt;One historical reason is that – despite being the fastest growing language – Python on mobile still is not mainstream. Sure, you can run a fully functional Tornado wallet on Android, but that’s not a 2 click install.&lt;/p&gt;
 &lt;p&gt;That’s certainly not an excuse however and the team saw the need for an easy to install and operate mobile wallet.&lt;/p&gt;

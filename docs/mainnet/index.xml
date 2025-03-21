@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bismuthcoin.org – Mainnet</title>
-    <link>https://bismuthcoin.org/docs/mainnet/</link>
+    <link>https://alias-bitsignal.github.io/docs/mainnet/</link>
     <description>Recent content in Mainnet on bismuthcoin.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	  <atom:link href="https://bismuthcoin.org/docs/mainnet/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://alias-bitsignal.github.io/docs/mainnet/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Exchanges</title>
-      <link>https://bismuthcoin.org/docs/mainnet/exchanges/</link>
+      <link>https://alias-bitsignal.github.io/docs/mainnet/exchanges/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bismuthcoin.org/docs/mainnet/exchanges/</guid>
+      <guid>https://alias-bitsignal.github.io/docs/mainnet/exchanges/</guid>
       <description>
         
         
@@ -51,10 +51,10 @@
     
     <item>
       <title>Install Node</title>
-      <link>https://bismuthcoin.org/docs/mainnet/install-node/</link>
+      <link>https://alias-bitsignal.github.io/docs/mainnet/install-node/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bismuthcoin.org/docs/mainnet/install-node/</guid>
+      <guid>https://alias-bitsignal.github.io/docs/mainnet/install-node/</guid>
       <description>
         
         
@@ -85,10 +85,10 @@
     
     <item>
       <title>Mining</title>
-      <link>https://bismuthcoin.org/docs/mainnet/mining/</link>
+      <link>https://alias-bitsignal.github.io/docs/mainnet/mining/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bismuthcoin.org/docs/mainnet/mining/</guid>
+      <guid>https://alias-bitsignal.github.io/docs/mainnet/mining/</guid>
       <description>
         
         
@@ -134,7 +134,7 @@ hash state – is considered as the input vector to the difficulty matching func
 &lt;/ul&gt;
 &lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bismuthcoin.org/pdf/whitepaper.pdf&#34; &gt;Bismuth Whitepaper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper.pdf&#34; &gt;Bismuth Whitepaper&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/kbkminer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kbkminer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Optipoolware&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Optipoolware&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://miningpoolstats.stream/bismuth&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Miningpoolstats&lt;/a&gt;&lt;/li&gt;
@@ -145,10 +145,10 @@ hash state – is considered as the input vector to the difficulty matching func
     
     <item>
       <title>Overview</title>
-      <link>https://bismuthcoin.org/docs/mainnet/overview/</link>
+      <link>https://alias-bitsignal.github.io/docs/mainnet/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bismuthcoin.org/docs/mainnet/overview/</guid>
+      <guid>https://alias-bitsignal.github.io/docs/mainnet/overview/</guid>
       <description>
         
         
