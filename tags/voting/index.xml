@@ -1,61 +1,31 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>bismuthcoin.org – Voting</title>
-    <link>https://alias-bitsignal.github.io/tags/voting/</link>
-    <description>Recent content in Voting on bismuthcoin.org</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 18 Oct 2019 00:00:00 +0000</lastBuildDate>
-    
-	  <atom:link href="https://alias-bitsignal.github.io/tags/voting/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Voting page Helper - Dev and Bounty</title>
-      <link>https://alias-bitsignal.github.io/blog/2019-10-18-voting/</link>
-      <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/blog/2019-10-18-voting/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-10-18-voting.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Voting</title><link>https://alias-bitsignal.github.io/tags/voting/</link><description>Recent content in Voting on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 18 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/voting/index.xml" rel="self" type="application/rss+xml"/><item><title>Voting page Helper - Dev and Bounty</title><link>https://alias-bitsignal.github.io/blog/2019-10-18-voting/</link><pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2019-10-18-voting/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2019-10-18-voting.jpg" alt="" loading="lazy" />
 Bismuth community is currently voting whether or not change the supply emission (see BGVP-1).
 In order to allow easy and un-restricted access to the vote, the team went for a full client side helper to generate voting transactions.
-This ensures full privacy and allows to vote from any wallet. External help was welcome to get it successfully running and a Bounty will be awarded.&lt;/p&gt;
-&lt;h3&gt;The voting helper&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-voting-helper&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-voting-helper&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The voting helper works by using a BIP-39 passphrase as an entropy source, deriving keys (alike a HD wallet) for your voting addresses, then disposable keys for every motion you vote upon.&lt;/p&gt;
-&lt;p&gt;From a UX point of view: a single passphrase to remind, and you have access to any voting key you&amp;rsquo;(ll ever need.&lt;/p&gt;
-&lt;p&gt;Handling these key generation and transaction assembling on the client side, in a browser, allows for easy and secure access (it’s hosted on Github pages: Bismuth Voting Helper, but can also be run locally or on an air gapped computer) whatever the user OS.&lt;/p&gt;
-&lt;h3&gt;Help was needed&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;help-was-needed&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#help-was-needed&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Bismuth is a Python centered coin, and the team devs do not have extensive experience with JS development.&lt;/p&gt;
-&lt;p&gt;A call for help was made to the community, in order to get some back up.
-We needed a proper scaffold, help with syntax, gluing things together, building and distribution of the helper…&lt;/p&gt;
-&lt;p&gt;The specs were written, a Python implementation was working, we needed more.&lt;/p&gt;
-&lt;h3&gt;Third party dev to the rescue&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;third-party-dev-to-the-rescue&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#third-party-dev-to-the-rescue&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Hopefully it was not long until &lt;a href=&#34;https://x.com/aravindballa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@aravindballa&lt;/a&gt; said hi and gave a hand.&lt;/p&gt;
-&lt;p&gt;Thanks to his kind and professional help, the helper was up and running in time for day 1 of the vote.&lt;/p&gt;
-&lt;p&gt;The team did work on the core crypto engine, and Aravind helped scaffold, design, package, test… the whole thing to have it working and usable.&lt;/p&gt;
-&lt;p&gt;Aravind’s experience proved most useful and the Bismuth team is very grateful for his help!&lt;/p&gt;
-&lt;h3&gt;Bounty&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bounty&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bounty&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A few tips have been sent via the discord Bot, but did not reflect Aravind’s work and implication.&lt;/p&gt;
-&lt;p&gt;A 1000 $BIS bounty will be awarded from the dev funds for the help so far.&lt;/p&gt;
-&lt;h3&gt;Conclusion&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;conclusion&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#conclusion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;It was really amazing to witness the power and dedication of the Bismuth and open source community.
-State you problem, ask for help, and you can get invaluable help from users.&lt;/p&gt;
-&lt;p&gt;This is the kind of experience that gives faith in a community and let foresee nice things for the future!&lt;/p&gt;
-&lt;p&gt;You can follow Aravind on twitter: @aravindballa.&lt;/p&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://x.com/aravindballa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@aravindballa&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+This ensures full privacy and allows to vote from any wallet. External help was welcome to get it successfully running and a Bounty will be awarded.&lt;/p>
+&lt;h3>The voting helper&lt;span class="hx-absolute -hx-mt-20" id="the-voting-helper">&lt;/span>
+&lt;a href="#the-voting-helper" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The voting helper works by using a BIP-39 passphrase as an entropy source, deriving keys (alike a HD wallet) for your voting addresses, then disposable keys for every motion you vote upon.&lt;/p>
+&lt;p>From a UX point of view: a single passphrase to remind, and you have access to any voting key you&amp;rsquo;(ll ever need.&lt;/p>
+&lt;p>Handling these key generation and transaction assembling on the client side, in a browser, allows for easy and secure access (it’s hosted on Github pages: Bismuth Voting Helper, but can also be run locally or on an air gapped computer) whatever the user OS.&lt;/p>
+&lt;h3>Help was needed&lt;span class="hx-absolute -hx-mt-20" id="help-was-needed">&lt;/span>
+&lt;a href="#help-was-needed" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Bismuth is a Python centered coin, and the team devs do not have extensive experience with JS development.&lt;/p>
+&lt;p>A call for help was made to the community, in order to get some back up.
+We needed a proper scaffold, help with syntax, gluing things together, building and distribution of the helper…&lt;/p>
+&lt;p>The specs were written, a Python implementation was working, we needed more.&lt;/p>
+&lt;h3>Third party dev to the rescue&lt;span class="hx-absolute -hx-mt-20" id="third-party-dev-to-the-rescue">&lt;/span>
+&lt;a href="#third-party-dev-to-the-rescue" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Hopefully it was not long until &lt;a href="https://x.com/aravindballa" target="_blank" rel="noopener">@aravindballa&lt;/a> said hi and gave a hand.&lt;/p>
+&lt;p>Thanks to his kind and professional help, the helper was up and running in time for day 1 of the vote.&lt;/p>
+&lt;p>The team did work on the core crypto engine, and Aravind helped scaffold, design, package, test… the whole thing to have it working and usable.&lt;/p>
+&lt;p>Aravind’s experience proved most useful and the Bismuth team is very grateful for his help!&lt;/p>
+&lt;h3>Bounty&lt;span class="hx-absolute -hx-mt-20" id="bounty">&lt;/span>
+&lt;a href="#bounty" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>A few tips have been sent via the discord Bot, but did not reflect Aravind’s work and implication.&lt;/p>
+&lt;p>A 1000 $BIS bounty will be awarded from the dev funds for the help so far.&lt;/p>
+&lt;h3>Conclusion&lt;span class="hx-absolute -hx-mt-20" id="conclusion">&lt;/span>
+&lt;a href="#conclusion" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>It was really amazing to witness the power and dedication of the Bismuth and open source community.
+State you problem, ask for help, and you can get invaluable help from users.&lt;/p>
+&lt;p>This is the kind of experience that gives faith in a community and let foresee nice things for the future!&lt;/p>
+&lt;p>You can follow Aravind on twitter: @aravindballa.&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://x.com/aravindballa" target="_blank" rel="noopener">@aravindballa&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

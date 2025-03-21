@@ -1,363 +1,294 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>bismuthcoin.org – Crystal</title>
-    <link>https://alias-bitsignal.github.io/tags/crystal/</link>
-    <description>Recent content in Crystal on bismuthcoin.org</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate>
-    
-	  <atom:link href="https://alias-bitsignal.github.io/tags/crystal/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Using the BIS&lt;&gt;BSC Bridge Crystal</title>
-      <link>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</link>
-      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-05-12-bsc_bridge.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;To swap between native BIS and BNB wBIS token, you need the newest Tornado wallet (v0.1.43 or more) with the BscBridge Crystal activated, as pictured above.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tornado Bismuth Wallet releases&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Another version of this help, with more detailed info, can be found on our &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Bismuth FAQ&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;The wBIS Token&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-wbis-token&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-wbis-token&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;wBIS is a BEP-20 BSC Token with 1:1 native BIS counterpart.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chain: BSC Smart Chain&lt;/li&gt;
-&lt;li&gt;Contract address: &lt;code&gt;0x56672ecb506301b1E32ED28552797037c54D36A9&lt;/code&gt; &lt;a href=&#34;https://bscscan.com/token/0x56672ecb506301b1e32ed28552797037c54d36a9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View on bscscan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Name: Wrapped BIS&lt;/li&gt;
-&lt;li&gt;Decimals: 8 (same as native BIS)&lt;/li&gt;
-&lt;li&gt;Custom logo: &lt;a href=&#34;https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&lt;/a&gt;
-&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-05-12-wbis125x125.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The Bsc bridge crystal comes with a one-click button to set up the correct custom token on your metamask extension.&lt;/p&gt;
-&lt;p&gt;The Bridge is decentralized and runs thanks to a custom BIS protocol.
-It relies on Both a bridge and an oracle.&lt;/p&gt;
-&lt;p&gt;BIS Bridge Address: &lt;code&gt;Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71&lt;/code&gt;&lt;br&gt;
-&lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bridge Explorer Link&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;BIS Oracle Address: &lt;code&gt;Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL&lt;/code&gt;&lt;br&gt;
-&lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oracle Explorer Link&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Add BSC network to Metamask&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;add-bsc-network-to-metamask&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#add-bsc-network-to-metamask&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Open Metamask and click on ‘My Accounts‘ &amp;gt; ‘Settings‘ &amp;gt; ‘Networks‘ &amp;gt; ‘Add Network‘
-Fill in the following data for the BSC Mainnet.&lt;/p&gt;
-&lt;p&gt;– Network Name: BSC Smart Chain&lt;br&gt;
-– New RPC URL: &lt;a href=&#34;https://bsc-dataseed.binance.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bsc-dataseed.binance.org/&lt;/a&gt;&lt;br&gt;
-– ChainID: 56&lt;br&gt;
-– Symbol: BNB&lt;br&gt;
-– Block Explorer URL: &lt;a href=&#34;https://bscscan.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bscscan.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md#add-bsc-network-to-metamask&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Detailed screenshots on Github&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;BIS to wBIS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bis-to-wbis&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bis-to-wbis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Send native BIS to the bridge, get wBIS on BSC (same amount less 5 BIS fees)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pick “BIS-&amp;gt;WBIS 1/2” menu – also available from “swaps” page&lt;/li&gt;
-&lt;li&gt;Fill in BSC recipient and amount &lt;strong&gt;double check your BSC address, no going back&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Send the BIS&lt;/li&gt;
-&lt;li&gt;Go to “Swaps” page&lt;/li&gt;
-&lt;li&gt;wait for the BIS confirmations, then for the mint to be signed.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Crystal</title><link>https://alias-bitsignal.github.io/tags/crystal/</link><description>Recent content in Crystal on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/crystal/index.xml" rel="self" type="application/rss+xml"/><item><title>Using the BIS&lt;>BSC Bridge Crystal</title><link>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</link><pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-05-12-bsc_bridge.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>To swap between native BIS and BNB wBIS token, you need the newest Tornado wallet (v0.1.43 or more) with the BscBridge Crystal activated, as pictured above.&lt;/p>
+&lt;p>&lt;a href="https://github.com/bismuthfoundation/TornadoWallet/releases" target="_blank" rel="noopener">Tornado Bismuth Wallet releases&lt;/a>&lt;/p>
+&lt;p>Another version of this help, with more detailed info, can be found on our &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md" target="_blank" rel="noopener">Github Bismuth FAQ&lt;/a>.&lt;/p>
+&lt;h3>The wBIS Token&lt;span class="hx-absolute -hx-mt-20" id="the-wbis-token">&lt;/span>
+&lt;a href="#the-wbis-token" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>wBIS is a BEP-20 BSC Token with 1:1 native BIS counterpart.&lt;/p>
+&lt;ul>
+&lt;li>Chain: BSC Smart Chain&lt;/li>
+&lt;li>Contract address: &lt;code>0x56672ecb506301b1E32ED28552797037c54D36A9&lt;/code> &lt;a href="https://bscscan.com/token/0x56672ecb506301b1e32ed28552797037c54d36a9" target="_blank" rel="noopener">View on bscscan&lt;/a>&lt;/li>
+&lt;li>Name: Wrapped BIS&lt;/li>
+&lt;li>Decimals: 8 (same as native BIS)&lt;/li>
+&lt;li>Custom logo: &lt;a href="https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png" target="_blank" rel="noopener">https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&lt;/a>
+&lt;img src="https://alias-bitsignal.github.io/images/2021-05-12-wbis125x125.png" alt="" loading="lazy" />&lt;/li>
+&lt;/ul>
+&lt;p>The Bsc bridge crystal comes with a one-click button to set up the correct custom token on your metamask extension.&lt;/p>
+&lt;p>The Bridge is decentralized and runs thanks to a custom BIS protocol.
+It relies on Both a bridge and an oracle.&lt;/p>
+&lt;p>BIS Bridge Address: &lt;code>Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71&lt;/code>&lt;br>
+&lt;a href="https://bismuth.im/search?quicksearch=Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71" target="_blank" rel="noopener">Bridge Explorer Link&lt;/a>&lt;/p>
+&lt;p>BIS Oracle Address: &lt;code>Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL&lt;/code>&lt;br>
+&lt;a href="https://bismuth.im/search?quicksearch=Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL" target="_blank" rel="noopener">Oracle Explorer Link&lt;/a>&lt;/p>
+&lt;h3>Add BSC network to Metamask&lt;span class="hx-absolute -hx-mt-20" id="add-bsc-network-to-metamask">&lt;/span>
+&lt;a href="#add-bsc-network-to-metamask" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Open Metamask and click on ‘My Accounts‘ &amp;gt; ‘Settings‘ &amp;gt; ‘Networks‘ &amp;gt; ‘Add Network‘
+Fill in the following data for the BSC Mainnet.&lt;/p>
+&lt;p>– Network Name: BSC Smart Chain&lt;br>
+– New RPC URL: &lt;a href="https://bsc-dataseed.binance.org/" target="_blank" rel="noopener">https://bsc-dataseed.binance.org/&lt;/a>&lt;br>
+– ChainID: 56&lt;br>
+– Symbol: BNB&lt;br>
+– Block Explorer URL: &lt;a href="https://bscscan.com" target="_blank" rel="noopener">https://bscscan.com&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md#add-bsc-network-to-metamask" target="_blank" rel="noopener">Detailed screenshots on Github&lt;/a>&lt;/p>
+&lt;h3>BIS to wBIS&lt;span class="hx-absolute -hx-mt-20" id="bis-to-wbis">&lt;/span>
+&lt;a href="#bis-to-wbis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Send native BIS to the bridge, get wBIS on BSC (same amount less 5 BIS fees)&lt;/p>
+&lt;ul>
+&lt;li>Pick “BIS-&amp;gt;WBIS 1/2” menu – also available from “swaps” page&lt;/li>
+&lt;li>Fill in BSC recipient and amount &lt;strong>double check your BSC address, no going back&lt;/strong>&lt;/li>
+&lt;li>Send the BIS&lt;/li>
+&lt;li>Go to “Swaps” page&lt;/li>
+&lt;li>wait for the BIS confirmations, then for the mint to be signed.
 This can take a while depending on the timing and availability of the signers. Just be patient.
-If your transaction is confirmed on the BIS chain, it will eventually go through.&lt;/li&gt;
-&lt;li&gt;Use the “proxy mint” link to mint your wBIS (auto filled parameters)&lt;/li&gt;
-&lt;li&gt;Your BNB wBIS balance is updated&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/BIS_TO_WBIS_DETAIL.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Detailed step by step guide with screenshots on Github&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;wBIS to BIS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;wbis-to-bis&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#wbis-to-bis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Burn wBIS on BSC Smart Chain, get native BIS on BIS chain (same amount less 5 BIS fees)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pick “wBIS-&amp;gt;BIS” menu – also available from “swaps” page&lt;/li&gt;
-&lt;li&gt;Fill in BIS recipient and amount &lt;strong&gt;double check your BIS address, no going back&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Check and adjust gas price&lt;/li&gt;
-&lt;li&gt;Burn the wBIS&lt;/li&gt;
-&lt;li&gt;Wait for the BSC confs, then for the oracle and delivery to be signed.
+If your transaction is confirmed on the BIS chain, it will eventually go through.&lt;/li>
+&lt;li>Use the “proxy mint” link to mint your wBIS (auto filled parameters)&lt;/li>
+&lt;li>Your BNB wBIS balance is updated&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/BIS_TO_WBIS_DETAIL.md" target="_blank" rel="noopener">Detailed step by step guide with screenshots on Github&lt;/a>&lt;/p>
+&lt;h3>wBIS to BIS&lt;span class="hx-absolute -hx-mt-20" id="wbis-to-bis">&lt;/span>
+&lt;a href="#wbis-to-bis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Burn wBIS on BSC Smart Chain, get native BIS on BIS chain (same amount less 5 BIS fees)&lt;/p>
+&lt;ul>
+&lt;li>Pick “wBIS-&amp;gt;BIS” menu – also available from “swaps” page&lt;/li>
+&lt;li>Fill in BIS recipient and amount &lt;strong>double check your BIS address, no going back&lt;/strong>&lt;/li>
+&lt;li>Check and adjust gas price&lt;/li>
+&lt;li>Burn the wBIS&lt;/li>
+&lt;li>Wait for the BSC confs, then for the oracle and delivery to be signed.
 This can take a while depending on the timing and availability of the signers. Just be patient.
-If your transaction is confirmed on the BSC Smart Chain, it will eventually go through.&lt;/li&gt;
-&lt;li&gt;You can go to “Swaps” page to monitor the progress&lt;/li&gt;
-&lt;li&gt;Your BIS balance is updated&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Add liquidity&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;add-liquidity&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#add-liquidity&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Once you have wBIS on BSC, you can provide liquidity by binding both $wBIS and $BNB to a liquidity pool. &lt;a href=&#34;https://exchange.pancakeswap.finance/#/add/BNB/0x56672ecb506301b1E32ED28552797037c54D36A9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS/BSC Pool&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The more volume in the pool, the less the volatility and the more it can be noticed by BNB traders. Everyone is encouraged to contribute to the liquidity pool to support Bismuth. If you’re new to BNB and Pancakeswap, make sure you read about impermanent loss so you know what you’re doing and what the potential risks are.&lt;/p&gt;
-&lt;h3&gt;Farm wBIS on Pancakeswap&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;farm-wbis-on-pancakeswap&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#farm-wbis-on-pancakeswap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The Pancakeswap farm is WIP, an update will follow. Please check the &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/pankeswap_farming.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS farming guide&lt;/a&gt;.&lt;br&gt;
-Staking on the farm will provide rewards as wBIS.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Nothing in this post is to be considered as financial advice&lt;/p&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tornado Wallet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Bismuth FAQ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bscscan.com/token/0x56672ecb506301b1e32ed28552797037c54d36a9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS on bscscan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIS Bridge on Bismuth Explorer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oracle on Bismuth Explorer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/BIS_TO_WBIS_DETAIL.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Step by step Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://exchange.pancakeswap.finance/#/add/BNB/0x56672ecb506301b1E32ED28552797037c54D36A9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Add Liquidity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/pankeswap_farming.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS farming guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Using the BIS&lt;&gt;ETH Bridge Crystal</title>
-      <link>https://alias-bitsignal.github.io/blog/2021-04-21-eth-bridge/</link>
-      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/blog/2021-04-21-eth-bridge/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-04-21-eth_bridge.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;To swap between native BIS and ETH wBIS token, you need the newest Tornado wallet (v0.1.41 or more) with the EthBridge Crystal activated, as pictured above.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tornado Bismuth Wallet releases&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Another version of this help, with more detailed info, can be found on our &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Bismuth FAQ&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;The wBIS Token&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-wbis-token&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-wbis-token&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;wBIS is an ERC-20 ETH Token with 1:1 native BIS counterpart.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chain: ETH Mainnet&lt;/li&gt;
-&lt;li&gt;Contract address: &lt;code&gt;0xf5cB350b40726B5BcF170d12e162B6193b291B41&lt;/code&gt; &lt;a href=&#34;https://etherscan.io/token/0xf5cB350b40726B5BcF170d12e162B6193b291B41&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View wBIS on etherscan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Name: Wrapped BIS&lt;/li&gt;
-&lt;li&gt;Decimals: 8 (same as native BIS)&lt;/li&gt;
-&lt;li&gt;Custom logo: &lt;code&gt;https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&lt;/code&gt;
-&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-05-12-wbis125x125.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The Eth bridge crystal comes with a one-click button to set up the correct custom token on your metamask extension.&lt;/p&gt;
-&lt;p&gt;The Bridge is decentralized and runs thanks to a custom BIS protocol.
-It relies on Both a bridge and an oracle.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;BIS Bridge Address: &lt;code&gt;Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m&lt;/code&gt; &lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bridge explorer link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;BIS Oracle Address: &lt;code&gt;Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2&lt;/code&gt; &lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oracle explorer link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;BIS to wBIS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bis-to-wbis&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bis-to-wbis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Send native BIS to the bridge, get wBIS on ETH (same amount less 5 BIS fees)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pick “BIS-&amp;gt;WBIS 1/2” menu – also available from “swaps” page&lt;/li&gt;
-&lt;li&gt;Fill in ETH recipient and amount double check your ETH address, no going back&lt;/li&gt;
-&lt;li&gt;Send the BIS&lt;/li&gt;
-&lt;li&gt;Go to “Swaps” page&lt;/li&gt;
-&lt;li&gt;wait for the BIS confirmations, then for the mint to be signed.
+If your transaction is confirmed on the BSC Smart Chain, it will eventually go through.&lt;/li>
+&lt;li>You can go to “Swaps” page to monitor the progress&lt;/li>
+&lt;li>Your BIS balance is updated&lt;/li>
+&lt;/ul>
+&lt;h3>Add liquidity&lt;span class="hx-absolute -hx-mt-20" id="add-liquidity">&lt;/span>
+&lt;a href="#add-liquidity" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Once you have wBIS on BSC, you can provide liquidity by binding both $wBIS and $BNB to a liquidity pool. &lt;a href="https://exchange.pancakeswap.finance/#/add/BNB/0x56672ecb506301b1E32ED28552797037c54D36A9" target="_blank" rel="noopener">wBIS/BSC Pool&lt;/a>&lt;/p>
+&lt;p>The more volume in the pool, the less the volatility and the more it can be noticed by BNB traders. Everyone is encouraged to contribute to the liquidity pool to support Bismuth. If you’re new to BNB and Pancakeswap, make sure you read about impermanent loss so you know what you’re doing and what the potential risks are.&lt;/p>
+&lt;h3>Farm wBIS on Pancakeswap&lt;span class="hx-absolute -hx-mt-20" id="farm-wbis-on-pancakeswap">&lt;/span>
+&lt;a href="#farm-wbis-on-pancakeswap" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Pancakeswap farm is WIP, an update will follow. Please check the &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/pankeswap_farming.md" target="_blank" rel="noopener">wBIS farming guide&lt;/a>.&lt;br>
+Staking on the farm will provide rewards as wBIS.&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Nothing in this post is to be considered as financial advice&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/TornadoWallet/releases" target="_blank" rel="noopener">Tornado Wallet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md" target="_blank" rel="noopener">Github Bismuth FAQ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bscscan.com/token/0x56672ecb506301b1e32ed28552797037c54d36a9" target="_blank" rel="noopener">wBIS on bscscan&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bismuth.im/search?quicksearch=Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71" target="_blank" rel="noopener">BIS Bridge on Bismuth Explorer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bismuth.im/search?quicksearch=Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL" target="_blank" rel="noopener">Oracle on Bismuth Explorer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/BIS_TO_WBIS_DETAIL.md" target="_blank" rel="noopener">Step by step Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://exchange.pancakeswap.finance/#/add/BNB/0x56672ecb506301b1E32ED28552797037c54D36A9" target="_blank" rel="noopener">Add Liquidity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/pankeswap_farming.md" target="_blank" rel="noopener">wBIS farming guide&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Using the BIS&lt;>ETH Bridge Crystal</title><link>https://alias-bitsignal.github.io/blog/2021-04-21-eth-bridge/</link><pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-04-21-eth-bridge/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-04-21-eth_bridge.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>To swap between native BIS and ETH wBIS token, you need the newest Tornado wallet (v0.1.41 or more) with the EthBridge Crystal activated, as pictured above.&lt;/p>
+&lt;p>&lt;a href="https://github.com/bismuthfoundation/TornadoWallet/releases" target="_blank" rel="noopener">Tornado Bismuth Wallet releases&lt;/a>&lt;/p>
+&lt;p>Another version of this help, with more detailed info, can be found on our &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/README.md" target="_blank" rel="noopener">Github Bismuth FAQ&lt;/a>.&lt;/p>
+&lt;h2>The wBIS Token&lt;span class="hx-absolute -hx-mt-20" id="the-wbis-token">&lt;/span>
+&lt;a href="#the-wbis-token" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>wBIS is an ERC-20 ETH Token with 1:1 native BIS counterpart.&lt;/p>
+&lt;ul>
+&lt;li>Chain: ETH Mainnet&lt;/li>
+&lt;li>Contract address: &lt;code>0xf5cB350b40726B5BcF170d12e162B6193b291B41&lt;/code> &lt;a href="https://etherscan.io/token/0xf5cB350b40726B5BcF170d12e162B6193b291B41" target="_blank" rel="noopener">View wBIS on etherscan&lt;/a>&lt;/li>
+&lt;li>Name: Wrapped BIS&lt;/li>
+&lt;li>Decimals: 8 (same as native BIS)&lt;/li>
+&lt;li>Custom logo: &lt;code>https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&lt;/code>
+&lt;img src="https://alias-bitsignal.github.io/images/2021-05-12-wbis125x125.png" alt="" loading="lazy" />&lt;/li>
+&lt;/ul>
+&lt;p>The Eth bridge crystal comes with a one-click button to set up the correct custom token on your metamask extension.&lt;/p>
+&lt;p>The Bridge is decentralized and runs thanks to a custom BIS protocol.
+It relies on Both a bridge and an oracle.&lt;/p>
+&lt;ul>
+&lt;li>BIS Bridge Address: &lt;code>Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m&lt;/code> &lt;a href="https://bismuth.im/search?quicksearch=Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m" target="_blank" rel="noopener">Bridge explorer link&lt;/a>&lt;/li>
+&lt;li>BIS Oracle Address: &lt;code>Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2&lt;/code> &lt;a href="https://bismuth.im/search?quicksearch=Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2" target="_blank" rel="noopener">Oracle explorer link&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>BIS to wBIS&lt;span class="hx-absolute -hx-mt-20" id="bis-to-wbis">&lt;/span>
+&lt;a href="#bis-to-wbis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Send native BIS to the bridge, get wBIS on ETH (same amount less 5 BIS fees)&lt;/p>
+&lt;ul>
+&lt;li>Pick “BIS-&amp;gt;WBIS 1/2” menu – also available from “swaps” page&lt;/li>
+&lt;li>Fill in ETH recipient and amount double check your ETH address, no going back&lt;/li>
+&lt;li>Send the BIS&lt;/li>
+&lt;li>Go to “Swaps” page&lt;/li>
+&lt;li>wait for the BIS confirmations, then for the mint to be signed.
 This can take a while depending on the timing and availability of the signers. Just be patient.
-If your transaction is confirmed on the BIS chain, it will eventually go through.&lt;/li&gt;
-&lt;li&gt;Use the “proxy mint” link to mint your wBIS (auto filled parameters)&lt;/li&gt;
-&lt;li&gt;Your ETH wBIS balance is updated&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Detailed &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/BIS_TO_WBIS_DETAIL.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;step by step guide&lt;/a&gt; with screenshots on Github&lt;/p&gt;
-&lt;h2&gt;wBIS to BIS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;wbis-to-bis&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#wbis-to-bis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Burn wBIS on ETH, get native BIS on BIS chain (same amount less 5 BIS fees)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pick “wBIS-&amp;gt;BIS” menu – also available from “swaps” page&lt;/li&gt;
-&lt;li&gt;Fill in BIS recipient and amount double check your BIS address, no going back&lt;/li&gt;
-&lt;li&gt;Check and adjust gas price&lt;/li&gt;
-&lt;li&gt;Burn the wBIS&lt;/li&gt;
-&lt;li&gt;Wait for the ETH confs, then for the oracle and delivery to be signed.
+If your transaction is confirmed on the BIS chain, it will eventually go through.&lt;/li>
+&lt;li>Use the “proxy mint” link to mint your wBIS (auto filled parameters)&lt;/li>
+&lt;li>Your ETH wBIS balance is updated&lt;/li>
+&lt;/ul>
+&lt;p>Detailed &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/BIS_TO_WBIS_DETAIL.md" target="_blank" rel="noopener">step by step guide&lt;/a> with screenshots on Github&lt;/p>
+&lt;h2>wBIS to BIS&lt;span class="hx-absolute -hx-mt-20" id="wbis-to-bis">&lt;/span>
+&lt;a href="#wbis-to-bis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Burn wBIS on ETH, get native BIS on BIS chain (same amount less 5 BIS fees)&lt;/p>
+&lt;ul>
+&lt;li>Pick “wBIS-&amp;gt;BIS” menu – also available from “swaps” page&lt;/li>
+&lt;li>Fill in BIS recipient and amount double check your BIS address, no going back&lt;/li>
+&lt;li>Check and adjust gas price&lt;/li>
+&lt;li>Burn the wBIS&lt;/li>
+&lt;li>Wait for the ETH confs, then for the oracle and delivery to be signed.
 This can take a while depending on the timing and availability of the signers. Just be patient.
-If your transaction is confirmed on the ETH chain, it will eventually go through.&lt;/li&gt;
-&lt;li&gt;You can go to “Swaps” page to monitor the progress&lt;/li&gt;
-&lt;li&gt;Your BIS balance is updated&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Video walkthrough&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;video-walkthrough&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#video-walkthrough&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/6CdenJJ28N4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-Thanks Damian for the video!&lt;/p&gt;
-&lt;h2&gt;Add liquidity&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;add-liquidity&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#add-liquidity&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once you have wBIS on ETH, you can provide liquidity by binding both $wBIS and $ETH to a liquidity pool. &lt;a href=&#34;https://v2.info.uniswap.org/pair/0xf4f82f8d84c529987201609cecee8ab136a50c8c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS/ETH Pool&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The more volume in the pool, the less the volatility and the more it can be noticed by ETH traders. Everyone is encouraged to contribute to the liquidity pool to support Bismuth. If you’re new to ETH and Uniswap, make sure you read about impermanent loss so you know what you’re doing and what the potential risks are.&lt;/p&gt;
-&lt;h2&gt;Farm wBIS on Unicrypt&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;farm-wbis-on-unicrypt&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#farm-wbis-on-unicrypt&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Unicrypt farm will operate from April 28 2021, you can already stake there. Please check the &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/unicrypt_farming.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS farming guide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Staking on the farm will provide temporary rewards as wBIS.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Nothing in this post is to be considered as financial advice!&lt;/p&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tornado Wallet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Bismuth FAQ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://etherscan.io/token/0xf5cB350b40726B5BcF170d12e162B6193b291B41&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS on etherscan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIS Bridge on Bismuth Explorer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oracle on Bismuth Explorer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/BIS_TO_WBIS_DETAIL.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Step by Step Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://v2.info.uniswap.org/pair/0xf4f82f8d84c529987201609cecee8ab136a50c8c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS/ETH Pool&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/unicrypt_farming.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS farming guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Tesla Battery Monitoring</title>
-      <link>https://alias-bitsignal.github.io/blog/2020-05-25-tesla-battery-monitoring/</link>
-      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/blog/2020-05-25-tesla-battery-monitoring/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-05-25-battery-monitoring.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-Tesla is a market leader in electric vehicles (EVs). They have currently sold and delivered more than 1 million EVs worldwide while production is ramping up fast with new factories in Europe and China.&lt;/p&gt;
-&lt;h2&gt;Tesla Battery Monitoring on Blockchain&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tesla-battery-monitoring-on-blockchain&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#tesla-battery-monitoring-on-blockchain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Although EVs in general require little maintenance, one expensive component in the car needs to be treated with care: the battery. This video explains what can happen if it is not. With Tesla EVs, there is an 8-year warranty on the battery. After this period of time, there is no longer a warranty, but a car is normally expected to last much longer than this. Although battery costs are declining over time, a replacement battery would typically cost $10,000 or more nowadays.&lt;/p&gt;
-&lt;p&gt;So, what can an owner do to maximize the lifetime of his or her EV battery? The CEO of Tesla – Elon Musk – has previously recommended to keep the battery level between 80% and 30%, see this tweet and the reply.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-05-25-tweet.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The table below illustrates that the lifetime of Li-Ion batteries is limited to a number of charging cycles. As seen from the table, smaller charging cycles consume proportionally less lifetime compared with full charges. The typical lifetime of a Li-Ion battery with 0-100% charge cycles is typically 450 cycles. With 10% charge cycles, on the other hand, the lifetime would typically be 10,000 cycles or more. So, a battery with 10% charging cycles will typically achieve a double lifetime compared to one which has done 0-100% cycles, for the same kWh energy consumption. It is clear from this observation that the charging behavior of the owner will significantly influence the condition of the battery, and hence the potential resale value of the vehicle.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-05-25-Li-cycle-life.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-Table from the paper: Yu Miao et.al., “Current Li-Ion Battery Technologies in Electric Vehicles and Opportunities for Advancements”, &lt;a href=&#34;https://doi.org/10.3390/en12061074&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.3390/en12061074&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;When selling an EV on the second hand market, the remaining lifetime of the battery should be one of the most important questions. However, this question could be quite difficult to answer. If the battery condition is unknown, this could affect the resale value by giving the owner a lower price regardless of the actual condition. If, on the other hand the owner can prove, somehow, that the battery was treated with care and the expected amount of remaining lifetime is significant, the resale value of the vehicle should naturally be higher.&lt;/p&gt;
-&lt;p&gt;On the Tesla screen inside the vehicle and also on Tesla’s phone app, it is possible to view and inspect some battery parameters. However, these parameters are lost over time. There is a plot in the car which shows the efficiency (Wh/mi or Wh/km), but this plot is limited to the last few miles or kilometers. After a certain distance those values are lost for the owner.&lt;/p&gt;
-&lt;p&gt;Tesla has an (unofficial) API which allows 3rd party services to log data from owner’s cars. However, by using these services you have to either expose your Tesla login credentials or give an API token to these services. Many owners do not feel comfortable doing this, because it means the 3rd party service could potentially take control over your car, not just read data. Also, there is no guarantee that a 3rd party web service will continue to exist over the lifetime of your car. The average lifetime of an app or a web service is usually considerably shorter than a vehicle. If the operator of the service decides to discontinue – for whatever reason – your vehicle data may be lost. Even if you have a backup of the data, this may not be very useful if the user interface to display and analyze the data is no longer available. Another factor is the cost: most of the 3rd party services require you to pay a monthly fee to use their service to display and analyze your own historic data.&lt;/p&gt;
-&lt;p&gt;This is where blockchain technology enters the picture. The article &lt;a href=&#34;https://alias-bitsignal.github.io/blog/2020-04-30-condition-monitoring/&#34; &gt;“Decentralized Condition Monitoring”&lt;/a&gt; explains how a public blockchain can be a good solution when the following conditions are met:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;More than one participant needs to be able to submit and update data.&lt;/li&gt;
-&lt;li&gt;The participants do not need to know and trust each other.&lt;/li&gt;
-&lt;li&gt;The data does not need to be private.&lt;/li&gt;
-&lt;li&gt;The database needs to be resistant to attacks or censorship.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For the above-mentioned reasons a solution for battery condition monitoring of Tesla EVs has been implemented by using the open source Bismuth public blockchain. Specifically, a Tesla plug-in (also called “crystal” in Bismuth terminology) has been developed for use together with the open source &lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TornadoWallet&lt;/a&gt;. Some of the features of the implemented solution are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The vehicle owner will not expose his or her login credentials to anyone, since the app runs on the local computer.&lt;/li&gt;
-&lt;li&gt;All the code involved is open source and publicly available on GitHub on the official account of the Bismuth Foundation. Hence, anyone can verify that the software is safe to use and that there is no malicious intent.&lt;/li&gt;
-&lt;li&gt;When the owner submits data from the vehicle to the public blockchain, he or she can decide to publish the vehicle’s identification number (VIN) openly, or to encrypt it with a password to remain anonymous. This should ideally be a strong password, and not identical to an existing one used for other apps or services.&lt;/li&gt;
-&lt;li&gt;If the owner wants to sell the vehicle in the future, the password can be revealed to the new owner. The new owner can then verify that the submitted data actually belongs to the vehicle’s VIN.&lt;/li&gt;
-&lt;li&gt;The first owner can transfer the virtual asset on the blockchain to the new owner, to allow the new owner to continue to submit data from the vehicle using his or her own account, while keeping the entire track record.&lt;/li&gt;
-&lt;li&gt;To discourage spam and fake data, there are some costs (fees in BIS currency) involved when registering a new VIN on the chain and to submit data.&lt;/li&gt;
-&lt;li&gt;If someone submits fake data to the chain, this would most likely be detected by other users, or by new data analysis services based on the publicly available data. For example, the odometer of a car can never decrease, or the amount of energy (kWh) added should, to some extent, match the battery level and distance driven parameters.&lt;/li&gt;
-&lt;li&gt;To view and analyze the data is free for everyone. A public website has been set up for this purpose, to allow anyone to view and analyze the data without owning a Tesla vehicle or the need to run the TornadoWallet on their local computer.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The public website has been developed to also work well with the Tesla in-car browser (Chromium). The screenshots below are taken from an actual vehicle, for both Night and Day mode.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-01.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+If your transaction is confirmed on the ETH chain, it will eventually go through.&lt;/li>
+&lt;li>You can go to “Swaps” page to monitor the progress&lt;/li>
+&lt;li>Your BIS balance is updated&lt;/li>
+&lt;/ul>
+&lt;h2>Video walkthrough&lt;span class="hx-absolute -hx-mt-20" id="video-walkthrough">&lt;/span>
+&lt;a href="#video-walkthrough" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/6CdenJJ28N4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div>
+Thanks Damian for the video!&lt;/p>
+&lt;h2>Add liquidity&lt;span class="hx-absolute -hx-mt-20" id="add-liquidity">&lt;/span>
+&lt;a href="#add-liquidity" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Once you have wBIS on ETH, you can provide liquidity by binding both $wBIS and $ETH to a liquidity pool. &lt;a href="https://v2.info.uniswap.org/pair/0xf4f82f8d84c529987201609cecee8ab136a50c8c" target="_blank" rel="noopener">wBIS/ETH Pool&lt;/a>.&lt;/p>
+&lt;p>The more volume in the pool, the less the volatility and the more it can be noticed by ETH traders. Everyone is encouraged to contribute to the liquidity pool to support Bismuth. If you’re new to ETH and Uniswap, make sure you read about impermanent loss so you know what you’re doing and what the potential risks are.&lt;/p>
+&lt;h2>Farm wBIS on Unicrypt&lt;span class="hx-absolute -hx-mt-20" id="farm-wbis-on-unicrypt">&lt;/span>
+&lt;a href="#farm-wbis-on-unicrypt" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The Unicrypt farm will operate from April 28 2021, you can already stake there. Please check the &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/unicrypt_farming.md" target="_blank" rel="noopener">wBIS farming guide&lt;/a>.&lt;/p>
+&lt;p>Staking on the farm will provide temporary rewards as wBIS.&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Nothing in this post is to be considered as financial advice!&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/TornadoWallet/releases" target="_blank" rel="noopener">Tornado Wallet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/README.md" target="_blank" rel="noopener">Github Bismuth FAQ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://etherscan.io/token/0xf5cB350b40726B5BcF170d12e162B6193b291B41" target="_blank" rel="noopener">wBIS on etherscan&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bismuth.im/search?quicksearch=Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m" target="_blank" rel="noopener">BIS Bridge on Bismuth Explorer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bismuth.im/search?quicksearch=Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2" target="_blank" rel="noopener">Oracle on Bismuth Explorer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/BIS_TO_WBIS_DETAIL.md" target="_blank" rel="noopener">Step by Step Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://v2.info.uniswap.org/pair/0xf4f82f8d84c529987201609cecee8ab136a50c8c" target="_blank" rel="noopener">wBIS/ETH Pool&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/unicrypt_farming.md" target="_blank" rel="noopener">wBIS farming guide&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Tesla Battery Monitoring</title><link>https://alias-bitsignal.github.io/blog/2020-05-25-tesla-battery-monitoring/</link><pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2020-05-25-tesla-battery-monitoring/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-05-25-battery-monitoring.webp" alt="" loading="lazy" />
+Tesla is a market leader in electric vehicles (EVs). They have currently sold and delivered more than 1 million EVs worldwide while production is ramping up fast with new factories in Europe and China.&lt;/p>
+&lt;h2>Tesla Battery Monitoring on Blockchain&lt;span class="hx-absolute -hx-mt-20" id="tesla-battery-monitoring-on-blockchain">&lt;/span>
+&lt;a href="#tesla-battery-monitoring-on-blockchain" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Although EVs in general require little maintenance, one expensive component in the car needs to be treated with care: the battery. This video explains what can happen if it is not. With Tesla EVs, there is an 8-year warranty on the battery. After this period of time, there is no longer a warranty, but a car is normally expected to last much longer than this. Although battery costs are declining over time, a replacement battery would typically cost $10,000 or more nowadays.&lt;/p>
+&lt;p>So, what can an owner do to maximize the lifetime of his or her EV battery? The CEO of Tesla – Elon Musk – has previously recommended to keep the battery level between 80% and 30%, see this tweet and the reply.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-05-25-tweet.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>The table below illustrates that the lifetime of Li-Ion batteries is limited to a number of charging cycles. As seen from the table, smaller charging cycles consume proportionally less lifetime compared with full charges. The typical lifetime of a Li-Ion battery with 0-100% charge cycles is typically 450 cycles. With 10% charge cycles, on the other hand, the lifetime would typically be 10,000 cycles or more. So, a battery with 10% charging cycles will typically achieve a double lifetime compared to one which has done 0-100% cycles, for the same kWh energy consumption. It is clear from this observation that the charging behavior of the owner will significantly influence the condition of the battery, and hence the potential resale value of the vehicle.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-05-25-Li-cycle-life.png" alt="" loading="lazy" />
+Table from the paper: Yu Miao et.al., “Current Li-Ion Battery Technologies in Electric Vehicles and Opportunities for Advancements”, &lt;a href="https://doi.org/10.3390/en12061074" target="_blank" rel="noopener">https://doi.org/10.3390/en12061074&lt;/a>&lt;/p>
+&lt;p>When selling an EV on the second hand market, the remaining lifetime of the battery should be one of the most important questions. However, this question could be quite difficult to answer. If the battery condition is unknown, this could affect the resale value by giving the owner a lower price regardless of the actual condition. If, on the other hand the owner can prove, somehow, that the battery was treated with care and the expected amount of remaining lifetime is significant, the resale value of the vehicle should naturally be higher.&lt;/p>
+&lt;p>On the Tesla screen inside the vehicle and also on Tesla’s phone app, it is possible to view and inspect some battery parameters. However, these parameters are lost over time. There is a plot in the car which shows the efficiency (Wh/mi or Wh/km), but this plot is limited to the last few miles or kilometers. After a certain distance those values are lost for the owner.&lt;/p>
+&lt;p>Tesla has an (unofficial) API which allows 3rd party services to log data from owner’s cars. However, by using these services you have to either expose your Tesla login credentials or give an API token to these services. Many owners do not feel comfortable doing this, because it means the 3rd party service could potentially take control over your car, not just read data. Also, there is no guarantee that a 3rd party web service will continue to exist over the lifetime of your car. The average lifetime of an app or a web service is usually considerably shorter than a vehicle. If the operator of the service decides to discontinue – for whatever reason – your vehicle data may be lost. Even if you have a backup of the data, this may not be very useful if the user interface to display and analyze the data is no longer available. Another factor is the cost: most of the 3rd party services require you to pay a monthly fee to use their service to display and analyze your own historic data.&lt;/p>
+&lt;p>This is where blockchain technology enters the picture. The article &lt;a href="https://alias-bitsignal.github.io/blog/2020-04-30-condition-monitoring/" >“Decentralized Condition Monitoring”&lt;/a> explains how a public blockchain can be a good solution when the following conditions are met:&lt;/p>
+&lt;ul>
+&lt;li>More than one participant needs to be able to submit and update data.&lt;/li>
+&lt;li>The participants do not need to know and trust each other.&lt;/li>
+&lt;li>The data does not need to be private.&lt;/li>
+&lt;li>The database needs to be resistant to attacks or censorship.&lt;/li>
+&lt;/ul>
+&lt;p>For the above-mentioned reasons a solution for battery condition monitoring of Tesla EVs has been implemented by using the open source Bismuth public blockchain. Specifically, a Tesla plug-in (also called “crystal” in Bismuth terminology) has been developed for use together with the open source &lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener">TornadoWallet&lt;/a>. Some of the features of the implemented solution are:&lt;/p>
+&lt;ul>
+&lt;li>The vehicle owner will not expose his or her login credentials to anyone, since the app runs on the local computer.&lt;/li>
+&lt;li>All the code involved is open source and publicly available on GitHub on the official account of the Bismuth Foundation. Hence, anyone can verify that the software is safe to use and that there is no malicious intent.&lt;/li>
+&lt;li>When the owner submits data from the vehicle to the public blockchain, he or she can decide to publish the vehicle’s identification number (VIN) openly, or to encrypt it with a password to remain anonymous. This should ideally be a strong password, and not identical to an existing one used for other apps or services.&lt;/li>
+&lt;li>If the owner wants to sell the vehicle in the future, the password can be revealed to the new owner. The new owner can then verify that the submitted data actually belongs to the vehicle’s VIN.&lt;/li>
+&lt;li>The first owner can transfer the virtual asset on the blockchain to the new owner, to allow the new owner to continue to submit data from the vehicle using his or her own account, while keeping the entire track record.&lt;/li>
+&lt;li>To discourage spam and fake data, there are some costs (fees in BIS currency) involved when registering a new VIN on the chain and to submit data.&lt;/li>
+&lt;li>If someone submits fake data to the chain, this would most likely be detected by other users, or by new data analysis services based on the publicly available data. For example, the odometer of a car can never decrease, or the amount of energy (kWh) added should, to some extent, match the battery level and distance driven parameters.&lt;/li>
+&lt;li>To view and analyze the data is free for everyone. A public website has been set up for this purpose, to allow anyone to view and analyze the data without owning a Tesla vehicle or the need to run the TornadoWallet on their local computer.&lt;/li>
+&lt;/ul>
+&lt;p>The public website has been developed to also work well with the Tesla in-car browser (Chromium). The screenshots below are taken from an actual vehicle, for both Night and Day mode.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-01.png" alt="" loading="lazy" />
 viewed in a Tesla vehicle (Night Mode).
-&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-02.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-viewed in a Tesla vehicle (Day Mode).&lt;/p&gt;
-&lt;p&gt;If you have an Android phone it is also possible to run the Tesla plug-in locally by using Termux, &lt;a href=&#34;https://steinbuch.wordpress.com/2015/01/24/tesla-model-s-battery-degradation-data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;see link&lt;/a&gt;. In this way, it is possible to submit vehicle data while on the road, for example just before and after charging your vehicle at a public supercharger station.&lt;/p&gt;
-&lt;p&gt;The screenshot below shows the data viewing and analysis section of the app. In this example, the vehicle IDs available for viewing have been encrypted with a password. Hence the actual VIN numbers of these cars are not available. The address on the right shows which Bismuth account has submitted the data.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-03.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;In the menu above, a vehicle asset ID is selected as well as the start and end dates. After that, a number of parameters are available for viewing and analysis. One example plot is the “Estimated Max Range vs. Odometer” and the associated curve fit, see plot below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-04.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-Estimated Range vs. Odometer and Curve Fit.&lt;/p&gt;
-&lt;p&gt;The green dots in this plot represent individual data points submitted by the owner to the blockchain. The parameter “Estimated Max Range” is based on data from the Tesla API, by dividing the estimated remaining range with the battery level. The curve fit is based on the data points matching the “Range Filter”. In this example only the 1% largest values are used to estimate the red curve. As can be seen from this plot, the estimated max range is falling, from about 485km to 480km. However, this plot does not necessarily represent the true battery condition, since a number of parameters may influence the estimate, such as ambient temperature, driving style, road conditions, etc. The way to get a more accurate measure of maximum range is to do a full charge (0-100%) and then check the EPA rated range (in North America) or Typical range (in Europe and Asia/Pacific), see link. However, you don’t want to do this exercise too often, as a 0-100% deep charging cycle is exactly what reduces the remaining lifetime of the battery the most.&lt;/p&gt;
-&lt;p&gt;If the owner submits data to the blockchain regularly, just before and after every charging event, it is instead possible to estimate the battery life without having to do deep charges. If all the charging events are recorded, Bismuth’s Tesla app allows for counting the cycles, using a method called rainflow counting, as illustrated in the screenshots below. The rainflow method is normally used in counting fatigue cycles in mechanical engineering, but it can also be used for counting battery cycles.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-05.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-06.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-Counted battery cycles and “Full Cycle Equivalent” during a selected time period.&lt;/p&gt;
-&lt;p&gt;The plot above shows that the owner has made several charging cycles at various levels from 10% up to 100%. By using the Li-Ion cycle life table from Miao et.al, these charging events are converted and summed up to a “Full Cycle Equivalent” of 6.03 during the time period selected (May 2020). Since the battery is expected to have a life time of about 450 full cycles, it can be estimated that 1.3% of the battery life was used up during this particular month. If this owner charges the equivalent of 6 full cycles every month, this battery can be expected to last about 77 months, or 6.5 years – significantly less than the normal expected lifetime of a car. Hence, by using the developed app, an owner can monitor the battery lifetime consumption of the vehicle on a daily, weekly or monthly basis, without performing harmful 0-100% deep charges.&lt;/p&gt;
-&lt;p&gt;Currently, there is talk about new batteries which will be capable of “a million miles” and a much higher number of charging cycles. In the paper by Harlow et.al, “&lt;a href=&#34;https://iopscience.iop.org/article/10.1149/2.0981913jes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Wide Range of Testing Results on an Excellent Lithium-Ion Cell Chemistry to be used as Benchmarks for New Battery Technologies&lt;/a&gt;” (2019) batteries with NMC532 cathodes have been found capable of higher cycle life, of 5000 or more deep charges. However, it is currently being speculated that such batteries will be used in vehicles connected to the grid (V2G), which means that deep charges could potentially happen much more frequently, perhaps even on a daily basis (charge at night when power prices are low, and sell during the day when prices are high). In such scenarios it could be of even larger importance to record the charging cycles to document remaining lifetime and ensure as high a resale value of the vehicle as possible. If and when V2G becomes a reality, the Bismuth team will make available automated data to blockchain submission scripts to capture high-frequency charging events.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-07.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;With Bismuth’s Tesla app, PDF files can also be generated for selected dates to document, for example, total distance driven during a given period or the sum of charge energy (kWh) added. In the example above, the sum of charge energy added is found to be 131.13kWh, since there are only three actual charging events (58.49, 51.18 and 21.46 kWh) in the submitted data. Such reports could for example follow the car when sold, as an alternative to giving away the password for the asset id on the blockchain.&lt;/p&gt;
-&lt;p&gt;The remaining two screenshots below are only available in the local app, and not on the public website. The first screenshot shows the asset registration screen. Here, the Tesla credentials are entered (username and password) as well as a (strong) anonymizer password if the user does not want to expose the actual VIN number. When the asset id has been registered, it will be linked to the Bismuth wallet address by paying a small fee. Only data for this asset id submitted from this account will be visible on the public website and in the plotting and analytics section of the app. If the owner later wants to transfer the vehicle to another owner, it must first be unregistered on the chain which allows the new owner to register it. By using the same password as the previous owner the original data set for the vehicle can be continued by the new owner. If a different password is used, then the asset id will be different and a new data set will be started from scratch. The Tesla credentials (username and password) will always stay on the local computer, and are never exposed to any external websites or services.&lt;/p&gt;
-&lt;p&gt;By entering the Tesla credentials and the anonymizer password (if any), battery data is collected from the vehicle. Once the data has been collected, it can be submitted to the Bismuth blockchain by paying a small fee.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-09.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-Screen for fetching battery data using the Tesla API.&lt;/p&gt;
-&lt;p&gt;Bismuth crypto currency is required to pay for fees and can be purchased on one of the BIS &lt;a href=&#34;https://alias-bitsignal.github.io/exchanges&#34; &gt;exchanges&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Help and support is given in our &lt;a href=&#34;https://discord.gg/4tB3pYJ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discord&lt;/a&gt; There is a dedicated channel named #batterylife.&lt;br&gt;
-For those who are not able to run from the source code, updated binaries for Windows, Mac and Linux are available at our &lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Repository&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://doi.org/10.3390/en12061074&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Current Li-Ion Battery Technologies in Electric Vehicles and Opportunities for Advancements&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://iopscience.iop.org/article/10.1149/2.0981913jes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benchmarks for New Battery Technologies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/echanges&#34; &gt;BIS Exchanges&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://discord.gg/4tB3pYJ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Discord&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Decentralized Condition Monitoring</title>
-      <link>https://alias-bitsignal.github.io/blog/2020-04-30-condition-monitoring/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/blog/2020-04-30-condition-monitoring/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-04-30-condition-monitoring.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-Condition monitoring (CM) is the basis for condition based maintenance (CBM). CBM is an alternative to calendar based maintenance, where an asset is serviced in regular time intervals.&lt;/p&gt;
-&lt;p&gt;Calendar based maintenance is easy to plan and schedule but it has some weaknesses:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Assets which are in a good condition do not need to be regularly taken out of production for service, and&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;an asset can still fail between regular calendar based maintenance events, causing downtime in production. CM and CBM are therefore used by many industries as an alternative to calendar based maintenance to strike a balance between maintenance costs and costs associated with unplanned downtime in production.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;One example from everyday life is the annual service of your car. Since it is done on a regular basis without considering the actual condition of the car, this would be classified as calendar based maintenance. On the other hand, if you one day start to feel a small vibration in the steering wheel while driving and you take the car to service because of this observation, that would be classified as condition based maintenance.&lt;/p&gt;
-&lt;p&gt;CM and CBM work well in a single organisation where traditional database tools (or data historians) are used to store and secure the data. This single organisation then owns the data and can control who has access. However, when more than one organisation or individual are involved, CM and CBM initiatives often fail because of the following issue: who owns the data and controls the server storing the data? Data and data analysis can have large potential value, and organisations and individuals are often reluctant to give this value away for free or lose control.&lt;/p&gt;
-&lt;p&gt;However, data sharing among many participants can have large overall benefits for the group or society as a whole. A single asset does not normally operate in isolation, but forms part of a larger machinery or a plant. A condition which may be optimal for a single asset, may not be optimal for the overall machinery. By sharing data between participants, the performance of the overall machinery or industrial plant can be analyzed and optimized. Another example is the case where there are hundreds, thousands or millions of identical assets operating in the consumer industries. By sharing data, under-performing assets can be identified and corrective actions can be taken- benefiting society as a whole.&lt;/p&gt;
-&lt;p&gt;In the article &lt;a href=&#34;https://ieeexplore.ieee.org/document/8048838&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;“Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem”&lt;/a&gt;, IEEE Spectrum, 2017, Morgan E. Peck presented the chart below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2020-04-30-condition-monitoring-002.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-Image from: Morgan E. Peck, “Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem“, IEEE Spectrum, 2017.&lt;/p&gt;
-&lt;p&gt;This chart illustrates that a public blockchain may be a good solution for problems where:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;More than one participant needs to be able to submit and update data.&lt;/li&gt;
-&lt;li&gt;The participants do not need to know and trust each other.&lt;/li&gt;
-&lt;li&gt;The data does not need to be private.&lt;/li&gt;
-&lt;li&gt;The database needs to be resistant to attacks or censorship.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this article it will be explained how the Bismuth public blockchain can be used to implement a system for distributed condition monitoring. For more information about Bismuth, see the &lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper.pdf&#34; &gt;whitepaper&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Bismuth is ideally suited to this type of applications, because it contains two fields in the transaction structure which are named “operation” and “datafield”. These two fields allow for building new meta protocols on top of the core blockchain software. In this article it will be demonstrated how a new meta protocol can be used in the development of a solution for decentralized condition monitoring.&lt;/p&gt;
-&lt;p&gt;One general problem with a decentralized public blockchain is spam. Any participant can submit any data to the chain and this can not be avoided. Instead of trying to prevent spam from occurring completely, a supplementary approach would be to filter out fake data. There are several ways spam protection and filtering can be achieved, for example:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Introducing fees to submit data. Anyone can still submit spam, but it will be expensive to do so.&lt;/li&gt;
-&lt;li&gt;Introduce a meta protocol built on top of Bismuth’s operation and data fields to allow for filtering of fake data.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The class &lt;a href=&#34;https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BismuthSimpleAsset&lt;/a&gt; was written with this purpose, to provide tools for filtering of fake data. This class implements at the time of writing three operations in the meta protocol:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;myapp:register
+&lt;img src="https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-02.png" alt="" loading="lazy" />
+viewed in a Tesla vehicle (Day Mode).&lt;/p>
+&lt;p>If you have an Android phone it is also possible to run the Tesla plug-in locally by using Termux, &lt;a href="https://steinbuch.wordpress.com/2015/01/24/tesla-model-s-battery-degradation-data" target="_blank" rel="noopener">see link&lt;/a>. In this way, it is possible to submit vehicle data while on the road, for example just before and after charging your vehicle at a public supercharger station.&lt;/p>
+&lt;p>The screenshot below shows the data viewing and analysis section of the app. In this example, the vehicle IDs available for viewing have been encrypted with a password. Hence the actual VIN numbers of these cars are not available. The address on the right shows which Bismuth account has submitted the data.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-03.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>In the menu above, a vehicle asset ID is selected as well as the start and end dates. After that, a number of parameters are available for viewing and analysis. One example plot is the “Estimated Max Range vs. Odometer” and the associated curve fit, see plot below.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-04.png" alt="" loading="lazy" />
+Estimated Range vs. Odometer and Curve Fit.&lt;/p>
+&lt;p>The green dots in this plot represent individual data points submitted by the owner to the blockchain. The parameter “Estimated Max Range” is based on data from the Tesla API, by dividing the estimated remaining range with the battery level. The curve fit is based on the data points matching the “Range Filter”. In this example only the 1% largest values are used to estimate the red curve. As can be seen from this plot, the estimated max range is falling, from about 485km to 480km. However, this plot does not necessarily represent the true battery condition, since a number of parameters may influence the estimate, such as ambient temperature, driving style, road conditions, etc. The way to get a more accurate measure of maximum range is to do a full charge (0-100%) and then check the EPA rated range (in North America) or Typical range (in Europe and Asia/Pacific), see link. However, you don’t want to do this exercise too often, as a 0-100% deep charging cycle is exactly what reduces the remaining lifetime of the battery the most.&lt;/p>
+&lt;p>If the owner submits data to the blockchain regularly, just before and after every charging event, it is instead possible to estimate the battery life without having to do deep charges. If all the charging events are recorded, Bismuth’s Tesla app allows for counting the cycles, using a method called rainflow counting, as illustrated in the screenshots below. The rainflow method is normally used in counting fatigue cycles in mechanical engineering, but it can also be used for counting battery cycles.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-05.png" alt="" loading="lazy" />
+&lt;img src="https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-06.png" alt="" loading="lazy" />
+Counted battery cycles and “Full Cycle Equivalent” during a selected time period.&lt;/p>
+&lt;p>The plot above shows that the owner has made several charging cycles at various levels from 10% up to 100%. By using the Li-Ion cycle life table from Miao et.al, these charging events are converted and summed up to a “Full Cycle Equivalent” of 6.03 during the time period selected (May 2020). Since the battery is expected to have a life time of about 450 full cycles, it can be estimated that 1.3% of the battery life was used up during this particular month. If this owner charges the equivalent of 6 full cycles every month, this battery can be expected to last about 77 months, or 6.5 years – significantly less than the normal expected lifetime of a car. Hence, by using the developed app, an owner can monitor the battery lifetime consumption of the vehicle on a daily, weekly or monthly basis, without performing harmful 0-100% deep charges.&lt;/p>
+&lt;p>Currently, there is talk about new batteries which will be capable of “a million miles” and a much higher number of charging cycles. In the paper by Harlow et.al, “&lt;a href="https://iopscience.iop.org/article/10.1149/2.0981913jes" target="_blank" rel="noopener">A Wide Range of Testing Results on an Excellent Lithium-Ion Cell Chemistry to be used as Benchmarks for New Battery Technologies&lt;/a>” (2019) batteries with NMC532 cathodes have been found capable of higher cycle life, of 5000 or more deep charges. However, it is currently being speculated that such batteries will be used in vehicles connected to the grid (V2G), which means that deep charges could potentially happen much more frequently, perhaps even on a daily basis (charge at night when power prices are low, and sell during the day when prices are high). In such scenarios it could be of even larger importance to record the charging cycles to document remaining lifetime and ensure as high a resale value of the vehicle as possible. If and when V2G becomes a reality, the Bismuth team will make available automated data to blockchain submission scripts to capture high-frequency charging events.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-07.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>With Bismuth’s Tesla app, PDF files can also be generated for selected dates to document, for example, total distance driven during a given period or the sum of charge energy (kWh) added. In the example above, the sum of charge energy added is found to be 131.13kWh, since there are only three actual charging events (58.49, 51.18 and 21.46 kWh) in the submitted data. Such reports could for example follow the car when sold, as an alternative to giving away the password for the asset id on the blockchain.&lt;/p>
+&lt;p>The remaining two screenshots below are only available in the local app, and not on the public website. The first screenshot shows the asset registration screen. Here, the Tesla credentials are entered (username and password) as well as a (strong) anonymizer password if the user does not want to expose the actual VIN number. When the asset id has been registered, it will be linked to the Bismuth wallet address by paying a small fee. Only data for this asset id submitted from this account will be visible on the public website and in the plotting and analytics section of the app. If the owner later wants to transfer the vehicle to another owner, it must first be unregistered on the chain which allows the new owner to register it. By using the same password as the previous owner the original data set for the vehicle can be continued by the new owner. If a different password is used, then the asset id will be different and a new data set will be started from scratch. The Tesla credentials (username and password) will always stay on the local computer, and are never exposed to any external websites or services.&lt;/p>
+&lt;p>By entering the Tesla credentials and the anonymizer password (if any), battery data is collected from the vehicle. Once the data has been collected, it can be submitted to the Bismuth blockchain by paying a small fee.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-05-25-Tesla-Bismuth-Crystal-09.png" alt="" loading="lazy" />
+Screen for fetching battery data using the Tesla API.&lt;/p>
+&lt;p>Bismuth crypto currency is required to pay for fees and can be purchased on one of the BIS &lt;a href="https://alias-bitsignal.github.io/exchanges" >exchanges&lt;/a>.&lt;/p>
+&lt;p>Help and support is given in our &lt;a href="https://discord.gg/4tB3pYJ" target="_blank" rel="noopener">Discord&lt;/a> There is a dedicated channel named #batterylife.&lt;br>
+For those who are not able to run from the source code, updated binaries for Windows, Mac and Linux are available at our &lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener">Github Repository&lt;/a>.&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://doi.org/10.3390/en12061074" target="_blank" rel="noopener">Current Li-Ion Battery Technologies in Electric Vehicles and Opportunities for Advancements&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://iopscience.iop.org/article/10.1149/2.0981913jes" target="_blank" rel="noopener">Benchmarks for New Battery Technologies&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://alias-bitsignal.github.io/echanges" >BIS Exchanges&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://discord.gg/4tB3pYJ" target="_blank" rel="noopener">Bismuth Discord&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Decentralized Condition Monitoring</title><link>https://alias-bitsignal.github.io/blog/2020-04-30-condition-monitoring/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2020-04-30-condition-monitoring/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-04-30-condition-monitoring.jpeg" alt="" loading="lazy" />
+Condition monitoring (CM) is the basis for condition based maintenance (CBM). CBM is an alternative to calendar based maintenance, where an asset is serviced in regular time intervals.&lt;/p>
+&lt;p>Calendar based maintenance is easy to plan and schedule but it has some weaknesses:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Assets which are in a good condition do not need to be regularly taken out of production for service, and&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>an asset can still fail between regular calendar based maintenance events, causing downtime in production. CM and CBM are therefore used by many industries as an alternative to calendar based maintenance to strike a balance between maintenance costs and costs associated with unplanned downtime in production.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>One example from everyday life is the annual service of your car. Since it is done on a regular basis without considering the actual condition of the car, this would be classified as calendar based maintenance. On the other hand, if you one day start to feel a small vibration in the steering wheel while driving and you take the car to service because of this observation, that would be classified as condition based maintenance.&lt;/p>
+&lt;p>CM and CBM work well in a single organisation where traditional database tools (or data historians) are used to store and secure the data. This single organisation then owns the data and can control who has access. However, when more than one organisation or individual are involved, CM and CBM initiatives often fail because of the following issue: who owns the data and controls the server storing the data? Data and data analysis can have large potential value, and organisations and individuals are often reluctant to give this value away for free or lose control.&lt;/p>
+&lt;p>However, data sharing among many participants can have large overall benefits for the group or society as a whole. A single asset does not normally operate in isolation, but forms part of a larger machinery or a plant. A condition which may be optimal for a single asset, may not be optimal for the overall machinery. By sharing data between participants, the performance of the overall machinery or industrial plant can be analyzed and optimized. Another example is the case where there are hundreds, thousands or millions of identical assets operating in the consumer industries. By sharing data, under-performing assets can be identified and corrective actions can be taken- benefiting society as a whole.&lt;/p>
+&lt;p>In the article &lt;a href="https://ieeexplore.ieee.org/document/8048838" target="_blank" rel="noopener">“Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem”&lt;/a>, IEEE Spectrum, 2017, Morgan E. Peck presented the chart below.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-04-30-condition-monitoring-002.jpeg" alt="" loading="lazy" />
+Image from: Morgan E. Peck, “Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem“, IEEE Spectrum, 2017.&lt;/p>
+&lt;p>This chart illustrates that a public blockchain may be a good solution for problems where:&lt;/p>
+&lt;ul>
+&lt;li>More than one participant needs to be able to submit and update data.&lt;/li>
+&lt;li>The participants do not need to know and trust each other.&lt;/li>
+&lt;li>The data does not need to be private.&lt;/li>
+&lt;li>The database needs to be resistant to attacks or censorship.&lt;/li>
+&lt;/ul>
+&lt;p>In this article it will be explained how the Bismuth public blockchain can be used to implement a system for distributed condition monitoring. For more information about Bismuth, see the &lt;a href="https://alias-bitsignal.github.io/pdf/whitepaper.pdf" >whitepaper&lt;/a>.&lt;/p>
+&lt;p>Bismuth is ideally suited to this type of applications, because it contains two fields in the transaction structure which are named “operation” and “datafield”. These two fields allow for building new meta protocols on top of the core blockchain software. In this article it will be demonstrated how a new meta protocol can be used in the development of a solution for decentralized condition monitoring.&lt;/p>
+&lt;p>One general problem with a decentralized public blockchain is spam. Any participant can submit any data to the chain and this can not be avoided. Instead of trying to prevent spam from occurring completely, a supplementary approach would be to filter out fake data. There are several ways spam protection and filtering can be achieved, for example:&lt;/p>
+&lt;ul>
+&lt;li>Introducing fees to submit data. Anyone can still submit spam, but it will be expensive to do so.&lt;/li>
+&lt;li>Introduce a meta protocol built on top of Bismuth’s operation and data fields to allow for filtering of fake data.&lt;/li>
+&lt;/ul>
+&lt;p>The class &lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py" target="_blank" rel="noopener">BismuthSimpleAsset&lt;/a> was written with this purpose, to provide tools for filtering of fake data. This class implements at the time of writing three operations in the meta protocol:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>myapp:register
 myapp:unregister
-myapp:transfer&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;The app name, in this example &lt;code&gt;myapp&lt;/code&gt;, can be renamed to distinguish the implementation from other use-cases also using the same public blockchain.&lt;/p&gt;
-&lt;p&gt;A physical asset often comes with a serial number or identification code printed on the asset itself somewhere. This number is in general not publicly available, but only known by the manufacturer initially, and later the customer. The manufacturer or the customer can use this identification number in Bismuth’s datafield, together with the &lt;strong&gt;operation&lt;/strong&gt; &lt;code&gt;myapp:register&lt;/code&gt; to link the serial number of the asset with his or her public/private key on the Bismuth blockchain.&lt;br&gt;
-Valid &lt;strong&gt;asset registrations&lt;/strong&gt; in this &lt;code&gt;myapp&lt;/code&gt; example can also be filtered with a minimum amount paid, to discourage spammers from randomly guessing and submitting asset id numbers. In addition to being a tool for filtering spam, a registration amount also gives the developer of the myapp use-case an income which can be used to maintain and further develop the service. Similarly, there could be an amount requirement also on the actual asset data submitted.&lt;/p&gt;
-&lt;p&gt;One decentralized system everyone is familiar with and where everyone is allowed to submit data, is the email system. Anyone can set up a new email server and start sending from it. One of the techniques used in filtering email spam is to use a PTR record. A pointer record, or PTR record, maps an IP address to a FQDN (fully qualified domain name). It is the counterpart to the A record and is used for reverse DNS lookup, which can help with blocking spammers. Many SMTP servers reject emails if no PTR record is found for the sending server.&lt;/p&gt;
-&lt;p&gt;The proposed approach presented in this article where an asset id number is linked to the public/private key on the blockchain to filter spam is similar to the reverse DNS method to filter email spam. The first user to link the asset’s identification number to his or her account, can be considered to be the rightful owner of the asset. This information can then later be used to filter out fake data about this asset submitted by other users. The following Python function in &lt;strong&gt;BismuthSimpleAsset&lt;/strong&gt; returns the valid registrant given an asset id:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;pre&gt;&lt;code&gt;def get_registrant(self,asset_id):
-    &amp;#34;&amp;#34;&amp;#34;Returns the current registrant of a specified asset id&amp;#34;&amp;#34;&amp;#34;
-    regs = self.__get_reg_unreg_sorted(asset_id)
-    registrant = self.__get_registrant_from_regs(regs)
-    return registrant&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;If the asset owner later wants to release his or her registration of the asset, this can be done by submitting the &lt;strong&gt;operation&lt;/strong&gt; &lt;code&gt;myapp:unregister&lt;/code&gt; together with the asset id in the &lt;strong&gt;datafield&lt;/strong&gt;. Alternatively, the asset owner can transfer the ownership of the asset to another account by submitting the operation myapp:transfer together with the following in the &lt;strong&gt;datafield&lt;/strong&gt;: &lt;code&gt;asset_id,new address&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Another function in the BismuthSimpleAsset class- &lt;code&gt;get_all_asset_ids()&lt;/code&gt; -returns all valid asset id numbers and associated Bismuth accounts. This function handles multiple register, unregister and transfer events of assets.&lt;/p&gt;
-&lt;p&gt;Whenever a participant submits data to the public blockchain, the command &lt;code&gt;myapp:data&lt;/code&gt; can for example be used, or something more specific, for example &lt;code&gt;myapp:vibration_data&lt;/code&gt;. In the datafield a JSON string can be submitted, allowing for a flexible list of variables to be used. The asset id should be part of this JSON structure, to allow the filtering of fake data. Bismuth allows for a string of up to &lt;strong&gt;100,000 characters in the datafield&lt;/strong&gt;, so relatively large amount of data can be submitted. However, the transaction fee increases linearly with the data size.&lt;/p&gt;
-&lt;p&gt;Having a decentralized public blockchain with open data for everyone to access has potentially many benefits. Some of the benefits are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;It allows for independent 3rd party data analysts to offer services to the participants. This analysis can for example tell you about the performance of your asset, and what you can do to improve it.&lt;/li&gt;
-&lt;li&gt;If someone registers a valid asset id and starts submitting fake data, this can potentially be detected by 3rd party data analysis. For example, some physical variables like the odometer value of a car can only increase over time. Invalid data based on more complex relationships between variables can potentially also be detected. The 3rd party service could then for example offer a whitelist and blacklist of asset id numbers, to allow for even more advanced data filtering.&lt;/li&gt;
-&lt;li&gt;The owner of an asset can compare the performance of his or her asset with other peers, detect sub-optimal performance, and apply corrective actions.
-If the owner later wants to sell the asset to someone else, he or she can provide proof of asset performance during it’s lifetime to the new owner by using the publicly available data. By giving proof that the asset has been operated with care and within the specifications, the resale value of the asset may be higher than it otherwise would be.&lt;/li&gt;
-&lt;li&gt;An increasing number of assets and consumer products are connected to the internet, and come with API interfaces which the owner or operator can use. Hence, the submission of data to the public blockchain can easily be automated or semi-automated for such assets.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This article has given an introduction to some building blocks for decentralized condition monitoring using the Bismuth public blockchain. Several future applications and implementations using the principles laid out here are currently being worked on and will be published separately when ready.&lt;/p&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;hhttps://ieeexplore.ieee.org/document/8048838&#34; &gt;Blockchain World - Do you need a blockchain?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper.pdf&#34; &gt;Bismuth Whitepaper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - Bismuth SimpleAsset&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+myapp:transfer&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The app name, in this example &lt;code>myapp&lt;/code>, can be renamed to distinguish the implementation from other use-cases also using the same public blockchain.&lt;/p>
+&lt;p>A physical asset often comes with a serial number or identification code printed on the asset itself somewhere. This number is in general not publicly available, but only known by the manufacturer initially, and later the customer. The manufacturer or the customer can use this identification number in Bismuth’s datafield, together with the &lt;strong>operation&lt;/strong> &lt;code>myapp:register&lt;/code> to link the serial number of the asset with his or her public/private key on the Bismuth blockchain.&lt;br>
+Valid &lt;strong>asset registrations&lt;/strong> in this &lt;code>myapp&lt;/code> example can also be filtered with a minimum amount paid, to discourage spammers from randomly guessing and submitting asset id numbers. In addition to being a tool for filtering spam, a registration amount also gives the developer of the myapp use-case an income which can be used to maintain and further develop the service. Similarly, there could be an amount requirement also on the actual asset data submitted.&lt;/p>
+&lt;p>One decentralized system everyone is familiar with and where everyone is allowed to submit data, is the email system. Anyone can set up a new email server and start sending from it. One of the techniques used in filtering email spam is to use a PTR record. A pointer record, or PTR record, maps an IP address to a FQDN (fully qualified domain name). It is the counterpart to the A record and is used for reverse DNS lookup, which can help with blocking spammers. Many SMTP servers reject emails if no PTR record is found for the sending server.&lt;/p>
+&lt;p>The proposed approach presented in this article where an asset id number is linked to the public/private key on the blockchain to filter spam is similar to the reverse DNS method to filter email spam. The first user to link the asset’s identification number to his or her account, can be considered to be the rightful owner of the asset. This information can then later be used to filter out fake data about this asset submitted by other users. The following Python function in &lt;strong>BismuthSimpleAsset&lt;/strong> returns the valid registrant given an asset id:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>def get_registrant(self,asset_id):
+&amp;#34;&amp;#34;&amp;#34;Returns the current registrant of a specified asset id&amp;#34;&amp;#34;&amp;#34;
+regs = self.__get_reg_unreg_sorted(asset_id)
+registrant = self.__get_registrant_from_regs(regs)
+return registrant&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>If the asset owner later wants to release his or her registration of the asset, this can be done by submitting the &lt;strong>operation&lt;/strong> &lt;code>myapp:unregister&lt;/code> together with the asset id in the &lt;strong>datafield&lt;/strong>. Alternatively, the asset owner can transfer the ownership of the asset to another account by submitting the operation myapp:transfer together with the following in the &lt;strong>datafield&lt;/strong>: &lt;code>asset_id,new address&lt;/code>.&lt;/p>
+&lt;p>Another function in the BismuthSimpleAsset class- &lt;code>get_all_asset_ids()&lt;/code> -returns all valid asset id numbers and associated Bismuth accounts. This function handles multiple register, unregister and transfer events of assets.&lt;/p>
+&lt;p>Whenever a participant submits data to the public blockchain, the command &lt;code>myapp:data&lt;/code> can for example be used, or something more specific, for example &lt;code>myapp:vibration_data&lt;/code>. In the datafield a JSON string can be submitted, allowing for a flexible list of variables to be used. The asset id should be part of this JSON structure, to allow the filtering of fake data. Bismuth allows for a string of up to &lt;strong>100,000 characters in the datafield&lt;/strong>, so relatively large amount of data can be submitted. However, the transaction fee increases linearly with the data size.&lt;/p>
+&lt;p>Having a decentralized public blockchain with open data for everyone to access has potentially many benefits. Some of the benefits are:&lt;/p>
+&lt;ul>
+&lt;li>It allows for independent 3rd party data analysts to offer services to the participants. This analysis can for example tell you about the performance of your asset, and what you can do to improve it.&lt;/li>
+&lt;li>If someone registers a valid asset id and starts submitting fake data, this can potentially be detected by 3rd party data analysis. For example, some physical variables like the odometer value of a car can only increase over time. Invalid data based on more complex relationships between variables can potentially also be detected. The 3rd party service could then for example offer a whitelist and blacklist of asset id numbers, to allow for even more advanced data filtering.&lt;/li>
+&lt;li>The owner of an asset can compare the performance of his or her asset with other peers, detect sub-optimal performance, and apply corrective actions.
+If the owner later wants to sell the asset to someone else, he or she can provide proof of asset performance during it’s lifetime to the new owner by using the publicly available data. By giving proof that the asset has been operated with care and within the specifications, the resale value of the asset may be higher than it otherwise would be.&lt;/li>
+&lt;li>An increasing number of assets and consumer products are connected to the internet, and come with API interfaces which the owner or operator can use. Hence, the submission of data to the public blockchain can easily be automated or semi-automated for such assets.&lt;/li>
+&lt;/ul>
+&lt;p>This article has given an introduction to some building blocks for decentralized condition monitoring using the Bismuth public blockchain. Several future applications and implementations using the principles laid out here are currently being worked on and will be published separately when ready.&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="hhttps://ieeexplore.ieee.org/document/8048838" >Blockchain World - Do you need a blockchain?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://alias-bitsignal.github.io/pdf/whitepaper.pdf" >Bismuth Whitepaper&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py" target="_blank" rel="noopener">Github - Bismuth SimpleAsset&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

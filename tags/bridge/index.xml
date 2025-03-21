@@ -1,190 +1,147 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>bismuthcoin.org – Bridge</title>
-    <link>https://alias-bitsignal.github.io/tags/bridge/</link>
-    <description>Recent content in Bridge on bismuthcoin.org</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate>
-    
-	  <atom:link href="https://alias-bitsignal.github.io/tags/bridge/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Using the BIS&lt;&gt;BSC Bridge Crystal</title>
-      <link>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</link>
-      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-05-12-bsc_bridge.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;To swap between native BIS and BNB wBIS token, you need the newest Tornado wallet (v0.1.43 or more) with the BscBridge Crystal activated, as pictured above.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tornado Bismuth Wallet releases&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Another version of this help, with more detailed info, can be found on our &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Bismuth FAQ&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;The wBIS Token&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-wbis-token&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-wbis-token&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;wBIS is a BEP-20 BSC Token with 1:1 native BIS counterpart.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chain: BSC Smart Chain&lt;/li&gt;
-&lt;li&gt;Contract address: &lt;code&gt;0x56672ecb506301b1E32ED28552797037c54D36A9&lt;/code&gt; &lt;a href=&#34;https://bscscan.com/token/0x56672ecb506301b1e32ed28552797037c54d36a9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View on bscscan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Name: Wrapped BIS&lt;/li&gt;
-&lt;li&gt;Decimals: 8 (same as native BIS)&lt;/li&gt;
-&lt;li&gt;Custom logo: &lt;a href=&#34;https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&lt;/a&gt;
-&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-05-12-wbis125x125.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The Bsc bridge crystal comes with a one-click button to set up the correct custom token on your metamask extension.&lt;/p&gt;
-&lt;p&gt;The Bridge is decentralized and runs thanks to a custom BIS protocol.
-It relies on Both a bridge and an oracle.&lt;/p&gt;
-&lt;p&gt;BIS Bridge Address: &lt;code&gt;Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71&lt;/code&gt;&lt;br&gt;
-&lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bridge Explorer Link&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;BIS Oracle Address: &lt;code&gt;Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL&lt;/code&gt;&lt;br&gt;
-&lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oracle Explorer Link&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Add BSC network to Metamask&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;add-bsc-network-to-metamask&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#add-bsc-network-to-metamask&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Open Metamask and click on ‘My Accounts‘ &amp;gt; ‘Settings‘ &amp;gt; ‘Networks‘ &amp;gt; ‘Add Network‘
-Fill in the following data for the BSC Mainnet.&lt;/p&gt;
-&lt;p&gt;– Network Name: BSC Smart Chain&lt;br&gt;
-– New RPC URL: &lt;a href=&#34;https://bsc-dataseed.binance.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bsc-dataseed.binance.org/&lt;/a&gt;&lt;br&gt;
-– ChainID: 56&lt;br&gt;
-– Symbol: BNB&lt;br&gt;
-– Block Explorer URL: &lt;a href=&#34;https://bscscan.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bscscan.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md#add-bsc-network-to-metamask&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Detailed screenshots on Github&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;BIS to wBIS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bis-to-wbis&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bis-to-wbis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Send native BIS to the bridge, get wBIS on BSC (same amount less 5 BIS fees)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pick “BIS-&amp;gt;WBIS 1/2” menu – also available from “swaps” page&lt;/li&gt;
-&lt;li&gt;Fill in BSC recipient and amount &lt;strong&gt;double check your BSC address, no going back&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Send the BIS&lt;/li&gt;
-&lt;li&gt;Go to “Swaps” page&lt;/li&gt;
-&lt;li&gt;wait for the BIS confirmations, then for the mint to be signed.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Bridge</title><link>https://alias-bitsignal.github.io/tags/bridge/</link><description>Recent content in Bridge on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/bridge/index.xml" rel="self" type="application/rss+xml"/><item><title>Using the BIS&lt;>BSC Bridge Crystal</title><link>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</link><pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-05-12-bsc_bridge.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>To swap between native BIS and BNB wBIS token, you need the newest Tornado wallet (v0.1.43 or more) with the BscBridge Crystal activated, as pictured above.&lt;/p>
+&lt;p>&lt;a href="https://github.com/bismuthfoundation/TornadoWallet/releases" target="_blank" rel="noopener">Tornado Bismuth Wallet releases&lt;/a>&lt;/p>
+&lt;p>Another version of this help, with more detailed info, can be found on our &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md" target="_blank" rel="noopener">Github Bismuth FAQ&lt;/a>.&lt;/p>
+&lt;h3>The wBIS Token&lt;span class="hx-absolute -hx-mt-20" id="the-wbis-token">&lt;/span>
+&lt;a href="#the-wbis-token" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>wBIS is a BEP-20 BSC Token with 1:1 native BIS counterpart.&lt;/p>
+&lt;ul>
+&lt;li>Chain: BSC Smart Chain&lt;/li>
+&lt;li>Contract address: &lt;code>0x56672ecb506301b1E32ED28552797037c54D36A9&lt;/code> &lt;a href="https://bscscan.com/token/0x56672ecb506301b1e32ed28552797037c54d36a9" target="_blank" rel="noopener">View on bscscan&lt;/a>&lt;/li>
+&lt;li>Name: Wrapped BIS&lt;/li>
+&lt;li>Decimals: 8 (same as native BIS)&lt;/li>
+&lt;li>Custom logo: &lt;a href="https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png" target="_blank" rel="noopener">https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&lt;/a>
+&lt;img src="https://alias-bitsignal.github.io/images/2021-05-12-wbis125x125.png" alt="" loading="lazy" />&lt;/li>
+&lt;/ul>
+&lt;p>The Bsc bridge crystal comes with a one-click button to set up the correct custom token on your metamask extension.&lt;/p>
+&lt;p>The Bridge is decentralized and runs thanks to a custom BIS protocol.
+It relies on Both a bridge and an oracle.&lt;/p>
+&lt;p>BIS Bridge Address: &lt;code>Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71&lt;/code>&lt;br>
+&lt;a href="https://bismuth.im/search?quicksearch=Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71" target="_blank" rel="noopener">Bridge Explorer Link&lt;/a>&lt;/p>
+&lt;p>BIS Oracle Address: &lt;code>Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL&lt;/code>&lt;br>
+&lt;a href="https://bismuth.im/search?quicksearch=Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL" target="_blank" rel="noopener">Oracle Explorer Link&lt;/a>&lt;/p>
+&lt;h3>Add BSC network to Metamask&lt;span class="hx-absolute -hx-mt-20" id="add-bsc-network-to-metamask">&lt;/span>
+&lt;a href="#add-bsc-network-to-metamask" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Open Metamask and click on ‘My Accounts‘ &amp;gt; ‘Settings‘ &amp;gt; ‘Networks‘ &amp;gt; ‘Add Network‘
+Fill in the following data for the BSC Mainnet.&lt;/p>
+&lt;p>– Network Name: BSC Smart Chain&lt;br>
+– New RPC URL: &lt;a href="https://bsc-dataseed.binance.org/" target="_blank" rel="noopener">https://bsc-dataseed.binance.org/&lt;/a>&lt;br>
+– ChainID: 56&lt;br>
+– Symbol: BNB&lt;br>
+– Block Explorer URL: &lt;a href="https://bscscan.com" target="_blank" rel="noopener">https://bscscan.com&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md#add-bsc-network-to-metamask" target="_blank" rel="noopener">Detailed screenshots on Github&lt;/a>&lt;/p>
+&lt;h3>BIS to wBIS&lt;span class="hx-absolute -hx-mt-20" id="bis-to-wbis">&lt;/span>
+&lt;a href="#bis-to-wbis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Send native BIS to the bridge, get wBIS on BSC (same amount less 5 BIS fees)&lt;/p>
+&lt;ul>
+&lt;li>Pick “BIS-&amp;gt;WBIS 1/2” menu – also available from “swaps” page&lt;/li>
+&lt;li>Fill in BSC recipient and amount &lt;strong>double check your BSC address, no going back&lt;/strong>&lt;/li>
+&lt;li>Send the BIS&lt;/li>
+&lt;li>Go to “Swaps” page&lt;/li>
+&lt;li>wait for the BIS confirmations, then for the mint to be signed.
 This can take a while depending on the timing and availability of the signers. Just be patient.
-If your transaction is confirmed on the BIS chain, it will eventually go through.&lt;/li&gt;
-&lt;li&gt;Use the “proxy mint” link to mint your wBIS (auto filled parameters)&lt;/li&gt;
-&lt;li&gt;Your BNB wBIS balance is updated&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/BIS_TO_WBIS_DETAIL.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Detailed step by step guide with screenshots on Github&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;wBIS to BIS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;wbis-to-bis&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#wbis-to-bis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Burn wBIS on BSC Smart Chain, get native BIS on BIS chain (same amount less 5 BIS fees)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pick “wBIS-&amp;gt;BIS” menu – also available from “swaps” page&lt;/li&gt;
-&lt;li&gt;Fill in BIS recipient and amount &lt;strong&gt;double check your BIS address, no going back&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Check and adjust gas price&lt;/li&gt;
-&lt;li&gt;Burn the wBIS&lt;/li&gt;
-&lt;li&gt;Wait for the BSC confs, then for the oracle and delivery to be signed.
+If your transaction is confirmed on the BIS chain, it will eventually go through.&lt;/li>
+&lt;li>Use the “proxy mint” link to mint your wBIS (auto filled parameters)&lt;/li>
+&lt;li>Your BNB wBIS balance is updated&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/BIS_TO_WBIS_DETAIL.md" target="_blank" rel="noopener">Detailed step by step guide with screenshots on Github&lt;/a>&lt;/p>
+&lt;h3>wBIS to BIS&lt;span class="hx-absolute -hx-mt-20" id="wbis-to-bis">&lt;/span>
+&lt;a href="#wbis-to-bis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Burn wBIS on BSC Smart Chain, get native BIS on BIS chain (same amount less 5 BIS fees)&lt;/p>
+&lt;ul>
+&lt;li>Pick “wBIS-&amp;gt;BIS” menu – also available from “swaps” page&lt;/li>
+&lt;li>Fill in BIS recipient and amount &lt;strong>double check your BIS address, no going back&lt;/strong>&lt;/li>
+&lt;li>Check and adjust gas price&lt;/li>
+&lt;li>Burn the wBIS&lt;/li>
+&lt;li>Wait for the BSC confs, then for the oracle and delivery to be signed.
 This can take a while depending on the timing and availability of the signers. Just be patient.
-If your transaction is confirmed on the BSC Smart Chain, it will eventually go through.&lt;/li&gt;
-&lt;li&gt;You can go to “Swaps” page to monitor the progress&lt;/li&gt;
-&lt;li&gt;Your BIS balance is updated&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Add liquidity&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;add-liquidity&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#add-liquidity&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Once you have wBIS on BSC, you can provide liquidity by binding both $wBIS and $BNB to a liquidity pool. &lt;a href=&#34;https://exchange.pancakeswap.finance/#/add/BNB/0x56672ecb506301b1E32ED28552797037c54D36A9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS/BSC Pool&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The more volume in the pool, the less the volatility and the more it can be noticed by BNB traders. Everyone is encouraged to contribute to the liquidity pool to support Bismuth. If you’re new to BNB and Pancakeswap, make sure you read about impermanent loss so you know what you’re doing and what the potential risks are.&lt;/p&gt;
-&lt;h3&gt;Farm wBIS on Pancakeswap&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;farm-wbis-on-pancakeswap&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#farm-wbis-on-pancakeswap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The Pancakeswap farm is WIP, an update will follow. Please check the &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/pankeswap_farming.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS farming guide&lt;/a&gt;.&lt;br&gt;
-Staking on the farm will provide rewards as wBIS.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Nothing in this post is to be considered as financial advice&lt;/p&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tornado Wallet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Bismuth FAQ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bscscan.com/token/0x56672ecb506301b1e32ed28552797037c54d36a9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS on bscscan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIS Bridge on Bismuth Explorer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oracle on Bismuth Explorer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/BIS_TO_WBIS_DETAIL.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Step by step Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://exchange.pancakeswap.finance/#/add/BNB/0x56672ecb506301b1E32ED28552797037c54D36A9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Add Liquidity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/pankeswap_farming.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS farming guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Using the BIS&lt;&gt;ETH Bridge Crystal</title>
-      <link>https://alias-bitsignal.github.io/blog/2021-04-21-eth-bridge/</link>
-      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/blog/2021-04-21-eth-bridge/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-04-21-eth_bridge.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;To swap between native BIS and ETH wBIS token, you need the newest Tornado wallet (v0.1.41 or more) with the EthBridge Crystal activated, as pictured above.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tornado Bismuth Wallet releases&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Another version of this help, with more detailed info, can be found on our &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Bismuth FAQ&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;The wBIS Token&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-wbis-token&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-wbis-token&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;wBIS is an ERC-20 ETH Token with 1:1 native BIS counterpart.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chain: ETH Mainnet&lt;/li&gt;
-&lt;li&gt;Contract address: &lt;code&gt;0xf5cB350b40726B5BcF170d12e162B6193b291B41&lt;/code&gt; &lt;a href=&#34;https://etherscan.io/token/0xf5cB350b40726B5BcF170d12e162B6193b291B41&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View wBIS on etherscan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Name: Wrapped BIS&lt;/li&gt;
-&lt;li&gt;Decimals: 8 (same as native BIS)&lt;/li&gt;
-&lt;li&gt;Custom logo: &lt;code&gt;https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&lt;/code&gt;
-&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-05-12-wbis125x125.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The Eth bridge crystal comes with a one-click button to set up the correct custom token on your metamask extension.&lt;/p&gt;
-&lt;p&gt;The Bridge is decentralized and runs thanks to a custom BIS protocol.
-It relies on Both a bridge and an oracle.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;BIS Bridge Address: &lt;code&gt;Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m&lt;/code&gt; &lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bridge explorer link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;BIS Oracle Address: &lt;code&gt;Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2&lt;/code&gt; &lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oracle explorer link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;BIS to wBIS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bis-to-wbis&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bis-to-wbis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Send native BIS to the bridge, get wBIS on ETH (same amount less 5 BIS fees)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pick “BIS-&amp;gt;WBIS 1/2” menu – also available from “swaps” page&lt;/li&gt;
-&lt;li&gt;Fill in ETH recipient and amount double check your ETH address, no going back&lt;/li&gt;
-&lt;li&gt;Send the BIS&lt;/li&gt;
-&lt;li&gt;Go to “Swaps” page&lt;/li&gt;
-&lt;li&gt;wait for the BIS confirmations, then for the mint to be signed.
+If your transaction is confirmed on the BSC Smart Chain, it will eventually go through.&lt;/li>
+&lt;li>You can go to “Swaps” page to monitor the progress&lt;/li>
+&lt;li>Your BIS balance is updated&lt;/li>
+&lt;/ul>
+&lt;h3>Add liquidity&lt;span class="hx-absolute -hx-mt-20" id="add-liquidity">&lt;/span>
+&lt;a href="#add-liquidity" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Once you have wBIS on BSC, you can provide liquidity by binding both $wBIS and $BNB to a liquidity pool. &lt;a href="https://exchange.pancakeswap.finance/#/add/BNB/0x56672ecb506301b1E32ED28552797037c54D36A9" target="_blank" rel="noopener">wBIS/BSC Pool&lt;/a>&lt;/p>
+&lt;p>The more volume in the pool, the less the volatility and the more it can be noticed by BNB traders. Everyone is encouraged to contribute to the liquidity pool to support Bismuth. If you’re new to BNB and Pancakeswap, make sure you read about impermanent loss so you know what you’re doing and what the potential risks are.&lt;/p>
+&lt;h3>Farm wBIS on Pancakeswap&lt;span class="hx-absolute -hx-mt-20" id="farm-wbis-on-pancakeswap">&lt;/span>
+&lt;a href="#farm-wbis-on-pancakeswap" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Pancakeswap farm is WIP, an update will follow. Please check the &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/pankeswap_farming.md" target="_blank" rel="noopener">wBIS farming guide&lt;/a>.&lt;br>
+Staking on the farm will provide rewards as wBIS.&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Nothing in this post is to be considered as financial advice&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/TornadoWallet/releases" target="_blank" rel="noopener">Tornado Wallet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md" target="_blank" rel="noopener">Github Bismuth FAQ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bscscan.com/token/0x56672ecb506301b1e32ed28552797037c54d36a9" target="_blank" rel="noopener">wBIS on bscscan&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bismuth.im/search?quicksearch=Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71" target="_blank" rel="noopener">BIS Bridge on Bismuth Explorer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bismuth.im/search?quicksearch=Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL" target="_blank" rel="noopener">Oracle on Bismuth Explorer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/BIS_TO_WBIS_DETAIL.md" target="_blank" rel="noopener">Step by step Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://exchange.pancakeswap.finance/#/add/BNB/0x56672ecb506301b1E32ED28552797037c54D36A9" target="_blank" rel="noopener">Add Liquidity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/pankeswap_farming.md" target="_blank" rel="noopener">wBIS farming guide&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Using the BIS&lt;>ETH Bridge Crystal</title><link>https://alias-bitsignal.github.io/blog/2021-04-21-eth-bridge/</link><pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-04-21-eth-bridge/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-04-21-eth_bridge.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>To swap between native BIS and ETH wBIS token, you need the newest Tornado wallet (v0.1.41 or more) with the EthBridge Crystal activated, as pictured above.&lt;/p>
+&lt;p>&lt;a href="https://github.com/bismuthfoundation/TornadoWallet/releases" target="_blank" rel="noopener">Tornado Bismuth Wallet releases&lt;/a>&lt;/p>
+&lt;p>Another version of this help, with more detailed info, can be found on our &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/README.md" target="_blank" rel="noopener">Github Bismuth FAQ&lt;/a>.&lt;/p>
+&lt;h2>The wBIS Token&lt;span class="hx-absolute -hx-mt-20" id="the-wbis-token">&lt;/span>
+&lt;a href="#the-wbis-token" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>wBIS is an ERC-20 ETH Token with 1:1 native BIS counterpart.&lt;/p>
+&lt;ul>
+&lt;li>Chain: ETH Mainnet&lt;/li>
+&lt;li>Contract address: &lt;code>0xf5cB350b40726B5BcF170d12e162B6193b291B41&lt;/code> &lt;a href="https://etherscan.io/token/0xf5cB350b40726B5BcF170d12e162B6193b291B41" target="_blank" rel="noopener">View wBIS on etherscan&lt;/a>&lt;/li>
+&lt;li>Name: Wrapped BIS&lt;/li>
+&lt;li>Decimals: 8 (same as native BIS)&lt;/li>
+&lt;li>Custom logo: &lt;code>https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&lt;/code>
+&lt;img src="https://alias-bitsignal.github.io/images/2021-05-12-wbis125x125.png" alt="" loading="lazy" />&lt;/li>
+&lt;/ul>
+&lt;p>The Eth bridge crystal comes with a one-click button to set up the correct custom token on your metamask extension.&lt;/p>
+&lt;p>The Bridge is decentralized and runs thanks to a custom BIS protocol.
+It relies on Both a bridge and an oracle.&lt;/p>
+&lt;ul>
+&lt;li>BIS Bridge Address: &lt;code>Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m&lt;/code> &lt;a href="https://bismuth.im/search?quicksearch=Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m" target="_blank" rel="noopener">Bridge explorer link&lt;/a>&lt;/li>
+&lt;li>BIS Oracle Address: &lt;code>Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2&lt;/code> &lt;a href="https://bismuth.im/search?quicksearch=Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2" target="_blank" rel="noopener">Oracle explorer link&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>BIS to wBIS&lt;span class="hx-absolute -hx-mt-20" id="bis-to-wbis">&lt;/span>
+&lt;a href="#bis-to-wbis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Send native BIS to the bridge, get wBIS on ETH (same amount less 5 BIS fees)&lt;/p>
+&lt;ul>
+&lt;li>Pick “BIS-&amp;gt;WBIS 1/2” menu – also available from “swaps” page&lt;/li>
+&lt;li>Fill in ETH recipient and amount double check your ETH address, no going back&lt;/li>
+&lt;li>Send the BIS&lt;/li>
+&lt;li>Go to “Swaps” page&lt;/li>
+&lt;li>wait for the BIS confirmations, then for the mint to be signed.
 This can take a while depending on the timing and availability of the signers. Just be patient.
-If your transaction is confirmed on the BIS chain, it will eventually go through.&lt;/li&gt;
-&lt;li&gt;Use the “proxy mint” link to mint your wBIS (auto filled parameters)&lt;/li&gt;
-&lt;li&gt;Your ETH wBIS balance is updated&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Detailed &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/BIS_TO_WBIS_DETAIL.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;step by step guide&lt;/a&gt; with screenshots on Github&lt;/p&gt;
-&lt;h2&gt;wBIS to BIS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;wbis-to-bis&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#wbis-to-bis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Burn wBIS on ETH, get native BIS on BIS chain (same amount less 5 BIS fees)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pick “wBIS-&amp;gt;BIS” menu – also available from “swaps” page&lt;/li&gt;
-&lt;li&gt;Fill in BIS recipient and amount double check your BIS address, no going back&lt;/li&gt;
-&lt;li&gt;Check and adjust gas price&lt;/li&gt;
-&lt;li&gt;Burn the wBIS&lt;/li&gt;
-&lt;li&gt;Wait for the ETH confs, then for the oracle and delivery to be signed.
+If your transaction is confirmed on the BIS chain, it will eventually go through.&lt;/li>
+&lt;li>Use the “proxy mint” link to mint your wBIS (auto filled parameters)&lt;/li>
+&lt;li>Your ETH wBIS balance is updated&lt;/li>
+&lt;/ul>
+&lt;p>Detailed &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/BIS_TO_WBIS_DETAIL.md" target="_blank" rel="noopener">step by step guide&lt;/a> with screenshots on Github&lt;/p>
+&lt;h2>wBIS to BIS&lt;span class="hx-absolute -hx-mt-20" id="wbis-to-bis">&lt;/span>
+&lt;a href="#wbis-to-bis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Burn wBIS on ETH, get native BIS on BIS chain (same amount less 5 BIS fees)&lt;/p>
+&lt;ul>
+&lt;li>Pick “wBIS-&amp;gt;BIS” menu – also available from “swaps” page&lt;/li>
+&lt;li>Fill in BIS recipient and amount double check your BIS address, no going back&lt;/li>
+&lt;li>Check and adjust gas price&lt;/li>
+&lt;li>Burn the wBIS&lt;/li>
+&lt;li>Wait for the ETH confs, then for the oracle and delivery to be signed.
 This can take a while depending on the timing and availability of the signers. Just be patient.
-If your transaction is confirmed on the ETH chain, it will eventually go through.&lt;/li&gt;
-&lt;li&gt;You can go to “Swaps” page to monitor the progress&lt;/li&gt;
-&lt;li&gt;Your BIS balance is updated&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Video walkthrough&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;video-walkthrough&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#video-walkthrough&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/6CdenJJ28N4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-Thanks Damian for the video!&lt;/p&gt;
-&lt;h2&gt;Add liquidity&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;add-liquidity&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#add-liquidity&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once you have wBIS on ETH, you can provide liquidity by binding both $wBIS and $ETH to a liquidity pool. &lt;a href=&#34;https://v2.info.uniswap.org/pair/0xf4f82f8d84c529987201609cecee8ab136a50c8c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS/ETH Pool&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The more volume in the pool, the less the volatility and the more it can be noticed by ETH traders. Everyone is encouraged to contribute to the liquidity pool to support Bismuth. If you’re new to ETH and Uniswap, make sure you read about impermanent loss so you know what you’re doing and what the potential risks are.&lt;/p&gt;
-&lt;h2&gt;Farm wBIS on Unicrypt&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;farm-wbis-on-unicrypt&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#farm-wbis-on-unicrypt&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Unicrypt farm will operate from April 28 2021, you can already stake there. Please check the &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/unicrypt_farming.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS farming guide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Staking on the farm will provide temporary rewards as wBIS.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Nothing in this post is to be considered as financial advice!&lt;/p&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tornado Wallet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Bismuth FAQ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://etherscan.io/token/0xf5cB350b40726B5BcF170d12e162B6193b291B41&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS on etherscan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIS Bridge on Bismuth Explorer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bismuth.im/search?quicksearch=Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oracle on Bismuth Explorer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/BIS_TO_WBIS_DETAIL.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Step by Step Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://v2.info.uniswap.org/pair/0xf4f82f8d84c529987201609cecee8ab136a50c8c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS/ETH Pool&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/unicrypt_farming.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wBIS farming guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+If your transaction is confirmed on the ETH chain, it will eventually go through.&lt;/li>
+&lt;li>You can go to “Swaps” page to monitor the progress&lt;/li>
+&lt;li>Your BIS balance is updated&lt;/li>
+&lt;/ul>
+&lt;h2>Video walkthrough&lt;span class="hx-absolute -hx-mt-20" id="video-walkthrough">&lt;/span>
+&lt;a href="#video-walkthrough" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/6CdenJJ28N4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div>
+Thanks Damian for the video!&lt;/p>
+&lt;h2>Add liquidity&lt;span class="hx-absolute -hx-mt-20" id="add-liquidity">&lt;/span>
+&lt;a href="#add-liquidity" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Once you have wBIS on ETH, you can provide liquidity by binding both $wBIS and $ETH to a liquidity pool. &lt;a href="https://v2.info.uniswap.org/pair/0xf4f82f8d84c529987201609cecee8ab136a50c8c" target="_blank" rel="noopener">wBIS/ETH Pool&lt;/a>.&lt;/p>
+&lt;p>The more volume in the pool, the less the volatility and the more it can be noticed by ETH traders. Everyone is encouraged to contribute to the liquidity pool to support Bismuth. If you’re new to ETH and Uniswap, make sure you read about impermanent loss so you know what you’re doing and what the potential risks are.&lt;/p>
+&lt;h2>Farm wBIS on Unicrypt&lt;span class="hx-absolute -hx-mt-20" id="farm-wbis-on-unicrypt">&lt;/span>
+&lt;a href="#farm-wbis-on-unicrypt" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The Unicrypt farm will operate from April 28 2021, you can already stake there. Please check the &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/unicrypt_farming.md" target="_blank" rel="noopener">wBIS farming guide&lt;/a>.&lt;/p>
+&lt;p>Staking on the farm will provide temporary rewards as wBIS.&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Nothing in this post is to be considered as financial advice!&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/TornadoWallet/releases" target="_blank" rel="noopener">Tornado Wallet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/README.md" target="_blank" rel="noopener">Github Bismuth FAQ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://etherscan.io/token/0xf5cB350b40726B5BcF170d12e162B6193b291B41" target="_blank" rel="noopener">wBIS on etherscan&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bismuth.im/search?quicksearch=Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m" target="_blank" rel="noopener">BIS Bridge on Bismuth Explorer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bismuth.im/search?quicksearch=Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2" target="_blank" rel="noopener">Oracle on Bismuth Explorer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/BIS_TO_WBIS_DETAIL.md" target="_blank" rel="noopener">Step by Step Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://v2.info.uniswap.org/pair/0xf4f82f8d84c529987201609cecee8ab136a50c8c" target="_blank" rel="noopener">wBIS/ETH Pool&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/unicrypt_farming.md" target="_blank" rel="noopener">wBIS farming guide&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

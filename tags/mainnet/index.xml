@@ -1,419 +1,340 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>bismuthcoin.org – Mainnet</title>
-    <link>https://alias-bitsignal.github.io/tags/mainnet/</link>
-    <description>Recent content in Mainnet on bismuthcoin.org</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate>
-    
-	  <atom:link href="https://alias-bitsignal.github.io/tags/mainnet/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Bismuth 2.0 - Official Announcement</title>
-      <link>https://alias-bitsignal.github.io/blog/2021-02-24-bis-2.0/</link>
-      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/blog/2021-02-24-bis-2.0/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-02-24-bis-2.0.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-Late last year, the Bismuth Foundation unveiled “Bismuth2.0”. The reveal was brief, did not go into any detail and the team remained silent on the topic for the following months.&lt;/p&gt;
-&lt;p&gt;We would like to thank everyone for their patience, the time has finally come for the big reveal! Let’s get right into it.&lt;/p&gt;
-&lt;h2&gt;The Basics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-basics&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-basics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;A Refreshed Look&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a-refreshed-look&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#a-refreshed-look&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;As some may have noticed, Bismuth partially “stealth rebranded” in late 2020 shortly after the Bismuth2.0 unveil. It was necessary to have a logo that was professional, but paid respect to the legacy artwork-themed logo for continuity. The new logo retains the same abstract and color scheme of the previous logo, while being much more minimalist and modern. Going into the Bismuth2.0 launch, this will be adopted as the official logo.&lt;/p&gt;
-&lt;h3&gt;Bismuth2.0 Core&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bismuth20-core&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bismuth20-core&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Bismuth originated as a single-file code base. It grew to become a powerful engine after many thousands of updates &amp;amp; code iterations. With Bismuth2.0, it was time to consolidate, organize and clean up to get better control of the code, permit easier maintenance and streamline external work on the code. Regardless of the core overhaul, the new V2 code base will retain full compatibility with legacy nodes. Legacy support may be dropped at one point in the future once Bismuth2.0 has fully transitioned. Below is a summary of the core overhaul.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Core code consolidated, organized and cleaned.&lt;/li&gt;
-&lt;li&gt;Improved documentation for code, structures and custom architecture.&lt;/li&gt;
-&lt;li&gt;Improved functional isolation with help of core modules.&lt;/li&gt;
-&lt;li&gt;Easier to test with both unit tests on core modules as well as end-to-end test using the local regmode.&lt;/li&gt;
-&lt;li&gt;Amounts are now stored under integer format instead of decimals, which allows for a smaller ledger, faster balance queries and no more complex rounding handling.&lt;/li&gt;
-&lt;li&gt;Signatures and public keys are stored as binary instead of hex; meaning that less database space is required.&lt;/li&gt;
-&lt;li&gt;Startup sequence fully reworked with “solo mode” on initiation.&lt;/li&gt;
-&lt;li&gt;More sanity checks at startup.&lt;/li&gt;
-&lt;li&gt;Reorganization and refactoring of code under logical units.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;The move to V2 core spreads across a whopping 246 commits, 142 changed files, 12,142 additions and 4,917 deletions.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;Easier on-boarding&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;easier-on-boarding&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#easier-on-boarding&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The Bismuth mobile wallet – more on that below – and growing support for native Bismuth tokens makes it way easier for everyone to use Bismuth and its little known features.
-As a result, it is also easier to build upon Bismuth, with more and more infrastructure and tools exposing undervalued use cases based upon native tokens or more evolved second layer protocols Bismuth supports thanks to its unique design.&lt;/p&gt;
-&lt;p&gt;Sticking with early goals, we aim to make Bismuth the platform of choice when it comes to learn, play, research and build practical applications with core blockchain concepts and Python.&lt;/p&gt;
-&lt;h3&gt;Marketing and communication&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;marketing-and-communication&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#marketing-and-communication&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Until then, we had hoped the technical documentation, code samples, proof of concept distributed apps (dApps) and monthly progress reports would provide enough matter for other developers and users to fully grasp what we were building, then translate that into more end user oriented content for anyone to understand.&lt;/p&gt;
-&lt;p&gt;This seems to be over-optimistic so the team will, in the future, provide more end-user oriented and practical short content to clearly convey the specifics of Bismuth and the powerful framework it has become. Existing, working, but under-the-radar apps and use cases will also be given some well deserved light.&lt;/p&gt;
-&lt;p&gt;The recent months also saw the emergence of several valuable contributions ranging from third party developers to just users learning.
-This proved how easy Bismuth is to work with. These contributions have been rewarded by the developers fund.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;In order to trigger further similar contributions, more rewards are planned and a list of potential bounties with detailed specifications will be released over the next months.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;Decentralized Finance&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;decentralized-finance&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#decentralized-finance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Decentralized Finance – “DeFi” – has been on the tip of everyone’s tongue over the past year. With a skyrocketing population of individuals growing tired of the world’s financial institutions, the democratization of finance is at its infancy- and the crypto industry is its nurturer. There have been many projects that have already taken the first steps in this space.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;With Bismuth2.0, DeFi functionality built on top of Bismuth becomes a reality.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;Atomic Swaps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;atomic-swaps&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#atomic-swaps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Bismuth was a project written from scratch, and unfortunately was not born with the bells and whistles derived from forked protocols. One of such things is the atomic swap- which is a functionality that enables cross-chain swaps. This particular feature allows an individual to trade a coin from one chain against a coin on a different chain in an almost trustless manner. Bismuth had no simple mechanism to achieve this functionality- until now.&lt;/p&gt;
-&lt;p&gt;A timelock mechanism – a crucial component for atomic swaps – is in the design phase, and will be tested and released once the V2 network is stable.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;With this functionality, cross-chain atomic swaps become a reality.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The atomic swap feature can then also be used with Bismuth sidechains – see below – to further glue the main PoW chain and its derived PoS chains.&lt;/p&gt;
-&lt;h3&gt;Contracts and Scripts&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;contracts-and-scripts&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#contracts-and-scripts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;One strength of Bismuth is its execution model and no need for a virtual machine (VM) in core nodes. Another under-looked feature is Bismuth native support for three different cryptographic schemes: RSA (with large key size) , ECDSA (like BTC or ETH) and the more modern ED25519. In addition to interesting cross-chain potential features, this also opens the door to all the core crypto gimmicks any of these schemes do support like scriptless scripts. Multisigs and threshold signatures for instance are natively supported with no need for any more processing in the node.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Call for projects will be issued to make this usable in practice.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;Wrapped Tokens&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;wrapped-tokens&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#wrapped-tokens&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Bismuth is not new to wrapped tokens. Very early in its history, it was available to trade on HEAT, one of the first DEXs. This was done thanks to a gateway wrapping native $BIS. Later came VITE and its ViteX exchange which listed BIS and there as well, $BIS is wrapped on another chain via a custom gateway.&lt;/p&gt;
-&lt;p&gt;ERC20: Ethereum-based decentralized exchanges have recently surged in popularity, with notable platforms such as Uniswap overtaking major CEXs over the past months. With billions of dollars in on-the-table liquidity, wrapped solutions have been created for currencies built on protocols separate from Ethereum. Currencies such as Bitcoin have had wrappers created (eg; RenBTC, wBTC) to help facilitate trade on ETH-based DEXs.
-A first proof of concept of BIS &amp;lt;&amp;gt; wBIS bridge was run for a limited time by a third party.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The Bismuth Foundation will create and support an official ERC20 Bismuth wrapper to tap into the enormous and growing liquidity available on Uniswap and other Ethereum-based decentralized exchanges.&lt;/strong&gt;
-This will also help Bismuth potentially gain exposure from the tens of thousands of speculators that utilize DEXs on a day-to-day basis.&lt;/p&gt;
-&lt;h3&gt;Oracles&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;oracles&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#oracles&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Oracles are a tool that permit dApps and smart contracts to access off-chain data. In all circumstances, blockchains are isolated and have a very limited exposure to off-chain data. For more complex applications, it is crucial to access data points that would traditionally not be available on-chain; such as pricing data aggregated from an exchange.&lt;/p&gt;
-&lt;p&gt;Ongoing research and specifications- such as EggPool’s “Link Of Trust” will allow Bismuth to support Oracles in a very novel manner, making use of the “Freedom of Interpretation” concept. In addition to Oracles, Link of Trust also addresses concerns such as pseudonymous digital identity, reputation, and pseudo uniqueness. More information on Bismuth Oracles will be published once V2 is stable.&lt;/p&gt;
-&lt;h3&gt;Decentralized Exchange&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;decentralized-exchange&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#decentralized-exchange&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The ERC20 Bismuth wrapper will allow Bismuth to be traded on existing ETH-based DEXs, however with improvements to the plugins protocol, second-layer solutions, and a specific sidechain, Bismuth could also operate its own decentralized exchange with rapid blocktimes, support several blockchains through Bismuth Tokens (bBTC, bETH), and facilitate trade through native liquidity pools or bonding curves.&lt;/p&gt;
-&lt;h3&gt;Sidechains&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;sidechains&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#sidechains&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Sidechains are an extremely novel utility in which network layers can work in tandem but are not limited by one another. A sidechain has existed on Bismuth since 2019, known as the Hypernode Network. This first born sidechain acts as the PoS layer for the Bismuth protocol – embedding network metrics within transactions, which in result are used to compute the weekly Hypernodes rewards. The current Hypernode implementation is in need for pruning as well, which is planned later into the Bismuth2.0 release. As well as a lighter footprint on hardware, the next iteration of Hypernodes will feature further stability, less disk space usage, and far less resource usage.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;As the Bismuth team envisions them, side chains are the definitive answer to scalability, because they allow application level sharding.&lt;/strong&gt;
-As you can see what’s happening with ETH, the most prominent use case of a chain becomes so prevalent it either leads to congestion or insane fees. As a result, lesser valuated apps can no longer be used because the fees are then higher than the provided service’s perceived value. This effectively kills any other dApp running on the platform.&lt;/p&gt;
-&lt;p&gt;With a Bismuth side chain, every application or class of application can run on its own side chain. Loosely coupled to the main PoW chain, and totally independent of the other side chains. Every side chain can have its own transaction format, its own block times, pruning limit and parameters, its own use case and fees structure – if any.
-Every chain runs independently, no matter the potential congestion of its cousin.&lt;/p&gt;
-&lt;p&gt;On the topic of sidechains, the possibilities are limitless when it comes to parallel utilities built on top of the Bismuth protocol. &lt;strong&gt;Sidechains permit Bismuth to be virtually infinitely scalable&lt;/strong&gt;, with the sole limiting factor being available compute resources. Individuals and enterprises alike can build on top of Bismuth while being unbound by the existing constraints of the Bismuth PoW chain through the use of sidechains. The Bismuth Foundation has planned the following sidechains to be constructed on top of the Bismuth protocol:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Data archiving side chain&lt;/li&gt;
-&lt;li&gt;IOT &amp;amp; MQTT sidechain&lt;/li&gt;
-&lt;li&gt;Dedicated FT/NFT sidechain&lt;/li&gt;
-&lt;li&gt;Metadata storage sidechain&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;More sidechains are also envisioned:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Dedicated DEX sidechain, with rapid execution, fast block intervals, and data pruning&lt;/li&gt;
-&lt;li&gt;Dedicated Oracles sidechain&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Side chains are an essential ingredient to the future Bismuth platform growth. They bring the flexibility to build blockchain powered applications with little effort, capitalizing on Bismuth’s experience, existing infrastructure, and toolset.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;Platform Expansion&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;platform-expansion&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#platform-expansion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Bismuth is a from-scratch Python protocol that did not fork code from existing protocols. Therefore when it comes to having mobile and hardware applications, those would have to be built from the ground up to facilitate Bismuth’s architecture. For the Bismuth2.0 release, we have some exciting news in this area.&lt;/p&gt;
-&lt;h3&gt;Mobile Applications&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;mobile-applications&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#mobile-applications&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;There used to be a mobile wallet for Bismuth, developed by Chainzilla- known as the Chameleon wallet. Unfortunately, support was dropped by the original developers and no longer was a viable option. A brand new, open-source and custom built mobile wallet is now available. &lt;strong&gt;This wallet is “one-click” install on Android and coming to iOS, which is huge in regards to on-boarding non-tech savvy individuals&lt;/strong&gt;. You can refer to the related article there.&lt;/p&gt;
-&lt;p&gt;The Bismuth mobile wallet has integrated support for native tokens, and is dApp ready: it comes with BisUrl support – a way to convey all data about a transaction into a reliable format, as well as “operation” and “data” support, making the mobile wallet an universal tool to interact with any second layer protocol.&lt;/p&gt;
-&lt;h3&gt;Hardware Devices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;hardware-devices&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#hardware-devices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A third-party development team is currently working on a hardware wallet device. The design of this wallet addresses most of the issues other hardware wallets face, including price, privacy and plausible deniability.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Mainnet</title><link>https://alias-bitsignal.github.io/tags/mainnet/</link><description>Recent content in Mainnet on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/mainnet/index.xml" rel="self" type="application/rss+xml"/><item><title>Bismuth 2.0 - Official Announcement</title><link>https://alias-bitsignal.github.io/blog/2021-02-24-bis-2.0/</link><pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-02-24-bis-2.0/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-02-24-bis-2.0.png" alt="" loading="lazy" />
+Late last year, the Bismuth Foundation unveiled “Bismuth2.0”. The reveal was brief, did not go into any detail and the team remained silent on the topic for the following months.&lt;/p>
+&lt;p>We would like to thank everyone for their patience, the time has finally come for the big reveal! Let’s get right into it.&lt;/p>
+&lt;h2>The Basics&lt;span class="hx-absolute -hx-mt-20" id="the-basics">&lt;/span>
+&lt;a href="#the-basics" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>A Refreshed Look&lt;span class="hx-absolute -hx-mt-20" id="a-refreshed-look">&lt;/span>
+&lt;a href="#a-refreshed-look" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>As some may have noticed, Bismuth partially “stealth rebranded” in late 2020 shortly after the Bismuth2.0 unveil. It was necessary to have a logo that was professional, but paid respect to the legacy artwork-themed logo for continuity. The new logo retains the same abstract and color scheme of the previous logo, while being much more minimalist and modern. Going into the Bismuth2.0 launch, this will be adopted as the official logo.&lt;/p>
+&lt;h3>Bismuth2.0 Core&lt;span class="hx-absolute -hx-mt-20" id="bismuth20-core">&lt;/span>
+&lt;a href="#bismuth20-core" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Bismuth originated as a single-file code base. It grew to become a powerful engine after many thousands of updates &amp;amp; code iterations. With Bismuth2.0, it was time to consolidate, organize and clean up to get better control of the code, permit easier maintenance and streamline external work on the code. Regardless of the core overhaul, the new V2 code base will retain full compatibility with legacy nodes. Legacy support may be dropped at one point in the future once Bismuth2.0 has fully transitioned. Below is a summary of the core overhaul.&lt;/p>
+&lt;ul>
+&lt;li>Core code consolidated, organized and cleaned.&lt;/li>
+&lt;li>Improved documentation for code, structures and custom architecture.&lt;/li>
+&lt;li>Improved functional isolation with help of core modules.&lt;/li>
+&lt;li>Easier to test with both unit tests on core modules as well as end-to-end test using the local regmode.&lt;/li>
+&lt;li>Amounts are now stored under integer format instead of decimals, which allows for a smaller ledger, faster balance queries and no more complex rounding handling.&lt;/li>
+&lt;li>Signatures and public keys are stored as binary instead of hex; meaning that less database space is required.&lt;/li>
+&lt;li>Startup sequence fully reworked with “solo mode” on initiation.&lt;/li>
+&lt;li>More sanity checks at startup.&lt;/li>
+&lt;li>Reorganization and refactoring of code under logical units.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>The move to V2 core spreads across a whopping 246 commits, 142 changed files, 12,142 additions and 4,917 deletions.&lt;/strong>&lt;/p>
+&lt;h3>Easier on-boarding&lt;span class="hx-absolute -hx-mt-20" id="easier-on-boarding">&lt;/span>
+&lt;a href="#easier-on-boarding" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Bismuth mobile wallet – more on that below – and growing support for native Bismuth tokens makes it way easier for everyone to use Bismuth and its little known features.
+As a result, it is also easier to build upon Bismuth, with more and more infrastructure and tools exposing undervalued use cases based upon native tokens or more evolved second layer protocols Bismuth supports thanks to its unique design.&lt;/p>
+&lt;p>Sticking with early goals, we aim to make Bismuth the platform of choice when it comes to learn, play, research and build practical applications with core blockchain concepts and Python.&lt;/p>
+&lt;h3>Marketing and communication&lt;span class="hx-absolute -hx-mt-20" id="marketing-and-communication">&lt;/span>
+&lt;a href="#marketing-and-communication" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Until then, we had hoped the technical documentation, code samples, proof of concept distributed apps (dApps) and monthly progress reports would provide enough matter for other developers and users to fully grasp what we were building, then translate that into more end user oriented content for anyone to understand.&lt;/p>
+&lt;p>This seems to be over-optimistic so the team will, in the future, provide more end-user oriented and practical short content to clearly convey the specifics of Bismuth and the powerful framework it has become. Existing, working, but under-the-radar apps and use cases will also be given some well deserved light.&lt;/p>
+&lt;p>The recent months also saw the emergence of several valuable contributions ranging from third party developers to just users learning.
+This proved how easy Bismuth is to work with. These contributions have been rewarded by the developers fund.&lt;/p>
+&lt;p>&lt;strong>In order to trigger further similar contributions, more rewards are planned and a list of potential bounties with detailed specifications will be released over the next months.&lt;/strong>&lt;/p>
+&lt;h3>Decentralized Finance&lt;span class="hx-absolute -hx-mt-20" id="decentralized-finance">&lt;/span>
+&lt;a href="#decentralized-finance" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Decentralized Finance – “DeFi” – has been on the tip of everyone’s tongue over the past year. With a skyrocketing population of individuals growing tired of the world’s financial institutions, the democratization of finance is at its infancy- and the crypto industry is its nurturer. There have been many projects that have already taken the first steps in this space.&lt;/p>
+&lt;p>&lt;strong>With Bismuth2.0, DeFi functionality built on top of Bismuth becomes a reality.&lt;/strong>&lt;/p>
+&lt;h3>Atomic Swaps&lt;span class="hx-absolute -hx-mt-20" id="atomic-swaps">&lt;/span>
+&lt;a href="#atomic-swaps" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Bismuth was a project written from scratch, and unfortunately was not born with the bells and whistles derived from forked protocols. One of such things is the atomic swap- which is a functionality that enables cross-chain swaps. This particular feature allows an individual to trade a coin from one chain against a coin on a different chain in an almost trustless manner. Bismuth had no simple mechanism to achieve this functionality- until now.&lt;/p>
+&lt;p>A timelock mechanism – a crucial component for atomic swaps – is in the design phase, and will be tested and released once the V2 network is stable.&lt;/p>
+&lt;p>&lt;strong>With this functionality, cross-chain atomic swaps become a reality.&lt;/strong>&lt;/p>
+&lt;p>The atomic swap feature can then also be used with Bismuth sidechains – see below – to further glue the main PoW chain and its derived PoS chains.&lt;/p>
+&lt;h3>Contracts and Scripts&lt;span class="hx-absolute -hx-mt-20" id="contracts-and-scripts">&lt;/span>
+&lt;a href="#contracts-and-scripts" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>One strength of Bismuth is its execution model and no need for a virtual machine (VM) in core nodes. Another under-looked feature is Bismuth native support for three different cryptographic schemes: RSA (with large key size) , ECDSA (like BTC or ETH) and the more modern ED25519. In addition to interesting cross-chain potential features, this also opens the door to all the core crypto gimmicks any of these schemes do support like scriptless scripts. Multisigs and threshold signatures for instance are natively supported with no need for any more processing in the node.&lt;/p>
+&lt;p>&lt;strong>Call for projects will be issued to make this usable in practice.&lt;/strong>&lt;/p>
+&lt;h3>Wrapped Tokens&lt;span class="hx-absolute -hx-mt-20" id="wrapped-tokens">&lt;/span>
+&lt;a href="#wrapped-tokens" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Bismuth is not new to wrapped tokens. Very early in its history, it was available to trade on HEAT, one of the first DEXs. This was done thanks to a gateway wrapping native $BIS. Later came VITE and its ViteX exchange which listed BIS and there as well, $BIS is wrapped on another chain via a custom gateway.&lt;/p>
+&lt;p>ERC20: Ethereum-based decentralized exchanges have recently surged in popularity, with notable platforms such as Uniswap overtaking major CEXs over the past months. With billions of dollars in on-the-table liquidity, wrapped solutions have been created for currencies built on protocols separate from Ethereum. Currencies such as Bitcoin have had wrappers created (eg; RenBTC, wBTC) to help facilitate trade on ETH-based DEXs.
+A first proof of concept of BIS &amp;lt;&amp;gt; wBIS bridge was run for a limited time by a third party.&lt;/p>
+&lt;p>&lt;strong>The Bismuth Foundation will create and support an official ERC20 Bismuth wrapper to tap into the enormous and growing liquidity available on Uniswap and other Ethereum-based decentralized exchanges.&lt;/strong>
+This will also help Bismuth potentially gain exposure from the tens of thousands of speculators that utilize DEXs on a day-to-day basis.&lt;/p>
+&lt;h3>Oracles&lt;span class="hx-absolute -hx-mt-20" id="oracles">&lt;/span>
+&lt;a href="#oracles" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Oracles are a tool that permit dApps and smart contracts to access off-chain data. In all circumstances, blockchains are isolated and have a very limited exposure to off-chain data. For more complex applications, it is crucial to access data points that would traditionally not be available on-chain; such as pricing data aggregated from an exchange.&lt;/p>
+&lt;p>Ongoing research and specifications- such as EggPool’s “Link Of Trust” will allow Bismuth to support Oracles in a very novel manner, making use of the “Freedom of Interpretation” concept. In addition to Oracles, Link of Trust also addresses concerns such as pseudonymous digital identity, reputation, and pseudo uniqueness. More information on Bismuth Oracles will be published once V2 is stable.&lt;/p>
+&lt;h3>Decentralized Exchange&lt;span class="hx-absolute -hx-mt-20" id="decentralized-exchange">&lt;/span>
+&lt;a href="#decentralized-exchange" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The ERC20 Bismuth wrapper will allow Bismuth to be traded on existing ETH-based DEXs, however with improvements to the plugins protocol, second-layer solutions, and a specific sidechain, Bismuth could also operate its own decentralized exchange with rapid blocktimes, support several blockchains through Bismuth Tokens (bBTC, bETH), and facilitate trade through native liquidity pools or bonding curves.&lt;/p>
+&lt;h3>Sidechains&lt;span class="hx-absolute -hx-mt-20" id="sidechains">&lt;/span>
+&lt;a href="#sidechains" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Sidechains are an extremely novel utility in which network layers can work in tandem but are not limited by one another. A sidechain has existed on Bismuth since 2019, known as the Hypernode Network. This first born sidechain acts as the PoS layer for the Bismuth protocol – embedding network metrics within transactions, which in result are used to compute the weekly Hypernodes rewards. The current Hypernode implementation is in need for pruning as well, which is planned later into the Bismuth2.0 release. As well as a lighter footprint on hardware, the next iteration of Hypernodes will feature further stability, less disk space usage, and far less resource usage.&lt;/p>
+&lt;p>&lt;strong>As the Bismuth team envisions them, side chains are the definitive answer to scalability, because they allow application level sharding.&lt;/strong>
+As you can see what’s happening with ETH, the most prominent use case of a chain becomes so prevalent it either leads to congestion or insane fees. As a result, lesser valuated apps can no longer be used because the fees are then higher than the provided service’s perceived value. This effectively kills any other dApp running on the platform.&lt;/p>
+&lt;p>With a Bismuth side chain, every application or class of application can run on its own side chain. Loosely coupled to the main PoW chain, and totally independent of the other side chains. Every side chain can have its own transaction format, its own block times, pruning limit and parameters, its own use case and fees structure – if any.
+Every chain runs independently, no matter the potential congestion of its cousin.&lt;/p>
+&lt;p>On the topic of sidechains, the possibilities are limitless when it comes to parallel utilities built on top of the Bismuth protocol. &lt;strong>Sidechains permit Bismuth to be virtually infinitely scalable&lt;/strong>, with the sole limiting factor being available compute resources. Individuals and enterprises alike can build on top of Bismuth while being unbound by the existing constraints of the Bismuth PoW chain through the use of sidechains. The Bismuth Foundation has planned the following sidechains to be constructed on top of the Bismuth protocol:&lt;/p>
+&lt;ul>
+&lt;li>Data archiving side chain&lt;/li>
+&lt;li>IOT &amp;amp; MQTT sidechain&lt;/li>
+&lt;li>Dedicated FT/NFT sidechain&lt;/li>
+&lt;li>Metadata storage sidechain&lt;/li>
+&lt;/ul>
+&lt;p>More sidechains are also envisioned:&lt;/p>
+&lt;ul>
+&lt;li>Dedicated DEX sidechain, with rapid execution, fast block intervals, and data pruning&lt;/li>
+&lt;li>Dedicated Oracles sidechain&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Side chains are an essential ingredient to the future Bismuth platform growth. They bring the flexibility to build blockchain powered applications with little effort, capitalizing on Bismuth’s experience, existing infrastructure, and toolset.&lt;/strong>&lt;/p>
+&lt;h3>Platform Expansion&lt;span class="hx-absolute -hx-mt-20" id="platform-expansion">&lt;/span>
+&lt;a href="#platform-expansion" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Bismuth is a from-scratch Python protocol that did not fork code from existing protocols. Therefore when it comes to having mobile and hardware applications, those would have to be built from the ground up to facilitate Bismuth’s architecture. For the Bismuth2.0 release, we have some exciting news in this area.&lt;/p>
+&lt;h3>Mobile Applications&lt;span class="hx-absolute -hx-mt-20" id="mobile-applications">&lt;/span>
+&lt;a href="#mobile-applications" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>There used to be a mobile wallet for Bismuth, developed by Chainzilla- known as the Chameleon wallet. Unfortunately, support was dropped by the original developers and no longer was a viable option. A brand new, open-source and custom built mobile wallet is now available. &lt;strong>This wallet is “one-click” install on Android and coming to iOS, which is huge in regards to on-boarding non-tech savvy individuals&lt;/strong>. You can refer to the related article there.&lt;/p>
+&lt;p>The Bismuth mobile wallet has integrated support for native tokens, and is dApp ready: it comes with BisUrl support – a way to convey all data about a transaction into a reliable format, as well as “operation” and “data” support, making the mobile wallet an universal tool to interact with any second layer protocol.&lt;/p>
+&lt;h3>Hardware Devices&lt;span class="hx-absolute -hx-mt-20" id="hardware-devices">&lt;/span>
+&lt;a href="#hardware-devices" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>A third-party development team is currently working on a hardware wallet device. The design of this wallet addresses most of the issues other hardware wallets face, including price, privacy and plausible deniability.
 This device will support signing of BIS transactions but also paves the way to more use cases, like sign-in and secure off-chain authentication.
-&lt;strong&gt;We are extremely pleased to announce that this will be cheap, open-source, and based on largely available hardware and Python code&lt;/strong&gt;. Integration with Ledger devices is also in the research stage.&lt;/p&gt;
-&lt;h3&gt;Closing Thoughts&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;closing-thoughts&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#closing-thoughts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Bismuth has been in constant, non-stop development by the Bismuth Foundation – a team of dedicated individuals that have gone above and beyond the call of duty to maintain and upgrade Bismuth until this day. This effort has never wavered – the team is as active as ever, with huge things happening behind the scenes. Bismuth’s custom code base and architecture means that adoption and integration is not as immediate as most tokens and forks. However this in a way is not an obstacle – &lt;strong&gt;Bismuth does not have the limitations of most cryptocurrencies that are constructed on existing architecture fathered by Bitcoin or Ethereum&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Progress is being made- and with great speed. Until recently Bismuth native tokens were a little known feature of the legacy wallet, with little documentation nor use. Only just recently have we seen massive changes in this area:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Full token support on the browser-based Tornado wallet.&lt;/li&gt;
-&lt;li&gt;Dedicated tokens explorer.&lt;/li&gt;
-&lt;li&gt;Tokens support on Discord, via the Discord Pawer bot.&lt;/li&gt;
-&lt;li&gt;Mobile wallet, with full tokens and generic protocol support.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Native Bismuth tokens are now as easy to use as the core Bismuth coin, and usage can now be much more widespread for end-user cases. &lt;strong&gt;Much more use-cases for tokens will come to life over the coming months&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Unaffected by the ever changing hype and meaningless trends that come and go, the Bismuth team kept its focus on strengthening the core and basic building blocks of a wide ecosystem, with real and practical use cases as the end goal.&lt;/p&gt;
-&lt;p&gt;We have had applications built on top of Bismuth, such as the Bismuth Tesla EV battery life dApp, and Phone battery monitor. With Elon Musk’s recent and loud entry into the crypto industry, we are hoping to capitalize on the momentum and help give these tech-oriented dApps some much-needed exposure. The use-cases are limitless when it comes to utilitarian development on top of Bismuth. This is further compounded by the fact that all code can be written in the world’s most popular and fastest growing programming language, Python.&lt;/p&gt;
-&lt;p&gt;A global overview of the Bismuth 2.0 Roadmap will be released in the next weeks and will be followed by detailed insights of the various sections.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The crypto industry is moving at a rapid pace, and the upcoming 2.0 launch will enable Bismuth to capitalize on this. It is now easier for the core development team to add new functions and features on a stable codebase, extend the building blocks and support practical, real world use-cases&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;We would like to thank the loyal Bismuth community for their support over the years.&lt;/p&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bismuthplatform.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official Website&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bismuth.im&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Explorer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://xeggex.com/market/BIS_USDT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crypto Exchange&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coingecko.com/en/coins/bismuth&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Coingecko&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://coinmarketcap.com/currencies/bismuth/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Coinmarketcap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/blog&#34; &gt;Bismuth Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Bismuth Hard Fork</title>
-      <link>https://alias-bitsignal.github.io/blog/2019-11-19-hardfork/</link>
-      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/blog/2019-11-19-hardfork/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-11-19-hardfork.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-During November 2019 the Bismuth community went with the first governance vote, about supply emission. The issue was overwhelming votes for a fork to support a supply reduction.&lt;/p&gt;
-&lt;p&gt;If you missed it, you can find the &lt;a href=&#34;https://alias-bitsignal.github.io/blog/2019-11-06-governance-vote/&#34; &gt;link here&lt;/a&gt;. Since then, the team worked hard to implement the change and release a stable version, now out.
-Questions and answers regarding this fork have been divided into three categories- Regular users, Hypernode owners, and miners.&lt;/p&gt;
-&lt;h2&gt;Bismuth Hard Fork at block 1,450,000 – Nov 26.&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bismuth-hard-fork-at-block-1450000--nov-26&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bismuth-hard-fork-at-block-1450000--nov-26&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Hard Fork FAQ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;hard-fork-faq&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#hard-fork-faq&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;General Questions&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;general-questions&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#general-questions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Can you explain why there will be a hard fork?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; A hard fork was scheduled in response to the first Bismuth community vote. It’s the result of a democratic process that showed significant involvement from the Bismuth community.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; When is the Hard Fork taking place?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; The HF will occur at block 1,450,000, roughly on November 26.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;Regular Users&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;regular-users&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#regular-users&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Do I have to DO anything? New wallet? No swapping BS or anything, right?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Regular wallet owners can optionally upgrade; however, it is not necessary. It will continue to work. Mandatory upgrades apply only to node and Hypernode owners. There is no swap.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Is it still OK to use the old wallet, or should I upgrade to Tornado?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; The “old” (Legacy) wallet remains compatible and usable. You don’t have to worry about the wallet. Yours will continue to work. As a user, the only critical responsibility is to securely back up your wallet.der/json file, containing your private key(s).&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Can you summarize the current daily emission and what it will be after the hard fork?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; See the emission curve and blog post &lt;a href=&#34;https://alias-bitsignal.github.io/blog/2019-11-06-governance-vote/&#34; &gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; What will be the new total BIS supply?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; By 2032, at block height 8,000,000, the total BIS supply will reach 49.3 million BIS, compared to 63.5 million BIS under the previous emissions curve. Thus, the supply will decrease by more than 14 million BIS over the next 13 years. After 2032, the supply will slowly increase (less than 2% annually) to account for lost wallets and maintain incentives for miners and Hypernode operators.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Can you see a scenario where the chain splits in two?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Every hard fork technically involves a chain split; however, the legacy chain typically dies off due to lack of support. Miners, exchanges, and the economic majority support the v4.4.0 hard fork proposal, so there&amp;rsquo;s no need to worry about a competing legacy chain.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Have you informed exchanges to avoid any trading halt, as happened previously?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; All partners, exchanges, service operators, and pools have been informed. All recent forks proceeded smoothly without trading halts.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;Hypernode and Node Owners&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;hypernode-and-node-owners&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#hypernode-and-node-owners&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; After the hard fork, how can I re-operate my Hypernode? Will I need to do anything with my HN?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Every Hypernode relies on a local Node to operate. Hypernodes using version 0.0.99i5 don&amp;rsquo;t need updating, but the local BIS node does. It’s mandatory to upgrade your node to the latest release &lt;strong&gt;BEFORE&lt;/strong&gt; the fork. &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Node Releases&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Will there be a Hypernode update tutorial before the hard fork?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Yes. We&amp;rsquo;ve updated our easy-to-use update script, covering common scenarios:&lt;/p&gt;
-&lt;p&gt;Run the following commands in your Hypernode terminal:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rm hn_node_update.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://raw.githubusercontent.com/bismuthfoundation/util/master/hn_node_update.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python3 hn_node_update.py&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;The script requires Python 3.7 and will prompt you about missing packages if needed. For feedback, visit the &lt;a href=&#34;https://discord.gg/4tB3pYJ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discord #hypernodes channel&lt;/a&gt;. Additional manual update instructions can be found &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/Hypernodes_Upgrade_0-0-99.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; What will be the new annual yield for running a BIS Hypernode after the fork?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Yield depends on the number of Hypernode operators. If total collateral remains stable, the yield will initially stay around 20%, aligning with a 19.4% inflation rate. Hypernode owners will no longer experience dilution post-fork. In the second year, inflation will drop below 15%, potentially leading to net positive income after inflation.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; What if I don’t upgrade in time?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; All other BIS nodes will curse then ban you. Immediate upgrading is essential, both for the network&amp;rsquo;s health and your rewards.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;Miners&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;miners&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#miners&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Do I have anything to do?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; No action is required. Pools will update automatically, and mining software doesn&amp;rsquo;t need upgrading. You can continue mining as before.&lt;/p&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/pytransitions/transitions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - Pyrtransitions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/pgularski/pysm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - Prysm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Finite-state_machine&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia - Finite State Machine&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/pytransitions/transitions-gui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - Transitions GUI&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Bismuth Governance Shift - Part 2</title>
-      <link>https://alias-bitsignal.github.io/blog/2019-08-30-governance-shift-part_2/</link>
-      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/blog/2019-08-30-governance-shift-part_2/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-08-30-governance-shift-part_2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;Preamble&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;preamble&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#preamble&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In the previous post, the governance shift that is to take place with Bismuth was introduced, and the ETH voting protocol was examined. It was shown that this protocol does come with several issues that could be important flaws in the Bismuth context.&lt;/p&gt;
-&lt;h3&gt;Issues with the ETH voting protocol&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;issues-with-the-eth-voting-protocol&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#issues-with-the-eth-voting-protocol&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;There is nothing at stake. You do not directly win or lose anything by voting (just some gas)&lt;/li&gt;
-&lt;li&gt;Exchanges as well as shared services, dev funds, and founders have a huge voting power&lt;/li&gt;
-&lt;li&gt;The holders are by definition the ones getting the most votes, so the issue is likely to be in favor of the holders group, and potentially detrimental to others and the coin in general.&lt;/li&gt;
-&lt;li&gt;Since the votes are public, it allows for any kind of psychological manipulation by influence groups. You could pretend to vote for the other group, so other users are not incited to vote as it appears there is a clear winner. Then swap votes at the very last moment. Influence groups can play mind games.&lt;/li&gt;
-&lt;li&gt;You do not vote “your best”, you just vote enough so your group wins.&lt;/li&gt;
-&lt;li&gt;You can bribe big balances who do not care to vote for your group, they have nothing to lose, so why not take the bribe and vote?&lt;/li&gt;
-&lt;li&gt;Many users could also be bribed to vote against their long term interest: they would get the bribe right now, and have nothing immediate to lose.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In the case of Bismuth, mean exchanges – including Cryptopia’s inactive wallet – or one entity – including the core team – could vote and have chances to impose their own decisions.&lt;/p&gt;
-&lt;h3&gt;An alternate voting protocol&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;an-alternate-voting-protocol&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#an-alternate-voting-protocol&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Now comes a description of the Bismuth Governance Voting Model (BGVM). The goal is to have voters put their money where their mouth is. With this protocol:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;You only vote for something you really want to happen.&lt;/li&gt;
-&lt;li&gt;You do take risks, you have to show your motivation. Your vote is not an empty word, the core team is not the only one wetting the shirt.&lt;/li&gt;
-&lt;li&gt;Every category has a similar weight and cost to vote. Big balances are not over-represented.&lt;/li&gt;
-&lt;li&gt;Still, the richest wallets can have the most weight, and are also the ones benefiting from a higher future price.&lt;/li&gt;
-&lt;li&gt;You help finance the project you voted for.&lt;/li&gt;
-&lt;li&gt;There is no bribe advantage.&lt;/li&gt;
-&lt;li&gt;If you lose, you can still be happy.&lt;/li&gt;
-&lt;li&gt;There is no possible mind games nor manipulation until the vote is over.&lt;/li&gt;
-&lt;li&gt;The voters involvement is known in real time&lt;/li&gt;
-&lt;li&gt;The issue of the vote is secret until it is finished.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;«Bismuth defines a new voting protocol: users have to put their money where their mouth is. Involvement is known in real time but the issue of the vote is secret until over! Good idea?» &lt;a href=&#34;https://x.com/intent/tweet?text=%23Bismuth%20defines%20a%20new%20voting%20protocol:%20users%20have%20to%20put%20their%20money%20where%20their%20mouth%20is.%20Involvement%20is%20known%20in%20real%20time%20but%20the%20issue%20of%20the%20vote%20is%20secret%20until%20over!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click to tweet&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;The protocol&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-protocol&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-protocol&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The public interface of the protocol is as follows:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A motion is proposed, with 2 or more options.&lt;/li&gt;
-&lt;li&gt;You vote by sending $BIS + data to the vote address. The amount you send is public, whereas data (your vote) is encrypted and private.&lt;/li&gt;
-&lt;li&gt;The $BIS you send are your voting weight. Their use – should the motion pass – are stated in the motion.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;Options:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;options&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#options&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;You can issue several voting transactions, so you can increase your weight during the voting period.&lt;/li&gt;
-&lt;li&gt;you can invert a previous transaction vote (but not cancel it) should you change your mind.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Once the voting period is finished:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Votes – and related flips – are revealed.&lt;/li&gt;
-&lt;li&gt;If you do not reveal your vote, it cannot be counted, and you do not get your money back.&lt;/li&gt;
-&lt;li&gt;Losers get their $BIS back (less transaction fees).&lt;/li&gt;
-&lt;li&gt;In the winners’ case, their $BIS go into a community fund to be used as stated by the motion.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Pros&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;pros&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#pros&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;There is no need to bribe people, you would have to bribe them more than by voting yourself.&lt;/li&gt;
-&lt;li&gt;There will be no mind games, the issue is totally opaque until the end. Even the core team does not have access to the results before votes are revealed.&lt;/li&gt;
-&lt;li&gt;You take risks, and only vote for what you really want, because if this happens, your $BIS vote will be used to build it.&lt;/li&gt;
-&lt;li&gt;There is no incentive in voting for the other side, since if it wins, you lose your tokens.&lt;/li&gt;
-&lt;li&gt;Trolls and fudders have no voice, no leverage. Only final $BIS votes count, once revealed.&lt;/li&gt;
-&lt;li&gt;It’s safer for big holders with funds in cold wallet: you don’t have to move your cold funds out to vote. Just vote what you want.&lt;/li&gt;
-&lt;li&gt;Involvement (total amount of $BIS) is known in real time.&lt;/li&gt;
-&lt;li&gt;No need to run a balance vote on one side, then a miner vote by block signaling on the other side: everyone votes with the same protocol, the same unit.&lt;/li&gt;
-&lt;li&gt;You know what the minimum proposal budget will be (at worse, 50.01% of the votes for a vote with 2 options).&lt;/li&gt;
-&lt;li&gt;Every group has the same voting cost/power. Holders do not have more power than miners because they have a higher balance. What everyone bets for is what they risk, should they win. If the miners’ group want to overrule the holders, they do not need to have as much balance as the holders, they just need to vote as much as them.&lt;/li&gt;
-&lt;li&gt;The amount you vote reflects your belief and involvement in the proposal you vote for, and what you are willing to contribute to see it succeed.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;«Contrary to the Carbonvote process, the #Bismuth “blind” voting protocol renders the vote immune to bribery attacks, and forces users to vote for the long term success of the project. Read more: » &lt;a href=&#34;https://x.com/intent/tweet?text=Contrary%20to%20the%20Carbonvote%20process,%20the%20%23Bismuth%20%27blind%27%20voting%20protocol%20renders%20the%20vote%20immune%20to%20bribery%20attacks,%20and%20forces%20users%20to%20vote%20for%20the%20long%20term%20success%20of%20the%20project.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click to tweet&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;Conclusion&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;conclusion&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#conclusion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The “blind auction” introduced by the innovative and new BGVM avoids the pitfalls of more common voting and blockchain governance mechanisms seen to date. The protocol protects the project’s global interest by allowing everyone to be represented in a fair manner and forces voters to vote for what they really want in the long term, and not for what would give them the most short term advantage.
-The vote issue is an Oracle whose value is only known once the decision is immutable.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;«The new #Bismuth voting protocol merges carbonvoting and block signaling into a single process where every actor votes with the same process and unit for a fair vote that can not be bribed nor manipulated. Read more: » &lt;a href=&#34;https://x.com/intent/tweet?text=The%20new%20%23Bismuth%20voting%20protocol%20merges%20carbonvoting%20and%20block%20signaling%20into%20a%20single%20process%20where%20every%20actor%20votes%20with%20the%20same%20process%20and%20unit%20for%20a%20fair%20vote%20that%20can%20not%20be%20bribed%20nor%20manipulated.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click to tweet&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/basic-syntax/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown Syntax&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/formats/#markdown&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Markdown&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Bismuth Governance Shift - Part 1</title>
-      <link>https://alias-bitsignal.github.io/blog/2019-08-29-governance-shift-part_1/</link>
-      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/blog/2019-08-29-governance-shift-part_1/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-08-29-governance-shift-part_1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-During the first two and a half years of the Bismuth blockchain project, important governance actions have been decided by the group of foundation members. Now the core team finds it is time to involve the community deeper into governance questions, and make more use of community feedback.&lt;/p&gt;
-&lt;p&gt;The Bismuth project has had a very active Discord community since the beginning, and it is seen as a very valuable resource for the project and it makes sense to consult the community more than in the past for input on important decisions. Therefore, the foundation members have decided to introduce a shift in the governance, by letting the stakeholders involved vote on important decisions concerning the future of the project.&lt;/p&gt;
-&lt;p&gt;Discord alone however can’t be seen as a source of actionable feedback:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Not everyone is active there.&lt;/li&gt;
-&lt;li&gt;Some voices do flood day after day with the same suggestions (count as one, no matter how many times you repeat yourself).&lt;/li&gt;
-&lt;li&gt;Not all suggestions are well presented and actionable.&lt;/li&gt;
-&lt;li&gt;You can’t map a discord user to a Bismuth User (unless some flavor or KYC or associated wallets with Discord ids).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Twitter polls are also totally un-trustable:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Like with Discord, you do not reach everyone.&lt;/li&gt;
-&lt;li&gt;You can’t map a Twitter user to a Bismuth user (unless KYC/ de-pseudonymization).&lt;/li&gt;
-&lt;li&gt;Twitter polls are easily manipulable, there are plenty of services to buy votes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;So, the core team came to realize that if Discord is ok to gather some feedback and proposals, if everyone’s voice is to be heard and a decision in the common interest is to be taken, the voting process has to go further than that.&lt;/p&gt;
-&lt;p&gt;Until then, the Bismuth team was the only responsible entity for core changes, like the introduction of the Hypernodes and related rewards, and later on, the move of some part of the mining reward toward Hypernodes. The Team always had in mind the long term success of the project, and took every class of user point of view into account before deciding: investors, miners, devs, etc.&lt;/p&gt;
-&lt;p&gt;Now, the core team feels that the time has come to let users hold their responsibilities and take the decision for everyone’s best interest, via a voting process. The team would prepare options to vote upon, the users will decide, the team will take action based on the final voting results.&lt;/p&gt;
-&lt;h3&gt;The first vote in Bismuth History&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-first-vote-in-bismuth-history&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-first-vote-in-bismuth-history&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If you are familiar with the discord, you cannot avoid the economists lobbying for a supply modification.&lt;/p&gt;
-&lt;p&gt;The latest fork (&lt;a href=&#34;https://alias-bitsignal.github.io/blog/2019-05-17-hard-fork-v4.3.0.0/&#34; &gt;see here&lt;/a&gt;) was tailored to account for increased services to be provided by the Hypernodes, while not raising the dilution. It already went in the direction of reducing miner rewards. Currently the most vocal suggestions aim to address the dropping price concern, and are to significantly reduce the supply by cutting the emission: that is both block rewards and HN rewards.&lt;/p&gt;
-&lt;p&gt;The team ran simulations, examined the available data but still it is not clear what the global implications can be, nor how action or inaction would be welcome by the users and the markets. The problem really is complex with implications at the ethical, economical level, involving the equilibrium of the whole system. The more you dig, the more it appears complex.&lt;/p&gt;
-&lt;p&gt;It looks like it is the perfect case where a community vote is needed and will make sense.&lt;/p&gt;
-&lt;p&gt;A voting process can be an equally daunting task, because blockchain based voting is tricky and dangerous. The difficulty is two fold:&lt;/p&gt;
-&lt;h3&gt;A – What is “one” vote?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a--what-is-one-vote&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#a--what-is-one-vote&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Blockchains usually are non-KYC (Know Your Customer) and anonymous or pseudonymous. One user can have many addresses. Some do require KYC (Like Tezos), that’s a road the core team does not want to take. So you never can map one vote to one user. Even if you could, voters could be bribed.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Is a vote one address?&lt;/li&gt;
-&lt;li&gt;One coin?&lt;/li&gt;
-&lt;li&gt;One IP address?&lt;/li&gt;
-&lt;li&gt;One hash unit? In any case, you could pretend you have several voices when all are yours.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;B – Will I vote for the best common interest?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;b--will-i-vote-for-the-best-common-interest&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#b--will-i-vote-for-the-best-common-interest&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In a blockchain context, you can have several classes of people with different objectives. For Bismuth for instance, a Proof-of-Work (PoW) utility token, you can think of:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The miners.&lt;/li&gt;
-&lt;li&gt;The holders.&lt;/li&gt;
-&lt;li&gt;The dApps developers.&lt;/li&gt;
-&lt;li&gt;The core foundation team.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Each of these classes can have a different egoistic goal when speaking of chain governance. Just as a quick illustration, miners would like higher fees or block rewards, holders want less dilution and more marketing, dapps developers want low fees and fast blocks, core team wants the token to go mainstream, be secure and used in the real world.&lt;/p&gt;
-&lt;p&gt;Game theory shows that this can lead to votes that are counter productive for the chain as a whole (see “tragedy of the commons“, this is somehow related).&lt;/p&gt;
-&lt;h3&gt;Ethereum Case – Carbonvote&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ethereum-case--carbonvote&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#ethereum-case--carbonvote&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Before presenting the proposed Bismuth voting model, an example vote based on the Ethereum blockchain is briefly discussed. In order to decide about the “ice age” issue, ETH owners could vote on a motion to delay it.&lt;/p&gt;
-&lt;p&gt;How did it work?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Every address could vote, address balance = vote weight.&lt;/li&gt;
-&lt;li&gt;0 ETH sent, but consumes gas.&lt;/li&gt;
-&lt;li&gt;You could change your vote anytime, or move ETH to change your vote weight.&lt;/li&gt;
-&lt;li&gt;The current, real time state of the vote was public at carbonvote.com.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The core team feels this model has several flaws, that can be deduced from the voting protocol.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Gives advantage to holders, exchanges and service providers (the higher your wallet balance, the more your weight).&lt;/li&gt;
-&lt;li&gt;Public votes, real time stats, means you can play mind games, swap votes last moment and heavily influence the whole process.&lt;/li&gt;
-&lt;li&gt;Users do vote but take no real risk, no responsibility. They have nothing to gain or lose if they don’t care about the results.&lt;/li&gt;
-&lt;li&gt;You can be bribed to vote.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In a next article, you’ll be presented the Bismuth Governance Voting Model (BGVM), which is a novel protocol to address fair voting in the context of blockchain governance, and addresses the issues we just saw with the naive protocol above.&lt;/p&gt;
-&lt;h2&gt;Summary&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;summary&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#summary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Bismuth team will begin to introduce governance to help decide about some core Bismuth choices.
+&lt;strong>We are extremely pleased to announce that this will be cheap, open-source, and based on largely available hardware and Python code&lt;/strong>. Integration with Ledger devices is also in the research stage.&lt;/p>
+&lt;h3>Closing Thoughts&lt;span class="hx-absolute -hx-mt-20" id="closing-thoughts">&lt;/span>
+&lt;a href="#closing-thoughts" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Bismuth has been in constant, non-stop development by the Bismuth Foundation – a team of dedicated individuals that have gone above and beyond the call of duty to maintain and upgrade Bismuth until this day. This effort has never wavered – the team is as active as ever, with huge things happening behind the scenes. Bismuth’s custom code base and architecture means that adoption and integration is not as immediate as most tokens and forks. However this in a way is not an obstacle – &lt;strong>Bismuth does not have the limitations of most cryptocurrencies that are constructed on existing architecture fathered by Bitcoin or Ethereum&lt;/strong>.&lt;/p>
+&lt;p>Progress is being made- and with great speed. Until recently Bismuth native tokens were a little known feature of the legacy wallet, with little documentation nor use. Only just recently have we seen massive changes in this area:&lt;/p>
+&lt;ul>
+&lt;li>Full token support on the browser-based Tornado wallet.&lt;/li>
+&lt;li>Dedicated tokens explorer.&lt;/li>
+&lt;li>Tokens support on Discord, via the Discord Pawer bot.&lt;/li>
+&lt;li>Mobile wallet, with full tokens and generic protocol support.&lt;/li>
+&lt;/ul>
+&lt;p>Native Bismuth tokens are now as easy to use as the core Bismuth coin, and usage can now be much more widespread for end-user cases. &lt;strong>Much more use-cases for tokens will come to life over the coming months&lt;/strong>.&lt;/p>
+&lt;p>Unaffected by the ever changing hype and meaningless trends that come and go, the Bismuth team kept its focus on strengthening the core and basic building blocks of a wide ecosystem, with real and practical use cases as the end goal.&lt;/p>
+&lt;p>We have had applications built on top of Bismuth, such as the Bismuth Tesla EV battery life dApp, and Phone battery monitor. With Elon Musk’s recent and loud entry into the crypto industry, we are hoping to capitalize on the momentum and help give these tech-oriented dApps some much-needed exposure. The use-cases are limitless when it comes to utilitarian development on top of Bismuth. This is further compounded by the fact that all code can be written in the world’s most popular and fastest growing programming language, Python.&lt;/p>
+&lt;p>A global overview of the Bismuth 2.0 Roadmap will be released in the next weeks and will be followed by detailed insights of the various sections.&lt;/p>
+&lt;p>&lt;strong>The crypto industry is moving at a rapid pace, and the upcoming 2.0 launch will enable Bismuth to capitalize on this. It is now easier for the core development team to add new functions and features on a stable codebase, extend the building blocks and support practical, real world use-cases&lt;/strong>.&lt;/p>
+&lt;p>We would like to thank the loyal Bismuth community for their support over the years.&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://www.bismuthplatform.com" target="_blank" rel="noopener">Official Website&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bismuth.im" target="_blank" rel="noopener">Bismuth Explorer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://xeggex.com/market/BIS_USDT" target="_blank" rel="noopener">Crypto Exchange&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.coingecko.com/en/coins/bismuth" target="_blank" rel="noopener">Coingecko&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://coinmarketcap.com/currencies/bismuth/" target="_blank" rel="noopener">Coinmarketcap&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://alias-bitsignal.github.io/blog" >Bismuth Blog&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Bismuth Hard Fork</title><link>https://alias-bitsignal.github.io/blog/2019-11-19-hardfork/</link><pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2019-11-19-hardfork/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2019-11-19-hardfork.webp" alt="" loading="lazy" />
+During November 2019 the Bismuth community went with the first governance vote, about supply emission. The issue was overwhelming votes for a fork to support a supply reduction.&lt;/p>
+&lt;p>If you missed it, you can find the &lt;a href="https://alias-bitsignal.github.io/blog/2019-11-06-governance-vote/" >link here&lt;/a>. Since then, the team worked hard to implement the change and release a stable version, now out.
+Questions and answers regarding this fork have been divided into three categories- Regular users, Hypernode owners, and miners.&lt;/p>
+&lt;h2>Bismuth Hard Fork at block 1,450,000 – Nov 26.&lt;span class="hx-absolute -hx-mt-20" id="bismuth-hard-fork-at-block-1450000--nov-26">&lt;/span>
+&lt;a href="#bismuth-hard-fork-at-block-1450000--nov-26" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>Hard Fork FAQ&lt;span class="hx-absolute -hx-mt-20" id="hard-fork-faq">&lt;/span>
+&lt;a href="#hard-fork-faq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h3>General Questions&lt;span class="hx-absolute -hx-mt-20" id="general-questions">&lt;/span>
+&lt;a href="#general-questions" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Q:&lt;/strong> Can you explain why there will be a hard fork?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> A hard fork was scheduled in response to the first Bismuth community vote. It’s the result of a democratic process that showed significant involvement from the Bismuth community.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Q:&lt;/strong> When is the Hard Fork taking place?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> The HF will occur at block 1,450,000, roughly on November 26.&lt;/p>
+&lt;hr>
+&lt;h3>Regular Users&lt;span class="hx-absolute -hx-mt-20" id="regular-users">&lt;/span>
+&lt;a href="#regular-users" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Q:&lt;/strong> Do I have to DO anything? New wallet? No swapping BS or anything, right?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> Regular wallet owners can optionally upgrade; however, it is not necessary. It will continue to work. Mandatory upgrades apply only to node and Hypernode owners. There is no swap.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Q:&lt;/strong> Is it still OK to use the old wallet, or should I upgrade to Tornado?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> The “old” (Legacy) wallet remains compatible and usable. You don’t have to worry about the wallet. Yours will continue to work. As a user, the only critical responsibility is to securely back up your wallet.der/json file, containing your private key(s).&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Q:&lt;/strong> Can you summarize the current daily emission and what it will be after the hard fork?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> See the emission curve and blog post &lt;a href="https://alias-bitsignal.github.io/blog/2019-11-06-governance-vote/" >here&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Q:&lt;/strong> What will be the new total BIS supply?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> By 2032, at block height 8,000,000, the total BIS supply will reach 49.3 million BIS, compared to 63.5 million BIS under the previous emissions curve. Thus, the supply will decrease by more than 14 million BIS over the next 13 years. After 2032, the supply will slowly increase (less than 2% annually) to account for lost wallets and maintain incentives for miners and Hypernode operators.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Q:&lt;/strong> Can you see a scenario where the chain splits in two?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> Every hard fork technically involves a chain split; however, the legacy chain typically dies off due to lack of support. Miners, exchanges, and the economic majority support the v4.4.0 hard fork proposal, so there&amp;rsquo;s no need to worry about a competing legacy chain.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Q:&lt;/strong> Have you informed exchanges to avoid any trading halt, as happened previously?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> All partners, exchanges, service operators, and pools have been informed. All recent forks proceeded smoothly without trading halts.&lt;/p>
+&lt;hr>
+&lt;h3>Hypernode and Node Owners&lt;span class="hx-absolute -hx-mt-20" id="hypernode-and-node-owners">&lt;/span>
+&lt;a href="#hypernode-and-node-owners" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Q:&lt;/strong> After the hard fork, how can I re-operate my Hypernode? Will I need to do anything with my HN?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> Every Hypernode relies on a local Node to operate. Hypernodes using version 0.0.99i5 don&amp;rsquo;t need updating, but the local BIS node does. It’s mandatory to upgrade your node to the latest release &lt;strong>BEFORE&lt;/strong> the fork. &lt;a href="https://github.com/bismuthfoundation/Bismuth/releases" target="_blank" rel="noopener">Node Releases&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Q:&lt;/strong> Will there be a Hypernode update tutorial before the hard fork?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> Yes. We&amp;rsquo;ve updated our easy-to-use update script, covering common scenarios:&lt;/p>
+&lt;p>Run the following commands in your Hypernode terminal:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">rm hn_node_update.py
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">wget https://raw.githubusercontent.com/bismuthfoundation/util/master/hn_node_update.py
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python3 hn_node_update.py&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The script requires Python 3.7 and will prompt you about missing packages if needed. For feedback, visit the &lt;a href="https://discord.gg/4tB3pYJ" target="_blank" rel="noopener">Discord #hypernodes channel&lt;/a>. Additional manual update instructions can be found &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/Hypernodes_Upgrade_0-0-99.md" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Q:&lt;/strong> What will be the new annual yield for running a BIS Hypernode after the fork?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> Yield depends on the number of Hypernode operators. If total collateral remains stable, the yield will initially stay around 20%, aligning with a 19.4% inflation rate. Hypernode owners will no longer experience dilution post-fork. In the second year, inflation will drop below 15%, potentially leading to net positive income after inflation.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Q:&lt;/strong> What if I don’t upgrade in time?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> All other BIS nodes will curse then ban you. Immediate upgrading is essential, both for the network&amp;rsquo;s health and your rewards.&lt;/p>
+&lt;hr>
+&lt;h3>Miners&lt;span class="hx-absolute -hx-mt-20" id="miners">&lt;/span>
+&lt;a href="#miners" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Q:&lt;/strong> Do I have anything to do?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> No action is required. Pools will update automatically, and mining software doesn&amp;rsquo;t need upgrading. You can continue mining as before.&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://github.com/pytransitions/transitions" target="_blank" rel="noopener">Github - Pyrtransitions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/pgularski/pysm" target="_blank" rel="noopener">Github - Prysm&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Finite-state_machine" target="_blank" rel="noopener">Wikipedia - Finite State Machine&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/pytransitions/transitions-gui" target="_blank" rel="noopener">Github - Transitions GUI&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Bismuth Governance Shift - Part 2</title><link>https://alias-bitsignal.github.io/blog/2019-08-30-governance-shift-part_2/</link><pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2019-08-30-governance-shift-part_2/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2019-08-30-governance-shift-part_2.png" alt="" loading="lazy" />&lt;/p>
+&lt;h3>Preamble&lt;span class="hx-absolute -hx-mt-20" id="preamble">&lt;/span>
+&lt;a href="#preamble" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>In the previous post, the governance shift that is to take place with Bismuth was introduced, and the ETH voting protocol was examined. It was shown that this protocol does come with several issues that could be important flaws in the Bismuth context.&lt;/p>
+&lt;h3>Issues with the ETH voting protocol&lt;span class="hx-absolute -hx-mt-20" id="issues-with-the-eth-voting-protocol">&lt;/span>
+&lt;a href="#issues-with-the-eth-voting-protocol" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>There is nothing at stake. You do not directly win or lose anything by voting (just some gas)&lt;/li>
+&lt;li>Exchanges as well as shared services, dev funds, and founders have a huge voting power&lt;/li>
+&lt;li>The holders are by definition the ones getting the most votes, so the issue is likely to be in favor of the holders group, and potentially detrimental to others and the coin in general.&lt;/li>
+&lt;li>Since the votes are public, it allows for any kind of psychological manipulation by influence groups. You could pretend to vote for the other group, so other users are not incited to vote as it appears there is a clear winner. Then swap votes at the very last moment. Influence groups can play mind games.&lt;/li>
+&lt;li>You do not vote “your best”, you just vote enough so your group wins.&lt;/li>
+&lt;li>You can bribe big balances who do not care to vote for your group, they have nothing to lose, so why not take the bribe and vote?&lt;/li>
+&lt;li>Many users could also be bribed to vote against their long term interest: they would get the bribe right now, and have nothing immediate to lose.&lt;/li>
+&lt;/ul>
+&lt;p>In the case of Bismuth, mean exchanges – including Cryptopia’s inactive wallet – or one entity – including the core team – could vote and have chances to impose their own decisions.&lt;/p>
+&lt;h3>An alternate voting protocol&lt;span class="hx-absolute -hx-mt-20" id="an-alternate-voting-protocol">&lt;/span>
+&lt;a href="#an-alternate-voting-protocol" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Now comes a description of the Bismuth Governance Voting Model (BGVM). The goal is to have voters put their money where their mouth is. With this protocol:&lt;/p>
+&lt;ul>
+&lt;li>You only vote for something you really want to happen.&lt;/li>
+&lt;li>You do take risks, you have to show your motivation. Your vote is not an empty word, the core team is not the only one wetting the shirt.&lt;/li>
+&lt;li>Every category has a similar weight and cost to vote. Big balances are not over-represented.&lt;/li>
+&lt;li>Still, the richest wallets can have the most weight, and are also the ones benefiting from a higher future price.&lt;/li>
+&lt;li>You help finance the project you voted for.&lt;/li>
+&lt;li>There is no bribe advantage.&lt;/li>
+&lt;li>If you lose, you can still be happy.&lt;/li>
+&lt;li>There is no possible mind games nor manipulation until the vote is over.&lt;/li>
+&lt;li>The voters involvement is known in real time&lt;/li>
+&lt;li>The issue of the vote is secret until it is finished.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>«Bismuth defines a new voting protocol: users have to put their money where their mouth is. Involvement is known in real time but the issue of the vote is secret until over! Good idea?» &lt;a href="https://x.com/intent/tweet?text=%23Bismuth%20defines%20a%20new%20voting%20protocol:%20users%20have%20to%20put%20their%20money%20where%20their%20mouth%20is.%20Involvement%20is%20known%20in%20real%20time%20but%20the%20issue%20of%20the%20vote%20is%20secret%20until%20over!" target="_blank" rel="noopener">Click to tweet&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h3>The protocol&lt;span class="hx-absolute -hx-mt-20" id="the-protocol">&lt;/span>
+&lt;a href="#the-protocol" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The public interface of the protocol is as follows:&lt;/p>
+&lt;ul>
+&lt;li>A motion is proposed, with 2 or more options.&lt;/li>
+&lt;li>You vote by sending $BIS + data to the vote address. The amount you send is public, whereas data (your vote) is encrypted and private.&lt;/li>
+&lt;li>The $BIS you send are your voting weight. Their use – should the motion pass – are stated in the motion.&lt;/li>
+&lt;/ul>
+&lt;h4>Options:&lt;span class="hx-absolute -hx-mt-20" id="options">&lt;/span>
+&lt;a href="#options" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>You can issue several voting transactions, so you can increase your weight during the voting period.&lt;/li>
+&lt;li>you can invert a previous transaction vote (but not cancel it) should you change your mind.&lt;/li>
+&lt;/ul>
+&lt;p>Once the voting period is finished:&lt;/p>
+&lt;ul>
+&lt;li>Votes – and related flips – are revealed.&lt;/li>
+&lt;li>If you do not reveal your vote, it cannot be counted, and you do not get your money back.&lt;/li>
+&lt;li>Losers get their $BIS back (less transaction fees).&lt;/li>
+&lt;li>In the winners’ case, their $BIS go into a community fund to be used as stated by the motion.&lt;/li>
+&lt;/ul>
+&lt;h3>Pros&lt;span class="hx-absolute -hx-mt-20" id="pros">&lt;/span>
+&lt;a href="#pros" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>There is no need to bribe people, you would have to bribe them more than by voting yourself.&lt;/li>
+&lt;li>There will be no mind games, the issue is totally opaque until the end. Even the core team does not have access to the results before votes are revealed.&lt;/li>
+&lt;li>You take risks, and only vote for what you really want, because if this happens, your $BIS vote will be used to build it.&lt;/li>
+&lt;li>There is no incentive in voting for the other side, since if it wins, you lose your tokens.&lt;/li>
+&lt;li>Trolls and fudders have no voice, no leverage. Only final $BIS votes count, once revealed.&lt;/li>
+&lt;li>It’s safer for big holders with funds in cold wallet: you don’t have to move your cold funds out to vote. Just vote what you want.&lt;/li>
+&lt;li>Involvement (total amount of $BIS) is known in real time.&lt;/li>
+&lt;li>No need to run a balance vote on one side, then a miner vote by block signaling on the other side: everyone votes with the same protocol, the same unit.&lt;/li>
+&lt;li>You know what the minimum proposal budget will be (at worse, 50.01% of the votes for a vote with 2 options).&lt;/li>
+&lt;li>Every group has the same voting cost/power. Holders do not have more power than miners because they have a higher balance. What everyone bets for is what they risk, should they win. If the miners’ group want to overrule the holders, they do not need to have as much balance as the holders, they just need to vote as much as them.&lt;/li>
+&lt;li>The amount you vote reflects your belief and involvement in the proposal you vote for, and what you are willing to contribute to see it succeed.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>«Contrary to the Carbonvote process, the #Bismuth “blind” voting protocol renders the vote immune to bribery attacks, and forces users to vote for the long term success of the project. Read more: » &lt;a href="https://x.com/intent/tweet?text=Contrary%20to%20the%20Carbonvote%20process,%20the%20%23Bismuth%20%27blind%27%20voting%20protocol%20renders%20the%20vote%20immune%20to%20bribery%20attacks,%20and%20forces%20users%20to%20vote%20for%20the%20long%20term%20success%20of%20the%20project." target="_blank" rel="noopener">Click to tweet&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h3>Conclusion&lt;span class="hx-absolute -hx-mt-20" id="conclusion">&lt;/span>
+&lt;a href="#conclusion" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The “blind auction” introduced by the innovative and new BGVM avoids the pitfalls of more common voting and blockchain governance mechanisms seen to date. The protocol protects the project’s global interest by allowing everyone to be represented in a fair manner and forces voters to vote for what they really want in the long term, and not for what would give them the most short term advantage.
+The vote issue is an Oracle whose value is only known once the decision is immutable.&lt;/p>
+&lt;blockquote>
+&lt;p>«The new #Bismuth voting protocol merges carbonvoting and block signaling into a single process where every actor votes with the same process and unit for a fair vote that can not be bribed nor manipulated. Read more: » &lt;a href="https://x.com/intent/tweet?text=The%20new%20%23Bismuth%20voting%20protocol%20merges%20carbonvoting%20and%20block%20signaling%20into%20a%20single%20process%20where%20every%20actor%20votes%20with%20the%20same%20process%20and%20unit%20for%20a%20fair%20vote%20that%20can%20not%20be%20bribed%20nor%20manipulated." target="_blank" rel="noopener">Click to tweet&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener">Markdown Syntax&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gohugo.io/content-management/formats/#markdown" target="_blank" rel="noopener">Hugo Markdown&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Bismuth Governance Shift - Part 1</title><link>https://alias-bitsignal.github.io/blog/2019-08-29-governance-shift-part_1/</link><pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2019-08-29-governance-shift-part_1/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2019-08-29-governance-shift-part_1.png" alt="" loading="lazy" />
+During the first two and a half years of the Bismuth blockchain project, important governance actions have been decided by the group of foundation members. Now the core team finds it is time to involve the community deeper into governance questions, and make more use of community feedback.&lt;/p>
+&lt;p>The Bismuth project has had a very active Discord community since the beginning, and it is seen as a very valuable resource for the project and it makes sense to consult the community more than in the past for input on important decisions. Therefore, the foundation members have decided to introduce a shift in the governance, by letting the stakeholders involved vote on important decisions concerning the future of the project.&lt;/p>
+&lt;p>Discord alone however can’t be seen as a source of actionable feedback:&lt;/p>
+&lt;ul>
+&lt;li>Not everyone is active there.&lt;/li>
+&lt;li>Some voices do flood day after day with the same suggestions (count as one, no matter how many times you repeat yourself).&lt;/li>
+&lt;li>Not all suggestions are well presented and actionable.&lt;/li>
+&lt;li>You can’t map a discord user to a Bismuth User (unless some flavor or KYC or associated wallets with Discord ids).&lt;/li>
+&lt;/ul>
+&lt;p>Twitter polls are also totally un-trustable:&lt;/p>
+&lt;ul>
+&lt;li>Like with Discord, you do not reach everyone.&lt;/li>
+&lt;li>You can’t map a Twitter user to a Bismuth user (unless KYC/ de-pseudonymization).&lt;/li>
+&lt;li>Twitter polls are easily manipulable, there are plenty of services to buy votes.&lt;/li>
+&lt;/ul>
+&lt;p>So, the core team came to realize that if Discord is ok to gather some feedback and proposals, if everyone’s voice is to be heard and a decision in the common interest is to be taken, the voting process has to go further than that.&lt;/p>
+&lt;p>Until then, the Bismuth team was the only responsible entity for core changes, like the introduction of the Hypernodes and related rewards, and later on, the move of some part of the mining reward toward Hypernodes. The Team always had in mind the long term success of the project, and took every class of user point of view into account before deciding: investors, miners, devs, etc.&lt;/p>
+&lt;p>Now, the core team feels that the time has come to let users hold their responsibilities and take the decision for everyone’s best interest, via a voting process. The team would prepare options to vote upon, the users will decide, the team will take action based on the final voting results.&lt;/p>
+&lt;h3>The first vote in Bismuth History&lt;span class="hx-absolute -hx-mt-20" id="the-first-vote-in-bismuth-history">&lt;/span>
+&lt;a href="#the-first-vote-in-bismuth-history" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>If you are familiar with the discord, you cannot avoid the economists lobbying for a supply modification.&lt;/p>
+&lt;p>The latest fork (&lt;a href="https://alias-bitsignal.github.io/blog/2019-05-17-hard-fork-v4.3.0.0/" >see here&lt;/a>) was tailored to account for increased services to be provided by the Hypernodes, while not raising the dilution. It already went in the direction of reducing miner rewards. Currently the most vocal suggestions aim to address the dropping price concern, and are to significantly reduce the supply by cutting the emission: that is both block rewards and HN rewards.&lt;/p>
+&lt;p>The team ran simulations, examined the available data but still it is not clear what the global implications can be, nor how action or inaction would be welcome by the users and the markets. The problem really is complex with implications at the ethical, economical level, involving the equilibrium of the whole system. The more you dig, the more it appears complex.&lt;/p>
+&lt;p>It looks like it is the perfect case where a community vote is needed and will make sense.&lt;/p>
+&lt;p>A voting process can be an equally daunting task, because blockchain based voting is tricky and dangerous. The difficulty is two fold:&lt;/p>
+&lt;h3>A – What is “one” vote?&lt;span class="hx-absolute -hx-mt-20" id="a--what-is-one-vote">&lt;/span>
+&lt;a href="#a--what-is-one-vote" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Blockchains usually are non-KYC (Know Your Customer) and anonymous or pseudonymous. One user can have many addresses. Some do require KYC (Like Tezos), that’s a road the core team does not want to take. So you never can map one vote to one user. Even if you could, voters could be bribed.&lt;/p>
+&lt;ul>
+&lt;li>Is a vote one address?&lt;/li>
+&lt;li>One coin?&lt;/li>
+&lt;li>One IP address?&lt;/li>
+&lt;li>One hash unit? In any case, you could pretend you have several voices when all are yours.&lt;/li>
+&lt;/ul>
+&lt;h3>B – Will I vote for the best common interest?&lt;span class="hx-absolute -hx-mt-20" id="b--will-i-vote-for-the-best-common-interest">&lt;/span>
+&lt;a href="#b--will-i-vote-for-the-best-common-interest" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>In a blockchain context, you can have several classes of people with different objectives. For Bismuth for instance, a Proof-of-Work (PoW) utility token, you can think of:&lt;/p>
+&lt;ul>
+&lt;li>The miners.&lt;/li>
+&lt;li>The holders.&lt;/li>
+&lt;li>The dApps developers.&lt;/li>
+&lt;li>The core foundation team.&lt;/li>
+&lt;/ul>
+&lt;p>Each of these classes can have a different egoistic goal when speaking of chain governance. Just as a quick illustration, miners would like higher fees or block rewards, holders want less dilution and more marketing, dapps developers want low fees and fast blocks, core team wants the token to go mainstream, be secure and used in the real world.&lt;/p>
+&lt;p>Game theory shows that this can lead to votes that are counter productive for the chain as a whole (see “tragedy of the commons“, this is somehow related).&lt;/p>
+&lt;h3>Ethereum Case – Carbonvote&lt;span class="hx-absolute -hx-mt-20" id="ethereum-case--carbonvote">&lt;/span>
+&lt;a href="#ethereum-case--carbonvote" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Before presenting the proposed Bismuth voting model, an example vote based on the Ethereum blockchain is briefly discussed. In order to decide about the “ice age” issue, ETH owners could vote on a motion to delay it.&lt;/p>
+&lt;p>How did it work?&lt;/p>
+&lt;ul>
+&lt;li>Every address could vote, address balance = vote weight.&lt;/li>
+&lt;li>0 ETH sent, but consumes gas.&lt;/li>
+&lt;li>You could change your vote anytime, or move ETH to change your vote weight.&lt;/li>
+&lt;li>The current, real time state of the vote was public at carbonvote.com.&lt;/li>
+&lt;/ul>
+&lt;p>The core team feels this model has several flaws, that can be deduced from the voting protocol.&lt;/p>
+&lt;ul>
+&lt;li>Gives advantage to holders, exchanges and service providers (the higher your wallet balance, the more your weight).&lt;/li>
+&lt;li>Public votes, real time stats, means you can play mind games, swap votes last moment and heavily influence the whole process.&lt;/li>
+&lt;li>Users do vote but take no real risk, no responsibility. They have nothing to gain or lose if they don’t care about the results.&lt;/li>
+&lt;li>You can be bribed to vote.&lt;/li>
+&lt;/ul>
+&lt;p>In a next article, you’ll be presented the Bismuth Governance Voting Model (BGVM), which is a novel protocol to address fair voting in the context of blockchain governance, and addresses the issues we just saw with the naive protocol above.&lt;/p>
+&lt;h2>Summary&lt;span class="hx-absolute -hx-mt-20" id="summary">&lt;/span>
+&lt;a href="#summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The Bismuth team will begin to introduce governance to help decide about some core Bismuth choices.
 A novel voting process was designed and will be used.
-The first issue stakeholders will be able to vote upon is the need or not to change the core supply metrics.&lt;/p&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/basic-syntax/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown Syntax&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/formats/#markdown&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Markdown&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Bismuth Strategic Hard Fork v4.3.0.0</title>
-      <link>https://alias-bitsignal.github.io/blog/2019-05-17-hard-fork-v4.3.0.0/</link>
-      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/blog/2019-05-17-hard-fork-v4.3.0.0/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-05-17-BIS-HARD-FORK-3.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-Over the past couple of months, Bismuth has undergone major shifts- technologically, socially, and economically. We witnessed a massive upgrade and restructuring of the core code that spanned over 200 commits, that was finalized in version 4.2.9.2 in late March of this year.&lt;/p&gt;
-&lt;p&gt;Fast forward to the start of May, and we made our first announcement for Hyperlanes- an infinitely scaling form of direct data exchange between nodes which enables the inter-connectivity of the future- coined “Internet Within Blockchain”. We have made strides in expanding our team to include new members that are actively assisting in areas where we were weakest. Although most of this goes under the radar, the effects of it all should be felt over the coming weeks and months.&lt;/p&gt;
-&lt;p&gt;Economically and socially, the overall bear market has caused much turmoil within the entirety of the cryptocurrency community. The Bismuth project wasn’t spared and unfortunately received the brunt of the market downturn as we have witnessed a precipitous drop from the peak in early 2018. Although the Bismuth foundation cannot exert control over the free market, there are factors and variables that can be adjusted by the development team when consensus within the community is reached. One of such factors is the inflation question, which has been widely debated within our social channels and internally.&lt;/p&gt;
-&lt;p&gt;Inflation is a delicate topic, as it is both one of the prime drivers in market forces, as well as the incentive that helps propagate the blockchain and network forward. It is an issue that must be approached with care, as radical changes can result in degrading the robust security Bismuth has built-up over the past couple of years. However, inflation itself can drastically sabotage the market if left unchecked. This has left the Bismuth foundation to develop a strategic hard fork that takes all factors into mind while moving forward.&lt;/p&gt;
-&lt;p&gt;On block 1,200,000 (early June), a strategic hard fork has been scheduled that introduces new emission rules for mining and the Hypernode network. The hard fork will introduce a strategic miner reward reduction that shifts the inflation curve more than 18 months forward. This reduction will set the miner block reward to be 1.6 BIS less than the current emission rate, which equates to an immediate &lt;strong&gt;13.5% reduction&lt;/strong&gt; in miner emission.&lt;/p&gt;
-&lt;p&gt;On the contrary, the hard fork will bring forth a substantial increase to Hypernode reward payouts. A flat 200% increase in emission will be introduced, bringing up the current per-block reward of 0.8 BIS to 2.4 BIS. The current ROI for running a Hypernode is &lt;strong&gt;11.7% per annum&lt;/strong&gt;, which was unsatisfactory when compared to the net inflation. With the introduction of the reward hike, this figure gets bumped up to &lt;strong&gt;35.1% per annum&lt;/strong&gt;, and makes Bismuth a viable investment vehicle for prospective individuals that wish to run Hypernodes.&lt;/p&gt;
-&lt;p&gt;As the number of active Hypernodes increase, the network will reciprocally become more competitive and the expected profitability will decrease. However, to reach the old ROI rate of 11.7% per annum, the Hypernode network capacity would have to increase by 7,200,000 BIS, not counting the existing figure (3,250,000 BIS at time of writing) locked in Hypernodes. In total, over 58% of the current circulating supply would have to get locked in order to return to the old rate of 11.7%.&lt;/p&gt;
-&lt;p&gt;As the Hypernode network expands, it becomes a more and more viable parallel network for utilitarian purposes. Bismuth is the leading platform for Python development in the blockchain industry, and Python itself is the world’s most popular and fastest growing programming language. With those factors coupled together, the Bismuth project retains some of the largest growth potential in the entire industry, and can tap into the intellectual capital of millions of Python developers. The possibilities are endless, as we move forward to build the virtual infrastructure that will provide the utility of the digital world.&lt;/p&gt;
-&lt;p&gt;Signed,
-The Bismuth Foundation&lt;/p&gt;
-&lt;p&gt;You can give feedback and ask your questions about this fork via the following form: &lt;a href=&#34;https://framaforms.org/bismuth-fork-questions-1558081292&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://framaforms.org/bismuth-fork-questions-1558081292&lt;/a&gt;
-This will be used as basis for an upcoming Q&amp;amp;A post.&lt;/p&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/basic-syntax/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown Syntax&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/formats/#markdown&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Markdown&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+The first issue stakeholders will be able to vote upon is the need or not to change the core supply metrics.&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener">Markdown Syntax&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gohugo.io/content-management/formats/#markdown" target="_blank" rel="noopener">Hugo Markdown&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Bismuth Strategic Hard Fork v4.3.0.0</title><link>https://alias-bitsignal.github.io/blog/2019-05-17-hard-fork-v4.3.0.0/</link><pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2019-05-17-hard-fork-v4.3.0.0/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2019-05-17-BIS-HARD-FORK-3.png" alt="" loading="lazy" />
+Over the past couple of months, Bismuth has undergone major shifts- technologically, socially, and economically. We witnessed a massive upgrade and restructuring of the core code that spanned over 200 commits, that was finalized in version 4.2.9.2 in late March of this year.&lt;/p>
+&lt;p>Fast forward to the start of May, and we made our first announcement for Hyperlanes- an infinitely scaling form of direct data exchange between nodes which enables the inter-connectivity of the future- coined “Internet Within Blockchain”. We have made strides in expanding our team to include new members that are actively assisting in areas where we were weakest. Although most of this goes under the radar, the effects of it all should be felt over the coming weeks and months.&lt;/p>
+&lt;p>Economically and socially, the overall bear market has caused much turmoil within the entirety of the cryptocurrency community. The Bismuth project wasn’t spared and unfortunately received the brunt of the market downturn as we have witnessed a precipitous drop from the peak in early 2018. Although the Bismuth foundation cannot exert control over the free market, there are factors and variables that can be adjusted by the development team when consensus within the community is reached. One of such factors is the inflation question, which has been widely debated within our social channels and internally.&lt;/p>
+&lt;p>Inflation is a delicate topic, as it is both one of the prime drivers in market forces, as well as the incentive that helps propagate the blockchain and network forward. It is an issue that must be approached with care, as radical changes can result in degrading the robust security Bismuth has built-up over the past couple of years. However, inflation itself can drastically sabotage the market if left unchecked. This has left the Bismuth foundation to develop a strategic hard fork that takes all factors into mind while moving forward.&lt;/p>
+&lt;p>On block 1,200,000 (early June), a strategic hard fork has been scheduled that introduces new emission rules for mining and the Hypernode network. The hard fork will introduce a strategic miner reward reduction that shifts the inflation curve more than 18 months forward. This reduction will set the miner block reward to be 1.6 BIS less than the current emission rate, which equates to an immediate &lt;strong>13.5% reduction&lt;/strong> in miner emission.&lt;/p>
+&lt;p>On the contrary, the hard fork will bring forth a substantial increase to Hypernode reward payouts. A flat 200% increase in emission will be introduced, bringing up the current per-block reward of 0.8 BIS to 2.4 BIS. The current ROI for running a Hypernode is &lt;strong>11.7% per annum&lt;/strong>, which was unsatisfactory when compared to the net inflation. With the introduction of the reward hike, this figure gets bumped up to &lt;strong>35.1% per annum&lt;/strong>, and makes Bismuth a viable investment vehicle for prospective individuals that wish to run Hypernodes.&lt;/p>
+&lt;p>As the number of active Hypernodes increase, the network will reciprocally become more competitive and the expected profitability will decrease. However, to reach the old ROI rate of 11.7% per annum, the Hypernode network capacity would have to increase by 7,200,000 BIS, not counting the existing figure (3,250,000 BIS at time of writing) locked in Hypernodes. In total, over 58% of the current circulating supply would have to get locked in order to return to the old rate of 11.7%.&lt;/p>
+&lt;p>As the Hypernode network expands, it becomes a more and more viable parallel network for utilitarian purposes. Bismuth is the leading platform for Python development in the blockchain industry, and Python itself is the world’s most popular and fastest growing programming language. With those factors coupled together, the Bismuth project retains some of the largest growth potential in the entire industry, and can tap into the intellectual capital of millions of Python developers. The possibilities are endless, as we move forward to build the virtual infrastructure that will provide the utility of the digital world.&lt;/p>
+&lt;p>Signed,
+The Bismuth Foundation&lt;/p>
+&lt;p>You can give feedback and ask your questions about this fork via the following form: &lt;a href="https://framaforms.org/bismuth-fork-questions-1558081292" target="_blank" rel="noopener">https://framaforms.org/bismuth-fork-questions-1558081292&lt;/a>
+This will be used as basis for an upcoming Q&amp;amp;A post.&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener">Markdown Syntax&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gohugo.io/content-management/formats/#markdown" target="_blank" rel="noopener">Hugo Markdown&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,103 +1,73 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>bismuthcoin.org – Python</title>
-    <link>https://alias-bitsignal.github.io/tags/python/</link>
-    <description>Recent content in Python on bismuthcoin.org</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate>
-    
-	  <atom:link href="https://alias-bitsignal.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Python and State Machines</title>
-      <link>https://alias-bitsignal.github.io/blog/2021-03-24-state-machines/</link>
-      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/blog/2021-03-24-state-machines/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-03-24-state-machines.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
-Are you familiar with Finite state machines? They are everywhere, yet, we don’t see them as such.&lt;/p&gt;
-&lt;h3&gt;State machines&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;state-machines&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#state-machines&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A state machine – in mathematical terms – is a model of computation.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Python</title><link>https://alias-bitsignal.github.io/tags/python/</link><description>Recent content in Python on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Python and State Machines</title><link>https://alias-bitsignal.github.io/blog/2021-03-24-state-machines/</link><pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-03-24-state-machines/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-03-24-state-machines.webp" alt="" loading="lazy" />
+Are you familiar with Finite state machines? They are everywhere, yet, we don’t see them as such.&lt;/p>
+&lt;h3>State machines&lt;span class="hx-absolute -hx-mt-20" id="state-machines">&lt;/span>
+&lt;a href="#state-machines" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>A state machine – in mathematical terms – is a model of computation.
 It is defined by a – finite – list of states, including an initial state as well as transitions: conditions that have it move from one state to another one.
-This seems very simple, and it can be. Here is a sample machine from Wikipedia.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-03-24-finite_state_machine.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;A simple state machine: a door that can only be closed or open.
-Don’t be fooled by the apparent simplicity of this sample: state machine can be very, very complex… but also very useful.&lt;/p&gt;
-&lt;h4&gt;Here’s why:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;heres-why&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#heres-why&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The most known computation model is the Turing machine. Most computer hardware and programming languages rely on this model.
-This is a very open model, that allows to do many things. This is also a weakness, because you can’t always predict what states such a model will end up in.&lt;/p&gt;
-&lt;p&gt;This has several implications. With classical programming, you can end up with an edge case where your program will run forever – be it because of the algorithm, or an implementation bug – or end up in an unplanned state, where it will be stuck and never recover.&lt;/p&gt;
-&lt;p&gt;This is one of the flaws of the ETH VM for instance, which is Turing complete. Its capacity to run loops means it can be stuck inside a large or infinite loop and consume a huge amount of gas.
-Other smart contract languages willingly chose to have a non Turing complete language to avoid unexpected side effects.&lt;/p&gt;
-&lt;p&gt;The same happens with complex virtual objects like a client or server for a given protocol. Say, a custom protocol over a raw socket, or at a higher level, a blockchain node.&lt;/p&gt;
-&lt;p&gt;When designing such an object, interacting with others, you often – consciously or not – think of it as a state machine. The node is “starting”, it’s “syncing” or “digesting a transaction” or “waiting for next block” aso…
+This seems very simple, and it can be. Here is a sample machine from Wikipedia.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-03-24-finite_state_machine.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>A simple state machine: a door that can only be closed or open.
+Don’t be fooled by the apparent simplicity of this sample: state machine can be very, very complex… but also very useful.&lt;/p>
+&lt;h4>Here’s why:&lt;span class="hx-absolute -hx-mt-20" id="heres-why">&lt;/span>
+&lt;a href="#heres-why" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>The most known computation model is the Turing machine. Most computer hardware and programming languages rely on this model.
+This is a very open model, that allows to do many things. This is also a weakness, because you can’t always predict what states such a model will end up in.&lt;/p>
+&lt;p>This has several implications. With classical programming, you can end up with an edge case where your program will run forever – be it because of the algorithm, or an implementation bug – or end up in an unplanned state, where it will be stuck and never recover.&lt;/p>
+&lt;p>This is one of the flaws of the ETH VM for instance, which is Turing complete. Its capacity to run loops means it can be stuck inside a large or infinite loop and consume a huge amount of gas.
+Other smart contract languages willingly chose to have a non Turing complete language to avoid unexpected side effects.&lt;/p>
+&lt;p>The same happens with complex virtual objects like a client or server for a given protocol. Say, a custom protocol over a raw socket, or at a higher level, a blockchain node.&lt;/p>
+&lt;p>When designing such an object, interacting with others, you often – consciously or not – think of it as a state machine. The node is “starting”, it’s “syncing” or “digesting a transaction” or “waiting for next block” aso…
 When you implement this with “regular” code, events, functions, methods, private or global variables… you are not bound by a state machine computation model. You are Turing complete.
-The compiler lets you write dangerous things you are not aware of, that can backfire: your system can end up in a totally unstable and unplanned state, with no way back to a functioning mode.&lt;/p&gt;
-&lt;p&gt;The limits of the state machine model then become a strength: If you model your object as a state machine and take care of all the needed states and transitions, you are sure (to the extend of your trust in the state machine framework you use) your system is only in one of the planned states.&lt;/p&gt;
-&lt;p&gt;It could end up stuck in a given state with no way out, because you forgot a transition, but it will never magically jump from one state to another with no reason.&lt;/p&gt;
-&lt;p&gt;Working with state machine is then more stringent: you have to define all possible states and conditions, instead of just the obvious paths. But these added constraints also force you to fully define your model, and allow to reason on a global scale, with an overview you can rely on.&lt;/p&gt;
-&lt;h3&gt;State machines and Python&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;state-machines-and-python&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#state-machines-and-python&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Any Turing complete language can implement state machines, since state machines are a subset of the Turing model.&lt;/p&gt;
-&lt;p&gt;You can code state machine behavior with vanilla code. Have a class, with a private member representing state, and methods as transitions for instance. This is enough for simple things.&lt;/p&gt;
-&lt;p&gt;If you want to go further, nice libraries and tools have been coded.&lt;/p&gt;
-&lt;p&gt;As for Python, I picked two of them:&lt;/p&gt;
-&lt;h3&gt;Pytransition&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;pytransition&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#pytransition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Pytransition is an actively maintained and very complete state machine framework, with several extensions.&lt;/p&gt;
-&lt;p&gt;The github comes with a full documentation, the quickstart being a funny “narcoleptic super hero” example&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-03-24-state-machine-02.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Quickstart from Pytransitions
-Note the diagram is generated from a “diagram” extension, by the module itself.&lt;/p&gt;
-&lt;p&gt;There is even more since a GUI, running with a Tornado web server and JS client code, allows to draw and manipulate the models. It’s not only fun but pretty useful!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-03-24-state-machine-03.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;State machine GUI editor&lt;/p&gt;
-&lt;p&gt;Many examples come with the library. Best thing you can do is bookmark the Github and use it for your next project or rewrite, then come and tell us! &lt;a href=&#34;https://github.com/pytransitions/transitions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Pysm&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;pysm&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#pysm&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This library is older and simpler, and it’s also why it was selected.&lt;/p&gt;
-&lt;p&gt;Another big up is its MicroPython support. With embedded python coming everywhere, it would be a shame not begin able to use that state pattern there as well.&lt;/p&gt;
-&lt;p&gt;Still, Pysm is a complete library, with all you’ll need including transition callbacks, and state hooks, conditional transitions… while remaining lightweight and fast.
-It comes with documentation, test and examples. &lt;a href=&#34;https://github.com/pgularski/pysm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-03-24-state-machine-04.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Here is a sample of a complex hierarchical state machine designed with Pysm
-(taken from pysm github)&lt;/p&gt;
-&lt;h3&gt;When to use state machines?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;when-to-use-state-machines&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#when-to-use-state-machines&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Some use cases are obvious: when the logic is that of an “automaton”, like a vending machine, a “stubborn” and predictable machine that does only a handful of things in the right order, it’s quite easy.
-In that case, state machine should be a no brainer.&lt;/p&gt;
-&lt;p&gt;Some cases are more difficult to grasp at first sight, but they may be where you have the most to gain. Take a socket reading for example, with some custom protocol, or a parser for a specific syntax.
-Here, consider the logic as a state machine can alleviate the code a lot, make it clearer, and easier to explain. Added bonus: you’re more confident you did not forgot edge cases (unit test still are required, don’t get me wrong)&lt;/p&gt;
-&lt;p&gt;Last case is for more complex systems, like a whole blockchain node for instance. As simple as it looks, it’s not at all, and converting legacy code to a state machine can be a huge work. This could even force you to rethink your protocol…
-One thing is sure: the sooner you consider your system as a state machine, the better you’ll have a practical overview you can spec, discuss, and work with.&lt;/p&gt;
-&lt;h3&gt;Some external pointers&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;some-external-pointers&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#some-external-pointers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Finite state machine article on &lt;a href=&#34;https://en.wikipedia.org/wiki/Finite-state_machine&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PyTransitions &lt;a href=&#34;https://github.com/pytransitions/transitions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt; and its GUI &lt;a href=&#34;https://github.com/pytransitions/transitions-gui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Pysm – with Micropython support &lt;a href=&#34;https://github.com/pgularski/pysm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Your turn!&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;your-turn&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#your-turn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;It’s up to you!&lt;br&gt;
-Did you already work with state machines?&lt;br&gt;
-Did this post motivate you to give it a try?&lt;br&gt;
-Do you have a good example in mind that could benefit from this model?&lt;/p&gt;
-&lt;p&gt;Please tell us, we’re eager to know!&lt;br&gt;
-You can join us on Twitter &lt;a href=&#34;https://twitter.com/BismuthPlatform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@bismuthPlatform&lt;/a&gt; or on our &lt;a href=&#34;https://discord.gg/8KvA3JU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Discord&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/pytransitions/transitions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - Pyrtransitions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/pgularski/pysm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - Prysm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Finite-state_machine&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia - Finite State Machine&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/pytransitions/transitions-gui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github - Transitions GUI&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+The compiler lets you write dangerous things you are not aware of, that can backfire: your system can end up in a totally unstable and unplanned state, with no way back to a functioning mode.&lt;/p>
+&lt;p>The limits of the state machine model then become a strength: If you model your object as a state machine and take care of all the needed states and transitions, you are sure (to the extend of your trust in the state machine framework you use) your system is only in one of the planned states.&lt;/p>
+&lt;p>It could end up stuck in a given state with no way out, because you forgot a transition, but it will never magically jump from one state to another with no reason.&lt;/p>
+&lt;p>Working with state machine is then more stringent: you have to define all possible states and conditions, instead of just the obvious paths. But these added constraints also force you to fully define your model, and allow to reason on a global scale, with an overview you can rely on.&lt;/p>
+&lt;h3>State machines and Python&lt;span class="hx-absolute -hx-mt-20" id="state-machines-and-python">&lt;/span>
+&lt;a href="#state-machines-and-python" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Any Turing complete language can implement state machines, since state machines are a subset of the Turing model.&lt;/p>
+&lt;p>You can code state machine behavior with vanilla code. Have a class, with a private member representing state, and methods as transitions for instance. This is enough for simple things.&lt;/p>
+&lt;p>If you want to go further, nice libraries and tools have been coded.&lt;/p>
+&lt;p>As for Python, I picked two of them:&lt;/p>
+&lt;h3>Pytransition&lt;span class="hx-absolute -hx-mt-20" id="pytransition">&lt;/span>
+&lt;a href="#pytransition" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Pytransition is an actively maintained and very complete state machine framework, with several extensions.&lt;/p>
+&lt;p>The github comes with a full documentation, the quickstart being a funny “narcoleptic super hero” example&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-03-24-state-machine-02.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Quickstart from Pytransitions
+Note the diagram is generated from a “diagram” extension, by the module itself.&lt;/p>
+&lt;p>There is even more since a GUI, running with a Tornado web server and JS client code, allows to draw and manipulate the models. It’s not only fun but pretty useful!&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-03-24-state-machine-03.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>State machine GUI editor&lt;/p>
+&lt;p>Many examples come with the library. Best thing you can do is bookmark the Github and use it for your next project or rewrite, then come and tell us! &lt;a href="https://github.com/pytransitions/transitions" target="_blank" rel="noopener">Github&lt;/a>&lt;/p>
+&lt;h3>Pysm&lt;span class="hx-absolute -hx-mt-20" id="pysm">&lt;/span>
+&lt;a href="#pysm" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>This library is older and simpler, and it’s also why it was selected.&lt;/p>
+&lt;p>Another big up is its MicroPython support. With embedded python coming everywhere, it would be a shame not begin able to use that state pattern there as well.&lt;/p>
+&lt;p>Still, Pysm is a complete library, with all you’ll need including transition callbacks, and state hooks, conditional transitions… while remaining lightweight and fast.
+It comes with documentation, test and examples. &lt;a href="https://github.com/pgularski/pysm" target="_blank" rel="noopener">Github&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-03-24-state-machine-04.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Here is a sample of a complex hierarchical state machine designed with Pysm
+(taken from pysm github)&lt;/p>
+&lt;h3>When to use state machines?&lt;span class="hx-absolute -hx-mt-20" id="when-to-use-state-machines">&lt;/span>
+&lt;a href="#when-to-use-state-machines" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Some use cases are obvious: when the logic is that of an “automaton”, like a vending machine, a “stubborn” and predictable machine that does only a handful of things in the right order, it’s quite easy.
+In that case, state machine should be a no brainer.&lt;/p>
+&lt;p>Some cases are more difficult to grasp at first sight, but they may be where you have the most to gain. Take a socket reading for example, with some custom protocol, or a parser for a specific syntax.
+Here, consider the logic as a state machine can alleviate the code a lot, make it clearer, and easier to explain. Added bonus: you’re more confident you did not forgot edge cases (unit test still are required, don’t get me wrong)&lt;/p>
+&lt;p>Last case is for more complex systems, like a whole blockchain node for instance. As simple as it looks, it’s not at all, and converting legacy code to a state machine can be a huge work. This could even force you to rethink your protocol…
+One thing is sure: the sooner you consider your system as a state machine, the better you’ll have a practical overview you can spec, discuss, and work with.&lt;/p>
+&lt;h3>Some external pointers&lt;span class="hx-absolute -hx-mt-20" id="some-external-pointers">&lt;/span>
+&lt;a href="#some-external-pointers" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Finite state machine article on &lt;a href="https://en.wikipedia.org/wiki/Finite-state_machine" target="_blank" rel="noopener">Wikipedia&lt;/a>&lt;/li>
+&lt;li>PyTransitions &lt;a href="https://github.com/pytransitions/transitions" target="_blank" rel="noopener">Github&lt;/a> and its GUI &lt;a href="https://github.com/pytransitions/transitions-gui" target="_blank" rel="noopener">Github&lt;/a>&lt;/li>
+&lt;li>Pysm – with Micropython support &lt;a href="https://github.com/pgularski/pysm" target="_blank" rel="noopener">Github&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Your turn!&lt;span class="hx-absolute -hx-mt-20" id="your-turn">&lt;/span>
+&lt;a href="#your-turn" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>It’s up to you!&lt;br>
+Did you already work with state machines?&lt;br>
+Did this post motivate you to give it a try?&lt;br>
+Do you have a good example in mind that could benefit from this model?&lt;/p>
+&lt;p>Please tell us, we’re eager to know!&lt;br>
+You can join us on Twitter &lt;a href="https://twitter.com/BismuthPlatform" target="_blank" rel="noopener">@bismuthPlatform&lt;/a> or on our &lt;a href="https://discord.gg/8KvA3JU" target="_blank" rel="noopener">Bismuth Discord&lt;/a>.&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://github.com/pytransitions/transitions" target="_blank" rel="noopener">Github - Pyrtransitions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/pgularski/pysm" target="_blank" rel="noopener">Github - Prysm&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Finite-state_machine" target="_blank" rel="noopener">Wikipedia - Finite State Machine&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/pytransitions/transitions-gui" target="_blank" rel="noopener">Github - Transitions GUI&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

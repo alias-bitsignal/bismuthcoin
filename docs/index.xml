@@ -1,222 +1,133 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>bismuthcoin.org – Documentation</title>
-    <link>https://alias-bitsignal.github.io/docs/</link>
-    <description>Recent content in Documentation on bismuthcoin.org</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	  <atom:link href="https://alias-bitsignal.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Articles</title>
-      <link>https://alias-bitsignal.github.io/docs/papers/articles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/docs/papers/articles/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2018-articles.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;Bismuth Articles&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bismuth-articles&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bismuth-articles&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/2018-07-19-semantic.pdf&#34; &gt;Semantic Interpretation&lt;/a&gt; - Jan Kucera, Jul 19, 2018&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/2019-09-20-shielded.pdf&#34; &gt;Shielded Tokens&lt;/a&gt; - Jan Kucera, Sep 20, 2019&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://xamanap.medium.com/cryptointerview-with-tezosevangelist-b45cbb72e414&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crypto Interview with @tezosevangelist&lt;/a&gt; - Sep 29, 2017&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://ecency.com/cryptocurrency/@aetsen/bismuth-developer-interview-hclivess&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Developer Interview HCLivess&lt;/a&gt; - Mar 7, 2018&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://medium.com/@cblackbeard/bismuth-the-first-python-blockchain-6e2fb0b53a4f&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth — the first Python Blockchain&lt;/a&gt; - Jan 16, 2019&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://steemit.com/bitcoin/@kingscrown/bismuth-no-ico-no-premine-and-first-python-coin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth - No ICO, No Premine and First Python Coin!&lt;/a&gt; - Oct 05, 2017&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://steemit.com/crypto/@aetsen/how-to-cpu-pool-mine-bismuth-on-ubuntu-16-04&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to CPU Pool Mine Bismuth on Ubuntu 16.04&lt;/a&gt; - July 15, 2017&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://medium.com/@flashygordy/teamtalks-32-bismuth-82d56f9b37c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TEAMTALKS #32 — BISMUTH&lt;/a&gt; - August 8, 2019&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Bismuth Whitepaper</title>
-      <link>https://alias-bitsignal.github.io/docs/papers/whitepaper/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/docs/papers/whitepaper/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2025-03-05-whitepaper-bis.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The Bismuth Whitepaper is available in English, Korean, Japanese and Chinese.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper.pdf&#34; &gt;English Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper_kr.pdf&#34; &gt;Korean Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper_jp.pdf&#34; &gt;Japanese Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper_cn.pdf&#34; &gt;Chinese Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Exchanges</title>
-      <link>https://alias-bitsignal.github.io/docs/mainnet/exchanges/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/docs/mainnet/exchanges/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;Bismuth Exchange Implementation Guide&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bismuth-exchange-implementation-guide&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bismuth-exchange-implementation-guide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Explore our comprehensive &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/How_to_Implement.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Exchange Implementation Guide&lt;/a&gt; for detailed, step-by-step instructions on integrating Bismuth into your exchange platform. This guide walks you through setting up your development environment, configuring API connections, signing transactions, and implementing robust security practices.&lt;/p&gt;
-&lt;p&gt;Designed to help you smoothly navigate common integration challenges, the guide includes practical examples, best practices, and troubleshooting tips.&lt;/p&gt;
-&lt;h3&gt;Active Centralized Exchanges Implementing Bismuth&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;active-centralized-exchanges-implementing-bismuth&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#active-centralized-exchanges-implementing-bismuth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://xeggex.com/market/BIS_USDT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xeggex&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.finexbox.com/market/pair/BIS-BTC.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Finexbox&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Former or Inactive Exchanges That Listed Bismuth&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;former-or-inactive-exchanges-that-listed-bismuth&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#former-or-inactive-exchanges-that-listed-bismuth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/qtrade/qTrade.io.MD&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qTrade Exchange&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://hubi.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hubi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://graviex.net/markets/bisbtc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graviex&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/topbtc/TOP_BTC.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Top BTC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://x.vite.net/trade?symbol=VINU-001_BTC-000&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ViteX&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/cryptopia/Cryptopia.MD&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cryptopia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/heat/HEAT.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HEAT&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/How_to_Implement.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Implementation Guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Getting Started</title>
-      <link>https://alias-bitsignal.github.io/docs/getting-started/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/docs/getting-started/</guid>
-      <description>
-        
-        
-        &lt;p&gt;This guide will help you quickly get started with &lt;strong&gt;BISMUTH&lt;/strong&gt; as a &lt;strong&gt;regular user&lt;/strong&gt;, as a &lt;strong&gt;developer&lt;/strong&gt; or as an &lt;strong&gt;exchange&lt;/strong&gt; planning on implementing a $BIS trading pair.&lt;/p&gt;
-&lt;h2&gt;User Guideline&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;user-guideline&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#user-guideline&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Start with a &lt;a href=&#34;https://alias-bitsignal.github.io/wallet/&#34; &gt;Bismuth Wallet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Get familiar with the different available address schemes (rsa, ecdsa, &amp;hellip;)&lt;/li&gt;
-&lt;li&gt;Get some $BIS from an exchange or ask on the discord server for a faucet&lt;/li&gt;
-&lt;li&gt;Do low value test transactions to learn sending/ receiving $BIS&lt;/li&gt;
-&lt;li&gt;Check your transaction on the &lt;a href=&#34;https://bismuth.im/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Explorer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Confirmations before respending: 1&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Developer Guideline&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;developer-guideline&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#developer-guideline&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Read the Whitepaper&lt;/li&gt;
-&lt;li&gt;Install the Bismuth Mainnet Node&lt;/li&gt;
-&lt;li&gt;Study the &lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet/tree/master/wallet/crystals&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tornado Wallet Apps&lt;/a&gt; to learn how to extend the Mainnet node&lt;/li&gt;
-&lt;li&gt;Take a look at all Bismuth based &lt;a href=&#34;https://alias-bitsignal.github.io/docs/resources/apps/&#34; &gt;applications&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Read the &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth FAQs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Bismuth &lt;a href=&#34;https://github.com/bismuthfoundation/BismuthAPI/blob/master/Doc/commands_reference.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Native API&lt;/a&gt; command reference&lt;/li&gt;
-&lt;li&gt;Client &lt;a href=&#34;https://github.com/bismuthfoundation/BismuthRPC/blob/master/RPCServer/Commands.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;API Command List&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Hack-with-BIS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hack-with-BIS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Awesome-Bismuth&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Awesome-Bismuth&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Bismuth &lt;a href=&#34;https://bismuth.im/apihelp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Explorer API&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Exchange Guideline&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;exchange-guideline&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#exchange-guideline&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Bismuth &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/How_to_Implement.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Implementation Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Install &lt;a href=&#34;https://alias-bitsignal.github.io/docs/mainnet/install-node/&#34; &gt;Mainnet Node&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Install Node</title>
-      <link>https://alias-bitsignal.github.io/docs/mainnet/install-node/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/docs/mainnet/install-node/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;How to Run a Mainnet Node&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-run-a-mainnet-node&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#how-to-run-a-mainnet-node&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This guide provides several methods to set up and run a Mainnet Node. Choose the approach that best fits your needs.&lt;/p&gt;
-&lt;h3&gt;Automatic Installation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;automatic-installation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#automatic-installation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For a quick setup, use our &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Auto Install Script&lt;/a&gt;, which also installs the sidechain Hypernode.&lt;/p&gt;
-&lt;h3&gt;Manual Installation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;manual-installation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#manual-installation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Prefer a hands-on approach? Follow our &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Install/Linux.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Manual Installation Guide&lt;/a&gt; for step-by-step instructions.&lt;/p&gt;
-&lt;h3&gt;Docker Deployment&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;docker-deployment&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#docker-deployment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Deploy a containerized node easily with our &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-Docker/tree/master/node&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Docker Image&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;Database Snapshots&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;database-snapshots&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#database-snapshots&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Download Snapshot:&lt;/strong&gt; Use the &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Snapshot/Ledger_Mainnet.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Snapshot Guideline&lt;/a&gt; to obtain an existing database snapshot.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create Snapshot:&lt;/strong&gt; Generate a backup with the &lt;a href=&#34;https://github.com/bismuthfoundation/util/blob/master/snapshot_create.py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Snapshot Script&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Auto Install Script&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Install/Linux.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Manual Installation Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-Docker/tree/master/node&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Docker Image&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Snapshot/Ledger_Mainnet.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Snapshot Guideline&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/util/blob/master/snapshot_create.py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Snapshot Script&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Mining</title>
-      <link>https://alias-bitsignal.github.io/docs/mainnet/mining/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/docs/mainnet/mining/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;Bismuth Mining&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bismuth-mining&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bismuth-mining&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Bismuth Heavy3 Mining Algorithm&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bismuth-heavy3-mining-algorithm&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bismuth-heavy3-mining-algorithm&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;On October 8, 2018 - block height 854,660 - the new and novel Heavy3 mining
-algorithm was introduced on the Bismuth Mainnet.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Properties&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;custom sha224&lt;/li&gt;
-&lt;li&gt;tailored for GPU miners&lt;/li&gt;
-&lt;li&gt;more resistant to FPGAs and ASICs miners&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The idea behind the &lt;strong&gt;“Heavy3”&lt;/strong&gt; algorithm designed by EggdraSyl is both simple
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Documentation</title><link>https://alias-bitsignal.github.io/docs/</link><description>Recent content in Documentation on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://alias-bitsignal.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Articles</title><link>https://alias-bitsignal.github.io/docs/papers/articles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/docs/papers/articles/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2018-articles.webp" alt="" loading="lazy" />&lt;/p>
+&lt;h3>Bismuth Articles&lt;span class="hx-absolute -hx-mt-20" id="bismuth-articles">&lt;/span>
+&lt;a href="#bismuth-articles" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://alias-bitsignal.github.io/pdf/2018-07-19-semantic.pdf" >Semantic Interpretation&lt;/a> - Jan Kucera, Jul 19, 2018&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://alias-bitsignal.github.io/pdf/2019-09-20-shielded.pdf" >Shielded Tokens&lt;/a> - Jan Kucera, Sep 20, 2019&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://xamanap.medium.com/cryptointerview-with-tezosevangelist-b45cbb72e414" target="_blank" rel="noopener">Crypto Interview with @tezosevangelist&lt;/a> - Sep 29, 2017&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://ecency.com/cryptocurrency/@aetsen/bismuth-developer-interview-hclivess" target="_blank" rel="noopener">Bismuth Developer Interview HCLivess&lt;/a> - Mar 7, 2018&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://medium.com/@cblackbeard/bismuth-the-first-python-blockchain-6e2fb0b53a4f" target="_blank" rel="noopener">Bismuth — the first Python Blockchain&lt;/a> - Jan 16, 2019&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://steemit.com/bitcoin/@kingscrown/bismuth-no-ico-no-premine-and-first-python-coin" target="_blank" rel="noopener">Bismuth - No ICO, No Premine and First Python Coin!&lt;/a> - Oct 05, 2017&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://steemit.com/crypto/@aetsen/how-to-cpu-pool-mine-bismuth-on-ubuntu-16-04" target="_blank" rel="noopener">How to CPU Pool Mine Bismuth on Ubuntu 16.04&lt;/a> - July 15, 2017&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://medium.com/@flashygordy/teamtalks-32-bismuth-82d56f9b37c" target="_blank" rel="noopener">TEAMTALKS #32 — BISMUTH&lt;/a> - August 8, 2019&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Bismuth Whitepaper</title><link>https://alias-bitsignal.github.io/docs/papers/whitepaper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/docs/papers/whitepaper/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2025-03-05-whitepaper-bis.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;p>The Bismuth Whitepaper is available in English, Korean, Japanese and Chinese.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://alias-bitsignal.github.io/pdf/whitepaper.pdf" >English Bismuth Whitepaper&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://alias-bitsignal.github.io/pdf/whitepaper_kr.pdf" >Korean Bismuth Whitepaper&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://alias-bitsignal.github.io/pdf/whitepaper_jp.pdf" >Japanese Bismuth Whitepaper&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://alias-bitsignal.github.io/pdf/whitepaper_cn.pdf" >Chinese Bismuth Whitepaper&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Exchanges</title><link>https://alias-bitsignal.github.io/docs/mainnet/exchanges/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/docs/mainnet/exchanges/</guid><description>
+&lt;h2>Bismuth Exchange Implementation Guide&lt;span class="hx-absolute -hx-mt-20" id="bismuth-exchange-implementation-guide">&lt;/span>
+&lt;a href="#bismuth-exchange-implementation-guide" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Explore our comprehensive &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/How_to_Implement.md" target="_blank" rel="noopener">Bismuth Exchange Implementation Guide&lt;/a> for detailed, step-by-step instructions on integrating Bismuth into your exchange platform. This guide walks you through setting up your development environment, configuring API connections, signing transactions, and implementing robust security practices.&lt;/p>
+&lt;p>Designed to help you smoothly navigate common integration challenges, the guide includes practical examples, best practices, and troubleshooting tips.&lt;/p>
+&lt;h3>Active Centralized Exchanges Implementing Bismuth&lt;span class="hx-absolute -hx-mt-20" id="active-centralized-exchanges-implementing-bismuth">&lt;/span>
+&lt;a href="#active-centralized-exchanges-implementing-bismuth" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;a href="https://xeggex.com/market/BIS_USDT" target="_blank" rel="noopener">Xeggex&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.finexbox.com/market/pair/BIS-BTC.html" target="_blank" rel="noopener">Finexbox&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Former or Inactive Exchanges That Listed Bismuth&lt;span class="hx-absolute -hx-mt-20" id="former-or-inactive-exchanges-that-listed-bismuth">&lt;/span>
+&lt;a href="#former-or-inactive-exchanges-that-listed-bismuth" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/qtrade/qTrade.io.MD" target="_blank" rel="noopener">qTrade Exchange&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hubi.com" target="_blank" rel="noopener">Hubi&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://graviex.net/markets/bisbtc" target="_blank" rel="noopener">Graviex&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/topbtc/TOP_BTC.md" target="_blank" rel="noopener">Top BTC&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://x.vite.net/trade?symbol=VINU-001_BTC-000" target="_blank" rel="noopener">ViteX&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/cryptopia/Cryptopia.MD" target="_blank" rel="noopener">Cryptopia&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/heat/HEAT.md" target="_blank" rel="noopener">HEAT&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/How_to_Implement.md" target="_blank" rel="noopener">Bismuth Implementation Guide&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Getting Started</title><link>https://alias-bitsignal.github.io/docs/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/docs/getting-started/</guid><description>
+&lt;p>This guide will help you quickly get started with &lt;strong>BISMUTH&lt;/strong> as a &lt;strong>regular user&lt;/strong>, as a &lt;strong>developer&lt;/strong> or as an &lt;strong>exchange&lt;/strong> planning on implementing a $BIS trading pair.&lt;/p>
+&lt;h2>User Guideline&lt;span class="hx-absolute -hx-mt-20" id="user-guideline">&lt;/span>
+&lt;a href="#user-guideline" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Start with a &lt;a href="https://alias-bitsignal.github.io/wallet/" >Bismuth Wallet&lt;/a>&lt;/li>
+&lt;li>Get familiar with the different available address schemes (rsa, ecdsa, &amp;hellip;)&lt;/li>
+&lt;li>Get some $BIS from an exchange or ask on the discord server for a faucet&lt;/li>
+&lt;li>Do low value test transactions to learn sending/ receiving $BIS&lt;/li>
+&lt;li>Check your transaction on the &lt;a href="https://bismuth.im/" target="_blank" rel="noopener">Bismuth Explorer&lt;/a>&lt;/li>
+&lt;li>Confirmations before respending: 1&lt;/li>
+&lt;/ul>
+&lt;h2>Developer Guideline&lt;span class="hx-absolute -hx-mt-20" id="developer-guideline">&lt;/span>
+&lt;a href="#developer-guideline" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Read the Whitepaper&lt;/li>
+&lt;li>Install the Bismuth Mainnet Node&lt;/li>
+&lt;li>Study the &lt;a href="https://github.com/bismuthfoundation/TornadoWallet/tree/master/wallet/crystals" target="_blank" rel="noopener">Tornado Wallet Apps&lt;/a> to learn how to extend the Mainnet node&lt;/li>
+&lt;li>Take a look at all Bismuth based &lt;a href="https://alias-bitsignal.github.io/docs/resources/apps/" >applications&lt;/a>&lt;/li>
+&lt;li>Read the &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ" target="_blank" rel="noopener">Bismuth FAQs&lt;/a>&lt;/li>
+&lt;li>Bismuth &lt;a href="https://github.com/bismuthfoundation/BismuthAPI/blob/master/Doc/commands_reference.md" target="_blank" rel="noopener">Native API&lt;/a> command reference&lt;/li>
+&lt;li>Client &lt;a href="https://github.com/bismuthfoundation/BismuthRPC/blob/master/RPCServer/Commands.md" target="_blank" rel="noopener">API Command List&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Hack-with-BIS" target="_blank" rel="noopener">Hack-with-BIS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Awesome-Bismuth" target="_blank" rel="noopener">Awesome-Bismuth&lt;/a>&lt;/li>
+&lt;li>Bismuth &lt;a href="https://bismuth.im/apihelp" target="_blank" rel="noopener">Explorer API&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>Exchange Guideline&lt;span class="hx-absolute -hx-mt-20" id="exchange-guideline">&lt;/span>
+&lt;a href="#exchange-guideline" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Bismuth &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/How_to_Implement.md" target="_blank" rel="noopener">Implementation Guide&lt;/a>&lt;/li>
+&lt;li>Install &lt;a href="https://alias-bitsignal.github.io/docs/mainnet/install-node/" >Mainnet Node&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Install Node</title><link>https://alias-bitsignal.github.io/docs/mainnet/install-node/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/docs/mainnet/install-node/</guid><description>
+&lt;h2>How to Run a Mainnet Node&lt;span class="hx-absolute -hx-mt-20" id="how-to-run-a-mainnet-node">&lt;/span>
+&lt;a href="#how-to-run-a-mainnet-node" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This guide provides several methods to set up and run a Mainnet Node. Choose the approach that best fits your needs.&lt;/p>
+&lt;h3>Automatic Installation&lt;span class="hx-absolute -hx-mt-20" id="automatic-installation">&lt;/span>
+&lt;a href="#automatic-installation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>For a quick setup, use our &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md" target="_blank" rel="noopener">Auto Install Script&lt;/a>, which also installs the sidechain Hypernode.&lt;/p>
+&lt;h3>Manual Installation&lt;span class="hx-absolute -hx-mt-20" id="manual-installation">&lt;/span>
+&lt;a href="#manual-installation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Prefer a hands-on approach? Follow our &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Install/Linux.md" target="_blank" rel="noopener">Manual Installation Guide&lt;/a> for step-by-step instructions.&lt;/p>
+&lt;h3>Docker Deployment&lt;span class="hx-absolute -hx-mt-20" id="docker-deployment">&lt;/span>
+&lt;a href="#docker-deployment" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Deploy a containerized node easily with our &lt;a href="https://github.com/bismuthfoundation/Bismuth-Docker/tree/master/node" target="_blank" rel="noopener">Bismuth Docker Image&lt;/a>.&lt;/p>
+&lt;h3>Database Snapshots&lt;span class="hx-absolute -hx-mt-20" id="database-snapshots">&lt;/span>
+&lt;a href="#database-snapshots" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Download Snapshot:&lt;/strong> Use the &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Snapshot/Ledger_Mainnet.md" target="_blank" rel="noopener">Snapshot Guideline&lt;/a> to obtain an existing database snapshot.&lt;/li>
+&lt;li>&lt;strong>Create Snapshot:&lt;/strong> Generate a backup with the &lt;a href="https://github.com/bismuthfoundation/util/blob/master/snapshot_create.py" target="_blank" rel="noopener">Bismuth Snapshot Script&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md" target="_blank" rel="noopener">Auto Install Script&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Install/Linux.md" target="_blank" rel="noopener">Manual Installation Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-Docker/tree/master/node" target="_blank" rel="noopener">Bismuth Docker Image&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Snapshot/Ledger_Mainnet.md" target="_blank" rel="noopener">Snapshot Guideline&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/util/blob/master/snapshot_create.py" target="_blank" rel="noopener">Bismuth Snapshot Script&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Mining</title><link>https://alias-bitsignal.github.io/docs/mainnet/mining/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/docs/mainnet/mining/</guid><description>
+&lt;h2>Bismuth Mining&lt;span class="hx-absolute -hx-mt-20" id="bismuth-mining">&lt;/span>
+&lt;a href="#bismuth-mining" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>Bismuth Heavy3 Mining Algorithm&lt;span class="hx-absolute -hx-mt-20" id="bismuth-heavy3-mining-algorithm">&lt;/span>
+&lt;a href="#bismuth-heavy3-mining-algorithm" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>On October 8, 2018 - block height 854,660 - the new and novel Heavy3 mining
+algorithm was introduced on the Bismuth Mainnet.&lt;/p>
+&lt;p>&lt;strong>Properties&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>custom sha224&lt;/li>
+&lt;li>tailored for GPU miners&lt;/li>
+&lt;li>more resistant to FPGAs and ASICs miners&lt;/li>
+&lt;/ul>
+&lt;p>The idea behind the &lt;strong>“Heavy3”&lt;/strong> algorithm designed by EggdraSyl is both simple
 and effective: It requires a read from a random offset in a fixed lookup table,
-for each tested nonce.&lt;/p&gt;
-&lt;p&gt;This concept can be applied to any other mining algorithm as an additional layer
+for each tested nonce.&lt;/p>
+&lt;p>This concept can be applied to any other mining algorithm as an additional layer
 to protect against a similar attack. If the matching algorithm uses hashcash or
 not - bismuth does not - is irrelevant. The final hash state that is tested is
 a vector of 32 bits words. Since it is a hash result, it can be considered as a
@@ -225,153 +136,108 @@ this is a hash core property – The lookup table also contains random data. For
 each nonce, the extra step is applying a XOR transform to the hash output, given
 a random vector from the lookup table, with the index begin determined by the
 hash itself, therefore at a random, non predictable, location. The result – xor’d
-hash state – is considered as the input vector to the difficulty matching function.&lt;/p&gt;
-&lt;h3&gt;Open-Source Miner &amp;amp; Pool&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;open-source-miner--pool&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#open-source-miner--pool&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/kbkminer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kbkminer&lt;/a&gt; - kbkminer is a GPU CUDA Miner for Bismuth.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Optipoolware&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Optipoolware&lt;/a&gt; - Optipoolware is a Mining Pool application which supports kbkminer.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Legacy Mining Pools That Have Ceased Operations&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;legacy-mining-pools-that-have-ceased-operations&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#legacy-mining-pools-that-have-ceased-operations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Significant old legacy pools, listed by alphabetical order.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Bis-pool.net&lt;/li&gt;
-&lt;li&gt;Bismuth.Coinsaurus.com&lt;/li&gt;
-&lt;li&gt;EggPool.net&lt;/li&gt;
-&lt;li&gt;Noncepool.com&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Blocks Distribution Chart&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;blocks-distribution-chart&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#blocks-distribution-chart&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://miningpoolstats.stream/bismuth&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Miningpoolstats&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper.pdf&#34; &gt;Bismuth Whitepaper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/kbkminer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kbkminer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Optipoolware&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Optipoolware&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://miningpoolstats.stream/bismuth&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Miningpoolstats&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Overview</title>
-      <link>https://alias-bitsignal.github.io/docs/mainnet/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/docs/mainnet/overview/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;Bismuth Technical Overview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bismuth-technical-overview&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bismuth-technical-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Bismuth, an &lt;strong&gt;account-based model&lt;/strong&gt;, doesn’t require a unique identifier (like a nonce) to prevent replay attacks as Ethereum does. Instead, it uses its unique transaction signature for identification.&lt;/p&gt;
-&lt;h3&gt;How the Unique Signature Method Works&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-the-unique-signature-method-works&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#how-the-unique-signature-method-works&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Intrinsic Uniqueness:&lt;/strong&gt; In Bismuth, every transaction is signed in such a way that the resulting signature is unique. This signature then becomes also the transaction’s identity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Replay Prevention:&lt;/strong&gt; Since a valid transaction is uniquely identified by its signature, if someone tries to replay the same transaction, the system can detect that the signature (and thus the transaction ID) has already been used and reject the duplicate.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;System: Proof-of-Work (custom implementation) + HyperNodes (custom implementation)&lt;/li&gt;
-&lt;li&gt;Hashing algorithm: SHA224&lt;/li&gt;
-&lt;li&gt;Mining algorithm: Heavy3&lt;/li&gt;
-&lt;li&gt;Signing algorithm: PKCS1_v1_5&lt;/li&gt;
-&lt;li&gt;Block time interval: 60 seconds&lt;/li&gt;
-&lt;li&gt;Transaction size: ~650 bytes + data fees&lt;/li&gt;
-&lt;li&gt;Mining reward: Tapering from 15 at block 1 to 0 at block 7,100,000&lt;/li&gt;
-&lt;li&gt;Difficulty: Proportional–integral–derivative controller&lt;/li&gt;
-&lt;li&gt;Difficulty retarget: Every block&lt;/li&gt;
-&lt;li&gt;Total PoW reward: 51,370,000 (plus 10% dev rewards)&lt;/li&gt;
-&lt;li&gt;PoS reward (HyperNodes): 0.8 per block from block 800,000 to 1,200,000&lt;/li&gt;
-&lt;li&gt;PoS reward (HyperNodes): 2.4 per block indefinitely from block 1,200,000&lt;/li&gt;
-&lt;li&gt;Smallest unit: 0.00000001&lt;/li&gt;
-&lt;li&gt;Confirmations before respending: 1&lt;/li&gt;
-&lt;li&gt;Plain text peer list file&lt;/li&gt;
-&lt;li&gt;Tor proxy support&lt;/li&gt;
-&lt;li&gt;Optimized towards efficiency&lt;/li&gt;
-&lt;li&gt;Dual database system for maximum performance&lt;/li&gt;
-&lt;li&gt;Database compression/pruning&lt;/li&gt;
-&lt;li&gt;Arbitrary data storage ecosystem and philosophy&lt;/li&gt;
-&lt;li&gt;Address-based anonymizing transaction mixer&lt;/li&gt;
-&lt;li&gt;Asymmetric message and data encryption&lt;/li&gt;
-&lt;li&gt;Batteries included: Pool, casino, mixer, peer map&lt;/li&gt;
-&lt;li&gt;Node options fully configurable&lt;/li&gt;
-&lt;li&gt;All layers built from scratch&lt;/li&gt;
-&lt;li&gt;100% OpenSource&lt;/li&gt;
-&lt;li&gt;Mainnet Port: 5658&lt;/li&gt;
-&lt;li&gt;Testnet Port: 2829&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Bismuth Mainnet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>References</title>
-      <link>https://alias-bitsignal.github.io/docs/papers/references/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/docs/papers/references/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2025-03-06-references.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;References to Bismuth&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references-to-bismuth&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#references-to-bismuth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;IBM Patent – PatentHwang et al&lt;br&gt;
-&lt;a href=&#34;https://patentimages.storage.googleapis.com/8e/21/cb/25aaae13b0e165/US10880073.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Optimizing Performance of a Blockchain&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Pedro Pinheiro, Ricardo Santos, Ricardo Barbosa&lt;br&gt;
-&lt;a href=&#34;https://link.springer.com/chapter/10.1007%2F978-3-030-01746-0_39&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Industry 4.0 Multi-agent System Based Knowledge Representation Through Blockchain&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Sotirios Liaskos, Bo Wang, Nahid Alimohammadi&lt;br&gt;
-&lt;a href=&#34;http://dx.doi.org/10.1109/SEAMS.2019.00025&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blockchain Networks as Adaptive Systems&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;George Bissias, David Thibodeau, Brian N. Levine&lt;br&gt;
-&lt;a href=&#34;https://link.springer.com/chapter/10.1007%2F978-3-030-31500-9_24&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bonded Mining: Difficulty Adjustment by Miner Commitment&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Alberto Leva, Silvia Strada, Mara Tanelli&lt;br&gt;
-&lt;a href=&#34;https://ieeexplore.ieee.org/document/8795749&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Control-oriented modelling of proof-of-work blockchains&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Wei Zhou, Information Department, Beijing University of Technology, Beijing, China&lt;br&gt;
-&lt;a href=&#34;https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs189633&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fuzzy rules based efficient event-driven simulation of blockchain-based applications&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>https://alias-bitsignal.github.io/docs/papers/research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alias-bitsignal.github.io/docs/papers/research/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2025-03-06-papers.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;Academics and Research&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;academics-and-research&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#academics-and-research&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.mic-journal.no/ABS/MIC-2017-4-1.asp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nonlinear Feedback Control and Stability Analysis of a  Proof-of-Work Blockchain&lt;/a&gt; - Geir Hovland and Jan Kucera&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/bis-security-20180505.pdf&#34; &gt;Security of the Bismuth Blockchain&lt;/a&gt;  - Geir Hovland and Jan Kucera&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.mic-journal.no/ABS/MIC-2018-3-1.asp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tail Removal Block Validation: Implementation and Analysis&lt;/a&gt; - Geir Hovland and Jan Kucera&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+hash state – is considered as the input vector to the difficulty matching function.&lt;/p>
+&lt;h3>Open-Source Miner &amp;amp; Pool&lt;span class="hx-absolute -hx-mt-20" id="open-source-miner--pool">&lt;/span>
+&lt;a href="#open-source-miner--pool" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/kbkminer" target="_blank" rel="noopener">kbkminer&lt;/a> - kbkminer is a GPU CUDA Miner for Bismuth.&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Optipoolware" target="_blank" rel="noopener">Optipoolware&lt;/a> - Optipoolware is a Mining Pool application which supports kbkminer.&lt;/li>
+&lt;/ul>
+&lt;h3>Legacy Mining Pools That Have Ceased Operations&lt;span class="hx-absolute -hx-mt-20" id="legacy-mining-pools-that-have-ceased-operations">&lt;/span>
+&lt;a href="#legacy-mining-pools-that-have-ceased-operations" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Significant old legacy pools, listed by alphabetical order.&lt;/p>
+&lt;ul>
+&lt;li>Bis-pool.net&lt;/li>
+&lt;li>Bismuth.Coinsaurus.com&lt;/li>
+&lt;li>EggPool.net&lt;/li>
+&lt;li>Noncepool.com&lt;/li>
+&lt;/ul>
+&lt;h3>Blocks Distribution Chart&lt;span class="hx-absolute -hx-mt-20" id="blocks-distribution-chart">&lt;/span>
+&lt;a href="#blocks-distribution-chart" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;a href="https://miningpoolstats.stream/bismuth" target="_blank" rel="noopener">Miningpoolstats&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://alias-bitsignal.github.io/pdf/whitepaper.pdf" >Bismuth Whitepaper&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/kbkminer" target="_blank" rel="noopener">kbkminer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Optipoolware" target="_blank" rel="noopener">Optipoolware&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://miningpoolstats.stream/bismuth" target="_blank" rel="noopener">Miningpoolstats&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Overview</title><link>https://alias-bitsignal.github.io/docs/mainnet/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/docs/mainnet/overview/</guid><description>
+&lt;h2>Bismuth Technical Overview&lt;span class="hx-absolute -hx-mt-20" id="bismuth-technical-overview">&lt;/span>
+&lt;a href="#bismuth-technical-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Bismuth, an &lt;strong>account-based model&lt;/strong>, doesn’t require a unique identifier (like a nonce) to prevent replay attacks as Ethereum does. Instead, it uses its unique transaction signature for identification.&lt;/p>
+&lt;h3>How the Unique Signature Method Works&lt;span class="hx-absolute -hx-mt-20" id="how-the-unique-signature-method-works">&lt;/span>
+&lt;a href="#how-the-unique-signature-method-works" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Intrinsic Uniqueness:&lt;/strong> In Bismuth, every transaction is signed in such a way that the resulting signature is unique. This signature then becomes also the transaction’s identity.&lt;/p>
+&lt;p>&lt;strong>Replay Prevention:&lt;/strong> Since a valid transaction is uniquely identified by its signature, if someone tries to replay the same transaction, the system can detect that the signature (and thus the transaction ID) has already been used and reject the duplicate.&lt;/p>
+&lt;ul>
+&lt;li>System: Proof-of-Work (custom implementation) + HyperNodes (custom implementation)&lt;/li>
+&lt;li>Hashing algorithm: SHA224&lt;/li>
+&lt;li>Mining algorithm: Heavy3&lt;/li>
+&lt;li>Signing algorithm: PKCS1_v1_5&lt;/li>
+&lt;li>Block time interval: 60 seconds&lt;/li>
+&lt;li>Transaction size: ~650 bytes + data fees&lt;/li>
+&lt;li>Mining reward: Tapering from 15 at block 1 to 0 at block 7,100,000&lt;/li>
+&lt;li>Difficulty: Proportional–integral–derivative controller&lt;/li>
+&lt;li>Difficulty retarget: Every block&lt;/li>
+&lt;li>Total PoW reward: 51,370,000 (plus 10% dev rewards)&lt;/li>
+&lt;li>PoS reward (HyperNodes): 0.8 per block from block 800,000 to 1,200,000&lt;/li>
+&lt;li>PoS reward (HyperNodes): 2.4 per block indefinitely from block 1,200,000&lt;/li>
+&lt;li>Smallest unit: 0.00000001&lt;/li>
+&lt;li>Confirmations before respending: 1&lt;/li>
+&lt;li>Plain text peer list file&lt;/li>
+&lt;li>Tor proxy support&lt;/li>
+&lt;li>Optimized towards efficiency&lt;/li>
+&lt;li>Dual database system for maximum performance&lt;/li>
+&lt;li>Database compression/pruning&lt;/li>
+&lt;li>Arbitrary data storage ecosystem and philosophy&lt;/li>
+&lt;li>Address-based anonymizing transaction mixer&lt;/li>
+&lt;li>Asymmetric message and data encryption&lt;/li>
+&lt;li>Batteries included: Pool, casino, mixer, peer map&lt;/li>
+&lt;li>Node options fully configurable&lt;/li>
+&lt;li>All layers built from scratch&lt;/li>
+&lt;li>100% OpenSource&lt;/li>
+&lt;li>Mainnet Port: 5658&lt;/li>
+&lt;li>Testnet Port: 2829&lt;/li>
+&lt;/ul>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth" target="_blank" rel="noopener">Github Bismuth Mainnet&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>References</title><link>https://alias-bitsignal.github.io/docs/papers/references/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/docs/papers/references/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2025-03-06-references.webp" alt="" loading="lazy" />&lt;/p>
+&lt;h3>References to Bismuth&lt;span class="hx-absolute -hx-mt-20" id="references-to-bismuth">&lt;/span>
+&lt;a href="#references-to-bismuth" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>IBM Patent – PatentHwang et al&lt;br>
+&lt;a href="https://patentimages.storage.googleapis.com/8e/21/cb/25aaae13b0e165/US10880073.pdf" target="_blank" rel="noopener">Optimizing Performance of a Blockchain&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Pedro Pinheiro, Ricardo Santos, Ricardo Barbosa&lt;br>
+&lt;a href="https://link.springer.com/chapter/10.1007%2F978-3-030-01746-0_39" target="_blank" rel="noopener">Industry 4.0 Multi-agent System Based Knowledge Representation Through Blockchain&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Sotirios Liaskos, Bo Wang, Nahid Alimohammadi&lt;br>
+&lt;a href="http://dx.doi.org/10.1109/SEAMS.2019.00025" target="_blank" rel="noopener">Blockchain Networks as Adaptive Systems&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>George Bissias, David Thibodeau, Brian N. Levine&lt;br>
+&lt;a href="https://link.springer.com/chapter/10.1007%2F978-3-030-31500-9_24" target="_blank" rel="noopener">Bonded Mining: Difficulty Adjustment by Miner Commitment&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Alberto Leva, Silvia Strada, Mara Tanelli&lt;br>
+&lt;a href="https://ieeexplore.ieee.org/document/8795749" target="_blank" rel="noopener">Control-oriented modelling of proof-of-work blockchains&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Wei Zhou, Information Department, Beijing University of Technology, Beijing, China&lt;br>
+&lt;a href="https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs189633" target="_blank" rel="noopener">Fuzzy rules based efficient event-driven simulation of blockchain-based applications&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Research</title><link>https://alias-bitsignal.github.io/docs/papers/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/docs/papers/research/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2025-03-06-papers.webp" alt="" loading="lazy" />&lt;/p>
+&lt;h3>Academics and Research&lt;span class="hx-absolute -hx-mt-20" id="academics-and-research">&lt;/span>
+&lt;a href="#academics-and-research" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="http://www.mic-journal.no/ABS/MIC-2017-4-1.asp" target="_blank" rel="noopener">Nonlinear Feedback Control and Stability Analysis of a Proof-of-Work Blockchain&lt;/a> - Geir Hovland and Jan Kucera&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://alias-bitsignal.github.io/pdf/bis-security-20180505.pdf" >Security of the Bismuth Blockchain&lt;/a> - Geir Hovland and Jan Kucera&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.mic-journal.no/ABS/MIC-2018-3-1.asp" target="_blank" rel="noopener">Tail Removal Block Validation: Implementation and Analysis&lt;/a> - Geir Hovland and Jan Kucera&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
