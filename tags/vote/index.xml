@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bismuthcoin.org – Vote</title>
-    <link>https://alias-bitsignal.github.io/tags/vote/</link>
+    <link>https://alias-bitsignal.github.io/bismuthcoin/tags/vote/</link>
     <description>Recent content in Vote on bismuthcoin.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 06 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://alias-bitsignal.github.io/tags/vote/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://alias-bitsignal.github.io/bismuthcoin/tags/vote/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,14 +17,14 @@
     
     <item>
       <title>Outcome of Bismuth’s First Governance Vote</title>
-      <link>https://alias-bitsignal.github.io/blog/2019-11-06-governance-vote/</link>
+      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2019-11-06-governance-vote/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/blog/2019-11-06-governance-vote/</guid>
+      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2019-11-06-governance-vote/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-11-06-governance-vote.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2019-11-06-governance-vote.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Decisions are the most crucial part of advancing a project. Without them, ideas lie in-acted upon, development stalls, and instead of progress there is stagnation.&lt;/p&gt;
 &lt;p&gt;The Bismuth Foundation is well aware of the dangerous path of inaction, and has always committed a full effort towards advancing the platform at a steadfast pace. One such large advancements have come into fruition recently, with the conclusion of Bismuth’s first Governance Vote- BGV-01.&lt;/p&gt;
 &lt;p&gt;BGV-01 was a motion that combined a new and revolutionary governance protocol with branching decisions that would impact Bismuth on a grand scale – retain the current emission schedule (option A), or significantly reduce it (option B). Throughout October 1st and November 1st of 2019, Bismuth stakeholders could vote on either choice.&lt;/p&gt;
@@ -96,7 +96,7 @@
 &lt;li&gt;For dApps: no changes to fees or block times.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The new graph showing the miner, hypernode and dev rewards are shown below. In addition to the reduced emission, lower limits of 0.5 BIS have been put in place for both the miner and hypernode rewards. Since the dev reward is 10% of the miner reward, the lower limit on those will be 0.05 BIS per block. The lower limit will be reached at approximately block height 7,100,000.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-11-06-first-governance-vote.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2019-11-06-first-governance-vote.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Bismuth’s first governance vote was a great success, and the community has spoken to alter Bismuth’s emission schedule for the better. Not only has a major change been decided upon, but it has proven that the BGV protocol is a far more viable and effective voting mechanism compared to what other platforms have created.&lt;/p&gt;
 &lt;p&gt;All exchanges, pools and hypernode operators need to update their nodes by block height 1,450,000 which is expected to take place on November 27, 2019. The new release will be available at the &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Github repository&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
@@ -108,14 +108,14 @@
     
     <item>
       <title>BGV-01 - Bismuth Governance Vote 1</title>
-      <link>https://alias-bitsignal.github.io/blog/2019-09-10-bgv-01/</link>
+      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2019-09-10-bgv-01/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/blog/2019-09-10-bgv-01/</guid>
+      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2019-09-10-bgv-01/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-10-18-voting.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2019-10-18-voting.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
 Preamble - This blog article explains the &lt;strong&gt;BGV-01&lt;/strong&gt; motion and the options you can vote for.&lt;/p&gt;
 &lt;h3&gt;Abstract&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;abstract&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#abstract&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -250,9 +250,9 @@ With Option B the annual inflation per year starting from block height 1,450,000
 &lt;h3&gt;Graph: (A) vs (B)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;graph-a-vs-b&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#graph-a-vs-b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The current emission curves (Option A) and the proposed modified curves (Option B) and the associated dilution rates are compared in the figure below:
 Current emission (A) is in Bold, emission for (B) is thinner.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-09-10-bgv_01_vote_alternatives.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2019-09-10-bgv_01_vote_alternatives.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;Use of the winning funds&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;use-of-the-winning-funds&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#use-of-the-winning-funds&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;As described in the Bismuth &lt;a href=&#34;https://alias-bitsignal.github.io/blog/2019-08-30-governance-shift-part_2/&#34; &gt;voting protocol&lt;/a&gt;, the BIS of the losing side are sent back to their originating wallets, while funds of the winning side are kept in a fund to finance the option.
+    &lt;a href=&#34;#use-of-the-winning-funds&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;As described in the Bismuth &lt;a href=&#34;https://alias-bitsignal.github.io/bismuthcoin/blog/2019-08-30-governance-shift-part_2/&#34; &gt;voting protocol&lt;/a&gt;, the BIS of the losing side are sent back to their originating wallets, while funds of the winning side are kept in a fund to finance the option.
 For this motion the winning funds – whatever the issue will be – are to be used as exchange listing and dapps bounties funds.&lt;/p&gt;
 &lt;h2&gt;Arguments&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;arguments&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#arguments&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Arguments for option A:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;arguments-for-option-a&#34;&gt;&lt;/span&gt;
@@ -281,21 +281,21 @@ By reducing the miners rewards (Option B) there is a high probability that the o
 &lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://discord.gg/G5gUbkn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth Discord&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/blog/2019-08-30-governance-shift-part_2/&#34; &gt;Voting Protocol&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/bismuthcoin/blog/2019-08-30-governance-shift-part_2/&#34; &gt;Voting Protocol&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
       </description>
     </item>
     
     <item>
       <title>Bismuth Governance Shift - Part 2</title>
-      <link>https://alias-bitsignal.github.io/blog/2019-08-30-governance-shift-part_2/</link>
+      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2019-08-30-governance-shift-part_2/</link>
       <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/blog/2019-08-30-governance-shift-part_2/</guid>
+      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2019-08-30-governance-shift-part_2/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-08-30-governance-shift-part_2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2019-08-30-governance-shift-part_2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;Preamble&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;preamble&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#preamble&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In the previous post, the governance shift that is to take place with Bismuth was introduced, and the ETH voting protocol was examined. It was shown that this protocol does come with several issues that could be important flaws in the Bismuth context.&lt;/p&gt;
 &lt;h3&gt;Issues with the ETH voting protocol&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;issues-with-the-eth-voting-protocol&#34;&gt;&lt;/span&gt;
@@ -378,14 +378,14 @@ The vote issue is an Oracle whose value is only known once the decision is immut
     
     <item>
       <title>Bismuth Governance Shift - Part 1</title>
-      <link>https://alias-bitsignal.github.io/blog/2019-08-29-governance-shift-part_1/</link>
+      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2019-08-29-governance-shift-part_1/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/blog/2019-08-29-governance-shift-part_1/</guid>
+      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2019-08-29-governance-shift-part_1/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-08-29-governance-shift-part_1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2019-08-29-governance-shift-part_1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
 During the first two and a half years of the Bismuth blockchain project, important governance actions have been decided by the group of foundation members. Now the core team finds it is time to involve the community deeper into governance questions, and make more use of community feedback.&lt;/p&gt;
 &lt;p&gt;The Bismuth project has had a very active Discord community since the beginning, and it is seen as a very valuable resource for the project and it makes sense to consult the community more than in the past for input on important decisions. Therefore, the foundation members have decided to introduce a shift in the governance, by letting the stakeholders involved vote on important decisions concerning the future of the project.&lt;/p&gt;
 &lt;p&gt;Discord alone however can’t be seen as a source of actionable feedback:&lt;/p&gt;
@@ -406,7 +406,7 @@ During the first two and a half years of the Bismuth blockchain project, importa
 &lt;p&gt;Now, the core team feels that the time has come to let users hold their responsibilities and take the decision for everyone’s best interest, via a voting process. The team would prepare options to vote upon, the users will decide, the team will take action based on the final voting results.&lt;/p&gt;
 &lt;h3&gt;The first vote in Bismuth History&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-first-vote-in-bismuth-history&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#the-first-vote-in-bismuth-history&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If you are familiar with the discord, you cannot avoid the economists lobbying for a supply modification.&lt;/p&gt;
-&lt;p&gt;The latest fork (&lt;a href=&#34;https://alias-bitsignal.github.io/blog/2019-05-17-hard-fork-v4.3.0.0/&#34; &gt;see here&lt;/a&gt;) was tailored to account for increased services to be provided by the Hypernodes, while not raising the dilution. It already went in the direction of reducing miner rewards. Currently the most vocal suggestions aim to address the dropping price concern, and are to significantly reduce the supply by cutting the emission: that is both block rewards and HN rewards.&lt;/p&gt;
+&lt;p&gt;The latest fork (&lt;a href=&#34;https://alias-bitsignal.github.io/bismuthcoin/blog/2019-05-17-hard-fork-v4.3.0.0/&#34; &gt;see here&lt;/a&gt;) was tailored to account for increased services to be provided by the Hypernodes, while not raising the dilution. It already went in the direction of reducing miner rewards. Currently the most vocal suggestions aim to address the dropping price concern, and are to significantly reduce the supply by cutting the emission: that is both block rewards and HN rewards.&lt;/p&gt;
 &lt;p&gt;The team ran simulations, examined the available data but still it is not clear what the global implications can be, nor how action or inaction would be welcome by the users and the markets. The problem really is complex with implications at the ethical, economical level, involving the equilibrium of the whole system. The more you dig, the more it appears complex.&lt;/p&gt;
 &lt;p&gt;It looks like it is the perfect case where a community vote is needed and will make sense.&lt;/p&gt;
 &lt;p&gt;A voting process can be an equally daunting task, because blockchain based voting is tricky and dangerous. The difficulty is two fold:&lt;/p&gt;

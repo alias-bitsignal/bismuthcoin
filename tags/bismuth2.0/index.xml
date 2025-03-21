@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bismuthcoin.org – Bismuth2.0</title>
-    <link>https://alias-bitsignal.github.io/tags/bismuth2.0/</link>
+    <link>https://alias-bitsignal.github.io/bismuthcoin/tags/bismuth2.0/</link>
     <description>Recent content in Bismuth2.0 on bismuthcoin.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://alias-bitsignal.github.io/tags/bismuth2.0/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://alias-bitsignal.github.io/bismuthcoin/tags/bismuth2.0/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,14 +17,14 @@
     
     <item>
       <title>Bismuth 2.0 - Official Announcement</title>
-      <link>https://alias-bitsignal.github.io/blog/2021-02-24-bis-2.0/</link>
+      <link>https://alias-bitsignal.github.io/bismuthcoin/blog/2021-02-24-bis-2.0/</link>
       <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/blog/2021-02-24-bis-2.0/</guid>
+      <guid>https://alias-bitsignal.github.io/bismuthcoin/blog/2021-02-24-bis-2.0/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2021-02-24-bis-2.0.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/bismuthcoin/images/2021-02-24-bis-2.0.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
 Late last year, the Bismuth Foundation unveiled “Bismuth2.0”. The reveal was brief, did not go into any detail and the team remained silent on the topic for the following months.&lt;/p&gt;
 &lt;p&gt;We would like to thank everyone for their patience, the time has finally come for the big reveal! Let’s get right into it.&lt;/p&gt;
 &lt;h2&gt;The Basics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-basics&#34;&gt;&lt;/span&gt;
@@ -126,7 +126,7 @@ This device will support signing of BIS transactions but also paves the way to m
 &lt;li&gt;&lt;a href=&#34;https://xeggex.com/market/BIS_USDT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crypto Exchange&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.coingecko.com/en/coins/bismuth&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Coingecko&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://coinmarketcap.com/currencies/bismuth/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Coinmarketcap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/blog&#34; &gt;Bismuth Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/bismuthcoin/blog&#34; &gt;Bismuth Blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
       </description>
     </item>
