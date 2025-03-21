@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bismuthcoin.org – Fork</title>
-    <link>https://alias-bitsignal.github.io/tags/fork/</link>
+    <link>https://bismuthcoin.org/tags/fork/</link>
     <description>Recent content in Fork on bismuthcoin.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://alias-bitsignal.github.io/tags/fork/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://bismuthcoin.org/tags/fork/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,14 +17,14 @@
     
     <item>
       <title>Voting page Helper - Dev and Bounty</title>
-      <link>https://alias-bitsignal.github.io/blog/2019-10-18-voting/</link>
+      <link>https://bismuthcoin.org/blog/2019-10-18-voting/</link>
       <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/blog/2019-10-18-voting/</guid>
+      <guid>https://bismuthcoin.org/blog/2019-10-18-voting/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2019-10-18-voting.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2019-10-18-voting.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
 Bismuth community is currently voting whether or not change the supply emission (see BGVP-1).
 In order to allow easy and un-restricted access to the vote, the team went for a full client side helper to generate voting transactions.
 This ensures full privacy and allows to vote from any wallet. External help was welcome to get it successfully running and a Bounty will be awarded.&lt;/p&gt;

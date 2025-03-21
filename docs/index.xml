@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bismuthcoin.org – Documentation</title>
-    <link>https://alias-bitsignal.github.io/docs/</link>
+    <link>https://bismuthcoin.org/docs/</link>
     <description>Recent content in Documentation on bismuthcoin.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	  <atom:link href="https://alias-bitsignal.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://bismuthcoin.org/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,21 +16,21 @@
     
     <item>
       <title>Articles</title>
-      <link>https://alias-bitsignal.github.io/docs/papers/articles/</link>
+      <link>https://bismuthcoin.org/docs/papers/articles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/docs/papers/articles/</guid>
+      <guid>https://bismuthcoin.org/docs/papers/articles/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2018-articles.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2018-articles.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;Bismuth Articles&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bismuth-articles&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#bismuth-articles&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/2018-07-19-semantic.pdf&#34; &gt;Semantic Interpretation&lt;/a&gt; - Jan Kucera, Jul 19, 2018&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bismuthcoin.org/pdf/2018-07-19-semantic.pdf&#34; &gt;Semantic Interpretation&lt;/a&gt; - Jan Kucera, Jul 19, 2018&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/2019-09-20-shielded.pdf&#34; &gt;Shielded Tokens&lt;/a&gt; - Jan Kucera, Sep 20, 2019&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bismuthcoin.org/pdf/2019-09-20-shielded.pdf&#34; &gt;Shielded Tokens&lt;/a&gt; - Jan Kucera, Sep 20, 2019&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://xamanap.medium.com/cryptointerview-with-tezosevangelist-b45cbb72e414&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crypto Interview with @tezosevangelist&lt;/a&gt; - Sep 29, 2017&lt;/p&gt;
@@ -57,27 +57,27 @@
     
     <item>
       <title>Bismuth Whitepaper</title>
-      <link>https://alias-bitsignal.github.io/docs/papers/whitepaper/</link>
+      <link>https://bismuthcoin.org/docs/papers/whitepaper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/docs/papers/whitepaper/</guid>
+      <guid>https://bismuthcoin.org/docs/papers/whitepaper/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2025-03-05-whitepaper-bis.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2025-03-05-whitepaper-bis.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The Bismuth Whitepaper is available in English, Korean, Japanese and Chinese.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper.pdf&#34; &gt;English Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bismuthcoin.org/pdf/whitepaper.pdf&#34; &gt;English Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper_kr.pdf&#34; &gt;Korean Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bismuthcoin.org/pdf/whitepaper_kr.pdf&#34; &gt;Korean Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper_jp.pdf&#34; &gt;Japanese Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bismuthcoin.org/pdf/whitepaper_jp.pdf&#34; &gt;Japanese Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper_cn.pdf&#34; &gt;Chinese Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bismuthcoin.org/pdf/whitepaper_cn.pdf&#34; &gt;Chinese Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -86,10 +86,10 @@
     
     <item>
       <title>Exchanges</title>
-      <link>https://alias-bitsignal.github.io/docs/mainnet/exchanges/</link>
+      <link>https://bismuthcoin.org/docs/mainnet/exchanges/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/docs/mainnet/exchanges/</guid>
+      <guid>https://bismuthcoin.org/docs/mainnet/exchanges/</guid>
       <description>
         
         
@@ -121,17 +121,17 @@
     
     <item>
       <title>Getting Started</title>
-      <link>https://alias-bitsignal.github.io/docs/getting-started/</link>
+      <link>https://bismuthcoin.org/docs/getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/docs/getting-started/</guid>
+      <guid>https://bismuthcoin.org/docs/getting-started/</guid>
       <description>
         
         
         &lt;p&gt;This guide will help you quickly get started with &lt;strong&gt;BISMUTH&lt;/strong&gt; as a &lt;strong&gt;regular user&lt;/strong&gt;, as a &lt;strong&gt;developer&lt;/strong&gt; or as an &lt;strong&gt;exchange&lt;/strong&gt; planning on implementing a $BIS trading pair.&lt;/p&gt;
 &lt;h2&gt;User Guideline&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;user-guideline&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#user-guideline&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Start with a &lt;a href=&#34;https://alias-bitsignal.github.io/wallet/&#34; &gt;Bismuth Wallet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Start with a &lt;a href=&#34;https://bismuthcoin.org/wallet/&#34; &gt;Bismuth Wallet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Get familiar with the different available address schemes (rsa, ecdsa, &amp;hellip;)&lt;/li&gt;
 &lt;li&gt;Get some $BIS from an exchange or ask on the discord server for a faucet&lt;/li&gt;
 &lt;li&gt;Do low value test transactions to learn sending/ receiving $BIS&lt;/li&gt;
@@ -143,7 +143,7 @@
 &lt;li&gt;Read the Whitepaper&lt;/li&gt;
 &lt;li&gt;Install the Bismuth Mainnet Node&lt;/li&gt;
 &lt;li&gt;Study the &lt;a href=&#34;https://github.com/bismuthfoundation/TornadoWallet/tree/master/wallet/crystals&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tornado Wallet Apps&lt;/a&gt; to learn how to extend the Mainnet node&lt;/li&gt;
-&lt;li&gt;Take a look at all Bismuth based &lt;a href=&#34;https://alias-bitsignal.github.io/docs/resources/apps/&#34; &gt;applications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Take a look at all Bismuth based &lt;a href=&#34;https://bismuthcoin.org/docs/resources/apps/&#34; &gt;applications&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Read the &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bismuth FAQs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Bismuth &lt;a href=&#34;https://github.com/bismuthfoundation/BismuthAPI/blob/master/Doc/commands_reference.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Native API&lt;/a&gt; command reference&lt;/li&gt;
 &lt;li&gt;Client &lt;a href=&#34;https://github.com/bismuthfoundation/BismuthRPC/blob/master/RPCServer/Commands.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;API Command List&lt;/a&gt;&lt;/li&gt;
@@ -154,7 +154,7 @@
 &lt;h2&gt;Exchange Guideline&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;exchange-guideline&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#exchange-guideline&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Bismuth &lt;a href=&#34;https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/How_to_Implement.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Implementation Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Install &lt;a href=&#34;https://alias-bitsignal.github.io/docs/mainnet/install-node/&#34; &gt;Mainnet Node&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install &lt;a href=&#34;https://bismuthcoin.org/docs/mainnet/install-node/&#34; &gt;Mainnet Node&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -162,10 +162,10 @@
     
     <item>
       <title>Install Node</title>
-      <link>https://alias-bitsignal.github.io/docs/mainnet/install-node/</link>
+      <link>https://bismuthcoin.org/docs/mainnet/install-node/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/docs/mainnet/install-node/</guid>
+      <guid>https://bismuthcoin.org/docs/mainnet/install-node/</guid>
       <description>
         
         
@@ -196,10 +196,10 @@
     
     <item>
       <title>Mining</title>
-      <link>https://alias-bitsignal.github.io/docs/mainnet/mining/</link>
+      <link>https://bismuthcoin.org/docs/mainnet/mining/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/docs/mainnet/mining/</guid>
+      <guid>https://bismuthcoin.org/docs/mainnet/mining/</guid>
       <description>
         
         
@@ -245,7 +245,7 @@ hash state – is considered as the input vector to the difficulty matching func
 &lt;/ul&gt;
 &lt;h2&gt;References&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/whitepaper.pdf&#34; &gt;Bismuth Whitepaper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bismuthcoin.org/pdf/whitepaper.pdf&#34; &gt;Bismuth Whitepaper&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/kbkminer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kbkminer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/bismuthfoundation/Optipoolware&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Optipoolware&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://miningpoolstats.stream/bismuth&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Miningpoolstats&lt;/a&gt;&lt;/li&gt;
@@ -256,10 +256,10 @@ hash state – is considered as the input vector to the difficulty matching func
     
     <item>
       <title>Overview</title>
-      <link>https://alias-bitsignal.github.io/docs/mainnet/overview/</link>
+      <link>https://bismuthcoin.org/docs/mainnet/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/docs/mainnet/overview/</guid>
+      <guid>https://bismuthcoin.org/docs/mainnet/overview/</guid>
       <description>
         
         
@@ -308,14 +308,14 @@ hash state – is considered as the input vector to the difficulty matching func
     
     <item>
       <title>References</title>
-      <link>https://alias-bitsignal.github.io/docs/papers/references/</link>
+      <link>https://bismuthcoin.org/docs/papers/references/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/docs/papers/references/</guid>
+      <guid>https://bismuthcoin.org/docs/papers/references/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2025-03-06-references.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2025-03-06-references.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;References to Bismuth&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;references-to-bismuth&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#references-to-bismuth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -349,21 +349,21 @@ hash state – is considered as the input vector to the difficulty matching func
     
     <item>
       <title>Research</title>
-      <link>https://alias-bitsignal.github.io/docs/papers/research/</link>
+      <link>https://bismuthcoin.org/docs/papers/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alias-bitsignal.github.io/docs/papers/research/</guid>
+      <guid>https://bismuthcoin.org/docs/papers/research/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://alias-bitsignal.github.io/images/2025-03-06-papers.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://bismuthcoin.org/images/2025-03-06-papers.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;Academics and Research&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;academics-and-research&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#academics-and-research&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.mic-journal.no/ABS/MIC-2017-4-1.asp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nonlinear Feedback Control and Stability Analysis of a  Proof-of-Work Blockchain&lt;/a&gt; - Geir Hovland and Jan Kucera&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://alias-bitsignal.github.io/pdf/bis-security-20180505.pdf&#34; &gt;Security of the Bismuth Blockchain&lt;/a&gt;  - Geir Hovland and Jan Kucera&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bismuthcoin.org/pdf/bis-security-20180505.pdf&#34; &gt;Security of the Bismuth Blockchain&lt;/a&gt;  - Geir Hovland and Jan Kucera&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.mic-journal.no/ABS/MIC-2018-3-1.asp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tail Removal Block Validation: Implementation and Analysis&lt;/a&gt; - Geir Hovland and Jan Kucera&lt;/p&gt;
