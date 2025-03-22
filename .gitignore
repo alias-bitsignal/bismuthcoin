@@ -1,3 +1,8 @@
+.devcontainer/
+.DS_Store
+.gitpod.yml
+
+
 # Hugo output
 public/
 resources/
