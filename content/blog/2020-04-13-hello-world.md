@@ -10,10 +10,10 @@ tags:
   - app
 ---
 ![](/images/2020-04-13-hello-world.jpeg)
-Solution to the codebase consensus conflict in context of the **Bismuth Blockchain**.
+Bismuth is a chemical element and a metal with number 83 in the periodic table.
 <!--more-->
 
-Bismuth is a chemical element and a metal with number 83 in the periodic table. Bismuth has an unusual property for a metal in which it expands as it changes from a liquid to a solid and crystals are formed. Bismuth is also the name given to the first blockchain implementation written in Python. The Bismuth blockchain project with it’s associated features and tools aim to be a “construction set for blockchain technology” or “the Lego of blockchains”. Inspired by the metal the Bismuth blockchain ecosystem will also “expand as it solidifies”, with many new developers and future use-cases.
+Bismuth has an unusual property for a metal in which it expands as it changes from a liquid to a solid and crystals are formed. Bismuth is also the name given to the first blockchain implementation written in Python. The Bismuth blockchain project with it’s associated features and tools aim to be a “construction set for blockchain technology” or “the Lego of blockchains”. Inspired by the metal the Bismuth blockchain ecosystem will also “expand as it solidifies”, with many new developers and future use-cases.
 
 Tornado is a Python-based web framework and asynchronous networking library. It is an ideal framework for a Bismuth wallet and distributed app (Dapp) development environment. Motivated by the metal and in the spirit of being a construction set, the Tornado wallet also has a plugin feature which has been given the name “Crystal”. In this blog article the crystal framework in Bismuth’s Tornado wallet is introduced with a “Hello World” example. The article is written with the goal to help new Dapp developers getting started with the Bismuth ecosystem. Specifically, the Hello World crystal demonstrates the following features:
 
