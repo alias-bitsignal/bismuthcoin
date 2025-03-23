@@ -9,6 +9,8 @@ Welcome to **BISMUTH**!
 
 Your all-in-one python **blockchain platform** is here! This guide will help you set up, explore, and play with BISMUTH for seamless on-chain exploration.
 
+Start with the **[Getting-Started](/docs/getting-started/)** page.
+
 ## Bismuth Information
 
 * mainnet launched on May 1, 2017
