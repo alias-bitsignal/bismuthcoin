@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Shielded</title><link>https://alias-bitsignal.github.io/tags/shielded/</link><description>Recent content in Shielded on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 20 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/shielded/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction to Bismuth Shielded Tokens</title><link>https://alias-bitsignal.github.io/blog/2019-09-20-shielded-tokens/</link><pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2019-09-20-shielded-tokens/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2019-09-20-shielded-tokens.webp" alt="" loading="lazy" />
+New features in cryptocurrency privacy.&lt;/p>
+&lt;h2>What are shielded tokens?&lt;span class="hx-absolute -hx-mt-20" id="what-are-shielded-tokens">&lt;/span>
+&lt;a href="#what-are-shielded-tokens" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Shielded tokens are a set of secondary layer operations on the Bismuth blockchain that focus on privacy and are the pilot in the Epitax privacy research program of Bismuth. They are not like any other existing privacy cryptocurrency.&lt;/p>
+&lt;h3>How does it work?&lt;span class="hx-absolute -hx-mt-20" id="how-does-it-work">&lt;/span>
+&lt;a href="#how-does-it-work" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>You can imagine shielded tokens as password-protected assets. They are a continuation of the group key concept. Passwords are what sets apart those who have access to all transactions from those who have access to no transactions of a given shielded token.&lt;/p>
+&lt;p>These transactions can also be sent and received unencrypted, but without password, such transactions are unverifiable, which means that the final receiving party must confirm legitimity. This is possible because transactions can exist without verification on the secondary layer, unlike in the primary layer. Those are to be known as ambiguous transactions, formerly referred to as slave key transactions.&lt;/p>
+&lt;p>To the network, a shielded token transaction looks like the sender is sending some encrypted data to themselves. Recipients can start looking up transactions by identifying signals, of which every asset has a certain amount available. Those transactions must then be decrypted with password of the given token.&lt;/p>
+&lt;h3>Advantages&lt;span class="hx-absolute -hx-mt-20" id="advantages">&lt;/span>
+&lt;a href="#advantages" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Complete anonymity of recipients, senders, amounts, name&lt;/li>
+&lt;li>Ambiguous transfers can be made without knowledge of a password&lt;/li>
+&lt;li>No trusted setup&lt;/li>
+&lt;li>No group signatures&lt;/li>
+&lt;li>No range proofs&lt;/li>
+&lt;li>No security threat for the primary layer&lt;/li>
+&lt;li>Minimal computational power requirements&lt;/li>
+&lt;li>Consistency&lt;/li>
+&lt;li>Conditional deniability&lt;/li>
+&lt;li>No interference with privacy classification of the main chain&lt;/li>
+&lt;/ul>
+&lt;h3>Disadvantages&lt;span class="hx-absolute -hx-mt-20" id="disadvantages">&lt;/span>
+&lt;a href="#disadvantages" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Compromised password leads to revelation of recipients, senders, amounts, name
+Password bribery attack vector&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://www.youtube.com/watch?v=SHNQHmZZKdo" target="_blank" rel="noopener">Shielded Tokens Video&lt;/a>&lt;/p></description></item></channel></rss>
