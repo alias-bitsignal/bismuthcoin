@@ -291,4 +291,245 @@ If the owner later wants to sell the asset to someone else, he or she can provid
 &lt;li>&lt;a href="hhttps://ieeexplore.ieee.org/document/8048838" >Blockchain World - Do you need a blockchain?&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://alias-bitsignal.github.io/pdf/whitepaper.pdf" >Bismuth Whitepaper&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py" target="_blank" rel="noopener">Github - Bismuth SimpleAsset&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul></description></item><item><title>HelloWorld Crystal for Bismuth’s Tornado Wallet</title><link>https://alias-bitsignal.github.io/blog/2020-04-13-hello-world/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2020-04-13-hello-world/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-04-13-hello-world.jpeg" alt="" loading="lazy" />
+Solution to the codebase consensus conflict in context of the &lt;strong>Bismuth Blockchain&lt;/strong>.&lt;/p>
+&lt;p>Bismuth is a chemical element and a metal with number 83 in the periodic table. Bismuth has an unusual property for a metal in which it expands as it changes from a liquid to a solid and crystals are formed. Bismuth is also the name given to the first blockchain implementation written in Python. The Bismuth blockchain project with it’s associated features and tools aim to be a “construction set for blockchain technology” or “the Lego of blockchains”. Inspired by the metal the Bismuth blockchain ecosystem will also “expand as it solidifies”, with many new developers and future use-cases.&lt;/p>
+&lt;p>Tornado is a Python-based web framework and asynchronous networking library. It is an ideal framework for a Bismuth wallet and distributed app (Dapp) development environment. Motivated by the metal and in the spirit of being a construction set, the Tornado wallet also has a plugin feature which has been given the name “Crystal”. In this blog article the crystal framework in Bismuth’s Tornado wallet is introduced with a “Hello World” example. The article is written with the goal to help new Dapp developers getting started with the Bismuth ecosystem. Specifically, the Hello World crystal demonstrates the following features:&lt;/p>
+&lt;ul>
+&lt;li>Collecting blockchain data using the library bismuthclient&lt;/li>
+&lt;li>Collecting data from a 3rd party API&lt;/li>
+&lt;li>Displaying data with html using Tornado templates&lt;/li>
+&lt;li>Displaying a pop-up message using get/post methods and javascript&lt;/li>
+&lt;/ul>
+&lt;p>Each crystal in the wallet is given a unique number, followed by an underscore and the name, in this case it is: 101_helloworld. The figure below shows the files and folder structure of the Hello World crystal. The example consists of one Python file (&lt;strong>init&lt;/strong>.py), one data file (about.json), one graphics file (logo.png), and three html files (about.html, message_pop.html and page1.html).&lt;/p>
+&lt;p>Hello World Crystal Files and Folders.
+General information about a crystal can be found in the about.json file. In this example the contents is as follows:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>{
+&amp;#34;author&amp;#34;: &amp;#34;GH2&amp;#34;,
+&amp;#34;description&amp;#34;: &amp;#34;Hellow world example crystal for the Tornado wallet&amp;#34;,
+&amp;#34;email&amp;#34;: &amp;#34;N/A&amp;#34;,
+&amp;#34;version&amp;#34;: &amp;#34;1.0.0&amp;#34;,
+&amp;#34;date&amp;#34;: &amp;#34;2020-04-11&amp;#34;,
+&amp;#34;url&amp;#34;:&amp;#34;https://github.com/bismuthfoundation/TornadoWallet/tree/master/wallet/crystals/101_helloworld&amp;#34;
+}&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The main file of the HelloWorld crystal is the Python file &lt;strong>init&lt;/strong>.py. This file contains a class named HelloworldHandler which again contains 7 functions.&lt;/p>
+&lt;p>The first four functions, get(), post(), get_template_path() and static(), are generic and should be part of any crystal. The two functions get() and post() handle get and post form requests from html or javascript and will be described later. The function get_template_path() just returns DEFAULT_THEME_PATH, to let Tornado know where to find the html files. In the Hello World crystal this path is defined to be the base path plus &lt;code>crystals/101_helloworld/themes/default&lt;/code> The fourth function, static() just creates a static handler pointing to a local /static crystal folder.&lt;/p>
+&lt;p>The fifth function, about(), contains the following Python code:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>async def about(self, params=None):
+self.render(&amp;#34;about.html&amp;#34;, bismuth=self.bismuth_vars)&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>It means that when Tornado receives an url request of http://127.0.0.1:8888/crystal/helloworld/about the about() Python function inside &lt;strong>init&lt;/strong>.py is called. All this function does is to render the about.html file and pass the variable “bismuth” to it. The html file about.html is stored in the folder specified by DEFAULT_THEME_PATH. The file about.html contains the opening screen of the crystal 101_helloworld.&lt;/p>
+&lt;p>Bismuth’s Tornado wallet is based on the Material Dashboard Dark Edition and the documentation for it can be found here: &lt;a href="https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html" target="_blank" rel="noopener">https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html&lt;/a> For example, the button in the figure above is formatted using: class=”btn btn-success”&lt;/p>
+&lt;p>The displayed logo is the file logo.png in the static/ folder. The first two lines of code in about.html are:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>{% extends &amp;#34;base.html&amp;#34; %}
+&amp;lt;!-- &amp;#34;../../../../themes/material/base.html&amp;#34; --&amp;gt;&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The symbols {% and %} are used by the Tornado templates. In this case about.html extends the parent wallet file base.html. The crystal can then make use of styling and formatting inherited from the wallet. The theme and css framework in the Tornado wallet try to be semantic. For example, the css uses success/danger/error/info as class names, so it does not depend on a specific color theme and remains consistent. If the Tornado wallet were later to switch to another template, there would be no changes required in the crystals such as color or css. If the devs always use for example “-danger” the crystals would use the theme color for that. Keeping this in mind ensures that the crystals will be compatible with alternative themes. As an example the following two lines in about.html:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>&amp;lt;div class=&amp;#34;card-header card-header-info&amp;#34;&amp;gt;
+&amp;lt;div class=&amp;#34;card-header card-header-success&amp;#34;&amp;gt;&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>generate the turqoise and green menus labeled “About” and “Menu”, respectively, in the screenshot above.&lt;/p>
+&lt;p>Except for the Tornado templates, about.html contains pure html code. When clicked, the command button in about.html opens up page1. When page1.html opens it displays two cards named “Commands” using card-header-info (turqoise color) and “Output” using card-header-success (green color). The Commands card contains 4 buttons and a text input field. The first button “Show Latest Account Transactions” generates a &lt;table> in the Output card with data obtained from the blockchain for the active account in the wallet. The Python code to obtain the blockchain data is:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>button1 = self.get_argument(&amp;#34;button1&amp;#34;, default=None, strip=False)
+if button1 is not None:
+data[&amp;#39;txs&amp;#39;] = self.bismuth.latest_transactions(5, for_display=True, mempool_included=True)
+...
+self.render(&amp;#34;page1.html&amp;#34;, bismuth=self.bismuth_vars, data=data)&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The dict data[‘txs’] is passed back to page1.html where it is rendered using the following Tornado templates:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>&amp;lt;table&amp;gt;
+&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;Block Height&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Amount&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Recipient&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Timestamp&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
+{% for item in data[&amp;#39;txs&amp;#39;] %}
+{% block item %}
+&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;{{ item[&amp;#39;block_height&amp;#39;] }}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;{{ item[&amp;#39;amount&amp;#39;] }}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;{{ item[&amp;#39;recipient&amp;#39;] }}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;{{ datetime.datetime.utcfromtimestamp(item[&amp;#39;timestamp&amp;#39;]).strftime(&amp;#39;%Y-%m-%d %H:%M:%S&amp;#39;) }}&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
+{% end %}
+{% end %}
+&amp;lt;/table&amp;gt;&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The Tornado template {{ variable_name }} outputs the Python variable into the html page.&lt;/p>
+&lt;p>The second button “Show Hypernodes” collects data from an external site using the following Python code:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>button2 = self.get_argument(&amp;#34;button2&amp;#34;, default=None, strip=False)
+if button2 is not None:
+data[&amp;#39;hns&amp;#39;] = await async_get_with_http_fallback(&amp;#34;https://hypernodes.bismuth.live/status.json&amp;#34;)
+...
+self.render(&amp;#34;page1.html&amp;#34;, bismuth=self.bismuth_vars, data=data)&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The dict data[‘hns’] is then rendered in page1.html using Tornado templates as follows:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>&amp;lt;table&amp;gt;
+&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;IP Address&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Height&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
+{% for key,value in data[&amp;#39;hns&amp;#39;].items() %}
+{% block key %}
+&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;{{ key }}&amp;lt;/td&amp;gt;
+{% if value == -1 %}
+&amp;lt;td&amp;gt;&amp;lt;font color=&amp;#34;red&amp;#34;&amp;gt;Inactive&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt;
+{% else %}
+&amp;lt;td&amp;gt;{{ value }}&amp;lt;/td&amp;gt;
+{% end %}
+&amp;lt;/tr&amp;gt;
+{% end %}
+{% end %}
+&amp;lt;/table&amp;gt;&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>As can be seen from this example, Tornado templates allow for embedding Python code into the html file to display data, similar to the templates &lt;?php … ?> for those familiar with PHP.&lt;/p>
+&lt;p>The last two buttons in page1.html generate the “Hello World” pop-up message. When clicking on either of these two buttons, one of two javascript functions, message_get() or message_post(), defined in page1.html is called. The two javascript functions are implemented as follows:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>&amp;lt;script&amp;gt;
+function message_get(title,msg,type){
+$.get(&amp;#39;message_popup?msg=&amp;#39; &amp;#43; msg &amp;#43; &amp;#39;&amp;amp;title=&amp;#39; &amp;#43; title &amp;#43; &amp;#39;&amp;amp;type=&amp;#39; &amp;#43; type,function(page){
+$(&amp;#34;#message_window&amp;#34;).html(page);
+$(&amp;#34;#message_window&amp;#34;).modal(&amp;#34;show&amp;#34;);
+});
+}
+function message_post(title,msg,type){
+var xsrf = $(&amp;#34;[name=&amp;#39;_xsrf&amp;#39;]&amp;#34;).val();
+$.post(&amp;#39;message_popup&amp;#39;, { msg: msg, title: title, type: type, _xsrf: xsrf }, function(page){
+$(&amp;#34;#message_window&amp;#34;).html(page);
+$(&amp;#34;#message_window&amp;#34;).modal(&amp;#34;show&amp;#34;);
+});
+}
+&amp;lt;/script&amp;gt;&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Note that the _xsrf token is required in order to post data. In addition the following template must be included in page1.html in order to allow posting:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>{% raw xsrf_form_html() %}&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>In some cases it is preferred to post() data to Tornado instead of get() to avoid the data being displayed in the url at the top of the browser. Examples are cases where the end-user has to type in a password or a pin code.&lt;/p>
+&lt;p>The javascript functions call the Python function message_popup() which contains the following code:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>async def message_popup(self, params=None):
+title = self.get_argument(&amp;#34;title&amp;#34;, default=None, strip=False)
+message = self.get_argument(&amp;#34;msg&amp;#34;, default=None, strip=False)
+type = self.get_argument(&amp;#34;type&amp;#34;, default=None, strip=False)
+self.render(&amp;#34;message_pop.html&amp;#34;, bismuth=self.bismuth_vars, title=title, message=message, type=type)&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The type can be either “info”, “warning” or “danger” resulting in different colors used in the pop up message.&lt;/p>
+&lt;p>The file page1.html includes a hidden element:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>&amp;lt;div id=&amp;#34;message_window&amp;#34; class=&amp;#34;modal&amp;#34; tabindex=&amp;#34;-1&amp;#34; role=&amp;#34;dialog&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The hidden “message_window” gets replaced by the html code inside message_pop.html by the following two commands in the javascript callback function:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>$(&amp;#34;#message_window&amp;#34;).html(page);
+$(&amp;#34;#message_window&amp;#34;).modal(&amp;#34;show&amp;#34;);&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The pop-up is therefore not a separate window in the browser, but is part of the page1.html file. The steps involved to generate this pop-up include a combination of javascript and Python.&lt;/p>
+&lt;p>The screen page1.html after clicking “Show Hypernodes” followed by Submit (Post).&lt;/p>
+&lt;p>The screenshot below shows the page1.html screen after “Show Hypernodes” followed by “Submit (Post)” have been clicked. The message inside the pop-up window is generated from the text input field above the two Submit buttons.&lt;/p>
+&lt;p>This blog article has described the file structure and contents of the Hello World crystal in Bismuth’s Tornado wallet. The purpose of this article has been to explain some common functions and features which are believed that most future Dapp developers will need (display of blockchain and 3rd party data, interaction between Python, javascript and html and display of messages).&lt;/p>
+&lt;p>The GitHub link for the Tornado Wallet and all of it’s crystals supported by the Bismuth Foundation is: &lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener">https://github.com/bismuthfoundation/TornadoWallet&lt;/a>&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener">Tornado Wallet&lt;/a>&lt;/p></description></item></channel></rss>
