@@ -1,4 +1,68 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Progressreport</title><link>https://alias-bitsignal.github.io/tags/progressreport/</link><description>Recent content in Progressreport on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/progressreport/index.xml" rel="self" type="application/rss+xml"/><item><title>January 2022 - Progress Report</title><link>https://alias-bitsignal.github.io/blog/2022-01-17-bis-progress-report/</link><pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2022-01-17-bis-progress-report/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Progressreport</title><link>https://alias-bitsignal.github.io/tags/progressreport/</link><description>Recent content in Progressreport on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 14 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/progressreport/index.xml" rel="self" type="application/rss+xml"/><item><title>January 2023 - Progress Report</title><link>https://alias-bitsignal.github.io/blog/2023-01-14-bis-progress-report/</link><pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2023-01-14-bis-progress-report/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2023-01-14/bis-progress-report-001.jpg" alt="" loading="lazy" />
+This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14th, 2022 to January 14th, 2023.&lt;/p>
+&lt;h2>Current Supply&lt;span class="hx-absolute -hx-mt-20" id="current-supply">&lt;/span>
+&lt;a href="#current-supply" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>January 2023&lt;span class="hx-absolute -hx-mt-20" id="january-2023">&lt;/span>
+&lt;a href="#january-2023" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>Bismuth Supply&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Total Bismuth: 33,969,909&lt;/li>
+&lt;li>Circulating Bismuth: 28,755,679&lt;/li>
+&lt;li>Block Height: 3,092,276&lt;/li>
+&lt;/ul>
+&lt;h4>Breakdown:&lt;span class="hx-absolute -hx-mt-20" id="breakdown">&lt;/span>
+&lt;a href="#breakdown" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Cryptopia (locked): 5,214,229&lt;/li>
+&lt;li>Hypernode active: 5,940,000&lt;/li>
+&lt;li>Hypernode inactive: 3,760,000&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4>Native Bismuth &amp;amp; Wrapped BIS&lt;span class="hx-absolute -hx-mt-20" id="native-bismuth--wrapped-bis">&lt;/span>
+&lt;a href="#native-bismuth--wrapped-bis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Native Bismuth: 32,620,912&lt;/li>
+&lt;li>wBIS (ERC-20): 398,532&lt;/li>
+&lt;li>wBIS (BEP-20): 950,465&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2023-01-14/bis-progress-report-002.jpg" alt="" loading="lazy" />
+Bismuth Supply January 2023&lt;/p>
+&lt;h3>Bismuth Mainnet&lt;span class="hx-absolute -hx-mt-20" id="bismuth-mainnet">&lt;/span>
+&lt;a href="#bismuth-mainnet" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Bismuth Mainnet is Proof-of-Work based. A custom sha-224 algorithm is being utilized and optimized for GPU mining. Block time generation is 1-minute.&lt;/p>
+&lt;p>The Graph below shows the current BIS difficulty.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2023-01-14/bis-progress-report-003.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;h3>Bismuth Mainnet Mining&lt;span class="hx-absolute -hx-mt-20" id="bismuth-mainnet-mining">&lt;/span>
+&lt;a href="#bismuth-mainnet-mining" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The biggest Bismuth mining pools are &lt;a href="https://eggpool.net" target="_blank" rel="noopener">Eggpool&lt;/a> and Coinsaurus. An opensource solo mining software is also available which is called &lt;a href="https://github.com/bismuthfoundation/kbkminer" target="_blank" rel="noopener">KBKminer&lt;/a>.&lt;/p>
+&lt;h3>Bismuth Hashrate&lt;span class="hx-absolute -hx-mt-20" id="bismuth-hashrate">&lt;/span>
+&lt;a href="#bismuth-hashrate" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The graph below shows the current Mainnet hashrate.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2023-01-14/bis-progress-report-004.jpg" alt="" loading="lazy" />
+Bismuth Mainnet Hashrate&lt;/p>
+&lt;h3>Hypernodes&lt;span class="hx-absolute -hx-mt-20" id="hypernodes">&lt;/span>
+&lt;a href="#hypernodes" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Bismuth Hypernode Side-Chain is Proof-of-Stake based.
+Current Hypernodes ROI is &lt;strong>21.2 %&lt;/strong>, down from 24.4 % in December. We count 202 active Hypernodes with a total amount of active collateral of 5,940,000 BIS. That’s an increase of 23 active nodes since the last report.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2023-01-14/bis-progress-report-005.jpg" alt="" loading="lazy" />
+Data from the Hypernodes page.&lt;/p>
+&lt;p>The plot below shows all Hypernodes, both active and inactive, during the last 60 days. As can be seen from the plot, the number of Hypernodes is currently at 346, up by 10 nodes since the last report.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2023-01-14/bis-progress-report-006.jpg" alt="" loading="lazy" />
+Total number of Hypernodes, both active and inactive.&lt;/p>
+&lt;p>The plot below shows the total Hypernode collateral, both active and inactive, during the last 60 days. As can be seen, the total amount of collateral is 9,700,000 during this period. The total amount of BIS in circulation is 33,97 million. Hence, the amount of active collateral accounts for 17.5 % of the total supply, or 28.6 % if the amount of inactive collateral is included.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2023-01-14/bis-progress-report-007.jpg" alt="" loading="lazy" />
+Total amount of HN collateral, both active and inactive.&lt;/p>
+&lt;h3>Wrapped Supply&lt;span class="hx-absolute -hx-mt-20" id="wrapped-supply">&lt;/span>
+&lt;a href="#wrapped-supply" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>An overview of the Wrapped BIS supply on the Ethereum blockchain (ERC20) and a summary of Wrapped BIS supply on the Binance Smartchain.
+&lt;img src="https://alias-bitsignal.github.io/images/pr/2023-01-14/bis-progress-report-008.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;h3>Bismuth Market Data &amp;amp; Exchanges&lt;span class="hx-absolute -hx-mt-20" id="bismuth-market-data--exchanges">&lt;/span>
+&lt;a href="#bismuth-market-data--exchanges" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Bismuth CoinMarketCap Information: &lt;a href="https://coinmarketcap.com/currencies/bismuth/" target="_blank" rel="noopener">https://coinmarketcap.com/currencies/bismuth/&lt;/a>&lt;/li>
+&lt;li>Bismuth Coingecko information: &lt;a href="https://www.coingecko.com/en/coins/bismuth" target="_blank" rel="noopener">https://www.coingecko.com/en/coins/bismuth&lt;/a>&lt;/li>
+&lt;li>Uniswap Exchange (DEX): &lt;a href="https://www.dextools.io/app/ether/pair-explorer/0xf4f82f8d84c529987201609cecee8ab136a50c8c" target="_blank" rel="noopener">Wrapped BIS/ ETH Pair&lt;/a>&lt;/li>
+&lt;li>Pancakeswap Exchange (DEX): &lt;a href="https://www.dextools.io/app/bsc/pair-explorer/0x731b8244f818fd488d9dc516edd976a96459ae59" target="_blank" rel="noopener">Wrapped BIS/ BSC Pair&lt;/a>&lt;/li>
+&lt;li>ViteX (DEX): &lt;a href="https://x.vite.net/trade?symbol=BIS-000_BTC-000" target="_blank" rel="noopener">BIS/ BTC Pair&lt;/a>&lt;/li>
+&lt;li>Graviex: &lt;a href="https://graviex.net/markets/bisbtc" target="_blank" rel="noopener">BIS/ BTC Pair&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Official Website: &lt;a href="https://bismuthplatform.com" target="_blank" rel="noopener">Bismuthplatform.com&lt;/a>&lt;/li>
+&lt;li>BIS Info: &lt;a href="https://bismuth.world/" target="_blank" rel="noopener">Bismuth World&lt;/a> - &lt;a href="https://bismuth.live/" target="_blank" rel="noopener">Bismuth Live&lt;/a>&lt;/li>
+&lt;li>BIS Explorer: &lt;a href="htpps://bismuth.im" >Bismuth Blockchain Explorer&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>January 2022 - Progress Report</title><link>https://alias-bitsignal.github.io/blog/2022-01-17-bis-progress-report/</link><pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2022-01-17-bis-progress-report/</guid><description>
 &lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2022-01-17/bis-progress-report-001.png" alt="" loading="lazy" />
 This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14, 2021 to January 14, 2022.&lt;/p>
 &lt;h2>Current Supply&lt;span class="hx-absolute -hx-mt-20" id="current-supply">&lt;/span>
