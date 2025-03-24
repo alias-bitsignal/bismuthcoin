@@ -78,6 +78,6 @@ The auto install script for the Bismuth Node and the Hypernode has been updated.
 - Installation Script Updated: [Auto Install Script](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md)
 - Official Website: [Bismuthplatform.com](https://bismuthplatform.com)
 - BIS Info: [Bismuth World](https://bismuth.world/) - [Bismuth Live](https://bismuth.live/)
-- BIS Explorer: [Bismuth Blockchain Explorer](htpps://bismuth.im)
+- BIS Explorer: [Bismuth Blockchain Explorer](https://bismuth.im)
 
 
