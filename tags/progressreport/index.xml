@@ -1,5 +1,5 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Progressreport</title><link>/tags/progressreport/</link><description>Recent content in Progressreport on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/progressreport/index.xml" rel="self" type="application/rss+xml"/><item><title>January 2022 - Progress Report</title><link>/blog/2022-01-17-bis-progress-report/</link><pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2022-01-17-bis-progress-report/</guid><description>
-&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-001.png" alt="" loading="lazy" />
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Progressreport</title><link>https://alias-bitsignal.github.io/tags/progressreport/</link><description>Recent content in Progressreport on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/progressreport/index.xml" rel="self" type="application/rss+xml"/><item><title>January 2022 - Progress Report</title><link>https://alias-bitsignal.github.io/blog/2022-01-17-bis-progress-report/</link><pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2022-01-17-bis-progress-report/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2022-01-17/bis-progress-report-001.png" alt="" loading="lazy" />
 This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14, 2021 to January 14, 2022.&lt;/p>
 &lt;h2>Current Supply&lt;span class="hx-absolute -hx-mt-20" id="current-supply">&lt;/span>
 &lt;a href="#current-supply" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>January 2022&lt;span class="hx-absolute -hx-mt-20" id="january-2022">&lt;/span>
@@ -22,27 +22,27 @@ This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14, 2021 to 
 &lt;li>wBIS (ERC-20): 476,012&lt;/li>
 &lt;li>wBIS (BEP-20): 338,838&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-002.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2022-01-17/bis-progress-report-002.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>Hypernodes&lt;span class="hx-absolute -hx-mt-20" id="hypernodes">&lt;/span>
 &lt;a href="#hypernodes" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Current Hypernodes ROI is &lt;strong>21.9%&lt;/strong>, up from 19.2% in December. We count 204 active Hypernodes with a total amount of active collateral of 5,750,000 BIS. That’s a decrease of 28 active nodes since the last report.&lt;/p>
-&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-003.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2022-01-17/bis-progress-report-003.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Data from the Hypernodes page.&lt;/p>
 &lt;p>The plot below shows all Hypernodes, both active and inactive, during the last 60 days. As can be seen from the plot, the number of Hypernodes is currently at 304, up by 1 node since the last report.&lt;/p>
-&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-004.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2022-01-17/bis-progress-report-004.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Total number of Hypernodes, both active and inactive.&lt;/p>
 &lt;p>The plot below shows the total Hypernode collateral, both active and inactive, during the last 60 days. As can be seen, the total amount of collateral is 8,310,000 during this period. The total amount of BIS in circulation is 30,51 million. Hence, the amount of active collateral accounts for 18.9% of the total supply, or 27.2% if the amount of inactive collateral is included.&lt;/p>
-&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-005.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2022-01-17/bis-progress-report-005.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Total amount of HN collateral, both active and inactive.&lt;/p>
 &lt;h3>Wrapped Supply&lt;span class="hx-absolute -hx-mt-20" id="wrapped-supply">&lt;/span>
 &lt;a href="#wrapped-supply" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Detailed graph of the current wrapped supply:&lt;/p>
-&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-006.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2022-01-17/bis-progress-report-006.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Wrapped BIS Supply&lt;/p>
 &lt;h3>Worldwide Nodes Distribution&lt;span class="hx-absolute -hx-mt-20" id="worldwide-nodes-distribution">&lt;/span>
 &lt;a href="#worldwide-nodes-distribution" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>A visual representation of worldwide Bismuth nodes distribution.
-&lt;img src="/images/pr/2022-01-17/bis-progress-report-007.png" alt="" loading="lazy" />
+&lt;img src="https://alias-bitsignal.github.io/images/pr/2022-01-17/bis-progress-report-007.png" alt="" loading="lazy" />
 Bismuth Worldwide Nodes&lt;/p>
 &lt;h3>Ecosystem&lt;span class="hx-absolute -hx-mt-20" id="ecosystem">&lt;/span>
-&lt;a href="#ecosystem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-008.png" alt="" loading="lazy" />
+&lt;a href="#ecosystem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2022-01-17/bis-progress-report-008.png" alt="" loading="lazy" />
 Auto Install Script Bismuth Node &amp;amp; Hypernode
 Bismuth Auto Install Script Link:
 &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md" target="_blank" rel="noopener">https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md&lt;/a>&lt;/p>

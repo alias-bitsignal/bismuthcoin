@@ -1,11 +1,11 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Python</title><link>/tags/python/</link><description>Recent content in Python on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Python and State Machines</title><link>/blog/2021-03-24-state-machines/</link><pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate><guid>/blog/2021-03-24-state-machines/</guid><description>
-&lt;p>&lt;img src="/images/2021-03-24/state-machines.webp" alt="" loading="lazy" />
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Python</title><link>https://alias-bitsignal.github.io/tags/python/</link><description>Recent content in Python on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Python and State Machines</title><link>https://alias-bitsignal.github.io/blog/2021-03-24-state-machines/</link><pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-03-24-state-machines/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-03-24/state-machines.webp" alt="" loading="lazy" />
 Are you familiar with Finite state machines? They are everywhere, yet, we don’t see them as such.&lt;/p>
 &lt;h3>State machines&lt;span class="hx-absolute -hx-mt-20" id="state-machines">&lt;/span>
 &lt;a href="#state-machines" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>A state machine – in mathematical terms – is a model of computation.
 It is defined by a – finite – list of states, including an initial state as well as transitions: conditions that have it move from one state to another one.
 This seems very simple, and it can be. Here is a sample machine from Wikipedia.&lt;/p>
-&lt;p>&lt;img src="/images/2021-03-24/finite_state_machine.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-03-24/finite_state_machine.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>A simple state machine: a door that can only be closed or open.
 Don’t be fooled by the apparent simplicity of this sample: state machine can be very, very complex… but also very useful.&lt;/p>
 &lt;h4>Here’s why:&lt;span class="hx-absolute -hx-mt-20" id="heres-why">&lt;/span>
@@ -29,11 +29,11 @@ The compiler lets you write dangerous things you are not aware of, that can back
 &lt;h3>Pytransition&lt;span class="hx-absolute -hx-mt-20" id="pytransition">&lt;/span>
 &lt;a href="#pytransition" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Pytransition is an actively maintained and very complete state machine framework, with several extensions.&lt;/p>
 &lt;p>The github comes with a full documentation, the quickstart being a funny “narcoleptic super hero” example&lt;/p>
-&lt;p>&lt;img src="/images/2021-03-24/state-machine-02.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-03-24/state-machine-02.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Quickstart from Pytransitions
 Note the diagram is generated from a “diagram” extension, by the module itself.&lt;/p>
 &lt;p>There is even more since a GUI, running with a Tornado web server and JS client code, allows to draw and manipulate the models. It’s not only fun but pretty useful!&lt;/p>
-&lt;p>&lt;img src="/images/2021-03-24/state-machine-03.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-03-24/state-machine-03.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>State machine GUI editor&lt;/p>
 &lt;p>Many examples come with the library. Best thing you can do is bookmark the Github and use it for your next project or rewrite, then come and tell us! &lt;a href="https://github.com/pytransitions/transitions" target="_blank" rel="noopener">Github&lt;/a>&lt;/p>
 &lt;h3>Pysm&lt;span class="hx-absolute -hx-mt-20" id="pysm">&lt;/span>
@@ -41,7 +41,7 @@ Note the diagram is generated from a “diagram” extension, by the module itse
 &lt;p>Another big up is its MicroPython support. With embedded python coming everywhere, it would be a shame not begin able to use that state pattern there as well.&lt;/p>
 &lt;p>Still, Pysm is a complete library, with all you’ll need including transition callbacks, and state hooks, conditional transitions… while remaining lightweight and fast.
 It comes with documentation, test and examples. &lt;a href="https://github.com/pgularski/pysm" target="_blank" rel="noopener">Github&lt;/a>&lt;/p>
-&lt;p>&lt;img src="/images/2021-03-24/state-machine-04.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-03-24/state-machine-04.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Here is a sample of a complex hierarchical state machine designed with Pysm
 (taken from pysm github)&lt;/p>
 &lt;h3>When to use state machines?&lt;span class="hx-absolute -hx-mt-20" id="when-to-use-state-machines">&lt;/span>
