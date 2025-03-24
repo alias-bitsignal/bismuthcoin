@@ -9,7 +9,7 @@ tags:
   - mobile
   - wallet
 ---
-![](/images/2021-01-15-mobile-wallet.jpg)
+![](/images/2021-01-15/mobile-wallet.jpg)
 For way too long, Bismuth had no proper mobile wallet, or was dependent on third party wallets.
 Those days are over!
 <!--more-->
@@ -27,7 +27,7 @@ It was developed by our User RedDwarf as open source: awesome job!
 
 ### Initial Setup
 
-![](/images/2021-01-15-mobile-wallet-001.png)
+![](/images/2021-01-15/mobile-wallet-001.png)
 
 ### 1. Hierarchical Deterministic Key Generation
 
@@ -35,19 +35,19 @@ The new mobile My Bismuth Wallet is using the BIS HD standard for generating key
 The mobile Wallet lets you either create a new wallet (seed) or you can import a seed which you already have.
 Seeds and addresses are compatible with Angainor’s paper wallet. [link](https://angainordev.github.io/BIS-Paper/js/dist/index.html)
 
-![](/images/2021-01-15-mobile-wallet-002.png)
+![](/images/2021-01-15/mobile-wallet-002.png)
 
 ### 2. QR Scan Option
 
 When importing the secret phrase you have the option to QR Scan the secret phrase (seed) or you can copy and paste the seed.
 
-![](/images/2021-01-15-mobile-wallet-003.png)
+![](/images/2021-01-15/mobile-wallet-003.png)
 
 ### 3. Password Protected & Biotmetrics
 
 For security reasons you can define a password for opening the mobile wallet app. It is also possible to use biometrics instead.
 
-![](/images/2021-01-15-mobile-wallet-004.png)
+![](/images/2021-01-15/mobile-wallet-004.png)
 
 ### 4. Backup Seed
 
@@ -58,13 +58,13 @@ No one else but you is able to recover your wallet.
 Do not use the sample secret shown here, since it’s public any fund will be robbed.
 This seed is also available later on, provided you remind the PIN you used.
 
-![](/images/2021-01-15-mobile-wallet-005.png)
+![](/images/2021-01-15/mobile-wallet-005.png)
 
 ### 5. Wallet PIN Support
 
 Create and backup your wallet PIN to send Bismuth transactions.
 
-![](/images/2021-01-15-mobile-wallet-006.png)
+![](/images/2021-01-15/mobile-wallet-006.png)
 
 ### 6. Send and Receive Transactions
 
@@ -73,7 +73,7 @@ Your first Bismuth address account has been created and you are all set for rece
 The wheel icon on the top left lets you edit your Wallet settings.
 The cat avatar is auto-generated and is meant to easily identify your various addresses.
 
-![](/images/2021-01-15-mobile-wallet-007.png)
+![](/images/2021-01-15/mobile-wallet-007.png)
 
 ### 7. Wallet Options
 
@@ -81,14 +81,14 @@ After clicking the top left icon wheel button you are able to select and change 
 
 You can change the base fiat currency, switch the Wallet language, change security settings (e.g. authentication method, wallet password), displays the Bismuth Token list, manage your contacts, backup your secret phrase and lastly you can logout which wipes your seed phrase.
 
-![](/images/2021-01-15-mobile-wallet-008.png)
+![](/images/2021-01-15/mobile-wallet-008.png)
 
 ### 8. Easy Handling of Addresses
 
 To receive a Bismuth transaction you need to copy your Bismuth address and hand it to sender.
 You can do this by clicking on the Receive button and copying the Bismuth address or handing the sender the generated qr code address.
 
-![](/images/2021-01-15-mobile-wallet-009.png)
+![](/images/2021-01-15/mobile-wallet-009.png)
 
 ### 9. Copy & Paste Functionality
 
@@ -97,13 +97,13 @@ You can either enter all the data by yourself or you can use the copy and paste 
 
 There is also another option to use the QR Code scanner to either scan a Bismuth address or you could also scan a QR Code BIS URL transmitting all necessary data.
 
-![](/images/2021-01-15-mobile-wallet-010.png)
+![](/images/2021-01-15/mobile-wallet-010.png)
 
 ### 10. Transaction Confirmation View
 
 After you have successfully sent a transaction you see a confirmation view that the transaction has been sent.
 
-![](/images/2021-01-15-mobile-wallet-011.png)
+![](/images/2021-01-15/mobile-wallet-011.png)
 
 ### 11. Transaction View List
 
@@ -112,19 +112,19 @@ All transactions are listed in this view. If you want to see more information ab
 
 Note: swiping a tx to the left will prefill a new transaction with same amount and recipient.
 
-![](/images/2021-01-15-mobile-wallet-012.png)
+![](/images/2021-01-15/mobile-wallet-012.png)
 
 ### 12. Bismuth Native Tokens
 
 When you click on the middle bottom icon button from the main transaction view, the wallet will list all Bismuth native Tokens you own.
 
-![](/images/2021-01-15-mobile-wallet-013.png)
+![](/images/2021-01-15/mobile-wallet-013.png)
 
 ### 13. Token List View
 
 To see a list of all available Bismuth Tokens ever created, you can click on settings and then choose the Token List link.
 
-![](/images/2021-01-15-mobile-wallet-014.png)
+![](/images/2021-01-15/mobile-wallet-014.png)
 
 ### 14. Easy Access to Send Bismuth based Tokens
 

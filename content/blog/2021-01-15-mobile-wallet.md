@@ -10,7 +10,7 @@ tags:
   - mobile
   - android
 ---
-![](/images/2021-01-15-mobile-wallet.jpg)
+![](/images/2021-01-15/mobile-wallet.jpg)
 For way too long, Bismuth had no proper mobile wallet.
 <!--more-->
 
