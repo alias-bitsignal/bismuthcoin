@@ -9,7 +9,7 @@ tags:
   - statemachines
   - python
 ---
-![](/images/2021-03-24-state-machines.webp)
+![](/images/2021-03-24/state-machines.webp)
 Are you familiar with Finite state machines? They are everywhere, yet, we don’t see them as such.
 <!--more-->
 
@@ -19,7 +19,7 @@ A state machine – in mathematical terms – is a model of computation.
 It is defined by a – finite – list of states, including an initial state as well as transitions: conditions that have it move from one state to another one.
 This seems very simple, and it can be. Here is a sample machine from Wikipedia.
 
-![](/images/2021-03-24-finite_state_machine.png)
+![](/images/2021-03-24/finite_state_machine.png)
 
 A simple state machine: a door that can only be closed or open.
 Don’t be fooled by the apparent simplicity of this sample: state machine can be very, very complex… but also very useful.
@@ -61,14 +61,14 @@ Pytransition is an actively maintained and very complete state machine framework
 
 The github comes with a full documentation, the quickstart being a funny “narcoleptic super hero” example
 
-![](/images/2021-03-24-state-machine-02.png)
+![](/images/2021-03-24/state-machine-02.png)
 
 Quickstart from Pytransitions
 Note the diagram is generated from a “diagram” extension, by the module itself.
 
 There is even more since a GUI, running with a Tornado web server and JS client code, allows to draw and manipulate the models. It’s not only fun but pretty useful!
 
-![](/images/2021-03-24-state-machine-03.png)
+![](/images/2021-03-24/state-machine-03.png)
 
 State machine GUI editor
 
@@ -83,7 +83,7 @@ Another big up is its MicroPython support. With embedded python coming everywher
 Still, Pysm is a complete library, with all you’ll need including transition callbacks, and state hooks, conditional transitions… while remaining lightweight and fast.
 It comes with documentation, test and examples. [Github](https://github.com/pgularski/pysm)
 
-![](/images/2021-03-24-state-machine-04.png)
+![](/images/2021-03-24/state-machine-04.png)
 
 Here is a sample of a complex hierarchical state machine designed with Pysm
 (taken from pysm github)

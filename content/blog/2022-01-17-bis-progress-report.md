@@ -1,5 +1,5 @@
 ---
-title: HelloWorld Crystal for Bismuth’s Tornado Wallet
+title: January 2022 - Progress Report
 date: 2022-01-17
 authors:
   - name: Bismuth Foundation
@@ -10,13 +10,13 @@ tags:
   - progressreport
 ---
 ![](/images/pr/2022-01-17/bis-progress-report-001.png)
-This Bismuth progress report covers December 14, 2021 to January 14, 2022.
+This **Bismuth Progress Report** covers December 14, 2021 to January 14, 2022.
 <!--more-->
 
 ## Current Supply  
 #### January 2022
---- 
-Bismuth Supply
+
+**Bismuth Supply**
 * Total Bismuth: 30,501,050
 * Circulating Bismuth: 25,286,820
 * Block Height: 2,567,741
@@ -75,9 +75,9 @@ The auto install script for the Bismuth Node and the Hypernode has been updated.
 
 
 ## References
-Installation Script Updated: [Auto Install Script](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md)
-Official Website: [Bismuthplatform.com](https://bismuthplatform.com)
-BIS Info: [Bismuth World](https://bismuth.world/) - [Bismuth Live](https://bismuth.live/)
-BIS Explorer: [Bismuth Blockchain Explorer](htpps://bismuth.im)
+- Installation Script Updated: [Auto Install Script](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md)
+- Official Website: [Bismuthplatform.com](https://bismuthplatform.com)
+- BIS Info: [Bismuth World](https://bismuth.world/) - [Bismuth Live](https://bismuth.live/)
+- BIS Explorer: [Bismuth Blockchain Explorer](htpps://bismuth.im)
 
 
