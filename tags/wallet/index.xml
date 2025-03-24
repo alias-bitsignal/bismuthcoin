@@ -1,5 +1,5 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Wallet</title><link>https://alias-bitsignal.github.io/tags/wallet/</link><description>Recent content in Wallet on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/wallet/index.xml" rel="self" type="application/rss+xml"/><item><title>Bismuth Mobile Wallet - Genesis and Reward</title><link>https://alias-bitsignal.github.io/blog/2021-01-15-mobile-wallet/</link><pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-01-15-mobile-wallet/</guid><description>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet.jpg" alt="" loading="lazy" />
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Wallet</title><link>/tags/wallet/</link><description>Recent content in Wallet on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/wallet/index.xml" rel="self" type="application/rss+xml"/><item><title>Bismuth Mobile Wallet - Genesis and Reward</title><link>/blog/2021-01-15-mobile-wallet/</link><pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate><guid>/blog/2021-01-15-mobile-wallet/</guid><description>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet.jpg" alt="" loading="lazy" />
 For way too long, Bismuth had no proper mobile wallet.&lt;/p>
 &lt;p>One historical reason is that – despite being the fastest growing language – Python on mobile still is not mainstream. Sure, you can run a fully functional Tornado wallet on Android, but that’s not a 2 click install.&lt;/p>
 &lt;p>That’s certainly not an excuse however and the team saw the need for an easy to install and operate mobile wallet.&lt;/p>
@@ -38,8 +38,8 @@ Very recent policies change at Apple store made it so Crypto related app (namely
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://play.google.com/store/apps/details?src=AppAgg.com&amp;amp;id=io.reddwarf.my_bismuth_wallet" target="_blank" rel="noopener">Google Play Android&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/my_bismuth_wallet" target="_blank" rel="noopener">Github - My Bismuth Wallet&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>My Bismuth Wallet - Mobile Wallet</title><link>https://alias-bitsignal.github.io/blog/2021-01-14-mobile-wallet/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-01-14-mobile-wallet/</guid><description>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet.jpg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>My Bismuth Wallet - Mobile Wallet</title><link>/blog/2021-01-14-mobile-wallet/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>/blog/2021-01-14-mobile-wallet/</guid><description>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet.jpg" alt="" loading="lazy" />
 For way too long, Bismuth had no proper mobile wallet, or was dependent on third party wallets.
 Those days are over!&lt;/p>
 &lt;h3>Downloading the Mobile Bismuth Wallet&lt;span class="hx-absolute -hx-mt-20" id="downloading-the-mobile-bismuth-wallet">&lt;/span>
@@ -52,61 +52,61 @@ Those days are over!&lt;/p>
 &lt;p>It was developed by our User RedDwarf as open source: awesome job!&lt;/p>
 &lt;h2>Wallet Walk-through&lt;span class="hx-absolute -hx-mt-20" id="wallet-walk-through">&lt;/span>
 &lt;a href="#wallet-walk-through" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>Initial Setup&lt;span class="hx-absolute -hx-mt-20" id="initial-setup">&lt;/span>
-&lt;a href="#initial-setup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-001.png" alt="" loading="lazy" />&lt;/p>
+&lt;a href="#initial-setup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-001.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>1. Hierarchical Deterministic Key Generation&lt;span class="hx-absolute -hx-mt-20" id="1-hierarchical-deterministic-key-generation">&lt;/span>
 &lt;a href="#1-hierarchical-deterministic-key-generation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The new mobile My Bismuth Wallet is using the BIS HD standard for generating keys.
 The mobile Wallet lets you either create a new wallet (seed) or you can import a seed which you already have.
 Seeds and addresses are compatible with Angainor’s paper wallet. &lt;a href="https://angainordev.github.io/BIS-Paper/js/dist/index.html" target="_blank" rel="noopener">link&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-002.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-002.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>2. QR Scan Option&lt;span class="hx-absolute -hx-mt-20" id="2-qr-scan-option">&lt;/span>
 &lt;a href="#2-qr-scan-option" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>When importing the secret phrase you have the option to QR Scan the secret phrase (seed) or you can copy and paste the seed.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-003.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-003.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>3. Password Protected &amp;amp; Biotmetrics&lt;span class="hx-absolute -hx-mt-20" id="3-password-protected--biotmetrics">&lt;/span>
 &lt;a href="#3-password-protected--biotmetrics" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>For security reasons you can define a password for opening the mobile wallet app. It is also possible to use biometrics instead.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-004.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-004.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>4. Backup Seed&lt;span class="hx-absolute -hx-mt-20" id="4-backup-seed">&lt;/span>
 &lt;a href="#4-backup-seed" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>When you have created a completely new secret phrase (seed), double check that you backup your secret phrase in a non digital manner.
 This is the most important step to be able to recover the mobile wallet.
 No one else but you is able to recover your wallet.&lt;/p>
 &lt;p>Do not use the sample secret shown here, since it’s public any fund will be robbed.
 This seed is also available later on, provided you remind the PIN you used.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-005.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-005.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>5. Wallet PIN Support&lt;span class="hx-absolute -hx-mt-20" id="5-wallet-pin-support">&lt;/span>
 &lt;a href="#5-wallet-pin-support" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Create and backup your wallet PIN to send Bismuth transactions.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-006.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-006.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>6. Send and Receive Transactions&lt;span class="hx-absolute -hx-mt-20" id="6-send-and-receive-transactions">&lt;/span>
 &lt;a href="#6-send-and-receive-transactions" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>This is the standard My Bismuth Wallet view after creating a completely new wallet.
 Your first Bismuth address account has been created and you are all set for receiving Bismuth.
 The wheel icon on the top left lets you edit your Wallet settings.
 The cat avatar is auto-generated and is meant to easily identify your various addresses.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-007.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-007.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>7. Wallet Options&lt;span class="hx-absolute -hx-mt-20" id="7-wallet-options">&lt;/span>
 &lt;a href="#7-wallet-options" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>After clicking the top left icon wheel button you are able to select and change different Wallet options.&lt;/p>
 &lt;p>You can change the base fiat currency, switch the Wallet language, change security settings (e.g. authentication method, wallet password), displays the Bismuth Token list, manage your contacts, backup your secret phrase and lastly you can logout which wipes your seed phrase.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-008.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-008.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>8. Easy Handling of Addresses&lt;span class="hx-absolute -hx-mt-20" id="8-easy-handling-of-addresses">&lt;/span>
 &lt;a href="#8-easy-handling-of-addresses" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>To receive a Bismuth transaction you need to copy your Bismuth address and hand it to sender.
 You can do this by clicking on the Receive button and copying the Bismuth address or handing the sender the generated qr code address.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-009.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-009.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>9. Copy &amp;amp; Paste Functionality&lt;span class="hx-absolute -hx-mt-20" id="9-copy--paste-functionality">&lt;/span>
 &lt;a href="#9-copy--paste-functionality" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Sending a Bismuth transaction is very easy.
 You can either enter all the data by yourself or you can use the copy and paste functionality.&lt;/p>
 &lt;p>There is also another option to use the QR Code scanner to either scan a Bismuth address or you could also scan a QR Code BIS URL transmitting all necessary data.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-010.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-010.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>10. Transaction Confirmation View&lt;span class="hx-absolute -hx-mt-20" id="10-transaction-confirmation-view">&lt;/span>
 &lt;a href="#10-transaction-confirmation-view" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>After you have successfully sent a transaction you see a confirmation view that the transaction has been sent.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-011.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-011.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>11. Transaction View List&lt;span class="hx-absolute -hx-mt-20" id="11-transaction-view-list">&lt;/span>
 &lt;a href="#11-transaction-view-list" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Once you have sent and received Bismuth you will see the transaction list on the main view. This particular view shows that you can not only send Bismuth but also Bismuth based Tokens.
 All transactions are listed in this view. If you want to see more information about a particular transaction, you can click on a transaction to see a detailed transaction view.&lt;/p>
 &lt;p>Note: swiping a tx to the left will prefill a new transaction with same amount and recipient.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-012.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-012.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>12. Bismuth Native Tokens&lt;span class="hx-absolute -hx-mt-20" id="12-bismuth-native-tokens">&lt;/span>
 &lt;a href="#12-bismuth-native-tokens" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>When you click on the middle bottom icon button from the main transaction view, the wallet will list all Bismuth native Tokens you own.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-013.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-013.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>13. Token List View&lt;span class="hx-absolute -hx-mt-20" id="13-token-list-view">&lt;/span>
 &lt;a href="#13-token-list-view" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>To see a list of all available Bismuth Tokens ever created, you can click on settings and then choose the Token List link.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-15-mobile-wallet-014.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-014.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>14. Easy Access to Send Bismuth based Tokens&lt;span class="hx-absolute -hx-mt-20" id="14-easy-access-to-send-bismuth-based-tokens">&lt;/span>
 &lt;a href="#14-easy-access-to-send-bismuth-based-tokens" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>You can send a Bismuth based Token from the normal send view, by sliding the “send a token” button to the right and then choose one of your available Token, add the amount and then send it.&lt;/p>
 &lt;p>Note: Bismuth native tokens have no decimals.&lt;/p>

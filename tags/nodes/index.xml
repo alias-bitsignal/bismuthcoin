@@ -1,23 +1,23 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Nodes</title><link>https://alias-bitsignal.github.io/tags/nodes/</link><description>Recent content in Nodes on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/nodes/index.xml" rel="self" type="application/rss+xml"/><item><title>Real time Hypernodes map from Dingo</title><link>https://alias-bitsignal.github.io/blog/2021-02-09-map/</link><pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-02-09-map/</guid><description>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-02-21-bismuth_map-01.jpg" alt="" loading="lazy" />
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Nodes</title><link>/tags/nodes/</link><description>Recent content in Nodes on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/nodes/index.xml" rel="self" type="application/rss+xml"/><item><title>Real time Hypernodes map from Dingo</title><link>/blog/2021-02-09-map/</link><pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate><guid>/blog/2021-02-09-map/</guid><description>
+&lt;p>&lt;img src="/images/2021-02-21-bismuth_map-01.jpg" alt="" loading="lazy" />
 We’re always happy to see new users jump in on the Bismuth Discord and ask questions.
 More over dev questions…
 And above all, we like it when these users then come back with a “Oh, by the way, I just did that small thing…”&lt;/p>
 &lt;h3>The Hypernodes Map&lt;span class="hx-absolute -hx-mt-20" id="the-hypernodes-map">&lt;/span>
 &lt;a href="#the-hypernodes-map" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Here is what “Dingo” did: &lt;a href="https://bismuth-map.herokuapp.com/" target="_blank" rel="noopener">https://bismuth-map.herokuapp.com/&lt;/a>.&lt;br>
 And best of all is Dingo released the application as &lt;a href="https://github.com/bismuthfoundation/map" target="_blank" rel="noopener">Open-Source&lt;/a> for anyone to run the the Bismuth Map.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-02-21-bismuth_map-02.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-02-21-bismuth_map-02.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>Timeline&lt;span class="hx-absolute -hx-mt-20" id="timeline">&lt;/span>
 &lt;a href="#timeline" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>After Dingo announced his map, a tweet was sent out by a team member:&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-02-21-bismuth_map-03.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-02-21-bismuth_map-03.jpg" alt="" loading="lazy" />&lt;/p>
 &lt;p>Original &lt;a href="https://x.com/portait/status/1348254048391225345" target="_blank" rel="noopener">Tweet&lt;/a>&lt;/p>
 &lt;p>&amp;hellip; then after some quick exchanges Dingo updated the map with more information.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-02-21-bismuth_map.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-02-21-bismuth_map.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>The latest version is out, now including financial metrics and USD value access. Additionally, a &lt;a href="https://www.youtube.com/watch?v=wD8i4lr4J2c" target="_blank" rel="noopener">Youtube video&lt;/a> about the application has also been released.&lt;/p>
 &lt;h3>Reading between the lines&lt;span class="hx-absolute -hx-mt-20" id="reading-between-the-lines">&lt;/span>
 &lt;a href="#reading-between-the-lines" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>One nice thing this map also shows is that while keeping an eye on the current trends and newest promising technology, Bismuth continues to grow its fundamentals.&lt;/p>
 &lt;p>Have look at the upper left corner, with the core financial Hypernodes metrics in a snap:&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-02-21-bismuth_map-04.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-02-21-bismuth_map-04.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Yes, the Bismuth Hypernodes still pay more than 17% yearly. Not for 1 month before vanishing, but every single week since they’re up, more than 16 months ago. This is sustainable, this is an in-deniable proof users keep faith in the project.
 More than 7 million BIS staked. More than 26% of the total supply. More than $820,000 locked. Awesome is it not?&lt;/p>
 &lt;p>Low cap, yes.

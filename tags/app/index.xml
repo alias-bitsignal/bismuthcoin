@@ -1,8 +1,8 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – App</title><link>https://alias-bitsignal.github.io/tags/app/</link><description>Recent content in App on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/app/index.xml" rel="self" type="application/rss+xml"/><item><title>Bismuth Toolbox, interview and reward</title><link>https://alias-bitsignal.github.io/blog/2021-01-01-toolbox/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-01-01-toolbox/</guid><description>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-01-toolbox.jpeg" alt="" loading="lazy" />
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – App</title><link>/tags/app/</link><description>Recent content in App on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/app/index.xml" rel="self" type="application/rss+xml"/><item><title>Bismuth Toolbox, interview and reward</title><link>/blog/2021-01-01-toolbox/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>/blog/2021-01-01-toolbox/</guid><description>
+&lt;p>&lt;img src="/images/2021-01-01-toolbox.jpeg" alt="" loading="lazy" />
 Months ago, Bismuth user “Whatever” developed a shiny app to monitor his BIS mining rigs, wallets and Hypernodes.
 Apps you code for yourself, because you feel an urging need for it can end up most useful, and this one makes no exception.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-01-toolbox-01.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-01-toolbox-01.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Preview of the Bismuth toolbox main screen&lt;/p>
 &lt;p>As a followup, Whatever also added more useful intel with hypernodes related data and monitoring
 The Hypernode monitoring section
@@ -96,8 +96,8 @@ Since &lt;strong>Bismuth Toolbox&lt;/strong> has been released as &lt;strong>ope
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://github.com/DoNutsLise/BismuthToolbox" target="_blank" rel="noopener">Github - Bismuth Toolbox&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Decentralized Condition Monitoring</title><link>https://alias-bitsignal.github.io/blog/2020-04-30-condition-monitoring/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2020-04-30-condition-monitoring/</guid><description>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-04-30-condition-monitoring.jpeg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Decentralized Condition Monitoring</title><link>/blog/2020-04-30-condition-monitoring/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>/blog/2020-04-30-condition-monitoring/</guid><description>
+&lt;p>&lt;img src="/images/2020-04-30-condition-monitoring.jpeg" alt="" loading="lazy" />
 Condition monitoring (CM) is the basis for condition based maintenance (CBM). CBM is an alternative to calendar based maintenance, where an asset is serviced in regular time intervals.&lt;/p>
 &lt;p>Calendar based maintenance is easy to plan and schedule but it has some weaknesses:&lt;/p>
 &lt;ol>
@@ -112,7 +112,7 @@ Condition monitoring (CM) is the basis for condition based maintenance (CBM). CB
 &lt;p>CM and CBM work well in a single organisation where traditional database tools (or data historians) are used to store and secure the data. This single organisation then owns the data and can control who has access. However, when more than one organisation or individual are involved, CM and CBM initiatives often fail because of the following issue: who owns the data and controls the server storing the data? Data and data analysis can have large potential value, and organisations and individuals are often reluctant to give this value away for free or lose control.&lt;/p>
 &lt;p>However, data sharing among many participants can have large overall benefits for the group or society as a whole. A single asset does not normally operate in isolation, but forms part of a larger machinery or a plant. A condition which may be optimal for a single asset, may not be optimal for the overall machinery. By sharing data between participants, the performance of the overall machinery or industrial plant can be analyzed and optimized. Another example is the case where there are hundreds, thousands or millions of identical assets operating in the consumer industries. By sharing data, under-performing assets can be identified and corrective actions can be taken- benefiting society as a whole.&lt;/p>
 &lt;p>In the article &lt;a href="https://ieeexplore.ieee.org/document/8048838" target="_blank" rel="noopener">“Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem”&lt;/a>, IEEE Spectrum, 2017, Morgan E. Peck presented the chart below.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-04-30-condition-monitoring-002.jpeg" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/2020-04-30-condition-monitoring-002.jpeg" alt="" loading="lazy" />
 Image from: Morgan E. Peck, “Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem“, IEEE Spectrum, 2017.&lt;/p>
 &lt;p>This chart illustrates that a public blockchain may be a good solution for problems where:&lt;/p>
 &lt;ul>
@@ -121,7 +121,7 @@ Image from: Morgan E. Peck, “Blockchain world – Do you need a blockchain? Th
 &lt;li>The data does not need to be private.&lt;/li>
 &lt;li>The database needs to be resistant to attacks or censorship.&lt;/li>
 &lt;/ul>
-&lt;p>In this article it will be explained how the Bismuth public blockchain can be used to implement a system for distributed condition monitoring. For more information about Bismuth, see the &lt;a href="https://alias-bitsignal.github.io/pdf/whitepaper.pdf" >whitepaper&lt;/a>.&lt;/p>
+&lt;p>In this article it will be explained how the Bismuth public blockchain can be used to implement a system for distributed condition monitoring. For more information about Bismuth, see the &lt;a href="/pdf/whitepaper.pdf" >whitepaper&lt;/a>.&lt;/p>
 &lt;p>Bismuth is ideally suited to this type of applications, because it contains two fields in the transaction structure which are named “operation” and “datafield”. These two fields allow for building new meta protocols on top of the core blockchain software. In this article it will be demonstrated how a new meta protocol can be used in the development of a solution for decentralized condition monitoring.&lt;/p>
 &lt;p>One general problem with a decentralized public blockchain is spam. Any participant can submit any data to the chain and this can not be avoided. Instead of trying to prevent spam from occurring completely, a supplementary approach would be to filter out fake data. There are several ways spam protection and filtering can be achieved, for example:&lt;/p>
 &lt;ul>
@@ -177,10 +177,10 @@ If the owner later wants to sell the asset to someone else, he or she can provid
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="hhttps://ieeexplore.ieee.org/document/8048838" >Blockchain World - Do you need a blockchain?&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://alias-bitsignal.github.io/pdf/whitepaper.pdf" >Bismuth Whitepaper&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/pdf/whitepaper.pdf" >Bismuth Whitepaper&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py" target="_blank" rel="noopener">Github - Bismuth SimpleAsset&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>HelloWorld Crystal for Bismuth’s Tornado Wallet</title><link>https://alias-bitsignal.github.io/blog/2020-04-13-hello-world/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2020-04-13-hello-world/</guid><description>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2020-04-13-hello-world.jpeg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>HelloWorld Crystal for Bismuth’s Tornado Wallet</title><link>/blog/2020-04-13-hello-world/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>/blog/2020-04-13-hello-world/</guid><description>
+&lt;p>&lt;img src="/images/2020-04-13-hello-world.jpeg" alt="" loading="lazy" />
 Bismuth is a chemical element and a metal with number 83 in the periodic table.&lt;/p>
 &lt;p>Bismuth has an unusual property for a metal in which it expands as it changes from a liquid to a solid and crystals are formed. Bismuth is also the name given to the first blockchain implementation written in Python. The Bismuth blockchain project with it’s associated features and tools aim to be a “construction set for blockchain technology” or “the Lego of blockchains”. Inspired by the metal the Bismuth blockchain ecosystem will also “expand as it solidifies”, with many new developers and future use-cases.&lt;/p>
 &lt;p>Tornado is a Python-based web framework and asynchronous networking library. It is an ideal framework for a Bismuth wallet and distributed app (Dapp) development environment. Motivated by the metal and in the spirit of being a construction set, the Tornado wallet also has a plugin feature which has been given the name “Crystal”. In this blog article the crystal framework in Bismuth’s Tornado wallet is introduced with a “Hello World” example. The article is written with the goal to help new Dapp developers getting started with the Bismuth ecosystem. Specifically, the Hello World crystal demonstrates the following features:&lt;/p>
