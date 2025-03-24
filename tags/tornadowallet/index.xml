@@ -1,0 +1,125 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Tornadowallet</title><link>https://alias-bitsignal.github.io/tags/tornadowallet/</link><description>Recent content in Tornadowallet on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 15 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/tornadowallet/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Run Tornado Wallet with a Custom IP</title><link>https://alias-bitsignal.github.io/blog/2023-11-15-custom-wallet-ip/</link><pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2023-11-15-custom-wallet-ip/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2023-11-15/header.webp" alt="" loading="lazy" />
+Here is the Tornado Bismuth Wallet Startup Guide.&lt;/p>
+&lt;h3>Overview&lt;span class="hx-absolute -hx-mt-20" id="overview">&lt;/span>
+&lt;a href="#overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Issue:&lt;/strong> The Tornado Bismuth Wallet fails to start because it needs an updated server list, but the default API is inaccessible.&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong> Manually specify a server IP and port from a &lt;strong>backup API URL&lt;/strong> that’s synchronized to the latest block height.&lt;/p>
+&lt;h2>Windows OS Hotfix&lt;span class="hx-absolute -hx-mt-20" id="windows-os-hotfix">&lt;/span>
+&lt;a href="#windows-os-hotfix" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>1. Get a Valid IP and Port:&lt;span class="hx-absolute -hx-mt-20" id="1-get-a-valid-ip-and-port">&lt;/span>
+&lt;a href="#1-get-a-valid-ip-and-port" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Go to the backup API URL:
+&lt;a href="https://bismuth.world/api/legacy.json" target="_blank" rel="noopener">https://bismuth.world/api/legacy.json&lt;/a>&lt;/li>
+&lt;li>Choose an IP address and port listed at the latest (highest) block height.&lt;/li>
+&lt;/ul>
+&lt;h4>2. Create a Batch File:&lt;span class="hx-absolute -hx-mt-20" id="2-create-a-batch-file">&lt;/span>
+&lt;a href="#2-create-a-batch-file" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Create a text file named &lt;code>tornado.txt&lt;/code> and then rename it to &lt;code>tornado.bat&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;h4>3. Add Launch Commands:&lt;span class="hx-absolute -hx-mt-20" id="3-add-launch-commands">&lt;/span>
+&lt;a href="#3-add-launch-commands" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>If the Tornado Wallet and your batch file are on the same drive, use:&lt;/li>
+&lt;/ul>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>cd &amp;#34;C:\Program Files (x86)\TornadoWallet&amp;#34;
+&amp;#34;TornadoBismuthWallet.exe&amp;#34; --server=192.99.34.19:8150&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;ul>
+&lt;li>If they are on different drives, use:&lt;/li>
+&lt;/ul>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>C:
+cd /d &amp;#34;C:\Program Files (x86)\TornadoWallet&amp;#34;
+&amp;#34;TornadoBismuthWallet.exe&amp;#34; --server=192.99.34.19:8150&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h4>4. Save and Run:&lt;span class="hx-absolute -hx-mt-20" id="4-save-and-run">&lt;/span>
+&lt;a href="#4-save-and-run" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Save the file and double-click &lt;code>tornado.bat&lt;/code> to launch your Tornado Wallet with the manually selected IP.&lt;/li>
+&lt;/ul>
+&lt;h2>macOS Hotfix&lt;span class="hx-absolute -hx-mt-20" id="macos-hotfix">&lt;/span>
+&lt;a href="#macos-hotfix" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>Create a Shell Script:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Open a text editor and create a file named &lt;code>tornado.sh&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>Add Launch Commands:&lt;/li>
+&lt;/ol>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>#!/bin/bash
+open &amp;#34;/Applications/Tornado Bismuth Wallet.app&amp;#34; --args --server=192.99.34.19:8150&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;ol start="3">
+&lt;li>Make the Script Executable:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>In Terminal, run:&lt;/li>
+&lt;/ul>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>chmod &amp;#43;x tornado.sh&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;ol start="4">
+&lt;li>Execute the Script:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>In Terminal, run:&lt;/li>
+&lt;/ul>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>./tornado.sh&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Use these steps to manually set a connection IP for Tornado Bismuth Wallet when the default API is inaccessible. Always ensure the chosen IP is at the latest block height for a successful connection.&lt;/p>
+&lt;hr>
+&lt;h3>Bismuth Market Data &amp;amp; Exchanges&lt;span class="hx-absolute -hx-mt-20" id="bismuth-market-data--exchanges">&lt;/span>
+&lt;a href="#bismuth-market-data--exchanges" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Bismuth CoinMarketCap Information: &lt;a href="https://coinmarketcap.com/currencies/bismuth/" target="_blank" rel="noopener">https://coinmarketcap.com/currencies/bismuth/&lt;/a>&lt;/li>
+&lt;li>Bismuth Coingecko information: &lt;a href="https://www.coingecko.com/en/coins/bismuth" target="_blank" rel="noopener">https://www.coingecko.com/en/coins/bismuth&lt;/a>&lt;/li>
+&lt;li>Uniswap Exchange (DEX): &lt;a href="https://www.dextools.io/app/ether/pair-explorer/0xf4f82f8d84c529987201609cecee8ab136a50c8c" target="_blank" rel="noopener">Wrapped BIS/ ETH Pair&lt;/a>&lt;/li>
+&lt;li>Pancakeswap Exchange (DEX): &lt;a href="https://www.dextools.io/app/bsc/pair-explorer/0x731b8244f818fd488d9dc516edd976a96459ae59" target="_blank" rel="noopener">Wrapped BIS/ BSC Pair&lt;/a>&lt;/li>
+&lt;li>ViteX (DEX): &lt;a href="https://x.vite.net/trade?symbol=BIS-000_BTC-000" target="_blank" rel="noopener">BIS/ BTC Pair&lt;/a>&lt;/li>
+&lt;li>Graviex: &lt;a href="https://graviex.net/markets/bisbtc" target="_blank" rel="noopener">BIS/ BTC Pair&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Backup API URL: &lt;a href="https://bismuth.world/api/legacy.json" target="_blank" rel="noopener">Bismuth World API&lt;/a>&lt;/li>
+&lt;li>Tornado Wallet: &lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener">Github Tornado Wallet&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

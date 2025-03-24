@@ -61,7 +61,7 @@ Total amount of HN collateral, both active and inactive.&lt;/p>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>Official Website: &lt;a href="https://bismuthplatform.com" target="_blank" rel="noopener">Bismuthplatform.com&lt;/a>&lt;/li>
 &lt;li>BIS Info: &lt;a href="https://bismuth.world/" target="_blank" rel="noopener">Bismuth World&lt;/a> - &lt;a href="https://bismuth.live/" target="_blank" rel="noopener">Bismuth Live&lt;/a>&lt;/li>
-&lt;li>BIS Explorer: &lt;a href="htpps://bismuth.im" >Bismuth Blockchain Explorer&lt;/a>&lt;/li>
+&lt;li>BIS Explorer: &lt;a href="https://bismuth.im" target="_blank" rel="noopener">Bismuth Blockchain Explorer&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>January 2022 - Progress Report</title><link>https://alias-bitsignal.github.io/blog/2022-01-17-bis-progress-report/</link><pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2022-01-17-bis-progress-report/</guid><description>
 &lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2022-01-17/bis-progress-report-001.png" alt="" loading="lazy" />
 This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14, 2021 to January 14, 2022.&lt;/p>
@@ -116,7 +116,7 @@ Bismuth Auto Install Script Link:
 &lt;li>Installation Script Updated: &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md" target="_blank" rel="noopener">Auto Install Script&lt;/a>&lt;/li>
 &lt;li>Official Website: &lt;a href="https://bismuthplatform.com" target="_blank" rel="noopener">Bismuthplatform.com&lt;/a>&lt;/li>
 &lt;li>BIS Info: &lt;a href="https://bismuth.world/" target="_blank" rel="noopener">Bismuth World&lt;/a> - &lt;a href="https://bismuth.live/" target="_blank" rel="noopener">Bismuth Live&lt;/a>&lt;/li>
-&lt;li>BIS Explorer: &lt;a href="htpps://bismuth.im" >Bismuth Blockchain Explorer&lt;/a>&lt;/li>
+&lt;li>BIS Explorer: &lt;a href="https://bismuth.im" target="_blank" rel="noopener">Bismuth Blockchain Explorer&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Using the BIS&lt;>BSC Bridge Crystal</title><link>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</link><pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</guid><description>
 &lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-05-12-bsc_bridge.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>To swap between native BIS and BNB wBIS token, you need the newest Tornado wallet (v0.1.43 or more) with the BscBridge Crystal activated, as pictured above.&lt;/p>

@@ -1,4 +1,189 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Bismuth Blockchain</title><link>https://alias-bitsignal.github.io/</link><description>Recent content in Bismuth Blockchain on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 14 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>January 2023 - Progress Report</title><link>https://alias-bitsignal.github.io/blog/2023-01-14-bis-progress-report/</link><pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2023-01-14-bis-progress-report/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Bismuth Blockchain</title><link>https://alias-bitsignal.github.io/</link><description>Recent content in Bismuth Blockchain on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>January 2024 - Progress Report</title><link>https://alias-bitsignal.github.io/blog/2024-01-15-bis-progress-report/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2024-01-15-bis-progress-report/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2024-01-15/bis-progress-report-001.webp" alt="" loading="lazy" />
+This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14th, 2023 to January 15th, 2024.&lt;/p>
+&lt;h2>Current Supply&lt;span class="hx-absolute -hx-mt-20" id="current-supply">&lt;/span>
+&lt;a href="#current-supply" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>January 2024&lt;span class="hx-absolute -hx-mt-20" id="january-2024">&lt;/span>
+&lt;a href="#january-2024" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>Bismuth Supply&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Total Bismuth: 37,067,892&lt;/li>
+&lt;li>Circulating Bismuth: 31,853,663&lt;/li>
+&lt;li>Block Height: 3,616,632&lt;/li>
+&lt;/ul>
+&lt;h4>Breakdown:&lt;span class="hx-absolute -hx-mt-20" id="breakdown">&lt;/span>
+&lt;a href="#breakdown" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Cryptopia (locked): 5,214,229&lt;/li>
+&lt;li>Hypernode active: 3,410,000&lt;/li>
+&lt;li>Hypernode inactive: 5,910,000&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4>Native Bismuth &amp;amp; Wrapped BIS&lt;span class="hx-absolute -hx-mt-20" id="native-bismuth--wrapped-bis">&lt;/span>
+&lt;a href="#native-bismuth--wrapped-bis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Native Bismuth: 34,910,845&lt;/li>
+&lt;li>wBIS (ERC-20): 692,344&lt;/li>
+&lt;li>wBIS (BEP-20): 1,464,703&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2024-01-15/bis-progress-report-002.webp" alt="" loading="lazy" />
+Bismuth Supply January 2024&lt;/p>
+&lt;h3>Bismuth Mainnet&lt;span class="hx-absolute -hx-mt-20" id="bismuth-mainnet">&lt;/span>
+&lt;a href="#bismuth-mainnet" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Bismuth Mainnet is Proof-of-Work based. A custom sha-224 algorithm is being utilized and optimized for GPU mining. Block time generation is 1-minute.&lt;/p>
+&lt;p>The Graph below shows the current BIS difficulty.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2024-01-15/bis-progress-report-003.webp" alt="" loading="lazy" />&lt;/p>
+&lt;h3>Bismuth Mainnet Mining&lt;span class="hx-absolute -hx-mt-20" id="bismuth-mainnet-mining">&lt;/span>
+&lt;a href="#bismuth-mainnet-mining" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The biggest Bismuth mining pools are &lt;a href="https://eggpool.net" target="_blank" rel="noopener">Eggpool&lt;/a> and Coinsaurus. An opensource solo mining software is also available which is called &lt;a href="https://github.com/bismuthfoundation/kbkminer" target="_blank" rel="noopener">KBKminer&lt;/a>.&lt;/p>
+&lt;h3>Bismuth Hypernode Staking Side-Chain&lt;span class="hx-absolute -hx-mt-20" id="bismuth-hypernode-staking-side-chain">&lt;/span>
+&lt;a href="#bismuth-hypernode-staking-side-chain" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Bismuth Hypernode Side-Chain is Proof-of-Stake based.&lt;/p>
+&lt;p>We count 115 active Hypernodes with a total amount of active collateral of 3,410,000 BIS. That’s an increase of 4 active nodes since the last report.
+Estimated Bismuth Hypernode rewards are shown below.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2024-01-15/bis-progress-report-004.webp" alt="" loading="lazy" />
+Data from the Hypernodes page.&lt;/p>
+&lt;p>The plot below shows all Hypernodes, both active and inactive. As can be seen from the plot, the number of Hypernodes is currently at 331, down by 1 node since the last report.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2024-01-15/bis-progress-report-005.webp" alt="" loading="lazy" />
+Total number of Hypernodes, both active and inactive.&lt;/p>
+&lt;p>The plot below shows the total Hypernode collateral, both active and inactive. As can be seen, the total amount of collateral is 9,320,000. The total amount of BIS in circulation is 37,06 million. Hence, the amount of active collateral accounts for 9.2 % of the total supply, or 25.1 % if the amount of inactive collateral is included.&lt;/p>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2024-01-15/bis-progress-report-006.webp" alt="" loading="lazy" />
+Total amount of HN collateral, both active and inactive.&lt;/p>
+&lt;h3>Wrapped Supply&lt;span class="hx-absolute -hx-mt-20" id="wrapped-supply">&lt;/span>
+&lt;a href="#wrapped-supply" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>An overview of the Wrapped BIS supply on the Ethereum blockchain (ERC20) and a summary of Wrapped BIS supply on the Binance Smartchain.
+&lt;img src="https://alias-bitsignal.github.io/images/pr/2024-01-15/bis-progress-report-007.webp" alt="" loading="lazy" />&lt;/p>
+&lt;h3>Bismuth Market Data &amp;amp; Exchanges&lt;span class="hx-absolute -hx-mt-20" id="bismuth-market-data--exchanges">&lt;/span>
+&lt;a href="#bismuth-market-data--exchanges" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Bismuth CoinMarketCap Information: &lt;a href="https://coinmarketcap.com/currencies/bismuth/" target="_blank" rel="noopener">https://coinmarketcap.com/currencies/bismuth/&lt;/a>&lt;/li>
+&lt;li>Bismuth Coingecko information: &lt;a href="https://www.coingecko.com/en/coins/bismuth" target="_blank" rel="noopener">https://www.coingecko.com/en/coins/bismuth&lt;/a>&lt;/li>
+&lt;li>Uniswap Exchange (DEX): &lt;a href="https://www.dextools.io/app/ether/pair-explorer/0xf4f82f8d84c529987201609cecee8ab136a50c8c" target="_blank" rel="noopener">Wrapped BIS/ ETH Pair&lt;/a>&lt;/li>
+&lt;li>Pancakeswap Exchange (DEX): &lt;a href="https://www.dextools.io/app/bsc/pair-explorer/0x731b8244f818fd488d9dc516edd976a96459ae59" target="_blank" rel="noopener">Wrapped BIS/ BSC Pair&lt;/a>&lt;/li>
+&lt;li>ViteX (DEX): &lt;a href="https://x.vite.net/trade?symbol=BIS-000_BTC-000" target="_blank" rel="noopener">BIS/ BTC Pair&lt;/a>&lt;/li>
+&lt;li>Graviex: &lt;a href="https://graviex.net/markets/bisbtc" target="_blank" rel="noopener">BIS/ BTC Pair&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Official Website: &lt;a href="https://bismuthplatform.com" target="_blank" rel="noopener">Bismuthplatform.com&lt;/a>&lt;/li>
+&lt;li>BIS Info: &lt;a href="https://bismuth.world/" target="_blank" rel="noopener">Bismuth World&lt;/a> - &lt;a href="https://bismuth.live/" target="_blank" rel="noopener">Bismuth Live&lt;/a>&lt;/li>
+&lt;li>BIS Explorer: &lt;a href="https://bismuth.im" target="_blank" rel="noopener">Bismuth Blockchain Explorer&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>How to Run Tornado Wallet with a Custom IP</title><link>https://alias-bitsignal.github.io/blog/2023-11-15-custom-wallet-ip/</link><pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2023-11-15-custom-wallet-ip/</guid><description>
+&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2023-11-15/header.webp" alt="" loading="lazy" />
+Here is the Tornado Bismuth Wallet Startup Guide.&lt;/p>
+&lt;h3>Overview&lt;span class="hx-absolute -hx-mt-20" id="overview">&lt;/span>
+&lt;a href="#overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Issue:&lt;/strong> The Tornado Bismuth Wallet fails to start because it needs an updated server list, but the default API is inaccessible.&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong> Manually specify a server IP and port from a &lt;strong>backup API URL&lt;/strong> that’s synchronized to the latest block height.&lt;/p>
+&lt;h2>Windows OS Hotfix&lt;span class="hx-absolute -hx-mt-20" id="windows-os-hotfix">&lt;/span>
+&lt;a href="#windows-os-hotfix" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>1. Get a Valid IP and Port:&lt;span class="hx-absolute -hx-mt-20" id="1-get-a-valid-ip-and-port">&lt;/span>
+&lt;a href="#1-get-a-valid-ip-and-port" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Go to the backup API URL:
+&lt;a href="https://bismuth.world/api/legacy.json" target="_blank" rel="noopener">https://bismuth.world/api/legacy.json&lt;/a>&lt;/li>
+&lt;li>Choose an IP address and port listed at the latest (highest) block height.&lt;/li>
+&lt;/ul>
+&lt;h4>2. Create a Batch File:&lt;span class="hx-absolute -hx-mt-20" id="2-create-a-batch-file">&lt;/span>
+&lt;a href="#2-create-a-batch-file" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Create a text file named &lt;code>tornado.txt&lt;/code> and then rename it to &lt;code>tornado.bat&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;h4>3. Add Launch Commands:&lt;span class="hx-absolute -hx-mt-20" id="3-add-launch-commands">&lt;/span>
+&lt;a href="#3-add-launch-commands" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>If the Tornado Wallet and your batch file are on the same drive, use:&lt;/li>
+&lt;/ul>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>cd &amp;#34;C:\Program Files (x86)\TornadoWallet&amp;#34;
+&amp;#34;TornadoBismuthWallet.exe&amp;#34; --server=192.99.34.19:8150&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;ul>
+&lt;li>If they are on different drives, use:&lt;/li>
+&lt;/ul>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>C:
+cd /d &amp;#34;C:\Program Files (x86)\TornadoWallet&amp;#34;
+&amp;#34;TornadoBismuthWallet.exe&amp;#34; --server=192.99.34.19:8150&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h4>4. Save and Run:&lt;span class="hx-absolute -hx-mt-20" id="4-save-and-run">&lt;/span>
+&lt;a href="#4-save-and-run" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Save the file and double-click &lt;code>tornado.bat&lt;/code> to launch your Tornado Wallet with the manually selected IP.&lt;/li>
+&lt;/ul>
+&lt;h2>macOS Hotfix&lt;span class="hx-absolute -hx-mt-20" id="macos-hotfix">&lt;/span>
+&lt;a href="#macos-hotfix" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>Create a Shell Script:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Open a text editor and create a file named &lt;code>tornado.sh&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>Add Launch Commands:&lt;/li>
+&lt;/ol>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>#!/bin/bash
+open &amp;#34;/Applications/Tornado Bismuth Wallet.app&amp;#34; --args --server=192.99.34.19:8150&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;ol start="3">
+&lt;li>Make the Script Executable:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>In Terminal, run:&lt;/li>
+&lt;/ul>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>chmod &amp;#43;x tornado.sh&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;ol start="4">
+&lt;li>Execute the Script:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>In Terminal, run:&lt;/li>
+&lt;/ul>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>./tornado.sh&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Use these steps to manually set a connection IP for Tornado Bismuth Wallet when the default API is inaccessible. Always ensure the chosen IP is at the latest block height for a successful connection.&lt;/p>
+&lt;hr>
+&lt;h3>Bismuth Market Data &amp;amp; Exchanges&lt;span class="hx-absolute -hx-mt-20" id="bismuth-market-data--exchanges">&lt;/span>
+&lt;a href="#bismuth-market-data--exchanges" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Bismuth CoinMarketCap Information: &lt;a href="https://coinmarketcap.com/currencies/bismuth/" target="_blank" rel="noopener">https://coinmarketcap.com/currencies/bismuth/&lt;/a>&lt;/li>
+&lt;li>Bismuth Coingecko information: &lt;a href="https://www.coingecko.com/en/coins/bismuth" target="_blank" rel="noopener">https://www.coingecko.com/en/coins/bismuth&lt;/a>&lt;/li>
+&lt;li>Uniswap Exchange (DEX): &lt;a href="https://www.dextools.io/app/ether/pair-explorer/0xf4f82f8d84c529987201609cecee8ab136a50c8c" target="_blank" rel="noopener">Wrapped BIS/ ETH Pair&lt;/a>&lt;/li>
+&lt;li>Pancakeswap Exchange (DEX): &lt;a href="https://www.dextools.io/app/bsc/pair-explorer/0x731b8244f818fd488d9dc516edd976a96459ae59" target="_blank" rel="noopener">Wrapped BIS/ BSC Pair&lt;/a>&lt;/li>
+&lt;li>ViteX (DEX): &lt;a href="https://x.vite.net/trade?symbol=BIS-000_BTC-000" target="_blank" rel="noopener">BIS/ BTC Pair&lt;/a>&lt;/li>
+&lt;li>Graviex: &lt;a href="https://graviex.net/markets/bisbtc" target="_blank" rel="noopener">BIS/ BTC Pair&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Backup API URL: &lt;a href="https://bismuth.world/api/legacy.json" target="_blank" rel="noopener">Bismuth World API&lt;/a>&lt;/li>
+&lt;li>Tornado Wallet: &lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener">Github Tornado Wallet&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>January 2023 - Progress Report</title><link>https://alias-bitsignal.github.io/blog/2023-01-14-bis-progress-report/</link><pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2023-01-14-bis-progress-report/</guid><description>
 &lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2023-01-14/bis-progress-report-001.jpg" alt="" loading="lazy" />
 This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14th, 2022 to January 14th, 2023.&lt;/p>
 &lt;h2>Current Supply&lt;span class="hx-absolute -hx-mt-20" id="current-supply">&lt;/span>
@@ -61,7 +246,7 @@ Total amount of HN collateral, both active and inactive.&lt;/p>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>Official Website: &lt;a href="https://bismuthplatform.com" target="_blank" rel="noopener">Bismuthplatform.com&lt;/a>&lt;/li>
 &lt;li>BIS Info: &lt;a href="https://bismuth.world/" target="_blank" rel="noopener">Bismuth World&lt;/a> - &lt;a href="https://bismuth.live/" target="_blank" rel="noopener">Bismuth Live&lt;/a>&lt;/li>
-&lt;li>BIS Explorer: &lt;a href="htpps://bismuth.im" >Bismuth Blockchain Explorer&lt;/a>&lt;/li>
+&lt;li>BIS Explorer: &lt;a href="https://bismuth.im" target="_blank" rel="noopener">Bismuth Blockchain Explorer&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>January 2022 - Progress Report</title><link>https://alias-bitsignal.github.io/blog/2022-01-17-bis-progress-report/</link><pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2022-01-17-bis-progress-report/</guid><description>
 &lt;p>&lt;img src="https://alias-bitsignal.github.io/images/pr/2022-01-17/bis-progress-report-001.png" alt="" loading="lazy" />
 This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14, 2021 to January 14, 2022.&lt;/p>
@@ -116,7 +301,7 @@ Bismuth Auto Install Script Link:
 &lt;li>Installation Script Updated: &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md" target="_blank" rel="noopener">Auto Install Script&lt;/a>&lt;/li>
 &lt;li>Official Website: &lt;a href="https://bismuthplatform.com" target="_blank" rel="noopener">Bismuthplatform.com&lt;/a>&lt;/li>
 &lt;li>BIS Info: &lt;a href="https://bismuth.world/" target="_blank" rel="noopener">Bismuth World&lt;/a> - &lt;a href="https://bismuth.live/" target="_blank" rel="noopener">Bismuth Live&lt;/a>&lt;/li>
-&lt;li>BIS Explorer: &lt;a href="htpps://bismuth.im" >Bismuth Blockchain Explorer&lt;/a>&lt;/li>
+&lt;li>BIS Explorer: &lt;a href="https://bismuth.im" target="_blank" rel="noopener">Bismuth Blockchain Explorer&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Using the BIS&lt;>BSC Bridge Crystal</title><link>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</link><pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-05-12-bsc-bridge/</guid><description>
 &lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-05-12-bsc_bridge.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>To swap between native BIS and BNB wBIS token, you need the newest Tornado wallet (v0.1.43 or more) with the BscBridge Crystal activated, as pictured above.&lt;/p>
