@@ -7,4 +7,9 @@ title: "Blog"
   <span>RSS Feed</span>
   {{< icon name="rss" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
+
+{{< hextra/hero-badge link="/tags" >}}
+  <span>Tags</span>
+  {{< icon name="tag" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
 </div>
