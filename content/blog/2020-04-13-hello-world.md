@@ -22,7 +22,7 @@ Tornado is a Python-based web framework and asynchronous networking library. It 
 * Displaying data with html using Tornado templates
 * Displaying a pop-up message using get/post methods and javascript
 
-Each crystal in the wallet is given a unique number, followed by an underscore and the name, in this case it is: 101_helloworld. The figure below shows the files and folder structure of the Hello World crystal. The example consists of one Python file (__init__.py), one data file (about.json), one graphics file (logo.png), and three html files (about.html, message_pop.html and page1.html).
+Each crystal in the wallet is given a unique number, followed by an underscore and the name, in this case it is: 101_helloworld. The figure below shows the files and folder structure of the Hello World crystal. The example consists of one Python file (`__init__.py`), one data file (`about.json`), one graphics file (`logo.png`), and three html files (`about.html`, `message_pop.html` and `page1.html`).
 
 Hello World Crystal Files and Folders.
 General information about a crystal can be found in the about.json file. In this example the contents is as follows:
