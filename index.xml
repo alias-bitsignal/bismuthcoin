@@ -1076,9 +1076,9 @@ Bismuth is a chemical element and a metal with number 83 in the periodic table.&
 &lt;li>Displaying data with html using Tornado templates&lt;/li>
 &lt;li>Displaying a pop-up message using get/post methods and javascript&lt;/li>
 &lt;/ul>
-&lt;p>Each crystal in the wallet is given a unique number, followed by an underscore and the name, in this case it is: 101_helloworld. The figure below shows the files and folder structure of the Hello World crystal. The example consists of one Python file (&lt;code>__init__.py&lt;/code>), one data file (&lt;code>about.json&lt;/code>), one graphics file (&lt;code>logo.png&lt;/code>), and three html files (&lt;code>about.html&lt;/code>, &lt;code>message_pop.html&lt;/code> and &lt;code>page1.html&lt;/code>).&lt;/p>
-&lt;p>Hello World Crystal Files and Folders.
-General information about a crystal can be found in the about.json file. In this example the contents is as follows:&lt;/p>
+&lt;p>Each crystal in the wallet is given a unique number, followed by an underscore and the name, in this case it is: &lt;code>101_helloworld&lt;/code>. The figure below shows the files and folder structure of the Hello World crystal. The example consists of one Python file (&lt;code>__init__.py&lt;/code>), one data file (&lt;code>about.json&lt;/code>), one graphics file (&lt;code>logo.png&lt;/code>), and three html files (&lt;code>about.html&lt;/code>, &lt;code>message_pop.html&lt;/code> and &lt;code>page1.html&lt;/code>).&lt;/p>
+&lt;p>Hello World Crystal Files and Folders.&lt;br>
+General information about a crystal can be found in the &lt;code>about.json&lt;/code> file. In this example the contents is as follows:&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;pre>&lt;code>{
 &amp;#34;author&amp;#34;: &amp;#34;GH2&amp;#34;,
@@ -1097,8 +1097,9 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>The main file of the HelloWorld crystal is the Python file &lt;strong>init&lt;/strong>.py. This file contains a class named HelloworldHandler which again contains 7 functions.&lt;/p>
-&lt;p>The first four functions, &lt;code>get()&lt;/code>, &lt;code>post()&lt;/code>, &lt;code>get_template_path()&lt;/code> and &lt;code>static()&lt;/code>, are generic and should be part of any crystal. The two functions &lt;code>get()&lt;/code> and &lt;code>post()&lt;/code> handle get and post form requests from html or javascript and will be described later. The function &lt;code>get_template_path()&lt;/code> just returns DEFAULT_THEME_PATH, to let Tornado know where to find the html files. In the Hello World crystal this path is defined to be the base path plus &lt;code>crystals/101_helloworld/themes/default&lt;/code> The fourth function, &lt;code>static()&lt;/code> just creates a static handler pointing to a local /static crystal folder.&lt;/p>
+&lt;p>The main file of the HelloWorld crystal is the Python file &lt;code>__init__.py&lt;/code>. This file contains a class named &lt;code>HelloworldHandler&lt;/code> which again contains 7 functions.&lt;/p>
+&lt;p>The first four functions, &lt;code>get()&lt;/code>, &lt;code>post()&lt;/code>, &lt;code>get_template_path()&lt;/code> and &lt;code>static()&lt;/code>, are generic and should be part of any crystal. The two functions &lt;code>get()&lt;/code> and &lt;code>post()&lt;/code> handle get and post form requests from html or javascript and will be described later.&lt;/p>
+&lt;p>The function &lt;code>get_template_path()&lt;/code> just returns &lt;code>DEFAULT_THEME_PATH&lt;/code>, to let Tornado know where to find the html files. In the Hello World crystal this path is defined to be the base path plus &lt;code>crystals/101_helloworld/themes/default&lt;/code> The fourth function, &lt;code>static()&lt;/code> just creates a static handler pointing to a local /static crystal folder.&lt;/p>
 &lt;p>The fifth function, about(), contains the following Python code:&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;pre>&lt;code>async def about(self, params=None):
@@ -1112,7 +1113,7 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>It means that when Tornado receives an url request of &lt;code>http://127.0.0.1:8888/crystal/helloworld/about&lt;/code> the &lt;code>about()&lt;/code> Python function inside &lt;code>__init__.py&lt;/code> is called. All this function does is to render the about.html file and pass the variable “bismuth” to it. The html file &lt;code>about.html&lt;/code> is stored in the folder specified by DEFAULT_THEME_PATH. The file &lt;code>about.html&lt;/code> contains the opening screen of the crystal &lt;code>101_helloworld&lt;/code>.&lt;/p>
+&lt;p>It means that when Tornado receives an url request of &lt;code>http://127.0.0.1:8888/crystal/helloworld/about&lt;/code> the &lt;code>about()&lt;/code> Python function inside &lt;code>__init__.py&lt;/code> is called. All this function does is to render the &lt;code>about.html&lt;/code> file and pass the variable “bismuth” to it. The html file &lt;code>about.html&lt;/code> is stored in the folder specified by DEFAULT_THEME_PATH. The file &lt;code>about.html&lt;/code> contains the opening screen of the crystal &lt;code>101_helloworld&lt;/code>.&lt;/p>
 &lt;p>Bismuth’s Tornado wallet is based on the Material Dashboard Dark Edition and the documentation for it can be found here: &lt;a href="https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html" target="_blank" rel="noopener">https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html&lt;/a> For example, the button in the figure above is formatted using: &lt;code>class=”btn btn-success”&lt;/code>&lt;/p>
 &lt;p>The displayed logo is the file &lt;code>logo.png&lt;/code> in the &lt;code>static/&lt;/code> folder. The first two lines of code in &lt;code>about.html&lt;/code> are:&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
