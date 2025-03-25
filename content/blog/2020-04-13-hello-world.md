@@ -22,10 +22,10 @@ Tornado is a Python-based web framework and asynchronous networking library. It 
 * Displaying data with html using Tornado templates
 * Displaying a pop-up message using get/post methods and javascript
 
-Each crystal in the wallet is given a unique number, followed by an underscore and the name, in this case it is: 101_helloworld. The figure below shows the files and folder structure of the Hello World crystal. The example consists of one Python file (`__init__.py`), one data file (`about.json`), one graphics file (`logo.png`), and three html files (`about.html`, `message_pop.html` and `page1.html`).
+Each crystal in the wallet is given a unique number, followed by an underscore and the name, in this case it is: `101_helloworld`. The figure below shows the files and folder structure of the Hello World crystal. The example consists of one Python file (`__init__.py`), one data file (`about.json`), one graphics file (`logo.png`), and three html files (`about.html`, `message_pop.html` and `page1.html`).
 
-Hello World Crystal Files and Folders.
-General information about a crystal can be found in the about.json file. In this example the contents is as follows:
+Hello World Crystal Files and Folders.  
+General information about a crystal can be found in the `about.json` file. In this example the contents is as follows:
 
 ```
 {
@@ -38,9 +38,11 @@ General information about a crystal can be found in the about.json file. In this
 }
 ```
 
-The main file of the HelloWorld crystal is the Python file __init__.py. This file contains a class named HelloworldHandler which again contains 7 functions.
+The main file of the HelloWorld crystal is the Python file `__init__.py`. This file contains a class named `HelloworldHandler` which again contains 7 functions.
 
-The first four functions, `get()`, `post()`, `get_template_path()` and `static()`, are generic and should be part of any crystal. The two functions `get()` and `post()` handle get and post form requests from html or javascript and will be described later. The function `get_template_path()` just returns DEFAULT_THEME_PATH, to let Tornado know where to find the html files. In the Hello World crystal this path is defined to be the base path plus `crystals/101_helloworld/themes/default` The fourth function, `static()` just creates a static handler pointing to a local /static crystal folder.
+The first four functions, `get()`, `post()`, `get_template_path()` and `static()`, are generic and should be part of any crystal. The two functions `get()` and `post()` handle get and post form requests from html or javascript and will be described later.  
+
+The function `get_template_path()` just returns `DEFAULT_THEME_PATH`, to let Tornado know where to find the html files. In the Hello World crystal this path is defined to be the base path plus `crystals/101_helloworld/themes/default` The fourth function, `static()` just creates a static handler pointing to a local /static crystal folder.
 
 The fifth function, about(), contains the following Python code:
 
@@ -49,7 +51,7 @@ async def about(self, params=None):
         self.render("about.html", bismuth=self.bismuth_vars)
 ```
 
-It means that when Tornado receives an url request of `http://127.0.0.1:8888/crystal/helloworld/about` the `about()` Python function inside `__init__.py` is called. All this function does is to render the about.html file and pass the variable “bismuth” to it. The html file `about.html` is stored in the folder specified by DEFAULT_THEME_PATH. The file `about.html` contains the opening screen of the crystal `101_helloworld`.
+It means that when Tornado receives an url request of `http://127.0.0.1:8888/crystal/helloworld/about` the `about()` Python function inside `__init__.py` is called. All this function does is to render the `about.html` file and pass the variable “bismuth” to it. The html file `about.html` is stored in the folder specified by DEFAULT_THEME_PATH. The file `about.html` contains the opening screen of the crystal `101_helloworld`.
 
 Bismuth’s Tornado wallet is based on the Material Dashboard Dark Edition and the documentation for it can be found here: https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html For example, the button in the figure above is formatted using: `class=”btn btn-success”`
 
