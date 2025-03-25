@@ -212,7 +212,7 @@ title="Copy code"
 &lt;/div>
 &lt;/div>
 &lt;p>The main file of the HelloWorld crystal is the Python file &lt;strong>init&lt;/strong>.py. This file contains a class named HelloworldHandler which again contains 7 functions.&lt;/p>
-&lt;p>The first four functions, get(), post(), get_template_path() and static(), are generic and should be part of any crystal. The two functions get() and post() handle get and post form requests from html or javascript and will be described later. The function get_template_path() just returns DEFAULT_THEME_PATH, to let Tornado know where to find the html files. In the Hello World crystal this path is defined to be the base path plus &lt;code>crystals/101_helloworld/themes/default&lt;/code> The fourth function, static() just creates a static handler pointing to a local /static crystal folder.&lt;/p>
+&lt;p>The first four functions, &lt;code>get()&lt;/code>, &lt;code>post()&lt;/code>, &lt;code>get_template_path()&lt;/code> and &lt;code>static()&lt;/code>, are generic and should be part of any crystal. The two functions &lt;code>get()&lt;/code> and &lt;code>post()&lt;/code> handle get and post form requests from html or javascript and will be described later. The function &lt;code>get_template_path()&lt;/code> just returns DEFAULT_THEME_PATH, to let Tornado know where to find the html files. In the Hello World crystal this path is defined to be the base path plus &lt;code>crystals/101_helloworld/themes/default&lt;/code> The fourth function, &lt;code>static()&lt;/code> just creates a static handler pointing to a local /static crystal folder.&lt;/p>
 &lt;p>The fifth function, about(), contains the following Python code:&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;pre>&lt;code>async def about(self, params=None):
@@ -226,9 +226,9 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>It means that when Tornado receives an url request of http://127.0.0.1:8888/crystal/helloworld/about the about() Python function inside &lt;strong>init&lt;/strong>.py is called. All this function does is to render the about.html file and pass the variable “bismuth” to it. The html file about.html is stored in the folder specified by DEFAULT_THEME_PATH. The file about.html contains the opening screen of the crystal 101_helloworld.&lt;/p>
-&lt;p>Bismuth’s Tornado wallet is based on the Material Dashboard Dark Edition and the documentation for it can be found here: &lt;a href="https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html" target="_blank" rel="noopener">https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html&lt;/a> For example, the button in the figure above is formatted using: class=”btn btn-success”&lt;/p>
-&lt;p>The displayed logo is the file logo.png in the static/ folder. The first two lines of code in about.html are:&lt;/p>
+&lt;p>It means that when Tornado receives an url request of &lt;code>http://127.0.0.1:8888/crystal/helloworld/about&lt;/code> the &lt;code>about()&lt;/code> Python function inside &lt;code>__init__.py&lt;/code> is called. All this function does is to render the about.html file and pass the variable “bismuth” to it. The html file &lt;code>about.html&lt;/code> is stored in the folder specified by DEFAULT_THEME_PATH. The file &lt;code>about.html&lt;/code> contains the opening screen of the crystal &lt;code>101_helloworld&lt;/code>.&lt;/p>
+&lt;p>Bismuth’s Tornado wallet is based on the Material Dashboard Dark Edition and the documentation for it can be found here: &lt;a href="https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html" target="_blank" rel="noopener">https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html&lt;/a> For example, the button in the figure above is formatted using: &lt;code>class=”btn btn-success”&lt;/code>&lt;/p>
+&lt;p>The displayed logo is the file &lt;code>logo.png&lt;/code> in the &lt;code>static/&lt;/code> folder. The first two lines of code in &lt;code>about.html&lt;/code> are:&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;pre>&lt;code>{% extends &amp;#34;base.html&amp;#34; %}
 &amp;lt;!-- &amp;#34;../../../../themes/material/base.html&amp;#34; --&amp;gt;&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
@@ -241,7 +241,7 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>The symbols {% and %} are used by the Tornado templates. In this case about.html extends the parent wallet file base.html. The crystal can then make use of styling and formatting inherited from the wallet. The theme and css framework in the Tornado wallet try to be semantic. For example, the css uses success/danger/error/info as class names, so it does not depend on a specific color theme and remains consistent. If the Tornado wallet were later to switch to another template, there would be no changes required in the crystals such as color or css. If the devs always use for example “-danger” the crystals would use the theme color for that. Keeping this in mind ensures that the crystals will be compatible with alternative themes. As an example the following two lines in about.html:&lt;/p>
+&lt;p>The symbols {% and %} are used by the Tornado templates. In this case &lt;code>about.html&lt;/code> extends the parent wallet file &lt;code>base.html&lt;/code>. The crystal can then make use of styling and formatting inherited from the wallet. The theme and css framework in the Tornado wallet try to be semantic. For example, the css uses success/danger/error/info as class names, so it does not depend on a specific color theme and remains consistent. If the Tornado wallet were later to switch to another template, there would be no changes required in the crystals such as color or css. If the devs always use for example “-danger” the crystals would use the theme color for that. Keeping this in mind ensures that the crystals will be compatible with alternative themes. As an example the following two lines in about.html:&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;pre>&lt;code>&amp;lt;div class=&amp;#34;card-header card-header-info&amp;#34;&amp;gt;
 &amp;lt;div class=&amp;#34;card-header card-header-success&amp;#34;&amp;gt;&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
@@ -255,7 +255,7 @@ title="Copy code"
 &lt;/div>
 &lt;/div>
 &lt;p>generate the turqoise and green menus labeled “About” and “Menu”, respectively, in the screenshot above.&lt;/p>
-&lt;p>Except for the Tornado templates, about.html contains pure html code. When clicked, the command button in about.html opens up page1. When page1.html opens it displays two cards named “Commands” using card-header-info (turqoise color) and “Output” using card-header-success (green color). The Commands card contains 4 buttons and a text input field. The first button “Show Latest Account Transactions” generates a &lt;table> in the Output card with data obtained from the blockchain for the active account in the wallet. The Python code to obtain the blockchain data is:&lt;/p>
+&lt;p>Except for the Tornado templates, &lt;code>about.html&lt;/code> contains pure html code. When clicked, the command button in &lt;code>about.html&lt;/code> opens up &lt;code>page1&lt;/code>. When &lt;code>page1.html&lt;/code> opens it displays two cards named “Commands” using &lt;code>card-header-info&lt;/code> (turqoise color) and “Output” using &lt;code>card-header-success&lt;/code> (green color). The Commands card contains 4 buttons and a text input field. The first button “Show Latest Account Transactions” generates a &lt;code>&amp;lt;table&amp;gt;&lt;/code> in the Output card with data obtained from the blockchain for the active account in the wallet. The Python code to obtain the blockchain data is:&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;pre>&lt;code>button1 = self.get_argument(&amp;#34;button1&amp;#34;, default=None, strip=False)
 if button1 is not None:
@@ -307,7 +307,7 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>The dict data[‘hns’] is then rendered in page1.html using Tornado templates as follows:&lt;/p>
+&lt;p>The dict data[‘hns’] is then rendered in &lt;code>page1.html&lt;/code> using Tornado templates as follows:&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;pre>&lt;code>&amp;lt;table&amp;gt;
 &amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;IP Address&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Height&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
@@ -332,8 +332,8 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>As can be seen from this example, Tornado templates allow for embedding Python code into the html file to display data, similar to the templates &lt;?php … ?> for those familiar with PHP.&lt;/p>
-&lt;p>The last two buttons in page1.html generate the “Hello World” pop-up message. When clicking on either of these two buttons, one of two javascript functions, message_get() or message_post(), defined in page1.html is called. The two javascript functions are implemented as follows:&lt;/p>
+&lt;p>As can be seen from this example, Tornado templates allow for embedding Python code into the html file to display data, similar to the templates &lt;code>&amp;lt;?php … ?&amp;gt;&lt;/code> for those familiar with PHP.&lt;/p>
+&lt;p>The last two buttons in &lt;code>page1.html&lt;/code> generate the “Hello World” pop-up message. When clicking on either of these two buttons, one of two javascript functions, &lt;code>message_get()&lt;/code> or &lt;code>message_post()&lt;/code>, defined in &lt;code>page1.html&lt;/code> is called. The two javascript functions are implemented as follows:&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;pre>&lt;code>&amp;lt;script&amp;gt;
 function message_get(title,msg,type){
@@ -371,8 +371,8 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>In some cases it is preferred to post() data to Tornado instead of get() to avoid the data being displayed in the url at the top of the browser. Examples are cases where the end-user has to type in a password or a pin code.&lt;/p>
-&lt;p>The javascript functions call the Python function message_popup() which contains the following code:&lt;/p>
+&lt;p>In some cases it is preferred to post() data to Tornado instead of &lt;code>get()&lt;/code> to avoid the data being displayed in the url at the top of the browser. Examples are cases where the end-user has to type in a password or a pin code.&lt;/p>
+&lt;p>The javascript functions call the Python function &lt;code>message_popup()&lt;/code> which contains the following code:&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;pre>&lt;code>async def message_popup(self, params=None):
 title = self.get_argument(&amp;#34;title&amp;#34;, default=None, strip=False)
@@ -389,7 +389,7 @@ title="Copy code"
 &lt;/div>
 &lt;/div>
 &lt;p>The type can be either “info”, “warning” or “danger” resulting in different colors used in the pop up message.&lt;/p>
-&lt;p>The file page1.html includes a hidden element:&lt;/p>
+&lt;p>The file &lt;code>page1.html&lt;/code> includes a hidden element:&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;pre>&lt;code>&amp;lt;div id=&amp;#34;message_window&amp;#34; class=&amp;#34;modal&amp;#34; tabindex=&amp;#34;-1&amp;#34; role=&amp;#34;dialog&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
