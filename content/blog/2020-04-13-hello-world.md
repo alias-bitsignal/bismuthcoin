@@ -40,7 +40,7 @@ General information about a crystal can be found in the about.json file. In this
 
 The main file of the HelloWorld crystal is the Python file __init__.py. This file contains a class named HelloworldHandler which again contains 7 functions.
 
-The first four functions, get(), post(), get_template_path() and static(), are generic and should be part of any crystal. The two functions get() and post() handle get and post form requests from html or javascript and will be described later. The function get_template_path() just returns DEFAULT_THEME_PATH, to let Tornado know where to find the html files. In the Hello World crystal this path is defined to be the base path plus `crystals/101_helloworld/themes/default` The fourth function, static() just creates a static handler pointing to a local /static crystal folder.
+The first four functions, `get()`, `post()`, `get_template_path()` and `static()`, are generic and should be part of any crystal. The two functions `get()` and `post()` handle get and post form requests from html or javascript and will be described later. The function `get_template_path()` just returns DEFAULT_THEME_PATH, to let Tornado know where to find the html files. In the Hello World crystal this path is defined to be the base path plus `crystals/101_helloworld/themes/default` The fourth function, `static()` just creates a static handler pointing to a local /static crystal folder.
 
 The fifth function, about(), contains the following Python code:
 
@@ -49,18 +49,18 @@ async def about(self, params=None):
         self.render("about.html", bismuth=self.bismuth_vars)
 ```
 
-It means that when Tornado receives an url request of http://127.0.0.1:8888/crystal/helloworld/about the about() Python function inside __init__.py is called. All this function does is to render the about.html file and pass the variable “bismuth” to it. The html file about.html is stored in the folder specified by DEFAULT_THEME_PATH. The file about.html contains the opening screen of the crystal 101_helloworld.
+It means that when Tornado receives an url request of `http://127.0.0.1:8888/crystal/helloworld/about` the `about()` Python function inside `__init__.py` is called. All this function does is to render the about.html file and pass the variable “bismuth” to it. The html file `about.html` is stored in the folder specified by DEFAULT_THEME_PATH. The file `about.html` contains the opening screen of the crystal `101_helloworld`.
 
-Bismuth’s Tornado wallet is based on the Material Dashboard Dark Edition and the documentation for it can be found here: https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html For example, the button in the figure above is formatted using: class=”btn btn-success”
+Bismuth’s Tornado wallet is based on the Material Dashboard Dark Edition and the documentation for it can be found here: https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html For example, the button in the figure above is formatted using: `class=”btn btn-success”`
 
-The displayed logo is the file logo.png in the static/ folder. The first two lines of code in about.html are:
+The displayed logo is the file `logo.png` in the `static/` folder. The first two lines of code in `about.html` are:
 
 ```
 {% extends "base.html" %}
 <!-- "../../../../themes/material/base.html" -->
 ```
 
-The symbols {% and %} are used by the Tornado templates. In this case about.html extends the parent wallet file base.html. The crystal can then make use of styling and formatting inherited from the wallet. The theme and css framework in the Tornado wallet try to be semantic. For example, the css uses success/danger/error/info as class names, so it does not depend on a specific color theme and remains consistent. If the Tornado wallet were later to switch to another template, there would be no changes required in the crystals such as color or css. If the devs always use for example “-danger” the crystals would use the theme color for that. Keeping this in mind ensures that the crystals will be compatible with alternative themes. As an example the following two lines in about.html:
+The symbols {% and %} are used by the Tornado templates. In this case `about.html` extends the parent wallet file `base.html`. The crystal can then make use of styling and formatting inherited from the wallet. The theme and css framework in the Tornado wallet try to be semantic. For example, the css uses success/danger/error/info as class names, so it does not depend on a specific color theme and remains consistent. If the Tornado wallet were later to switch to another template, there would be no changes required in the crystals such as color or css. If the devs always use for example “-danger” the crystals would use the theme color for that. Keeping this in mind ensures that the crystals will be compatible with alternative themes. As an example the following two lines in about.html:
 
 ```
 <div class="card-header card-header-info">
@@ -68,7 +68,7 @@ The symbols {% and %} are used by the Tornado templates. In this case about.html
 ```
 generate the turqoise and green menus labeled “About” and “Menu”, respectively, in the screenshot above.
 
-Except for the Tornado templates, about.html contains pure html code. When clicked, the command button in about.html opens up page1. When page1.html opens it displays two cards named “Commands” using card-header-info (turqoise color) and “Output” using card-header-success (green color). The Commands card contains 4 buttons and a text input field. The first button “Show Latest Account Transactions” generates a <table> in the Output card with data obtained from the blockchain for the active account in the wallet. The Python code to obtain the blockchain data is:
+Except for the Tornado templates, `about.html` contains pure html code. When clicked, the command button in `about.html` opens up `page1`. When `page1.html` opens it displays two cards named “Commands” using `card-header-info` (turqoise color) and “Output” using `card-header-success` (green color). The Commands card contains 4 buttons and a text input field. The first button “Show Latest Account Transactions” generates a `<table>` in the Output card with data obtained from the blockchain for the active account in the wallet. The Python code to obtain the blockchain data is:
 
 ```
 button1 = self.get_argument("button1", default=None, strip=False)
@@ -103,7 +103,7 @@ if button2 is not None:
 self.render("page1.html", bismuth=self.bismuth_vars, data=data)
 ```
 
-The dict data[‘hns’] is then rendered in page1.html using Tornado templates as follows:
+The dict data[‘hns’] is then rendered in `page1.html` using Tornado templates as follows:
 
 ```
 <table>
@@ -122,9 +122,9 @@ The dict data[‘hns’] is then rendered in page1.html using Tornado templates 
 </table>
 ```
 
-As can be seen from this example, Tornado templates allow for embedding Python code into the html file to display data, similar to the templates <?php … ?> for those familiar with PHP.
+As can be seen from this example, Tornado templates allow for embedding Python code into the html file to display data, similar to the templates `<?php … ?>` for those familiar with PHP.
 
-The last two buttons in page1.html generate the “Hello World” pop-up message. When clicking on either of these two buttons, one of two javascript functions, message_get() or message_post(), defined in page1.html is called. The two javascript functions are implemented as follows:
+The last two buttons in `page1.html` generate the “Hello World” pop-up message. When clicking on either of these two buttons, one of two javascript functions, `message_get()` or `message_post()`, defined in `page1.html` is called. The two javascript functions are implemented as follows:
 
 ```
 <script>
@@ -150,9 +150,9 @@ Note that the _xsrf token is required in order to post data. In addition the fol
 {% raw xsrf_form_html() %}
 ```
 
-In some cases it is preferred to post() data to Tornado instead of get() to avoid the data being displayed in the url at the top of the browser. Examples are cases where the end-user has to type in a password or a pin code.
+In some cases it is preferred to post() data to Tornado instead of `get()` to avoid the data being displayed in the url at the top of the browser. Examples are cases where the end-user has to type in a password or a pin code.
 
-The javascript functions call the Python function message_popup() which contains the following code:
+The javascript functions call the Python function `message_popup()` which contains the following code:
 
 ```
 async def message_popup(self, params=None):
@@ -164,7 +164,7 @@ async def message_popup(self, params=None):
 
 The type can be either “info”, “warning” or “danger” resulting in different colors used in the pop up message.
 
-The file page1.html includes a hidden element:
+The file `page1.html` includes a hidden element:
 
 ```
 <div id="message_window" class="modal" tabindex="-1" role="dialog"></div>
