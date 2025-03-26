@@ -7,6 +7,7 @@ authors:
     image: /favicon-32x32.png
 tags:
   - plugin
+  - Bisbabble
 ---
 ![](/images/2018-07-16/plugin-system-001.png)
 When noticing that Bismuth ($BIS) has a **plugin system**, I was somewhat surprised—because I don’t know any other blockchain-based cryptocurrency that openly promotes having a plugin system.
