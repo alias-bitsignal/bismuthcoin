@@ -145,4 +145,184 @@ If the owner later wants to sell the asset to someone else, he or she can provid
 &lt;li>&lt;a href="hhttps://ieeexplore.ieee.org/document/8048838" >Blockchain World - Do you need a blockchain?&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" >Bismuth Whitepaper&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py" target="_blank" rel="noopener">Github - Bismuth SimpleAsset&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Exploring the Bismuth Plugin System</title><link>https://bismuthcoin.org/blog/2018-07-16-plugin-system/</link><pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2018-07-16-plugin-system/</guid><description>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2018-07-16/plugin-system-001.png" alt="" loading="lazy" />
+When noticing that Bismuth ($BIS) has a &lt;strong>plugin system&lt;/strong>, I was somewhat surprised—because I don’t know any other blockchain-based cryptocurrency that openly promotes having a plugin system.&lt;/p>
+&lt;h3>Interview with Developers EggdraSyl &amp;amp; Iyomisc&lt;span class="hx-absolute -hx-mt-20" id="interview-with-developers-eggdrasyl--iyomisc">&lt;/span>
+&lt;a href="#interview-with-developers-eggdrasyl--iyomisc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
+&lt;p>The plugin feature immediately stood out to me. Plugins have long been powerful components in blogging and forum platforms—so seeing this concept in a blockchain context was exciting. Plugins enhance another software application. This alone sounds intriguing.&lt;/p>
+&lt;p>The following questions came to mind while exploring Bismuth’s plugin system, and the developers EggdraSyl and Iyomisc were kind enough to answer them.&lt;/p>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2018-07-16/plugin-system-002.png" alt="" loading="lazy" />&lt;/p>
+&lt;h3>Bridging Blockchain and Plugin Architecture&lt;span class="hx-absolute -hx-mt-20" id="bridging-blockchain-and-plugin-architecture">&lt;/span>
+&lt;a href="#bridging-blockchain-and-plugin-architecture" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
+&lt;h6>Question: &lt;em>How did Bismuth achieve the connection between cutting-edge blockchain technology and traditional plugin applications?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-how-did-bismuth-achieve-the-connection-between-cutting-edge-blockchain-technology-and-traditional-plugin-applications">&lt;/span>
+&lt;a href="#question-how-did-bismuth-achieve-the-connection-between-cutting-edge-blockchain-technology-and-traditional-plugin-applications" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
+Well, it actually came from a personal need. For my pools and notification/monitoring systems, I needed more data—and faster—than what the node could provide.&lt;/p>
+&lt;p>I tried various approaches:&lt;/p>
+&lt;ul>
+&lt;li>JSON-RPC server (another layer, verbose, added latency)&lt;/li>
+&lt;li>Modding the node (risky, painful when upgrading core code)&lt;/li>
+&lt;li>Adding native API commands to the core (which were merged)&lt;/li>
+&lt;/ul>
+&lt;p>Still, I needed more.&lt;/p>
+&lt;p>I’m familiar with WordPress and its plugin/filter system. That inspired the solution: extensions to the core, not affected by updates.&lt;/p>
+&lt;p>As far as I know, no other crypto offers this. Bismuth plugins allow you to extend node functionality with just a few lines of Python — &lt;strong>no new language to learn&lt;/strong>.&lt;/p>
+&lt;h3>Decentralization and Cross-Node Use&lt;span class="hx-absolute -hx-mt-20" id="decentralization-and-cross-node-use">&lt;/span>
+&lt;a href="#decentralization-and-cross-node-use" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
+&lt;h6>Question: &lt;em>Can Bismuth plugins run in a decentralized manner? Can different nodes run the same plugin?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-can-bismuth-plugins-run-in-a-decentralized-manner-can-different-nodes-run-the-same-plugin">&lt;/span>
+&lt;a href="#question-can-bismuth-plugins-run-in-a-decentralized-manner-can-different-nodes-run-the-same-plugin" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
+Let me rephrase: A Bismuth plugin is extra code run by a node, triggered by events—like a new block or change in network difficulty.&lt;/p>
+&lt;p>Plugins can:&lt;/p>
+&lt;ul>
+&lt;li>Be &lt;strong>autonomous&lt;/strong> (e.g., play a sound on incoming transactions)&lt;/li>
+&lt;li>Use external APIs (e.g., send notifications, emails)&lt;/li>
+&lt;li>Interact with other blockchains&lt;/li>
+&lt;li>Even &lt;strong>call other plugins&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>You could build abstract protocols and token-based cooperation between plugins, but that’s beyond today’s scope. :)&lt;/p>
+&lt;h3>Learning Curve and Language&lt;span class="hx-absolute -hx-mt-20" id="learning-curve-and-language">&lt;/span>
+&lt;a href="#learning-curve-and-language" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
+&lt;h6>Question: &lt;em>If I can write plugins for WordPress or phpBB, how hard is it to write one for Bismuth?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-if-i-can-write-plugins-for-wordpress-or-phpbb-how-hard-is-it-to-write-one-for-bismuth">&lt;/span>
+&lt;a href="#question-if-i-can-write-plugins-for-wordpress-or-phpbb-how-hard-is-it-to-write-one-for-bismuth" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
+Bismuth plugins are written in Python, just like the node itself. Python is a great high-level language, widely used in machine learning and other fields.&lt;/p>
+&lt;p>Start with:&lt;/p>
+&lt;ul>
+&lt;li>The &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins/tree/master/doc" target="_blank" rel="noopener">plugin docs&lt;/a> and hook references&lt;/li>
+&lt;li>The demo plugins—they’re short and well-commented&lt;/li>
+&lt;/ul>
+&lt;h3>Plugin Architecture and Activation&lt;span class="hx-absolute -hx-mt-20" id="plugin-architecture-and-activation">&lt;/span>
+&lt;a href="#plugin-architecture-and-activation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
+&lt;h6>Question: &lt;em>How does the plugin system work structurally? How are plugins activated?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-how-does-the-plugin-system-work-structurally-how-are-plugins-activated">&lt;/span>
+&lt;a href="#question-how-does-the-plugin-system-work-structurally-how-are-plugins-activated" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>All plugins live in the &lt;code>plugins/&lt;/code> directory&lt;/li>
+&lt;li>Each plugin is its own folder, with at least an &lt;code>__init__.py&lt;/code> file&lt;/li>
+&lt;li>Directory names follow a 000_plugin-name format, where the number sets priority&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Priority conventions:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>000–099: Low-level (e.g., IFTTT APIs)&lt;/li>
+&lt;li>100–199: Demos and examples&lt;/li>
+&lt;li>900–999: Tests&lt;/li>
+&lt;li>Others: For your own use&lt;/li>
+&lt;/ul>
+&lt;p>To deactivate a plugin: move its folder to &lt;code>plugins_available/&lt;/code>.&lt;/p>
+&lt;p>Note: Plugins load at node startup. Restart the node to activate/deactivate.&lt;/p>
+&lt;h3>Supported Hooks&lt;span class="hx-absolute -hx-mt-20" id="supported-hooks">&lt;/span>
+&lt;a href="#supported-hooks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
+&lt;h6>Question: &lt;em>What action hooks does the plugin system support?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--what-action-hooks-does-the-plugin-system-support">&lt;/span>
+&lt;a href="#question--what-action-hooks-does-the-plugin-system-support" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
+See the &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins/tree/master/doc" target="_blank" rel="noopener">documentation&lt;/a>. The main hooks are:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>&amp;quot;block&amp;quot;&lt;/code> – Triggered on new blocks&lt;/li>
+&lt;li>&lt;code>&amp;quot;fullblock&amp;quot;&lt;/code> – Triggered with all block transactions&lt;/li>
+&lt;/ul>
+&lt;p>The &amp;ldquo;fullblock&amp;rdquo; hook is especially powerful—great for reacting to specific transactions.&lt;/p>
+&lt;h3>Real-World Use Cases&lt;span class="hx-absolute -hx-mt-20" id="real-world-use-cases">&lt;/span>
+&lt;a href="#real-world-use-cases" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
+&lt;h6>Question: &lt;em>What can Bismuth plugins do?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--what-can-bismuth-plugins-do">&lt;/span>
+&lt;a href="#question--what-can-bismuth-plugins-do" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
+With the &amp;ldquo;fullblock&amp;rdquo; hook and a few lines of code, you can:&lt;/p>
+&lt;ul>
+&lt;li>Get mobile notifications for pool payouts&lt;/li>
+&lt;li>Track transactions in Google Sheets&lt;/li>
+&lt;li>Deliver digital goods after payment (like in the Dragginator use case)&lt;/li>
+&lt;li>Decode data and execute functions (like serverless computing on-chain!)&lt;/li>
+&lt;/ul>
+&lt;h3>Scalability and Comparison&lt;span class="hx-absolute -hx-mt-20" id="scalability-and-comparison">&lt;/span>
+&lt;a href="#scalability-and-comparison" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
+&lt;h6>Question: &lt;em>Can Bismuth plugin applications scale?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--can-bismuth-plugin-applications-scale">&lt;/span>
+&lt;a href="#question--can-bismuth-plugin-applications-scale" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
+Absolutely. Think of them as a layer above Bismuth—you can use:&lt;/p>
+&lt;ul>
+&lt;li>Master/slave models&lt;/li>
+&lt;li>Sharding&lt;/li>
+&lt;li>Round-robin distribution&lt;/li>
+&lt;li>Load balancing&lt;/li>
+&lt;li>Service tiers&lt;/li>
+&lt;/ul>
+&lt;h6>Question: &lt;em>Is this system comparable to Ethereum smart contracts?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--is-this-system-comparable-to-ethereum-smart-contracts">&lt;/span>
+&lt;a href="#question--is-this-system-comparable-to-ethereum-smart-contracts" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
+Nope.&lt;/p>
+&lt;p>Ethereum smart contracts:&lt;/p>
+&lt;ul>
+&lt;li>Use a specific language&lt;/li>
+&lt;li>Run on every node&lt;/li>
+&lt;li>Act as a slow, redundant virtual PC&lt;/li>
+&lt;/ul>
+&lt;p>Bismuth plugins:&lt;/p>
+&lt;ul>
+&lt;li>Run only on the node you choose&lt;/li>
+&lt;li>Add features you need, not others&lt;/li>
+&lt;li>Do not need global consensus&lt;/li>
+&lt;li>It’s a different design and purpose.&lt;/li>
+&lt;/ul>
+&lt;h3>Plugin and Blockchain Interaction&lt;span class="hx-absolute -hx-mt-20" id="plugin-and-blockchain-interaction">&lt;/span>
+&lt;a href="#plugin-and-blockchain-interaction" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
+&lt;h6>Question: &lt;em>Does every plugin interaction need to be recorded on the blockchain?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--does-every-plugin-interaction-need-to-be-recorded-on-the-blockchain">&lt;/span>
+&lt;a href="#question--does-every-plugin-interaction-need-to-be-recorded-on-the-blockchain" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
+No. By default, they are not.&lt;/p>
+&lt;p>However, certified plugins may be introduced—audited by the team and verifiable via their signature or hash stored on-chain.&lt;/p>
+&lt;h3>Learning Resources and Best Practices&lt;span class="hx-absolute -hx-mt-20" id="learning-resources-and-best-practices">&lt;/span>
+&lt;a href="#learning-resources-and-best-practices" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
+&lt;h6>Question: &lt;em>Are demo plugins available to help developers learn?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-are-demo-plugins-available-to-help-developers-learn">&lt;/span>
+&lt;a href="#question-are-demo-plugins-available-to-help-developers-learn" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
+Yes! Check the &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins" target="_blank" rel="noopener">BismuthPlugins repo&lt;/a>. If you need a new hook, open an issue or ping me on Discord (#dev channel).&lt;/p>
+&lt;h6>Question: &lt;em>Is there a best practices guide or cheat sheet?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--is-there-a-best-practices-guide-or-cheat-sheet">&lt;/span>
+&lt;a href="#question--is-there-a-best-practices-guide-or-cheat-sheet" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
+Stick to the style of the demo plugins—but hey, they’re your plugins, build them your way. :)&lt;/p>
+&lt;h3>Why It Matters&lt;span class="hx-absolute -hx-mt-20" id="why-it-matters">&lt;/span>
+&lt;a href="#why-it-matters" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
+&lt;h6>Question: &lt;em>What are the benefits of Bismuth having an integrated plugin system?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--what-are-the-benefits-of-bismuth-having-an-integrated-plugin-system">&lt;/span>
+&lt;a href="#question--what-are-the-benefits-of-bismuth-having-an-integrated-plugin-system" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
+If I needed to react to a transaction in most cryptos, I’d have to:&lt;/p>
+&lt;ol>
+&lt;li>Build an app&lt;/li>
+&lt;li>Integrate JSON-RPC libs&lt;/li>
+&lt;li>Manage credentials&lt;/li>
+&lt;li>Poll the node constantly&lt;/li>
+&lt;li>Write logic, logs, and webhook handlers&lt;/li>
+&lt;li>Run everything 24/7&lt;/li>
+&lt;/ol>
+&lt;p>With Bismuth plugins, all of this—except the custom logic—is &lt;strong>already handled&lt;/strong>.&lt;/p>
+&lt;p>You can &lt;strong>focus on what matters&lt;/strong>.&lt;/p>
+&lt;h3>The Dragginator Plugin: A Real-World Use Case&lt;span class="hx-absolute -hx-mt-20" id="the-dragginator-plugin-a-real-world-use-case">&lt;/span>
+&lt;a href="#the-dragginator-plugin-a-real-world-use-case" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
+&lt;h6>Question: &lt;em>Iyomisc, how did you learn the plugin system?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--iyomisc-how-did-you-learn-the-plugin-system">&lt;/span>
+&lt;a href="#question--iyomisc-how-did-you-learn-the-plugin-system" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>Iyomisc:&lt;/strong>&lt;br>
+It was the first &lt;strong>real-world use&lt;/strong> of the plugin system. I read the docs, checked the examples—it was easy to adapt. EggdraSyl also helped when needed.&lt;/p>
+&lt;h6>Question: &lt;em>What inspired the Dragginator plugin?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--what-inspired-the-dragginator-plugin">&lt;/span>
+&lt;a href="#question--what-inspired-the-dragginator-plugin" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>Iyomisc:&lt;/strong>&lt;br>
+I wanted to automate dragon deliveries. I needed to detect matching incoming transactions: correct amount, recipient, and not already processed.&lt;/p>
+&lt;p>The demo code was perfect. I added:&lt;/p>
+&lt;ul>
+&lt;li>A hash store for tracking processed transactions&lt;/li>
+&lt;li>The &lt;code>send_no_gui.py&lt;/code> script to deliver tokens and data&lt;/li>
+&lt;/ul>
+&lt;p>Now, it’s &lt;strong>self-contained&lt;/strong>. No external app needed—and reusable for other projects.&lt;/p>
+&lt;h6>Question: &lt;em>How long did it take?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--how-long-did-it-take">&lt;/span>
+&lt;a href="#question--how-long-did-it-take" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>Iyomisc:&lt;/strong>&lt;br>
+Just a few weeks for the plugin. The real time sink is the website, writing guides, and user text.&lt;/p>
+&lt;h6>Question: &lt;em>Will you open-source any plugins in the future?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-will-you-open-source-any-plugins-in-the-future">&lt;/span>
+&lt;a href="#question-will-you-open-source-any-plugins-in-the-future" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>Iyomisc:&lt;/strong>&lt;br>
+My current plugin is basic—very close to the demo. Maybe I’ll release others later. Not sure yet.&lt;/p>
+&lt;h6>Question: &lt;em>What’s your vision for Bismuth plugins going forward?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-whats-your-vision-for-bismuth-plugins-going-forward">&lt;/span>
+&lt;a href="#question-whats-your-vision-for-bismuth-plugins-going-forward" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>Iyomisc:&lt;/strong>&lt;br>
+They’ll keep evolving. Expect:&lt;/p>
+&lt;ul>
+&lt;li>More hooks&lt;/li>
+&lt;li>More ready-to-use plugins&lt;/li>
+&lt;li>More apps built directly on the plugin layer&lt;/li>
+&lt;/ul>
+&lt;p>It’s the best way to interact with the Bismuth blockchain—easier than using the native or JSON-RPC APIs.&lt;/p>
+&lt;h3>Final Thoughts&lt;span class="hx-absolute -hx-mt-20" id="final-thoughts">&lt;/span>
+&lt;a href="#final-thoughts" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
+&lt;p>A big thank-you to &lt;strong>EggdraSyl&lt;/strong> and &lt;strong>Iyomisc&lt;/strong> for sharing their insights into the powerful Bismuth plugin system and its real-world use in the Dragginator project.&lt;/p>
+&lt;p>This system clearly shows that &lt;strong>Bismuth isn’t just a blockchain—it’s a flexible development platform&lt;/strong>, built for creators.&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Github Rep: &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins" target="_blank" rel="noopener">Bismuth Plugins&lt;/a>&lt;/li>
+&lt;li>Github Docs: &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins/tree/master/doc" target="_blank" rel="noopener">Plugin Docs&lt;/a>&lt;/li>
+&lt;li>Github Link: &lt;a href="https://github.com/EggPool" target="_blank" rel="noopener">EggdraSyl&lt;/a>&lt;/li>
+&lt;li>Github Link: &lt;a href="https://github.com/iyomisc" target="_blank" rel="noopener">Iyomisc&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
