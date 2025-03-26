@@ -1,8 +1,8 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Tools</title><link>https://alias-bitsignal.github.io/tags/tools/</link><description>Recent content in Tools on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alias-bitsignal.github.io/tags/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Bismuth Toolbox, interview and reward</title><link>https://alias-bitsignal.github.io/blog/2021-01-01-toolbox/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://alias-bitsignal.github.io/blog/2021-01-01-toolbox/</guid><description>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-01-toolbox.jpeg" alt="" loading="lazy" />
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Tools</title><link>https://bismuthcoin.org/tags/tools/</link><description>Recent content in Tools on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bismuthcoin.org/tags/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Bismuth Toolbox, interview and reward</title><link>https://bismuthcoin.org/blog/2021-01-01-toolbox/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2021-01-01-toolbox/</guid><description>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-01-toolbox.jpeg" alt="" loading="lazy" />
 Months ago, Bismuth user “Whatever” developed a shiny app to monitor his BIS mining rigs, wallets and Hypernodes.
 Apps you code for yourself, because you feel an urging need for it can end up most useful, and this one makes no exception.&lt;/p>
-&lt;p>&lt;img src="https://alias-bitsignal.github.io/images/2021-01-01-toolbox-01.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-01-toolbox-01.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Preview of the Bismuth toolbox main screen&lt;/p>
 &lt;p>As a followup, Whatever also added more useful intel with hypernodes related data and monitoring
 The Hypernode monitoring section
