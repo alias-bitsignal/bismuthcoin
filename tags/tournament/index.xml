@@ -1,0 +1,84 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Tournament</title><link>https://bismuthcoin.org/tags/tournament/</link><description>Recent content in Tournament on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 21 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bismuthcoin.org/tags/tournament/index.xml" rel="self" type="application/rss+xml"/><item><title>Autogame Tournament – One Million Block</title><link>https://bismuthcoin.org/blog/2019-01-21-tournament/</link><pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-01-21-tournament/</guid><description>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-01-21/tournament.png" alt="" loading="lazy" />
+20 Months after its mainnet launch, the Bismuth network reached the &lt;strong>1 000 000 blocks milestone&lt;/strong>.&lt;/p>
+&lt;h3>One million Blocks!&lt;span class="hx-absolute -hx-mt-20" id="one-million-blocks">&lt;/span>
+&lt;a href="#one-million-blocks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Bismuth network reached the 1 000 000 blocks milestone.
+As a celebration of this event, we’re running a free to play tournament, on top of the Bismuth Chain itself.&lt;/p>
+&lt;p>Total prizes are &lt;strong>2500 BIS&lt;/strong>, split among the &lt;strong>top 10 distinct addresses&lt;/strong>.&lt;/p>
+&lt;h3>What is Autogame?&lt;span class="hx-absolute -hx-mt-20" id="what-is-autogame">&lt;/span>
+&lt;a href="#what-is-autogame" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Autogame is a new game concept by &lt;a href="https://github.com/hclivess" target="_blank" rel="noopener">HClivess&lt;/a>, Bismuth founder and core dev.&lt;/p>
+&lt;p>Here is how HClivess describes the game:
+Autogame is a &lt;strong>deterministic semi-autonomous computer game&lt;/strong> with RPG elements everyone in possession of Bismuth can participate in. […]&lt;/p>
+&lt;p>Progress in the world is linear, block by block and transaction by transaction. […] Each game ultimately ends in player’s death. The player who survives the longest takes the top spot in the high scores table. &lt;a href="https://github.com/hclivess/autogame/blob/master/about.md" target="_blank" rel="noopener">Read more&lt;/a> about Autogame.&lt;/p>
+&lt;h3>How to play?&lt;span class="hx-absolute -hx-mt-20" id="how-to-play">&lt;/span>
+&lt;a href="#how-to-play" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The free to play tournament is open from Bismuth &lt;strong>block 1005500&lt;/strong> (that’s 2019/01/21,18:26:21 GMT) and will last &lt;strong>5 days&lt;/strong>.&lt;/p>
+&lt;p>You can play Autogame by registering your Bismuth address. Up to 5 registrations will be taken into account. If you register more than 5 games, the 6th and following just will be ignored.&lt;/p>
+&lt;p>If you don’t have a Bismuth wallet yet, the easiest way is to head over to our &lt;a href="https://discord.gg/mDxgJc5" target="_blank" rel="noopener">Discord Server&lt;/a> and use our &lt;strong>Pawer bot&lt;/strong>.&lt;/p>
+&lt;h5>Quick registration for casual users: just use the Bis url&lt;span class="hx-absolute -hx-mt-20" id="quick-registration-for-casual-users-just-use-the-bis-url">&lt;/span>
+&lt;a href="#quick-registration-for-casual-users-just-use-the-bis-url" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>bis://pay/fefb575972cd8fdb086e2300b51f727bb0cbfc33282f1542e19a8f1d/0.00000000/VRdwGXJKt&amp;#43;/bZ&amp;gt;QXZeeX@Zges/Fm1fB;Td&amp;#43;Lda@I9&amp;amp;$7E(&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Usage of &lt;strong>Chaos Ring item, PvP&lt;/strong> and &lt;strong>Ragnarök&lt;/strong> event are allowed. You can &lt;a href="https://github.com/hclivess/autogame/blob/master/about.md" target="_blank" rel="noopener">read about&lt;/a> them at Github.&lt;/p>
+&lt;blockquote>
+&lt;p>Since you need a few BIS dust to register, if you’re a new user, we will register for you.
+Show us some public tweet, post – no spam!!! – where you talked of BIS, and we will register your Pawer address for free.&lt;/p>
+&lt;/blockquote>
+&lt;h3>See the current players and high scores&lt;span class="hx-absolute -hx-mt-20" id="see-the-current-players-and-high-scores">&lt;/span>
+&lt;a href="#see-the-current-players-and-high-scores" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Direct link to the 1M Block tournament is &lt;a href="http://autogame.bismuth.live:6060/league/tournament2" target="_blank" rel="noopener">http://autogame.bismuth.live:6060/league/tournament2&lt;/a>&lt;/p>
+&lt;h3>Register with Pawer&lt;span class="hx-absolute -hx-mt-20" id="register-with-pawer">&lt;/span>
+&lt;a href="#register-with-pawer" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-01-21/tournament-002.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Pawer is our discord Bot, he can create an address for you and help with many commands.&lt;/p>
+&lt;ul>
+&lt;li>Go to the discord, #pawer-bot channel&lt;/li>
+&lt;li>Create your address by typing &lt;code>Pawer deposit&lt;/code>&lt;/li>
+&lt;li>Then accept the conditions &lt;code>Pawer accept&lt;/code>&lt;/li>
+&lt;li>You now have a Bismuth address&lt;/li>
+&lt;/ul>
+&lt;p>If you have BIS on your wallet already, you can register yourself (up to 5 times over the 5 days) with the following command.&lt;/p>
+&lt;p>&lt;code>Pawer autogame register tournament2&lt;/code>&lt;/p>
+&lt;p>This lists your games, with status, current experience, and link to the replay (or ongoing game).
+&lt;code>Pawer autogame list&lt;/code>&lt;/p>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-01-21/tournament-003.png" alt="" loading="lazy" />&lt;/p>
+&lt;h3>More: Rings, Ragnarök and attack other players!&lt;span class="hx-absolute -hx-mt-20" id="more-rings-ragnarök-and-attack-other-players">&lt;/span>
+&lt;a href="#more-rings-ragnar%c3%b6k-and-attack-other-players" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>If you read the “about game”, you probably saw the extra commands you can run to get yourself the “chaos ring” (can do good or wrong, you won’t know until you slide it to your finger), trigger Ragnarök across all running matches, or attack another player!&lt;/p>
+&lt;p>Here are the matching Pawer commands, to use in DM with Pawer or in the dedicated #Pawer-bot channel:
+(all are to be run on a single line)&lt;/p>
+&lt;ul>
+&lt;li>Give your running games a chaos ring:
+Pawer operation autogame:add fefb575972cd8fdb086e2300b51f727bb0cbfc33282f1542e19a8f1d 0 item:chaos_ring&lt;/li>
+&lt;li>Release Ragnarök across all running games:
+Pawer operation autogame:add fefb575972cd8fdb086e2300b51f727bb0cbfc33282f1542e19a8f1d 0 event:ragnarok&lt;/li>
+&lt;li>Attack another player:
+Pawer operation autogame:add ADDRESS 0 pvp:attack
+Replacing ADDRESS with the address to attack ofc.&lt;/li>
+&lt;/ul>
+&lt;h3>Register with the Tornado Wallet&lt;span class="hx-absolute -hx-mt-20" id="register-with-the-tornado-wallet">&lt;/span>
+&lt;a href="#register-with-the-tornado-wallet" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Tornado Wallet is currently in Beta, available as package for Windows and Mac, source for Linux.
+Get it there: &lt;a href="https://github.com/bismuthfoundation/TornadoWallet/releases" target="_blank" rel="noopener">Tornado Wallet Beta Release&lt;/a>.&lt;/p>
+&lt;p>I suppose you followed the install instructions, have an address and at least something like &lt;strong>0.1 BIS&lt;/strong> on it. If not, head over to our Discord for help.&lt;/p>
+&lt;p>You’ll have to activate at least the “Autogame” Crystal. Crystals are like plugins you can add to your wallet.
+Go to Crystals, tick Autogame and save.&lt;/p>
+&lt;p>Then go to the Autogame page, and you’ll be able to send your registration transaction from here.
+Copy and paste the BIS url for the tournament, you’ll find it there:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/hclivess/autogame/blob/master/leagues.md" target="_blank" rel="noopener">Autogame Tournaments&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Send and confirm, take time to enjoy the nice popup. You should now be registered.&lt;/p>
+&lt;p>You can also use the “Transaction” then “Send” screen to make use of the special commands like chaos ring, Ragnarök or attack, refer to the Autogame guide.
+Here is an example:&lt;/p>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-01-21/tournament-004.png" alt="" loading="lazy" />&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Github &lt;a href="https://github.com/hclivess/" target="_blank" rel="noopener">HClives&lt;/a>&lt;/li>
+&lt;li>Github &lt;a href="https://github.com/hclivess/BismuthProjects/blob/master/autogame/about.md" target="_blank" rel="noopener">Autogame&lt;/a>&lt;/li>
+&lt;li>Github &lt;a href="https://github.com/hclivess/autogame/blob/master/leagues.md" target="_blank" rel="noopener">Autogame Tournaments&lt;/a>&lt;/li>
+&lt;li>Github &lt;a href="https://github.com/bismuthfoundation/TornadoWallet/releases" target="_blank" rel="noopener">Tornado Wallet&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
