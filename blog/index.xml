@@ -1,5 +1,5 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Blog</title><link>https://bismuthcoin.org/blog/</link><description>Recent content in Blog on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://bismuthcoin.org/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Announcing the Information Hub Site</title><link>https://bismuthcoin.org/blog/2025-03-26-website/</link><pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2025-03-26-website/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2025-03-26/bismuthcoin.jpeg" alt="" loading="lazy" />
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Blog</title><link>/blog/</link><description>Recent content in Blog on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Announcing the Information Hub Site</title><link>/blog/2025-03-26-website/</link><pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><guid>/blog/2025-03-26-website/</guid><description>
+&lt;p>&lt;img src="/images/2025-03-26/bismuthcoin.jpeg" alt="" loading="lazy" />
 The Bismuth Foundation is proud to introduce our new, community-powered Information Hub.&lt;/p>
 &lt;h3>Website&lt;span class="hx-absolute -hx-mt-20" id="website">&lt;/span>
 &lt;a href="#website" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Welcome to &lt;a href="https://bismuthcoin.org" target="_blank" rel="noopener">bismuthcoin.org&lt;/a>&lt;/p>
@@ -47,8 +47,8 @@ Replaces our old WordPress setup with a light, modern static site that’s simpl
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>Medium Blog Post: &lt;a href="https://medium.com/@bismuthplatform/announcing-the-new-bismuth-cryptocurrency-information-hub-426220941d7b" target="_blank" rel="noopener">Bismuth Information Hub&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Bismuth Node Database Snapshots (June 2024)</title><link>https://bismuthcoin.org/blog/2024-06-20-database-snapshot/</link><pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2024-06-20-database-snapshot/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2024-06-20/database-snapshot.webp" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Bismuth Node Database Snapshots (June 2024)</title><link>/blog/2024-06-20-database-snapshot/</link><pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate><guid>/blog/2024-06-20-database-snapshot/</guid><description>
+&lt;p>&lt;img src="/images/2024-06-20/database-snapshot.webp" alt="" loading="lazy" />
 Using the provided snapshots significantly reduces syncing time for both the main-net and hypernode databases.&lt;/p>
 &lt;p>Bismuth provides two networks:&lt;/p>
 &lt;ul>
@@ -182,8 +182,8 @@ title="Copy code"
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;/button>
 &lt;/div>
-&lt;/div></description></item><item><title>Bismuth has been Listed on XeggeX Exchange</title><link>https://bismuthcoin.org/blog/2024-03-02-exchange-listing/</link><pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2024-03-02-exchange-listing/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2024-03-02/exchange-listing.webp" alt="" loading="lazy" />
+&lt;/div></description></item><item><title>Bismuth has been Listed on XeggeX Exchange</title><link>/blog/2024-03-02-exchange-listing/</link><pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate><guid>/blog/2024-03-02-exchange-listing/</guid><description>
+&lt;p>&lt;img src="/images/2024-03-02/exchange-listing.webp" alt="" loading="lazy" />
 The Bismuth Foundation has some fantastic news to share!&lt;/p>
 &lt;p>The Bismuth cryptocurrency has been listed on XeggeX, a leading exchange ranked within the top 50 globally at CoinGecko. This is a significant milestone for us and an excellent opportunity for Bismuth’s growth and visibility in the market.&lt;/p>
 &lt;p>XeggeX has earned a high trust score of 8 on CoinGecko, an achievement to its credibility and reliability in the cryptocurrency community. An important aspect of XeggeX is its transparency, as evidenced by their public disclosure of reserve data. This aligns well with our values of trust and integrity in all our operations.&lt;/p>
@@ -205,8 +205,8 @@ The Bismuth Foundation has some fantastic news to share!&lt;/p>
 &lt;li>Xeggex &lt;a href="https://xeggex.com/post/new_listing_bismuth_bis" target="_blank" rel="noopener">listing announcement&lt;/a>&lt;/li>
 &lt;li>Xeggex exchange &lt;a href="https://xeggex.com/market/BIS_USDT" target="_blank" rel="noopener">BIS-USDT trading pair&lt;/a>&lt;/li>
 &lt;li>Xeggex exchange &lt;a href="https://xeggex.com/market/BIS_LTC" target="_blank" rel="noopener">BIS-LTC trading pair&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>January 2024 - Progress Report</title><link>https://bismuthcoin.org/blog/2024-01-15-bis-progress-report/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2024-01-15-bis-progress-report/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2024-01-15/bis-progress-report-001.webp" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>January 2024 - Progress Report</title><link>/blog/2024-01-15-bis-progress-report/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024-01-15-bis-progress-report/</guid><description>
+&lt;p>&lt;img src="/images/pr/2024-01-15/bis-progress-report-001.webp" alt="" loading="lazy" />
 This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14th, 2023 to January 15th, 2024.&lt;/p>
 &lt;h2>Current Supply&lt;span class="hx-absolute -hx-mt-20" id="current-supply">&lt;/span>
 &lt;a href="#current-supply" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>January 2024&lt;span class="hx-absolute -hx-mt-20" id="january-2024">&lt;/span>
@@ -229,29 +229,29 @@ This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14th, 2023 t
 &lt;li>wBIS (ERC-20): 692,344&lt;/li>
 &lt;li>wBIS (BEP-20): 1,464,703&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2024-01-15/bis-progress-report-002.webp" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/pr/2024-01-15/bis-progress-report-002.webp" alt="" loading="lazy" />
 Bismuth Supply January 2024&lt;/p>
 &lt;h3>Bismuth Mainnet&lt;span class="hx-absolute -hx-mt-20" id="bismuth-mainnet">&lt;/span>
 &lt;a href="#bismuth-mainnet" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Bismuth Mainnet is Proof-of-Work based. A custom sha-224 algorithm is being utilized and optimized for GPU mining. Block time generation is 1-minute.&lt;/p>
 &lt;p>The Graph below shows the current BIS difficulty.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2024-01-15/bis-progress-report-003.webp" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/pr/2024-01-15/bis-progress-report-003.webp" alt="" loading="lazy" />&lt;/p>
 &lt;h3>Bismuth Mainnet Mining&lt;span class="hx-absolute -hx-mt-20" id="bismuth-mainnet-mining">&lt;/span>
 &lt;a href="#bismuth-mainnet-mining" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The biggest Bismuth mining pools are &lt;a href="https://eggpool.net" target="_blank" rel="noopener">Eggpool&lt;/a> and Coinsaurus. An opensource solo mining software is also available which is called &lt;a href="https://github.com/bismuthfoundation/kbkminer" target="_blank" rel="noopener">KBKminer&lt;/a>.&lt;/p>
 &lt;h3>Bismuth Hypernode Staking Side-Chain&lt;span class="hx-absolute -hx-mt-20" id="bismuth-hypernode-staking-side-chain">&lt;/span>
 &lt;a href="#bismuth-hypernode-staking-side-chain" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Bismuth Hypernode Side-Chain is Proof-of-Stake based.&lt;/p>
 &lt;p>We count 115 active Hypernodes with a total amount of active collateral of 3,410,000 BIS. That’s an increase of 4 active nodes since the last report.
 Estimated Bismuth Hypernode rewards are shown below.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2024-01-15/bis-progress-report-004.webp" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/pr/2024-01-15/bis-progress-report-004.webp" alt="" loading="lazy" />
 Data from the Hypernodes page.&lt;/p>
 &lt;p>The plot below shows all Hypernodes, both active and inactive. As can be seen from the plot, the number of Hypernodes is currently at 331, down by 1 node since the last report.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2024-01-15/bis-progress-report-005.webp" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/pr/2024-01-15/bis-progress-report-005.webp" alt="" loading="lazy" />
 Total number of Hypernodes, both active and inactive.&lt;/p>
 &lt;p>The plot below shows the total Hypernode collateral, both active and inactive. As can be seen, the total amount of collateral is 9,320,000. The total amount of BIS in circulation is 37,06 million. Hence, the amount of active collateral accounts for 9.2 % of the total supply, or 25.1 % if the amount of inactive collateral is included.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2024-01-15/bis-progress-report-006.webp" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/pr/2024-01-15/bis-progress-report-006.webp" alt="" loading="lazy" />
 Total amount of HN collateral, both active and inactive.&lt;/p>
 &lt;h3>Wrapped Supply&lt;span class="hx-absolute -hx-mt-20" id="wrapped-supply">&lt;/span>
 &lt;a href="#wrapped-supply" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>An overview of the Wrapped BIS supply on the Ethereum blockchain (ERC20) and a summary of Wrapped BIS supply on the Binance Smartchain.
-&lt;img src="https://bismuthcoin.org/images/pr/2024-01-15/bis-progress-report-007.webp" alt="" loading="lazy" />&lt;/p>
+&lt;img src="/images/pr/2024-01-15/bis-progress-report-007.webp" alt="" loading="lazy" />&lt;/p>
 &lt;h3>Bismuth Market Data &amp;amp; Exchanges&lt;span class="hx-absolute -hx-mt-20" id="bismuth-market-data--exchanges">&lt;/span>
 &lt;a href="#bismuth-market-data--exchanges" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>Bismuth CoinMarketCap Information: &lt;a href="https://coinmarketcap.com/currencies/bismuth/" target="_blank" rel="noopener">https://coinmarketcap.com/currencies/bismuth/&lt;/a>&lt;/li>
@@ -266,8 +266,8 @@ Total amount of HN collateral, both active and inactive.&lt;/p>
 &lt;li>Official Website: &lt;a href="https://bismuthplatform.com" target="_blank" rel="noopener">Bismuthplatform.com&lt;/a>&lt;/li>
 &lt;li>BIS Info: &lt;a href="https://bismuth.world/" target="_blank" rel="noopener">Bismuth World&lt;/a> - &lt;a href="https://bismuth.live/" target="_blank" rel="noopener">Bismuth Live&lt;/a>&lt;/li>
 &lt;li>BIS Explorer: &lt;a href="https://bismuth.im" target="_blank" rel="noopener">Bismuth Blockchain Explorer&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>How to Run Tornado Wallet with a Custom IP</title><link>https://bismuthcoin.org/blog/2023-11-15-custom-wallet-ip/</link><pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2023-11-15-custom-wallet-ip/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2023-11-15/header.webp" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>How to Run Tornado Wallet with a Custom IP</title><link>/blog/2023-11-15-custom-wallet-ip/</link><pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate><guid>/blog/2023-11-15-custom-wallet-ip/</guid><description>
+&lt;p>&lt;img src="/images/2023-11-15/header.webp" alt="" loading="lazy" />
 Here is the Tornado Bismuth Wallet Startup Guide.&lt;/p>
 &lt;h3>Overview&lt;span class="hx-absolute -hx-mt-20" id="overview">&lt;/span>
 &lt;a href="#overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Issue:&lt;/strong> The Tornado Bismuth Wallet fails to start because it needs an updated server list, but the default API is inaccessible.&lt;/p>
@@ -390,8 +390,8 @@ title="Copy code"
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>Backup API URL: &lt;a href="https://bismuth.world/api/legacy.json" target="_blank" rel="noopener">Bismuth World API&lt;/a>&lt;/li>
 &lt;li>Tornado Wallet: &lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener">Github Tornado Wallet&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>January 2023 - Progress Report</title><link>https://bismuthcoin.org/blog/2023-01-14-bis-progress-report/</link><pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2023-01-14-bis-progress-report/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2023-01-14/bis-progress-report-001.jpg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>January 2023 - Progress Report</title><link>/blog/2023-01-14-bis-progress-report/</link><pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate><guid>/blog/2023-01-14-bis-progress-report/</guid><description>
+&lt;p>&lt;img src="/images/pr/2023-01-14/bis-progress-report-001.jpg" alt="" loading="lazy" />
 This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14th, 2022 to January 14th, 2023.&lt;/p>
 &lt;h2>Current Supply&lt;span class="hx-absolute -hx-mt-20" id="current-supply">&lt;/span>
 &lt;a href="#current-supply" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>January 2023&lt;span class="hx-absolute -hx-mt-20" id="january-2023">&lt;/span>
@@ -414,32 +414,32 @@ This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14th, 2022 t
 &lt;li>wBIS (ERC-20): 398,532&lt;/li>
 &lt;li>wBIS (BEP-20): 950,465&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2023-01-14/bis-progress-report-002.jpg" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/pr/2023-01-14/bis-progress-report-002.jpg" alt="" loading="lazy" />
 Bismuth Supply January 2023&lt;/p>
 &lt;h3>Bismuth Mainnet&lt;span class="hx-absolute -hx-mt-20" id="bismuth-mainnet">&lt;/span>
 &lt;a href="#bismuth-mainnet" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Bismuth Mainnet is Proof-of-Work based. A custom sha-224 algorithm is being utilized and optimized for GPU mining. Block time generation is 1-minute.&lt;/p>
 &lt;p>The Graph below shows the current BIS difficulty.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2023-01-14/bis-progress-report-003.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/pr/2023-01-14/bis-progress-report-003.jpg" alt="" loading="lazy" />&lt;/p>
 &lt;h3>Bismuth Mainnet Mining&lt;span class="hx-absolute -hx-mt-20" id="bismuth-mainnet-mining">&lt;/span>
 &lt;a href="#bismuth-mainnet-mining" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The biggest Bismuth mining pools are &lt;a href="https://eggpool.net" target="_blank" rel="noopener">Eggpool&lt;/a> and Coinsaurus. An opensource solo mining software is also available which is called &lt;a href="https://github.com/bismuthfoundation/kbkminer" target="_blank" rel="noopener">KBKminer&lt;/a>.&lt;/p>
 &lt;h3>Bismuth Hashrate&lt;span class="hx-absolute -hx-mt-20" id="bismuth-hashrate">&lt;/span>
 &lt;a href="#bismuth-hashrate" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The graph below shows the current Mainnet hashrate.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2023-01-14/bis-progress-report-004.jpg" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/pr/2023-01-14/bis-progress-report-004.jpg" alt="" loading="lazy" />
 Bismuth Mainnet Hashrate&lt;/p>
 &lt;h3>Hypernodes&lt;span class="hx-absolute -hx-mt-20" id="hypernodes">&lt;/span>
 &lt;a href="#hypernodes" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Bismuth Hypernode Side-Chain is Proof-of-Stake based.
 Current Hypernodes ROI is &lt;strong>21.2 %&lt;/strong>, down from 24.4 % in December. We count 202 active Hypernodes with a total amount of active collateral of 5,940,000 BIS. That’s an increase of 23 active nodes since the last report.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2023-01-14/bis-progress-report-005.jpg" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/pr/2023-01-14/bis-progress-report-005.jpg" alt="" loading="lazy" />
 Data from the Hypernodes page.&lt;/p>
 &lt;p>The plot below shows all Hypernodes, both active and inactive, during the last 60 days. As can be seen from the plot, the number of Hypernodes is currently at 346, up by 10 nodes since the last report.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2023-01-14/bis-progress-report-006.jpg" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/pr/2023-01-14/bis-progress-report-006.jpg" alt="" loading="lazy" />
 Total number of Hypernodes, both active and inactive.&lt;/p>
 &lt;p>The plot below shows the total Hypernode collateral, both active and inactive, during the last 60 days. As can be seen, the total amount of collateral is 9,700,000 during this period. The total amount of BIS in circulation is 33,97 million. Hence, the amount of active collateral accounts for 17.5 % of the total supply, or 28.6 % if the amount of inactive collateral is included.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2023-01-14/bis-progress-report-007.jpg" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/pr/2023-01-14/bis-progress-report-007.jpg" alt="" loading="lazy" />
 Total amount of HN collateral, both active and inactive.&lt;/p>
 &lt;h3>Wrapped Supply&lt;span class="hx-absolute -hx-mt-20" id="wrapped-supply">&lt;/span>
 &lt;a href="#wrapped-supply" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>An overview of the Wrapped BIS supply on the Ethereum blockchain (ERC20) and a summary of Wrapped BIS supply on the Binance Smartchain.
-&lt;img src="https://bismuthcoin.org/images/pr/2023-01-14/bis-progress-report-008.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;img src="/images/pr/2023-01-14/bis-progress-report-008.jpg" alt="" loading="lazy" />&lt;/p>
 &lt;h3>Bismuth Market Data &amp;amp; Exchanges&lt;span class="hx-absolute -hx-mt-20" id="bismuth-market-data--exchanges">&lt;/span>
 &lt;a href="#bismuth-market-data--exchanges" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>Bismuth CoinMarketCap Information: &lt;a href="https://coinmarketcap.com/currencies/bismuth/" target="_blank" rel="noopener">https://coinmarketcap.com/currencies/bismuth/&lt;/a>&lt;/li>
@@ -454,8 +454,8 @@ Total amount of HN collateral, both active and inactive.&lt;/p>
 &lt;li>Official Website: &lt;a href="https://bismuthplatform.com" target="_blank" rel="noopener">Bismuthplatform.com&lt;/a>&lt;/li>
 &lt;li>BIS Info: &lt;a href="https://bismuth.world/" target="_blank" rel="noopener">Bismuth World&lt;/a> - &lt;a href="https://bismuth.live/" target="_blank" rel="noopener">Bismuth Live&lt;/a>&lt;/li>
 &lt;li>BIS Explorer: &lt;a href="https://bismuth.im" target="_blank" rel="noopener">Bismuth Blockchain Explorer&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>January 2022 - Progress Report</title><link>https://bismuthcoin.org/blog/2022-01-17-bis-progress-report/</link><pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2022-01-17-bis-progress-report/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2022-01-17/bis-progress-report-001.png" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>January 2022 - Progress Report</title><link>/blog/2022-01-17-bis-progress-report/</link><pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2022-01-17-bis-progress-report/</guid><description>
+&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-001.png" alt="" loading="lazy" />
 This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14, 2021 to January 14, 2022.&lt;/p>
 &lt;h2>Current Supply&lt;span class="hx-absolute -hx-mt-20" id="current-supply">&lt;/span>
 &lt;a href="#current-supply" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>January 2022&lt;span class="hx-absolute -hx-mt-20" id="january-2022">&lt;/span>
@@ -478,27 +478,27 @@ This &lt;strong>Bismuth Progress Report&lt;/strong> covers December 14, 2021 to 
 &lt;li>wBIS (ERC-20): 476,012&lt;/li>
 &lt;li>wBIS (BEP-20): 338,838&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2022-01-17/bis-progress-report-002.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-002.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>Hypernodes&lt;span class="hx-absolute -hx-mt-20" id="hypernodes">&lt;/span>
 &lt;a href="#hypernodes" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Current Hypernodes ROI is &lt;strong>21.9%&lt;/strong>, up from 19.2% in December. We count 204 active Hypernodes with a total amount of active collateral of 5,750,000 BIS. That’s a decrease of 28 active nodes since the last report.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2022-01-17/bis-progress-report-003.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-003.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Data from the Hypernodes page.&lt;/p>
 &lt;p>The plot below shows all Hypernodes, both active and inactive, during the last 60 days. As can be seen from the plot, the number of Hypernodes is currently at 304, up by 1 node since the last report.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2022-01-17/bis-progress-report-004.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-004.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Total number of Hypernodes, both active and inactive.&lt;/p>
 &lt;p>The plot below shows the total Hypernode collateral, both active and inactive, during the last 60 days. As can be seen, the total amount of collateral is 8,310,000 during this period. The total amount of BIS in circulation is 30,51 million. Hence, the amount of active collateral accounts for 18.9% of the total supply, or 27.2% if the amount of inactive collateral is included.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2022-01-17/bis-progress-report-005.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-005.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Total amount of HN collateral, both active and inactive.&lt;/p>
 &lt;h3>Wrapped Supply&lt;span class="hx-absolute -hx-mt-20" id="wrapped-supply">&lt;/span>
 &lt;a href="#wrapped-supply" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Detailed graph of the current wrapped supply:&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2022-01-17/bis-progress-report-006.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-006.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Wrapped BIS Supply&lt;/p>
 &lt;h3>Worldwide Nodes Distribution&lt;span class="hx-absolute -hx-mt-20" id="worldwide-nodes-distribution">&lt;/span>
 &lt;a href="#worldwide-nodes-distribution" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>A visual representation of worldwide Bismuth nodes distribution.
-&lt;img src="https://bismuthcoin.org/images/pr/2022-01-17/bis-progress-report-007.png" alt="" loading="lazy" />
+&lt;img src="/images/pr/2022-01-17/bis-progress-report-007.png" alt="" loading="lazy" />
 Bismuth Worldwide Nodes&lt;/p>
 &lt;h3>Ecosystem&lt;span class="hx-absolute -hx-mt-20" id="ecosystem">&lt;/span>
-&lt;a href="#ecosystem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="https://bismuthcoin.org/images/pr/2022-01-17/bis-progress-report-008.png" alt="" loading="lazy" />
+&lt;a href="#ecosystem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="/images/pr/2022-01-17/bis-progress-report-008.png" alt="" loading="lazy" />
 Auto Install Script Bismuth Node &amp;amp; Hypernode
 Bismuth Auto Install Script Link:
 &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md" target="_blank" rel="noopener">https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md&lt;/a>&lt;/p>
@@ -509,8 +509,8 @@ Bismuth Auto Install Script Link:
 &lt;li>Official Website: &lt;a href="https://bismuthplatform.com" target="_blank" rel="noopener">Bismuthplatform.com&lt;/a>&lt;/li>
 &lt;li>BIS Info: &lt;a href="https://bismuth.world/" target="_blank" rel="noopener">Bismuth World&lt;/a> - &lt;a href="https://bismuth.live/" target="_blank" rel="noopener">Bismuth Live&lt;/a>&lt;/li>
 &lt;li>BIS Explorer: &lt;a href="https://bismuth.im" target="_blank" rel="noopener">Bismuth Blockchain Explorer&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Using the BIS&lt;>BSC Bridge Crystal</title><link>https://bismuthcoin.org/blog/2021-05-12-bsc-bridge/</link><pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2021-05-12-bsc-bridge/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-05-12-bsc_bridge.png" alt="" loading="lazy" />&lt;/p>
+&lt;/ul></description></item><item><title>Using the BIS&lt;>BSC Bridge Crystal</title><link>/blog/2021-05-12-bsc-bridge/</link><pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate><guid>/blog/2021-05-12-bsc-bridge/</guid><description>
+&lt;p>&lt;img src="/images/2021-05-12-bsc_bridge.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>To swap between native BIS and BNB wBIS token, you need the newest Tornado wallet (v0.1.43 or more) with the BscBridge Crystal activated, as pictured above.&lt;/p>
 &lt;p>&lt;a href="https://github.com/bismuthfoundation/TornadoWallet/releases" target="_blank" rel="noopener">Tornado Bismuth Wallet releases&lt;/a>&lt;/p>
 &lt;p>Another version of this help, with more detailed info, can be found on our &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/README.md" target="_blank" rel="noopener">Github Bismuth FAQ&lt;/a>.&lt;/p>
@@ -522,7 +522,7 @@ Bismuth Auto Install Script Link:
 &lt;li>Name: Wrapped BIS&lt;/li>
 &lt;li>Decimals: 8 (same as native BIS)&lt;/li>
 &lt;li>Custom logo: &lt;a href="https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png" target="_blank" rel="noopener">https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&lt;/a>
-&lt;img src="https://bismuthcoin.org/images/2021-05-12-wbis125x125.png" alt="" loading="lazy" />&lt;/li>
+&lt;img src="/images/2021-05-12-wbis125x125.png" alt="" loading="lazy" />&lt;/li>
 &lt;/ul>
 &lt;p>The Bsc bridge crystal comes with a one-click button to set up the correct custom token on your metamask extension.&lt;/p>
 &lt;p>The Bridge is decentralized and runs thanks to a custom BIS protocol.
@@ -584,8 +584,8 @@ Staking on the farm will provide rewards as wBIS.&lt;/p>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/BIS_TO_WBIS_DETAIL.md" target="_blank" rel="noopener">Step by step Guide&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://exchange.pancakeswap.finance/#/add/BNB/0x56672ecb506301b1E32ED28552797037c54D36A9" target="_blank" rel="noopener">Add Liquidity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/BSC/pankeswap_farming.md" target="_blank" rel="noopener">wBIS farming guide&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Using the BIS&lt;>ETH Bridge Crystal</title><link>https://bismuthcoin.org/blog/2021-04-21-eth-bridge/</link><pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2021-04-21-eth-bridge/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-04-21-eth_bridge.png" alt="" loading="lazy" />&lt;/p>
+&lt;/ul></description></item><item><title>Using the BIS&lt;>ETH Bridge Crystal</title><link>/blog/2021-04-21-eth-bridge/</link><pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate><guid>/blog/2021-04-21-eth-bridge/</guid><description>
+&lt;p>&lt;img src="/images/2021-04-21-eth_bridge.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>To swap between native BIS and ETH wBIS token, you need the newest Tornado wallet (v0.1.41 or more) with the EthBridge Crystal activated, as pictured above.&lt;/p>
 &lt;p>&lt;a href="https://github.com/bismuthfoundation/TornadoWallet/releases" target="_blank" rel="noopener">Tornado Bismuth Wallet releases&lt;/a>&lt;/p>
 &lt;p>Another version of this help, with more detailed info, can be found on our &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/README.md" target="_blank" rel="noopener">Github Bismuth FAQ&lt;/a>.&lt;/p>
@@ -597,7 +597,7 @@ Staking on the farm will provide rewards as wBIS.&lt;/p>
 &lt;li>Name: Wrapped BIS&lt;/li>
 &lt;li>Decimals: 8 (same as native BIS)&lt;/li>
 &lt;li>Custom logo: &lt;code>https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png&lt;/code>
-&lt;img src="https://bismuthcoin.org/images/2021-05-12-wbis125x125.png" alt="" loading="lazy" />&lt;/li>
+&lt;img src="/images/2021-05-12-wbis125x125.png" alt="" loading="lazy" />&lt;/li>
 &lt;/ul>
 &lt;p>The Eth bridge crystal comes with a one-click button to set up the correct custom token on your metamask extension.&lt;/p>
 &lt;p>The Bridge is decentralized and runs thanks to a custom BIS protocol.
@@ -655,8 +655,8 @@ Thanks Damian for the video!&lt;/p>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/BIS_TO_WBIS_DETAIL.md" target="_blank" rel="noopener">Step by Step Guide&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://v2.info.uniswap.org/pair/0xf4f82f8d84c529987201609cecee8ab136a50c8c" target="_blank" rel="noopener">wBIS/ETH Pool&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/unicrypt_farming.md" target="_blank" rel="noopener">wBIS farming guide&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Bismuth 2.0 - Official Announcement</title><link>https://bismuthcoin.org/blog/2021-02-24-bis-2.0/</link><pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2021-02-24-bis-2.0/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-02-24-bis-2.0.png" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Bismuth 2.0 - Official Announcement</title><link>/blog/2021-02-24-bis-2.0/</link><pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate><guid>/blog/2021-02-24-bis-2.0/</guid><description>
+&lt;p>&lt;img src="/images/2021-02-24-bis-2.0.png" alt="" loading="lazy" />
 Late last year, the Bismuth Foundation unveiled “Bismuth2.0”. The reveal was brief, did not go into any detail and the team remained silent on the topic for the following months.&lt;/p>
 &lt;p>We would like to thank everyone for their patience, the time has finally come for the big reveal! Let’s get right into it.&lt;/p>
 &lt;h2>The Basics&lt;span class="hx-absolute -hx-mt-20" id="the-basics">&lt;/span>
@@ -758,15 +758,15 @@ This device will support signing of BIS transactions but also paves the way to m
 &lt;li>&lt;a href="https://xeggex.com/market/BIS_USDT" target="_blank" rel="noopener">Crypto Exchange&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.coingecko.com/en/coins/bismuth" target="_blank" rel="noopener">Coingecko&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://coinmarketcap.com/currencies/bismuth/" target="_blank" rel="noopener">Coinmarketcap&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bismuthcoin.org/blog" >Bismuth Blog&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Python and State Machines</title><link>https://bismuthcoin.org/blog/2021-03-24-state-machines/</link><pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2021-03-24-state-machines/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-03-24/state-machines.webp" alt="" loading="lazy" />
+&lt;li>&lt;a href="/blog" >Bismuth Blog&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Python and State Machines</title><link>/blog/2021-03-24-state-machines/</link><pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate><guid>/blog/2021-03-24-state-machines/</guid><description>
+&lt;p>&lt;img src="/images/2021-03-24/state-machines.webp" alt="" loading="lazy" />
 Are you familiar with Finite state machines? They are everywhere, yet, we don’t see them as such.&lt;/p>
 &lt;h3>State machines&lt;span class="hx-absolute -hx-mt-20" id="state-machines">&lt;/span>
 &lt;a href="#state-machines" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>A state machine – in mathematical terms – is a model of computation.
 It is defined by a – finite – list of states, including an initial state as well as transitions: conditions that have it move from one state to another one.
 This seems very simple, and it can be. Here is a sample machine from Wikipedia.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-03-24/finite_state_machine.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-03-24/finite_state_machine.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>A simple state machine: a door that can only be closed or open.
 Don’t be fooled by the apparent simplicity of this sample: state machine can be very, very complex… but also very useful.&lt;/p>
 &lt;h4>Here’s why:&lt;span class="hx-absolute -hx-mt-20" id="heres-why">&lt;/span>
@@ -790,11 +790,11 @@ The compiler lets you write dangerous things you are not aware of, that can back
 &lt;h3>Pytransition&lt;span class="hx-absolute -hx-mt-20" id="pytransition">&lt;/span>
 &lt;a href="#pytransition" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Pytransition is an actively maintained and very complete state machine framework, with several extensions.&lt;/p>
 &lt;p>The github comes with a full documentation, the quickstart being a funny “narcoleptic super hero” example&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-03-24/state-machine-02.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-03-24/state-machine-02.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Quickstart from Pytransitions
 Note the diagram is generated from a “diagram” extension, by the module itself.&lt;/p>
 &lt;p>There is even more since a GUI, running with a Tornado web server and JS client code, allows to draw and manipulate the models. It’s not only fun but pretty useful!&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-03-24/state-machine-03.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-03-24/state-machine-03.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>State machine GUI editor&lt;/p>
 &lt;p>Many examples come with the library. Best thing you can do is bookmark the Github and use it for your next project or rewrite, then come and tell us! &lt;a href="https://github.com/pytransitions/transitions" target="_blank" rel="noopener">Github&lt;/a>&lt;/p>
 &lt;h3>Pysm&lt;span class="hx-absolute -hx-mt-20" id="pysm">&lt;/span>
@@ -802,7 +802,7 @@ Note the diagram is generated from a “diagram” extension, by the module itse
 &lt;p>Another big up is its MicroPython support. With embedded python coming everywhere, it would be a shame not begin able to use that state pattern there as well.&lt;/p>
 &lt;p>Still, Pysm is a complete library, with all you’ll need including transition callbacks, and state hooks, conditional transitions… while remaining lightweight and fast.
 It comes with documentation, test and examples. &lt;a href="https://github.com/pgularski/pysm" target="_blank" rel="noopener">Github&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-03-24/state-machine-04.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-03-24/state-machine-04.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Here is a sample of a complex hierarchical state machine designed with Pysm
 (taken from pysm github)&lt;/p>
 &lt;h3>When to use state machines?&lt;span class="hx-absolute -hx-mt-20" id="when-to-use-state-machines">&lt;/span>
@@ -831,26 +831,26 @@ You can join us on Twitter &lt;a href="https://twitter.com/BismuthPlatform" targ
 &lt;li>&lt;a href="https://github.com/pgularski/pysm" target="_blank" rel="noopener">Github - Prysm&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Finite-state_machine" target="_blank" rel="noopener">Wikipedia - Finite State Machine&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/pytransitions/transitions-gui" target="_blank" rel="noopener">Github - Transitions GUI&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Real time Hypernodes map from Dingo</title><link>https://bismuthcoin.org/blog/2021-02-09-map/</link><pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2021-02-09-map/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-02-21-bismuth_map-01.jpg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Real time Hypernodes map from Dingo</title><link>/blog/2021-02-09-map/</link><pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate><guid>/blog/2021-02-09-map/</guid><description>
+&lt;p>&lt;img src="/images/2021-02-21-bismuth_map-01.jpg" alt="" loading="lazy" />
 We’re always happy to see new users jump in on the Bismuth Discord and ask questions.
 More over dev questions…
 And above all, we like it when these users then come back with a “Oh, by the way, I just did that small thing…”&lt;/p>
 &lt;h3>The Hypernodes Map&lt;span class="hx-absolute -hx-mt-20" id="the-hypernodes-map">&lt;/span>
 &lt;a href="#the-hypernodes-map" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Here is what “Dingo” did: &lt;a href="https://bismuth-map.herokuapp.com/" target="_blank" rel="noopener">https://bismuth-map.herokuapp.com/&lt;/a>.&lt;br>
 And best of all is Dingo released the application as &lt;a href="https://github.com/bismuthfoundation/map" target="_blank" rel="noopener">Open-Source&lt;/a> for anyone to run the the Bismuth Map.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-02-21-bismuth_map-02.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-02-21-bismuth_map-02.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>Timeline&lt;span class="hx-absolute -hx-mt-20" id="timeline">&lt;/span>
 &lt;a href="#timeline" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>After Dingo announced his map, a tweet was sent out by a team member:&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-02-21-bismuth_map-03.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-02-21-bismuth_map-03.jpg" alt="" loading="lazy" />&lt;/p>
 &lt;p>Original &lt;a href="https://x.com/portait/status/1348254048391225345" target="_blank" rel="noopener">Tweet&lt;/a>&lt;/p>
 &lt;p>&amp;hellip; then after some quick exchanges Dingo updated the map with more information.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-02-21-bismuth_map.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-02-21-bismuth_map.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>The latest version is out, now including financial metrics and USD value access. Additionally, a &lt;a href="https://www.youtube.com/watch?v=wD8i4lr4J2c" target="_blank" rel="noopener">Youtube video&lt;/a> about the application has also been released.&lt;/p>
 &lt;h3>Reading between the lines&lt;span class="hx-absolute -hx-mt-20" id="reading-between-the-lines">&lt;/span>
 &lt;a href="#reading-between-the-lines" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>One nice thing this map also shows is that while keeping an eye on the current trends and newest promising technology, Bismuth continues to grow its fundamentals.&lt;/p>
 &lt;p>Have look at the upper left corner, with the core financial Hypernodes metrics in a snap:&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-02-21-bismuth_map-04.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-02-21-bismuth_map-04.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Yes, the Bismuth Hypernodes still pay more than 17% yearly. Not for 1 month before vanishing, but every single week since they’re up, more than 16 months ago. This is sustainable, this is an in-deniable proof users keep faith in the project.
 More than 7 million BIS staked. More than 26% of the total supply. More than $820,000 locked. Awesome is it not?&lt;/p>
 &lt;p>Low cap, yes.
@@ -861,8 +861,8 @@ No future? Great Scott! Far from it 😀&lt;/p>
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/map" target="_blank" rel="noopener">Github - Bismuth Node Map&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Bismuth Mobile Wallet - Genesis and Reward</title><link>https://bismuthcoin.org/blog/2021-01-15-mobile-wallet/</link><pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2021-01-15-mobile-wallet/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet.jpg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Bismuth Mobile Wallet - Genesis and Reward</title><link>/blog/2021-01-15-mobile-wallet/</link><pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate><guid>/blog/2021-01-15-mobile-wallet/</guid><description>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet.jpg" alt="" loading="lazy" />
 For way too long, Bismuth had no proper mobile wallet.&lt;/p>
 &lt;p>One historical reason is that – despite being the fastest growing language – Python on mobile still is not mainstream. Sure, you can run a fully functional Tornado wallet on Android, but that’s not a 2 click install.&lt;/p>
 &lt;p>That’s certainly not an excuse however and the team saw the need for an easy to install and operate mobile wallet.&lt;/p>
@@ -901,8 +901,8 @@ Very recent policies change at Apple store made it so Crypto related app (namely
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://play.google.com/store/apps/details?src=AppAgg.com&amp;amp;id=io.reddwarf.my_bismuth_wallet" target="_blank" rel="noopener">Google Play Android&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/my_bismuth_wallet" target="_blank" rel="noopener">Github - My Bismuth Wallet&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>My Bismuth Wallet - Mobile Wallet</title><link>https://bismuthcoin.org/blog/2021-01-14-mobile-wallet/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2021-01-14-mobile-wallet/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet.jpg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>My Bismuth Wallet - Mobile Wallet</title><link>/blog/2021-01-14-mobile-wallet/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>/blog/2021-01-14-mobile-wallet/</guid><description>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet.jpg" alt="" loading="lazy" />
 For way too long, Bismuth had no proper mobile wallet, or was dependent on third party wallets.
 Those days are over!&lt;/p>
 &lt;h3>Downloading the Mobile Bismuth Wallet&lt;span class="hx-absolute -hx-mt-20" id="downloading-the-mobile-bismuth-wallet">&lt;/span>
@@ -915,61 +915,61 @@ Those days are over!&lt;/p>
 &lt;p>It was developed by our User RedDwarf as open source: awesome job!&lt;/p>
 &lt;h2>Wallet Walk-through&lt;span class="hx-absolute -hx-mt-20" id="wallet-walk-through">&lt;/span>
 &lt;a href="#wallet-walk-through" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>Initial Setup&lt;span class="hx-absolute -hx-mt-20" id="initial-setup">&lt;/span>
-&lt;a href="#initial-setup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-001.png" alt="" loading="lazy" />&lt;/p>
+&lt;a href="#initial-setup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-001.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>1. Hierarchical Deterministic Key Generation&lt;span class="hx-absolute -hx-mt-20" id="1-hierarchical-deterministic-key-generation">&lt;/span>
 &lt;a href="#1-hierarchical-deterministic-key-generation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The new mobile My Bismuth Wallet is using the BIS HD standard for generating keys.
 The mobile Wallet lets you either create a new wallet (seed) or you can import a seed which you already have.
 Seeds and addresses are compatible with Angainor’s paper wallet. &lt;a href="https://angainordev.github.io/BIS-Paper/js/dist/index.html" target="_blank" rel="noopener">link&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-002.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-002.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>2. QR Scan Option&lt;span class="hx-absolute -hx-mt-20" id="2-qr-scan-option">&lt;/span>
 &lt;a href="#2-qr-scan-option" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>When importing the secret phrase you have the option to QR Scan the secret phrase (seed) or you can copy and paste the seed.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-003.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-003.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>3. Password Protected &amp;amp; Biotmetrics&lt;span class="hx-absolute -hx-mt-20" id="3-password-protected--biotmetrics">&lt;/span>
 &lt;a href="#3-password-protected--biotmetrics" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>For security reasons you can define a password for opening the mobile wallet app. It is also possible to use biometrics instead.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-004.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-004.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>4. Backup Seed&lt;span class="hx-absolute -hx-mt-20" id="4-backup-seed">&lt;/span>
 &lt;a href="#4-backup-seed" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>When you have created a completely new secret phrase (seed), double check that you backup your secret phrase in a non digital manner.
 This is the most important step to be able to recover the mobile wallet.
 No one else but you is able to recover your wallet.&lt;/p>
 &lt;p>Do not use the sample secret shown here, since it’s public any fund will be robbed.
 This seed is also available later on, provided you remind the PIN you used.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-005.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-005.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>5. Wallet PIN Support&lt;span class="hx-absolute -hx-mt-20" id="5-wallet-pin-support">&lt;/span>
 &lt;a href="#5-wallet-pin-support" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Create and backup your wallet PIN to send Bismuth transactions.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-006.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-006.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>6. Send and Receive Transactions&lt;span class="hx-absolute -hx-mt-20" id="6-send-and-receive-transactions">&lt;/span>
 &lt;a href="#6-send-and-receive-transactions" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>This is the standard My Bismuth Wallet view after creating a completely new wallet.
 Your first Bismuth address account has been created and you are all set for receiving Bismuth.
 The wheel icon on the top left lets you edit your Wallet settings.
 The cat avatar is auto-generated and is meant to easily identify your various addresses.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-007.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-007.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>7. Wallet Options&lt;span class="hx-absolute -hx-mt-20" id="7-wallet-options">&lt;/span>
 &lt;a href="#7-wallet-options" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>After clicking the top left icon wheel button you are able to select and change different Wallet options.&lt;/p>
 &lt;p>You can change the base fiat currency, switch the Wallet language, change security settings (e.g. authentication method, wallet password), displays the Bismuth Token list, manage your contacts, backup your secret phrase and lastly you can logout which wipes your seed phrase.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-008.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-008.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>8. Easy Handling of Addresses&lt;span class="hx-absolute -hx-mt-20" id="8-easy-handling-of-addresses">&lt;/span>
 &lt;a href="#8-easy-handling-of-addresses" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>To receive a Bismuth transaction you need to copy your Bismuth address and hand it to sender.
 You can do this by clicking on the Receive button and copying the Bismuth address or handing the sender the generated qr code address.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-009.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-009.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>9. Copy &amp;amp; Paste Functionality&lt;span class="hx-absolute -hx-mt-20" id="9-copy--paste-functionality">&lt;/span>
 &lt;a href="#9-copy--paste-functionality" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Sending a Bismuth transaction is very easy.
 You can either enter all the data by yourself or you can use the copy and paste functionality.&lt;/p>
 &lt;p>There is also another option to use the QR Code scanner to either scan a Bismuth address or you could also scan a QR Code BIS URL transmitting all necessary data.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-010.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-010.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>10. Transaction Confirmation View&lt;span class="hx-absolute -hx-mt-20" id="10-transaction-confirmation-view">&lt;/span>
 &lt;a href="#10-transaction-confirmation-view" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>After you have successfully sent a transaction you see a confirmation view that the transaction has been sent.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-011.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-011.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>11. Transaction View List&lt;span class="hx-absolute -hx-mt-20" id="11-transaction-view-list">&lt;/span>
 &lt;a href="#11-transaction-view-list" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Once you have sent and received Bismuth you will see the transaction list on the main view. This particular view shows that you can not only send Bismuth but also Bismuth based Tokens.
 All transactions are listed in this view. If you want to see more information about a particular transaction, you can click on a transaction to see a detailed transaction view.&lt;/p>
 &lt;p>Note: swiping a tx to the left will prefill a new transaction with same amount and recipient.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-012.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-012.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>12. Bismuth Native Tokens&lt;span class="hx-absolute -hx-mt-20" id="12-bismuth-native-tokens">&lt;/span>
 &lt;a href="#12-bismuth-native-tokens" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>When you click on the middle bottom icon button from the main transaction view, the wallet will list all Bismuth native Tokens you own.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-013.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-013.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>13. Token List View&lt;span class="hx-absolute -hx-mt-20" id="13-token-list-view">&lt;/span>
 &lt;a href="#13-token-list-view" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>To see a list of all available Bismuth Tokens ever created, you can click on settings and then choose the Token List link.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-15/mobile-wallet-014.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-15/mobile-wallet-014.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>14. Easy Access to Send Bismuth based Tokens&lt;span class="hx-absolute -hx-mt-20" id="14-easy-access-to-send-bismuth-based-tokens">&lt;/span>
 &lt;a href="#14-easy-access-to-send-bismuth-based-tokens" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>You can send a Bismuth based Token from the normal send view, by sliding the “send a token” button to the right and then choose one of your available Token, add the amount and then send it.&lt;/p>
 &lt;p>Note: Bismuth native tokens have no decimals.&lt;/p>
@@ -977,11 +977,11 @@ All transactions are listed in this view. If you want to see more information ab
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/my_bismuth_wallet" target="_blank" rel="noopener">Github - My_Bismuth Wallet&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://angainordev.github.io/BIS-Paper/js/dist/index.html" target="_blank" rel="noopener">HD Paper Wallet&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Bismuth Toolbox, interview and reward</title><link>https://bismuthcoin.org/blog/2021-01-01-toolbox/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2021-01-01-toolbox/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-01-toolbox.jpeg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Bismuth Toolbox, interview and reward</title><link>/blog/2021-01-01-toolbox/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>/blog/2021-01-01-toolbox/</guid><description>
+&lt;p>&lt;img src="/images/2021-01-01-toolbox.jpeg" alt="" loading="lazy" />
 Months ago, Bismuth user “Whatever” developed a shiny app to monitor his BIS mining rigs, wallets and Hypernodes.
 Apps you code for yourself, because you feel an urging need for it can end up most useful, and this one makes no exception.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-01-01-toolbox-01.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2021-01-01-toolbox-01.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Preview of the Bismuth toolbox main screen&lt;/p>
 &lt;p>As a followup, Whatever also added more useful intel with hypernodes related data and monitoring
 The Hypernode monitoring section
@@ -1075,8 +1075,97 @@ Since &lt;strong>Bismuth Toolbox&lt;/strong> has been released as &lt;strong>ope
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://github.com/DoNutsLise/BismuthToolbox" target="_blank" rel="noopener">Github - Bismuth Toolbox&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Beyond DeFi with Bismuth</title><link>https://bismuthcoin.org/blog/2020-08-12-defi/</link><pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-08-12-defi/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-08-12-defi.webp" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>BisBabble Interview - Nyzblossom</title><link>/blog/2020-11-04-interview/</link><pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate><guid>/blog/2020-11-04-interview/</guid><description>
+&lt;p>&lt;img src="/images/2020-01-18/interview.jpg" alt="" loading="lazy" />
+&lt;strong>Q&amp;amp;A session&lt;/strong> with &lt;em>wBismuth&lt;/em> Developer &lt;strong>Nyzblossom&lt;/strong>.&lt;/p>
+&lt;p>During the past months, most of the crypto sphere has gone Uniswap crazy.
+Uniswap, based upon ETH smart contracts and running on Ethereum chain only, is a DEX allowing any token to be listed and exchanged, with a fast growing ecosystem and derivatives.
+The usual “when moon” on many discords were then replaced by “when Uniswap”?&lt;/p>
+&lt;p>On September 14 EggPool asked Twitter for feedback:
+&lt;img src="/images/2020-11-04/wbismuth-interview-002.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;p>The related &lt;a href="https://x.com/EggPoolNet/status/1305432898116497408" target="_blank" rel="noopener">Twitter thread&lt;/a> does provide several meaningful and useful answers, please check them 😉&lt;/p>
+&lt;p>Then, a third party developer team just said “let’s do it”.
+Bismuth is permission-less, the code is open, there are various repositories with integration and app examples: anyone can build on top.&lt;/p>
+&lt;h2>The Interview&lt;span class="hx-absolute -hx-mt-20" id="the-interview">&lt;/span>
+&lt;a href="#the-interview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Hello Nyzblossom, so you’re the developer behind wBIS, a wrapped BIS token on Eth blockchain and were kind enough to answer our questions, welcome!&lt;/p>
+&lt;h4>Q: Let begin with the basics: can you tell us what your experience in the crypo field is?&lt;span class="hx-absolute -hx-mt-20" id="q-let-begin-with-the-basics-can-you-tell-us-what-your-experience-in-the-crypo-field-is">&lt;/span>
+&lt;a href="#q-let-begin-with-the-basics-can-you-tell-us-what-your-experience-in-the-crypo-field-is" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>A: I am a crypto enthusiast since the early days.
+I am mainly speculator investor and researcher.
+I hired my good friend who is a coder to write wBIS to BIS gateway&lt;/p>
+&lt;h4>Q: What led you to Bismuth?&lt;span class="hx-absolute -hx-mt-20" id="q-what-led-you-to-bismuth">&lt;/span>
+&lt;a href="#q-what-led-you-to-bismuth" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>A: I discovered it few months after it’s Mainnet started loved the specs and started mining it then later set masternodes.&lt;/p>
+&lt;h4>Q: Long time fan then, cool! Do you have previous experience at wrapping tokens, What made you want to wrap Bismuth on Eth?&lt;span class="hx-absolute -hx-mt-20" id="q-long-time-fan-then-cool-do-you-have-previous-experience-at-wrapping-tokens-what-made-you-want-to-wrap-bismuth-on-eth">&lt;/span>
+&lt;a href="#q-long-time-fan-then-cool-do-you-have-previous-experience-at-wrapping-tokens-what-made-you-want-to-wrap-bismuth-on-eth" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>A: The developer doesn’t have previous experience at wrapping tokens but is familiar with writing contracts on ether.
+I wanted to wrap Bismuth on Eth for several reasons :&lt;/p>
+&lt;ul>
+&lt;li>Taking advantage of Uniswap for Bismuth needs&lt;/li>
+&lt;li>To make Bis more trad-able and liquid&lt;/li>
+&lt;li>To make Bis more popular&lt;/li>
+&lt;li>To remove the need for any type of registration in order to buy Bis&lt;/li>
+&lt;li>To find a solution for connecting Bis to ether in a trust less way and make it in a pro active way&lt;/li>
+&lt;/ul>
+&lt;p>I might be saying something wrong but this is my spirit: I think that if bismuth team can create solution for running masternodes in a trust less way then we will be able to run our ether -&amp;gt; bismuth and visa versa gateway also in a trust less way by holding the underlying bis used to create wBIS in this masternodes ” – does it make sense?&lt;/p>
+&lt;h4>Q: This raises a lot of rather technical questions that would not fit in this Q&amp;amp;A, but definitely worth digging into!&lt;span class="hx-absolute -hx-mt-20" id="q-this-raises-a-lot-of-rather-technical-questions-that-would-not-fit-in-this-qa-but-definitely-worth-digging-into">&lt;/span>
+&lt;a href="#q-this-raises-a-lot-of-rather-technical-questions-that-would-not-fit-in-this-qa-but-definitely-worth-digging-into" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>Can you describe the workflow of the whole process, $BIS to $wBIS and the other way around? What will it look like, from a user point of view?&lt;/p>
+&lt;p>A: Any transaction received by us on one of the networks (Eth, Bis) is credited on the other network.
+From a Bismuth user point of view, the user needs to fill the data field of the transaction with his Ethereum address.
+From an Ethereum user point of view, the user need to visit our website with Metamask and fill amount of token and Bismuth receive address.&lt;/p>
+&lt;h4>Q: Any fee in the process?&lt;span class="hx-absolute -hx-mt-20" id="q-any-fee-in-the-process">&lt;/span>
+&lt;a href="#q-any-fee-in-the-process" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>A: Yes, there will be a fee of 20 Bis on deposit transactions (BIS -&amp;gt; wBis) to cover gas cost on Ethereum. No fee on withdraw transactions (wBis -&amp;gt; BIS).&lt;/p>
+&lt;h4>Q: Was diving into the Bismuth interface part easy, any stuff we could improve?&lt;span class="hx-absolute -hx-mt-20" id="q-was-diving-into-the-bismuth-interface-part-easy-any-stuff-we-could-improve">&lt;/span>
+&lt;a href="#q-was-diving-into-the-bismuth-interface-part-easy-any-stuff-we-could-improve" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>A: I wouldn’t say we dived into the Bismuth interface. Let’s say we touched the surface. It was an ok experience.
+Parts of the documentation are fragmented and disorganized.
+Unifying the Bismuth knowledge base into a single place may be beneficial for new comers.
+Establishing and publishing coding standards and guidelines, will probably improve the overall wholeness.&lt;/p>
+&lt;h4>Q: Thanks for the advice!&lt;span class="hx-absolute -hx-mt-20" id="q-thanks-for-the-advice">&lt;/span>
+&lt;a href="#q-thanks-for-the-advice" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>The dev time itself looked quite small, can you give us some feedback on how that was shared and what needed the most time?&lt;/p>
+&lt;p>A: It’s simple and very minimal. The Bismuth side already had everything we needed (data field in each transaction).
+So we only needed to watch transactions for a specific address and send specific transactions from that address.&lt;/p>
+&lt;p>In Ethereum we added a modified erc20 transfer function, which added a data field to the transactions.&lt;/p>
+&lt;p>Here is the time spent in each area of development.&lt;/p>
+&lt;ul>
+&lt;li>Bismuth – installation, configuration, receive tx, send tx – 20%&lt;/li>
+&lt;li>Ethereum – installation, configuration, receive tx, send tx – 20%&lt;/li>
+&lt;li>Solidity – erc20 modification , contract deployments – 20%&lt;/li>
+&lt;li>Static HTML – Metamask web3 interface – 10%&lt;/li>
+&lt;li>Control Center – database of transactions – 30%&lt;/li>
+&lt;/ul>
+&lt;h4>Q: We saw you planned some maximum amount of wrapped Bismuth and a time limit as well. Can you tell us more and why?&lt;span class="hx-absolute -hx-mt-20" id="q-we-saw-you-planned-some-maximum-amount-of-wrapped-bismuth-and-a-time-limit-as-well-can-you-tell-us-more-and-why">&lt;/span>
+&lt;a href="#q-we-saw-you-planned-some-maximum-amount-of-wrapped-bismuth-and-a-time-limit-as-well-can-you-tell-us-more-and-why" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>A: the reason for the maximum amount of wrapped Bis (200k Bis) is because it’s alpha version and there are lots of things that can go wrong and we don’t feel comfortable holding big sums of Bis for our users .
+The time limit on our operation is also because we don’t want to attract big Bismuth holders and after 3 month we will decide what to do next .&lt;/p>
+&lt;h4>Q: Now, let’s get into the core stuff. If I got it right, the workflow is not decentralized nor trustless yet, so there’s an entity acting as custodian? Who is involved?&lt;span class="hx-absolute -hx-mt-20" id="q-now-lets-get-into-the-core-stuff-if-i-got-it-right-the-workflow-is-not-decentralized-nor-trustless-yet-so-theres-an-entity-acting-as-custodian-who-is-involved">&lt;/span>
+&lt;a href="#q-now-lets-get-into-the-core-stuff-if-i-got-it-right-the-workflow-is-not-decentralized-nor-trustless-yet-so-theres-an-entity-acting-as-custodian-who-is-involved" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>A: Yes, there is a custodian Bismuth node that holds the underlying Bis used to issue wBIS (erc20 tokens)&lt;/p>
+&lt;h4>Q: Can you tell us more about your operational security? How many different keys are involved, Who has control over them, What measure did you enforce to make sure they are safe from both loss and hackers?&lt;span class="hx-absolute -hx-mt-20" id="q-can-you-tell-us-more-about-your-operational-security-how-many-different-keys-are-involved-who-has-control-over-them-what-measure-did-you-enforce-to-make-sure-they-are-safe-from-both-loss-and-hackers">&lt;/span>
+&lt;a href="#q-can-you-tell-us-more-about-your-operational-security-how-many-different-keys-are-involved-who-has-control-over-them-what-measure-did-you-enforce-to-make-sure-they-are-safe-from-both-loss-and-hackers" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>A:Two keys are involved (One Bismuth, one Ethereum).
+They are located at the control center box, and backed up in two separate physical locations.
+The box is running a bismuth node, and communicates with the Ethereum blockchain via Infura.
+The static HMTL is hosted on gitlab.io .
+We are lacking front facing web pages for users to interact with.
+We do not have logins nor passwords.
+Our only interaction with our users is via the blockchain.
+Having such a minimal form of interaction with our users makes our attack surface exceptionally small.&lt;/p>
+&lt;h4>Q: A word for our users, what can you say to help them feel safe and use the bridge?&lt;span class="hx-absolute -hx-mt-20" id="q-a-word-for-our-users-what-can-you-say-to-help-them-feel-safe-and-use-the-bridge">&lt;/span>
+&lt;a href="#q-a-word-for-our-users-what-can-you-say-to-help-them-feel-safe-and-use-the-bridge" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>A: I can’t say it’s safe to use the bridge, because it’s alpha version and there might be all kinds of bugs&lt;/p>
+&lt;h4>Q: Are there formal guarantees you can give with respect to the bis or wbis funds safety?&lt;span class="hx-absolute -hx-mt-20" id="q-are-there-formal-guarantees-you-can-give-with-respect-to-the-bis-or-wbis-funds-safety">&lt;/span>
+&lt;a href="#q-are-there-formal-guarantees-you-can-give-with-respect-to-the-bis-or-wbis-funds-safety" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>A: No&lt;/p>
+&lt;h4>Q: Let say other entities or users would like to run such a bridge, will you release the needed code as open source?&lt;span class="hx-absolute -hx-mt-20" id="q-let-say-other-entities-or-users-would-like-to-run-such-a-bridge-will-you-release-the-needed-code-as-open-source">&lt;/span>
+&lt;a href="#q-let-say-other-entities-or-users-would-like-to-run-such-a-bridge-will-you-release-the-needed-code-as-open-source" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>Yes, we will make it open source and others also will be able to run it if they choose.
+We plan to release the source code after first two weeks of operation.
+We need to close some potential security holes first.&lt;/p>
+&lt;h4>Q: Thanks a lot Nyzblossom!&lt;span class="hx-absolute -hx-mt-20" id="q-thanks-a-lot-nyzblossom">&lt;/span>
+&lt;a href="#q-thanks-a-lot-nyzblossom" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>The Bismuth foundation is pretty happy with this experiment.
+This is a definitive proof the open and permission-less nature of Bismuth leads to third parties building on top of Bismuth and bringing tools the community values.
+We are very grateful for the work that was done by the wBis team and wish them a great success!&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>wBIS has a &lt;a href="https://discord.gg/PqZdHg65dm" target="_blank" rel="noopener">dedicated Discord&lt;/a>, operated by wBIS team (not Bismuth Foundation)&lt;/li>
+&lt;li>wBIS should officially launch on November 9 2020.&lt;/li>
+&lt;li>Web page: &lt;a href="https://wrap-gateway.gitlab.io/wbismuth/" target="_blank" rel="noopener">https://wrap-gateway.gitlab.io/wbismuth/&lt;/a>&lt;/li>
+&lt;li>Uniswap Pair &lt;a href="https://info.uniswap.org/pair/0x7ec5b4473e5bC8815DAb476025B3534765F691ca" target="_blank" rel="noopener">https://info.uniswap.org/pair/0x7ec5b4473e5bC8815DAb476025B3534765F691ca&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Disclaimer:&lt;/strong>&lt;br>
+As stated along the interview: the wBIS bridge is not operated by the Bismuth foundation, and the Bismuth team members have absolutely no control over the bridge, nor related BIS and ETH keys. There is nothing we could do in case of something going wrong.&lt;/p></description></item><item><title>Beyond DeFi with Bismuth</title><link>/blog/2020-08-12-defi/</link><pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/2020-08-12-defi/</guid><description>
+&lt;p>&lt;img src="/images/2020-08-12-defi.webp" alt="" loading="lazy" />
 The main difference between Bismuth and Ethereum up until this point was the level of contract decentralization.&lt;/p>
 &lt;p>In Ethereum, contracts were independent and had their own rules. In Bismuth, contract execution was still in the hands of private key owners, requiring some level of trust between participating parties. While Bismuth drastically improved scaling with its client-oriented approach and selective execution, the reliance on the contract executor was a major drawback.&lt;/p>
 &lt;p>It has been generally overlooked, up until this point, that disadvantages of the Bismuth system can be removed while advantages over Ethereum can remain in place by separating contract execution from the signature mechanism and subjecting it to a specific set of rules, enabling DAO, DeFi and contracts to become genuinely more decentralized than those of Ethereum.&lt;/p>
@@ -1120,25 +1209,25 @@ title="Copy code"
 &lt;h3>Further scaling proposal&lt;span class="hx-absolute -hx-mt-20" id="further-scaling-proposal">&lt;/span>
 &lt;a href="#further-scaling-proposal" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Due to the nature of these contracts, all data storage can be local, unlimited and fee-less. Even contract rules can be transferred offline, saving on fees and on privacy.&lt;/p>
 &lt;p>Should users choose to save more data on the blockchain, it is possible to extend scaling by moving them to a decentralized storage system like IPFS and only reference hashes on the blockchain. Every contract executor can then call IPFS and pull the contract data from there. Further research on data availability may be required.
-&lt;img src="https://bismuthcoin.org/images/2020-08-12-002.png" alt="" loading="lazy" />&lt;/p>
+&lt;img src="/images/2020-08-12-002.png" alt="" loading="lazy" />&lt;/p>
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://bismuthcoin.org/blog/2018-07-19-semantic/" >Semantic Interpretation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bismuthcoin.org/blog/2019-09-20-shielded-tokens/" >Shielded Tokens&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Tesla Battery Monitoring</title><link>https://bismuthcoin.org/blog/2020-05-25-tesla-battery-monitoring/</link><pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-05-25-tesla-battery-monitoring/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-battery-monitoring.webp" alt="" loading="lazy" />
+&lt;li>&lt;a href="/blog/2018-07-19-semantic/" >Semantic Interpretation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/blog/2019-09-20-shielded-tokens/" >Shielded Tokens&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Tesla Battery Monitoring</title><link>/blog/2020-05-25-tesla-battery-monitoring/</link><pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate><guid>/blog/2020-05-25-tesla-battery-monitoring/</guid><description>
+&lt;p>&lt;img src="/images/2020-05-25-battery-monitoring.webp" alt="" loading="lazy" />
 Tesla is a market leader in electric vehicles (EVs). They have currently sold and delivered more than 1 million EVs worldwide while production is ramping up fast with new factories in Europe and China.&lt;/p>
 &lt;h2>Tesla Battery Monitoring on Blockchain&lt;span class="hx-absolute -hx-mt-20" id="tesla-battery-monitoring-on-blockchain">&lt;/span>
 &lt;a href="#tesla-battery-monitoring-on-blockchain" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Although EVs in general require little maintenance, one expensive component in the car needs to be treated with care: the battery. This video explains what can happen if it is not. With Tesla EVs, there is an 8-year warranty on the battery. After this period of time, there is no longer a warranty, but a car is normally expected to last much longer than this. Although battery costs are declining over time, a replacement battery would typically cost $10,000 or more nowadays.&lt;/p>
 &lt;p>So, what can an owner do to maximize the lifetime of his or her EV battery? The CEO of Tesla – Elon Musk – has previously recommended to keep the battery level between 80% and 30%, see this tweet and the reply.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-tweet.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2020-05-25-tweet.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>The table below illustrates that the lifetime of Li-Ion batteries is limited to a number of charging cycles. As seen from the table, smaller charging cycles consume proportionally less lifetime compared with full charges. The typical lifetime of a Li-Ion battery with 0-100% charge cycles is typically 450 cycles. With 10% charge cycles, on the other hand, the lifetime would typically be 10,000 cycles or more. So, a battery with 10% charging cycles will typically achieve a double lifetime compared to one which has done 0-100% cycles, for the same kWh energy consumption. It is clear from this observation that the charging behavior of the owner will significantly influence the condition of the battery, and hence the potential resale value of the vehicle.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Li-cycle-life.png" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/2020-05-25-Li-cycle-life.png" alt="" loading="lazy" />
 Table from the paper: Yu Miao et.al., “Current Li-Ion Battery Technologies in Electric Vehicles and Opportunities for Advancements”, &lt;a href="https://doi.org/10.3390/en12061074" target="_blank" rel="noopener">https://doi.org/10.3390/en12061074&lt;/a>&lt;/p>
 &lt;p>When selling an EV on the second hand market, the remaining lifetime of the battery should be one of the most important questions. However, this question could be quite difficult to answer. If the battery condition is unknown, this could affect the resale value by giving the owner a lower price regardless of the actual condition. If, on the other hand the owner can prove, somehow, that the battery was treated with care and the expected amount of remaining lifetime is significant, the resale value of the vehicle should naturally be higher.&lt;/p>
 &lt;p>On the Tesla screen inside the vehicle and also on Tesla’s phone app, it is possible to view and inspect some battery parameters. However, these parameters are lost over time. There is a plot in the car which shows the efficiency (Wh/mi or Wh/km), but this plot is limited to the last few miles or kilometers. After a certain distance those values are lost for the owner.&lt;/p>
 &lt;p>Tesla has an (unofficial) API which allows 3rd party services to log data from owner’s cars. However, by using these services you have to either expose your Tesla login credentials or give an API token to these services. Many owners do not feel comfortable doing this, because it means the 3rd party service could potentially take control over your car, not just read data. Also, there is no guarantee that a 3rd party web service will continue to exist over the lifetime of your car. The average lifetime of an app or a web service is usually considerably shorter than a vehicle. If the operator of the service decides to discontinue – for whatever reason – your vehicle data may be lost. Even if you have a backup of the data, this may not be very useful if the user interface to display and analyze the data is no longer available. Another factor is the cost: most of the 3rd party services require you to pay a monthly fee to use their service to display and analyze your own historic data.&lt;/p>
-&lt;p>This is where blockchain technology enters the picture. The article &lt;a href="https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/" >“Decentralized Condition Monitoring”&lt;/a> explains how a public blockchain can be a good solution when the following conditions are met:&lt;/p>
+&lt;p>This is where blockchain technology enters the picture. The article &lt;a href="/blog/2020-04-30-condition-monitoring/" >“Decentralized Condition Monitoring”&lt;/a> explains how a public blockchain can be a good solution when the following conditions are met:&lt;/p>
 &lt;ul>
 &lt;li>More than one participant needs to be able to submit and update data.&lt;/li>
 &lt;li>The participants do not need to know and trust each other.&lt;/li>
@@ -1157,40 +1246,40 @@ Table from the paper: Yu Miao et.al., “Current Li-Ion Battery Technologies in 
 &lt;li>To view and analyze the data is free for everyone. A public website has been set up for this purpose, to allow anyone to view and analyze the data without owning a Tesla vehicle or the need to run the TornadoWallet on their local computer.&lt;/li>
 &lt;/ul>
 &lt;p>The public website has been developed to also work well with the Tesla in-car browser (Chromium). The screenshots below are taken from an actual vehicle, for both Night and Day mode.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-01.png" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/2020-05-25-Tesla-Bismuth-Crystal-01.png" alt="" loading="lazy" />
 viewed in a Tesla vehicle (Night Mode).
-&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-02.png" alt="" loading="lazy" />
+&lt;img src="/images/2020-05-25-Tesla-Bismuth-Crystal-02.png" alt="" loading="lazy" />
 viewed in a Tesla vehicle (Day Mode).&lt;/p>
 &lt;p>If you have an Android phone it is also possible to run the Tesla plug-in locally by using Termux, &lt;a href="https://steinbuch.wordpress.com/2015/01/24/tesla-model-s-battery-degradation-data" target="_blank" rel="noopener">see link&lt;/a>. In this way, it is possible to submit vehicle data while on the road, for example just before and after charging your vehicle at a public supercharger station.&lt;/p>
 &lt;p>The screenshot below shows the data viewing and analysis section of the app. In this example, the vehicle IDs available for viewing have been encrypted with a password. Hence the actual VIN numbers of these cars are not available. The address on the right shows which Bismuth account has submitted the data.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-03.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2020-05-25-Tesla-Bismuth-Crystal-03.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>In the menu above, a vehicle asset ID is selected as well as the start and end dates. After that, a number of parameters are available for viewing and analysis. One example plot is the “Estimated Max Range vs. Odometer” and the associated curve fit, see plot below.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-04.png" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/2020-05-25-Tesla-Bismuth-Crystal-04.png" alt="" loading="lazy" />
 Estimated Range vs. Odometer and Curve Fit.&lt;/p>
 &lt;p>The green dots in this plot represent individual data points submitted by the owner to the blockchain. The parameter “Estimated Max Range” is based on data from the Tesla API, by dividing the estimated remaining range with the battery level. The curve fit is based on the data points matching the “Range Filter”. In this example only the 1% largest values are used to estimate the red curve. As can be seen from this plot, the estimated max range is falling, from about 485km to 480km. However, this plot does not necessarily represent the true battery condition, since a number of parameters may influence the estimate, such as ambient temperature, driving style, road conditions, etc. The way to get a more accurate measure of maximum range is to do a full charge (0-100%) and then check the EPA rated range (in North America) or Typical range (in Europe and Asia/Pacific), see link. However, you don’t want to do this exercise too often, as a 0-100% deep charging cycle is exactly what reduces the remaining lifetime of the battery the most.&lt;/p>
 &lt;p>If the owner submits data to the blockchain regularly, just before and after every charging event, it is instead possible to estimate the battery life without having to do deep charges. If all the charging events are recorded, Bismuth’s Tesla app allows for counting the cycles, using a method called rainflow counting, as illustrated in the screenshots below. The rainflow method is normally used in counting fatigue cycles in mechanical engineering, but it can also be used for counting battery cycles.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-05.png" alt="" loading="lazy" />
-&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-06.png" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/2020-05-25-Tesla-Bismuth-Crystal-05.png" alt="" loading="lazy" />
+&lt;img src="/images/2020-05-25-Tesla-Bismuth-Crystal-06.png" alt="" loading="lazy" />
 Counted battery cycles and “Full Cycle Equivalent” during a selected time period.&lt;/p>
 &lt;p>The plot above shows that the owner has made several charging cycles at various levels from 10% up to 100%. By using the Li-Ion cycle life table from Miao et.al, these charging events are converted and summed up to a “Full Cycle Equivalent” of 6.03 during the time period selected (May 2020). Since the battery is expected to have a life time of about 450 full cycles, it can be estimated that 1.3% of the battery life was used up during this particular month. If this owner charges the equivalent of 6 full cycles every month, this battery can be expected to last about 77 months, or 6.5 years – significantly less than the normal expected lifetime of a car. Hence, by using the developed app, an owner can monitor the battery lifetime consumption of the vehicle on a daily, weekly or monthly basis, without performing harmful 0-100% deep charges.&lt;/p>
 &lt;p>Currently, there is talk about new batteries which will be capable of “a million miles” and a much higher number of charging cycles. In the paper by Harlow et.al, “&lt;a href="https://iopscience.iop.org/article/10.1149/2.0981913jes" target="_blank" rel="noopener">A Wide Range of Testing Results on an Excellent Lithium-Ion Cell Chemistry to be used as Benchmarks for New Battery Technologies&lt;/a>” (2019) batteries with NMC532 cathodes have been found capable of higher cycle life, of 5000 or more deep charges. However, it is currently being speculated that such batteries will be used in vehicles connected to the grid (V2G), which means that deep charges could potentially happen much more frequently, perhaps even on a daily basis (charge at night when power prices are low, and sell during the day when prices are high). In such scenarios it could be of even larger importance to record the charging cycles to document remaining lifetime and ensure as high a resale value of the vehicle as possible. If and when V2G becomes a reality, the Bismuth team will make available automated data to blockchain submission scripts to capture high-frequency charging events.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-07.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2020-05-25-Tesla-Bismuth-Crystal-07.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>With Bismuth’s Tesla app, PDF files can also be generated for selected dates to document, for example, total distance driven during a given period or the sum of charge energy (kWh) added. In the example above, the sum of charge energy added is found to be 131.13kWh, since there are only three actual charging events (58.49, 51.18 and 21.46 kWh) in the submitted data. Such reports could for example follow the car when sold, as an alternative to giving away the password for the asset id on the blockchain.&lt;/p>
 &lt;p>The remaining two screenshots below are only available in the local app, and not on the public website. The first screenshot shows the asset registration screen. Here, the Tesla credentials are entered (username and password) as well as a (strong) anonymizer password if the user does not want to expose the actual VIN number. When the asset id has been registered, it will be linked to the Bismuth wallet address by paying a small fee. Only data for this asset id submitted from this account will be visible on the public website and in the plotting and analytics section of the app. If the owner later wants to transfer the vehicle to another owner, it must first be unregistered on the chain which allows the new owner to register it. By using the same password as the previous owner the original data set for the vehicle can be continued by the new owner. If a different password is used, then the asset id will be different and a new data set will be started from scratch. The Tesla credentials (username and password) will always stay on the local computer, and are never exposed to any external websites or services.&lt;/p>
 &lt;p>By entering the Tesla credentials and the anonymizer password (if any), battery data is collected from the vehicle. Once the data has been collected, it can be submitted to the Bismuth blockchain by paying a small fee.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-09.png" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/2020-05-25-Tesla-Bismuth-Crystal-09.png" alt="" loading="lazy" />
 Screen for fetching battery data using the Tesla API.&lt;/p>
-&lt;p>Bismuth crypto currency is required to pay for fees and can be purchased on one of the BIS &lt;a href="https://bismuthcoin.org/exchanges" >exchanges&lt;/a>.&lt;/p>
+&lt;p>Bismuth crypto currency is required to pay for fees and can be purchased on one of the BIS &lt;a href="/exchanges" >exchanges&lt;/a>.&lt;/p>
 &lt;p>Help and support is given in our &lt;a href="https://discord.gg/4tB3pYJ" target="_blank" rel="noopener">Discord&lt;/a> There is a dedicated channel named #batterylife.&lt;br>
 For those who are not able to run from the source code, updated binaries for Windows, Mac and Linux are available at our &lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener">Github Repository&lt;/a>.&lt;/p>
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://doi.org/10.3390/en12061074" target="_blank" rel="noopener">Current Li-Ion Battery Technologies in Electric Vehicles and Opportunities for Advancements&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://iopscience.iop.org/article/10.1149/2.0981913jes" target="_blank" rel="noopener">Benchmarks for New Battery Technologies&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bismuthcoin.org/echanges" >BIS Exchanges&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/echanges" >BIS Exchanges&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://discord.gg/4tB3pYJ" target="_blank" rel="noopener">Bismuth Discord&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Decentralized Condition Monitoring</title><link>https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-04-30-condition-monitoring.jpeg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Decentralized Condition Monitoring</title><link>/blog/2020-04-30-condition-monitoring/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>/blog/2020-04-30-condition-monitoring/</guid><description>
+&lt;p>&lt;img src="/images/2020-04-30-condition-monitoring.jpeg" alt="" loading="lazy" />
 Condition monitoring (CM) is the basis for condition based maintenance (CBM). CBM is an alternative to calendar based maintenance, where an asset is serviced in regular time intervals.&lt;/p>
 &lt;p>Calendar based maintenance is easy to plan and schedule but it has some weaknesses:&lt;/p>
 &lt;ol>
@@ -1205,7 +1294,7 @@ Condition monitoring (CM) is the basis for condition based maintenance (CBM). CB
 &lt;p>CM and CBM work well in a single organisation where traditional database tools (or data historians) are used to store and secure the data. This single organisation then owns the data and can control who has access. However, when more than one organisation or individual are involved, CM and CBM initiatives often fail because of the following issue: who owns the data and controls the server storing the data? Data and data analysis can have large potential value, and organisations and individuals are often reluctant to give this value away for free or lose control.&lt;/p>
 &lt;p>However, data sharing among many participants can have large overall benefits for the group or society as a whole. A single asset does not normally operate in isolation, but forms part of a larger machinery or a plant. A condition which may be optimal for a single asset, may not be optimal for the overall machinery. By sharing data between participants, the performance of the overall machinery or industrial plant can be analyzed and optimized. Another example is the case where there are hundreds, thousands or millions of identical assets operating in the consumer industries. By sharing data, under-performing assets can be identified and corrective actions can be taken- benefiting society as a whole.&lt;/p>
 &lt;p>In the article &lt;a href="https://ieeexplore.ieee.org/document/8048838" target="_blank" rel="noopener">“Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem”&lt;/a>, IEEE Spectrum, 2017, Morgan E. Peck presented the chart below.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-04-30-condition-monitoring-002.jpeg" alt="" loading="lazy" />
+&lt;p>&lt;img src="/images/2020-04-30-condition-monitoring-002.jpeg" alt="" loading="lazy" />
 Image from: Morgan E. Peck, “Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem“, IEEE Spectrum, 2017.&lt;/p>
 &lt;p>This chart illustrates that a public blockchain may be a good solution for problems where:&lt;/p>
 &lt;ul>
@@ -1214,7 +1303,7 @@ Image from: Morgan E. Peck, “Blockchain world – Do you need a blockchain? Th
 &lt;li>The data does not need to be private.&lt;/li>
 &lt;li>The database needs to be resistant to attacks or censorship.&lt;/li>
 &lt;/ul>
-&lt;p>In this article it will be explained how the Bismuth public blockchain can be used to implement a system for distributed condition monitoring. For more information about Bismuth, see the &lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" >whitepaper&lt;/a>.&lt;/p>
+&lt;p>In this article it will be explained how the Bismuth public blockchain can be used to implement a system for distributed condition monitoring. For more information about Bismuth, see the &lt;a href="/pdf/whitepaper.pdf" >whitepaper&lt;/a>.&lt;/p>
 &lt;p>Bismuth is ideally suited to this type of applications, because it contains two fields in the transaction structure which are named “operation” and “datafield”. These two fields allow for building new meta protocols on top of the core blockchain software. In this article it will be demonstrated how a new meta protocol can be used in the development of a solution for decentralized condition monitoring.&lt;/p>
 &lt;p>One general problem with a decentralized public blockchain is spam. Any participant can submit any data to the chain and this can not be avoided. Instead of trying to prevent spam from occurring completely, a supplementary approach would be to filter out fake data. There are several ways spam protection and filtering can be achieved, for example:&lt;/p>
 &lt;ul>
@@ -1270,10 +1359,10 @@ If the owner later wants to sell the asset to someone else, he or she can provid
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="hhttps://ieeexplore.ieee.org/document/8048838" >Blockchain World - Do you need a blockchain?&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" >Bismuth Whitepaper&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/pdf/whitepaper.pdf" >Bismuth Whitepaper&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py" target="_blank" rel="noopener">Github - Bismuth SimpleAsset&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>HelloWorld Crystal for Bismuth’s Tornado Wallet</title><link>https://bismuthcoin.org/blog/2020-04-13-hello-world/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-04-13-hello-world/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-04-13-hello-world.jpeg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>HelloWorld Crystal for Bismuth’s Tornado Wallet</title><link>/blog/2020-04-13-hello-world/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>/blog/2020-04-13-hello-world/</guid><description>
+&lt;p>&lt;img src="/images/2020-04-13-hello-world.jpeg" alt="" loading="lazy" />
 Bismuth is a chemical element and a metal with number 83 in the periodic table.&lt;/p>
 &lt;p>Bismuth has an unusual property for a metal in which it expands as it changes from a liquid to a solid and crystals are formed. Bismuth is also the name given to the first blockchain implementation written in Python. The Bismuth blockchain project with it’s associated features and tools aim to be a “construction set for blockchain technology” or “the Lego of blockchains”. Inspired by the metal the Bismuth blockchain ecosystem will also “expand as it solidifies”, with many new developers and future use-cases.&lt;/p>
 &lt;p>Tornado is a Python-based web framework and asynchronous networking library. It is an ideal framework for a Bismuth wallet and distributed app (Dapp) development environment. Motivated by the metal and in the spirit of being a construction set, the Tornado wallet also has a plugin feature which has been given the name “Crystal”. In this blog article the crystal framework in Bismuth’s Tornado wallet is introduced with a “Hello World” example. The article is written with the goal to help new Dapp developers getting started with the Bismuth ecosystem. Specifically, the Hello World crystal demonstrates the following features:&lt;/p>
@@ -1514,8 +1603,8 @@ title="Copy code"
 &lt;p>This blog article has described the file structure and contents of the Hello World crystal in Bismuth’s Tornado wallet. The purpose of this article has been to explain some common functions and features which are believed that most future Dapp developers will need (display of blockchain and 3rd party data, interaction between Python, javascript and html and display of messages).&lt;/p>
 &lt;p>The GitHub link for the Tornado Wallet and all of it’s crystals supported by the Bismuth Foundation is: &lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener">https://github.com/bismuthfoundation/TornadoWallet&lt;/a>&lt;/p>
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
-&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener">Tornado Wallet&lt;/a>&lt;/p></description></item><item><title>BisBabble Interview - ShadowCrypto</title><link>https://bismuthcoin.org/blog/2020-02-07-interview/</link><pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-02-07-interview/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-01-18-interview.jpg" alt="" loading="lazy" />
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener">Tornado Wallet&lt;/a>&lt;/p></description></item><item><title>BisBabble Interview - ShadowCrypto</title><link>/blog/2020-02-07-interview/</link><pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate><guid>/blog/2020-02-07-interview/</guid><description>
+&lt;p>&lt;img src="/images/2020-01-18-interview.jpg" alt="" loading="lazy" />
 Welcome to another edition of &lt;strong>BisBabble&lt;/strong>! In this episode, we chat with &lt;strong>ShadowCrypto&lt;/strong>, a dedicated &lt;strong>Bismuth supporter&lt;/strong> and key contributor to the &lt;strong>Pawer bot&lt;/strong>.&lt;/p>
 &lt;h3>The Interview&lt;span class="hx-absolute -hx-mt-20" id="the-interview">&lt;/span>
 &lt;a href="#the-interview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>Q: Hello Shadow! We heard about you in a previous BisBabble episode. You are a vibrant supporter of Bismuth and a much-appreciated code contributor to the Pawer bot. Can you tell us a little about yourself?&lt;span class="hx-absolute -hx-mt-20" id="q-hello-shadow-we-heard-about-you-in-a-previous-bisbabble-episode-you-are-a-vibrant-supporter-of-bismuth-and-a-much-appreciated-code-contributor-to-the-pawer-bot-can-you-tell-us-a-little-about-yourself">&lt;/span>
@@ -1630,8 +1719,8 @@ keeping things &lt;strong>minimal&lt;/strong>, finding &lt;strong>patterns&lt;/s
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://discord.gg/DsEuMQ3" target="_blank" rel="noopener">Discord&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://twitter.com/_shadow_crypto" target="_blank" rel="noopener">Twitter @_shadow_crypto&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>BisBabble Interview - Endogen</title><link>https://bismuthcoin.org/blog/2020-01-18-interview/</link><pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-01-18-interview/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-01-18-interview.jpg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>BisBabble Interview - Endogen</title><link>/blog/2020-01-18-interview/</link><pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate><guid>/blog/2020-01-18-interview/</guid><description>
+&lt;p>&lt;img src="/images/2020-01-18-interview.jpg" alt="" loading="lazy" />
 In this second issue of the &lt;strong>“BisBabble”&lt;/strong> series we welcome &lt;strong>Endogen&lt;/strong>, a long-time Bismuth supporter and developer of the &lt;strong>Bismuth Telegram Bot, Bauer&lt;/strong>.&lt;/p>
 &lt;h2>📝 The Interview&lt;span class="hx-absolute -hx-mt-20" id="-the-interview">&lt;/span>
 &lt;a href="#-the-interview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>&lt;strong>Q: Can you tell us a little about yourself?&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="q-can-you-tell-us-a-little-about-yourself">&lt;/span>
@@ -1739,8 +1828,8 @@ After &lt;strong>falling in love with Python&lt;/strong>, I &lt;strong>never nee
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://github.com/Endogen/Telegram-Bauer-Bot" target="_blank" rel="noopener">Github - Bismuth Telegram Bauer Bot&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>BisBabble Interview - Aravind</title><link>https://bismuthcoin.org/blog/2019-12-18-interview/</link><pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-12-18-interview/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-01-18-interview.jpg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>BisBabble Interview - Aravind</title><link>/blog/2019-12-18-interview/</link><pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate><guid>/blog/2019-12-18-interview/</guid><description>
+&lt;p>&lt;img src="/images/2020-01-18/interview.jpg" alt="" loading="lazy" />
 Welcome to the &lt;strong>BisBabble&lt;/strong> series! In this issue, we chat with &lt;strong>Aravind&lt;/strong>, a recent contributor to the Bismuth project.&lt;br>
 He shares insights into his background, interests, and development work.&lt;/p>
 &lt;h2>📝 The Interview&lt;span class="hx-absolute -hx-mt-20" id="-the-interview">&lt;/span>
@@ -1847,10 +1936,10 @@ Creativity isn’t just about &lt;strong>UI or aesthetics&lt;/strong>—it’s a
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://bismuthfoundation.github.io/Bismuth-Voting/client-side/dist/index.html" target="_blank" rel="noopener">Bismuth Governance-Voting App&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-Voting" target="_blank" rel="noopener">Github - Governance-Voting&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Bismuth Hard Fork</title><link>https://bismuthcoin.org/blog/2019-11-19-hardfork/</link><pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-11-19-hardfork/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-11-19-hardfork.webp" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Bismuth Hard Fork</title><link>/blog/2019-11-19-hardfork/</link><pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate><guid>/blog/2019-11-19-hardfork/</guid><description>
+&lt;p>&lt;img src="/images/2019-11-19-hardfork.webp" alt="" loading="lazy" />
 During November 2019 the Bismuth community went with the first governance vote, about supply emission. The issue was overwhelming votes for a fork to support a supply reduction.&lt;/p>
-&lt;p>If you missed it, you can find the &lt;a href="https://bismuthcoin.org/blog/2019-11-06-governance-vote/" >link here&lt;/a>. Since then, the team worked hard to implement the change and release a stable version, now out.
+&lt;p>If you missed it, you can find the &lt;a href="/blog/2019-11-06-governance-vote/" >link here&lt;/a>. Since then, the team worked hard to implement the change and release a stable version, now out.
 Questions and answers regarding this fork have been divided into three categories- Regular users, Hypernode owners, and miners.&lt;/p>
 &lt;h2>Bismuth Hard Fork at block 1,450,000 – Nov 26.&lt;span class="hx-absolute -hx-mt-20" id="bismuth-hard-fork-at-block-1450000--nov-26">&lt;/span>
 &lt;a href="#bismuth-hard-fork-at-block-1450000--nov-26" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>Hard Fork FAQ&lt;span class="hx-absolute -hx-mt-20" id="hard-fork-faq">&lt;/span>
@@ -1869,7 +1958,7 @@ Questions and answers regarding this fork have been divided into three categorie
 &lt;p>&lt;strong>A:&lt;/strong> The “old” (Legacy) wallet remains compatible and usable. You don’t have to worry about the wallet. Yours will continue to work. As a user, the only critical responsibility is to securely back up your wallet.der/json file, containing your private key(s).&lt;/p>
 &lt;hr>
 &lt;p>&lt;strong>Q:&lt;/strong> Can you summarize the current daily emission and what it will be after the hard fork?&lt;/p>
-&lt;p>&lt;strong>A:&lt;/strong> See the emission curve and blog post &lt;a href="https://bismuthcoin.org/blog/2019-11-06-governance-vote/" >here&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong> See the emission curve and blog post &lt;a href="/blog/2019-11-06-governance-vote/" >here&lt;/a>.&lt;/p>
 &lt;hr>
 &lt;p>&lt;strong>Q:&lt;/strong> What will be the new total BIS supply?&lt;/p>
 &lt;p>&lt;strong>A:&lt;/strong> By 2032, at block height 8,000,000, the total BIS supply will reach 49.3 million BIS, compared to 63.5 million BIS under the previous emissions curve. Thus, the supply will decrease by more than 14 million BIS over the next 13 years. After 2032, the supply will slowly increase (less than 2% annually) to account for lost wallets and maintain incentives for miners and Hypernode operators.&lt;/p>
@@ -1917,8 +2006,8 @@ title="Copy code"
 &lt;li>&lt;a href="https://github.com/pgularski/pysm" target="_blank" rel="noopener">Github - Prysm&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Finite-state_machine" target="_blank" rel="noopener">Wikipedia - Finite State Machine&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/pytransitions/transitions-gui" target="_blank" rel="noopener">Github - Transitions GUI&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Outcome of Bismuth’s First Governance Vote</title><link>https://bismuthcoin.org/blog/2019-11-06-governance-vote/</link><pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-11-06-governance-vote/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-11-06-governance-vote.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;/ul></description></item><item><title>Outcome of Bismuth’s First Governance Vote</title><link>/blog/2019-11-06-governance-vote/</link><pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate><guid>/blog/2019-11-06-governance-vote/</guid><description>
+&lt;p>&lt;img src="/images/2019-11-06-governance-vote.jpg" alt="" loading="lazy" />&lt;/p>
 &lt;p>Decisions are the most crucial part of advancing a project. Without them, ideas lie in-acted upon, development stalls, and instead of progress there is stagnation.&lt;/p>
 &lt;p>The Bismuth Foundation is well aware of the dangerous path of inaction, and has always committed a full effort towards advancing the platform at a steadfast pace. One such large advancements have come into fruition recently, with the conclusion of Bismuth’s first Governance Vote- BGV-01.&lt;/p>
 &lt;p>BGV-01 was a motion that combined a new and revolutionary governance protocol with branching decisions that would impact Bismuth on a grand scale – retain the current emission schedule (option A), or significantly reduce it (option B). Throughout October 1st and November 1st of 2019, Bismuth stakeholders could vote on either choice.&lt;/p>
@@ -1990,14 +2079,14 @@ title="Copy code"
 &lt;li>For dApps: no changes to fees or block times.&lt;/li>
 &lt;/ul>
 &lt;p>The new graph showing the miner, hypernode and dev rewards are shown below. In addition to the reduced emission, lower limits of 0.5 BIS have been put in place for both the miner and hypernode rewards. Since the dev reward is 10% of the miner reward, the lower limit on those will be 0.05 BIS per block. The lower limit will be reached at approximately block height 7,100,000.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-11-06-first-governance-vote.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2019-11-06-first-governance-vote.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Bismuth’s first governance vote was a great success, and the community has spoken to alter Bismuth’s emission schedule for the better. Not only has a major change been decided upon, but it has proven that the BGV protocol is a far more viable and effective voting mechanism compared to what other platforms have created.&lt;/p>
 &lt;p>All exchanges, pools and hypernode operators need to update their nodes by block height 1,450,000 which is expected to take place on November 27, 2019. The new release will be available at the &lt;a href="https://github.com/bismuthfoundation/Bismuth/releases" target="_blank" rel="noopener">Bismuth Github repository&lt;/a>.&lt;/p>
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth/releases" target="_blank" rel="noopener">Bismuth Github repository&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Voting page Helper - Dev and Bounty</title><link>https://bismuthcoin.org/blog/2019-10-18-voting/</link><pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-10-18-voting/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-10-18-voting.jpg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Voting page Helper - Dev and Bounty</title><link>/blog/2019-10-18-voting/</link><pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate><guid>/blog/2019-10-18-voting/</guid><description>
+&lt;p>&lt;img src="/images/2019-10-18-voting.jpg" alt="" loading="lazy" />
 Bismuth community is currently voting whether or not change the supply emission (see BGVP-1).
 In order to allow easy and un-restricted access to the vote, the team went for a full client side helper to generate voting transactions.
 This ensures full privacy and allows to vote from any wallet. External help was welcome to get it successfully running and a Bounty will be awarded.&lt;/p>
@@ -2026,8 +2115,8 @@ State you problem, ask for help, and you can get invaluable help from users.&lt;
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://x.com/aravindballa" target="_blank" rel="noopener">@aravindballa&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Introduction to Bismuth Shielded Tokens</title><link>https://bismuthcoin.org/blog/2019-09-20-shielded-tokens/</link><pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-09-20-shielded-tokens/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-09-20-shielded-tokens.webp" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Introduction to Bismuth Shielded Tokens</title><link>/blog/2019-09-20-shielded-tokens/</link><pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate><guid>/blog/2019-09-20-shielded-tokens/</guid><description>
+&lt;p>&lt;img src="/images/2019-09-20-shielded-tokens.webp" alt="" loading="lazy" />
 New features in cryptocurrency privacy.&lt;/p>
 &lt;h2>What are shielded tokens?&lt;span class="hx-absolute -hx-mt-20" id="what-are-shielded-tokens">&lt;/span>
 &lt;a href="#what-are-shielded-tokens" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Shielded tokens are a set of secondary layer operations on the Bismuth blockchain that focus on privacy and are the pilot in the Epitax privacy research program of Bismuth. They are not like any other existing privacy cryptocurrency.&lt;/p>
@@ -2052,8 +2141,8 @@ New features in cryptocurrency privacy.&lt;/p>
 &lt;a href="#disadvantages" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Compromised password leads to revelation of recipients, senders, amounts, name
 Password bribery attack vector&lt;/p>
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
-&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://www.youtube.com/watch?v=SHNQHmZZKdo" target="_blank" rel="noopener">Shielded Tokens Video&lt;/a>&lt;/p></description></item><item><title>BGV-01 - Bismuth Governance Vote 1</title><link>https://bismuthcoin.org/blog/2019-09-10-bgv-01/</link><pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-09-10-bgv-01/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-10-18-voting.jpg" alt="" loading="lazy" />
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://www.youtube.com/watch?v=SHNQHmZZKdo" target="_blank" rel="noopener">Shielded Tokens Video&lt;/a>&lt;/p></description></item><item><title>BGV-01 - Bismuth Governance Vote 1</title><link>/blog/2019-09-10-bgv-01/</link><pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate><guid>/blog/2019-09-10-bgv-01/</guid><description>
+&lt;p>&lt;img src="/images/2019-10-18-voting.jpg" alt="" loading="lazy" />
 Preamble - This blog article explains the &lt;strong>BGV-01&lt;/strong> motion and the options you can vote for.&lt;/p>
 &lt;h3>Abstract&lt;span class="hx-absolute -hx-mt-20" id="abstract">&lt;/span>
 &lt;a href="#abstract" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
@@ -2188,9 +2277,9 @@ With Option B the annual inflation per year starting from block height 1,450,000
 &lt;h3>Graph: (A) vs (B)&lt;span class="hx-absolute -hx-mt-20" id="graph-a-vs-b">&lt;/span>
 &lt;a href="#graph-a-vs-b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The current emission curves (Option A) and the proposed modified curves (Option B) and the associated dilution rates are compared in the figure below:
 Current emission (A) is in Bold, emission for (B) is thinner.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-09-10-bgv_01_vote_alternatives.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2019-09-10-bgv_01_vote_alternatives.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>Use of the winning funds&lt;span class="hx-absolute -hx-mt-20" id="use-of-the-winning-funds">&lt;/span>
-&lt;a href="#use-of-the-winning-funds" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>As described in the Bismuth &lt;a href="https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/" >voting protocol&lt;/a>, the BIS of the losing side are sent back to their originating wallets, while funds of the winning side are kept in a fund to finance the option.
+&lt;a href="#use-of-the-winning-funds" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>As described in the Bismuth &lt;a href="/blog/2019-08-30-governance-shift-part_2/" >voting protocol&lt;/a>, the BIS of the losing side are sent back to their originating wallets, while funds of the winning side are kept in a fund to finance the option.
 For this motion the winning funds – whatever the issue will be – are to be used as exchange listing and dapps bounties funds.&lt;/p>
 &lt;h2>Arguments&lt;span class="hx-absolute -hx-mt-20" id="arguments">&lt;/span>
 &lt;a href="#arguments" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>Arguments for option A:&lt;span class="hx-absolute -hx-mt-20" id="arguments-for-option-a">&lt;/span>
@@ -2219,9 +2308,9 @@ By reducing the miners rewards (Option B) there is a high probability that the o
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://discord.gg/G5gUbkn" target="_blank" rel="noopener">Bismuth Discord&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/" >Voting Protocol&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Bismuth Governance Shift - Part 2</title><link>https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/</link><pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-08-30-governance-shift-part_2.png" alt="" loading="lazy" />&lt;/p>
+&lt;li>&lt;a href="/blog/2019-08-30-governance-shift-part_2/" >Voting Protocol&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Bismuth Governance Shift - Part 2</title><link>/blog/2019-08-30-governance-shift-part_2/</link><pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate><guid>/blog/2019-08-30-governance-shift-part_2/</guid><description>
+&lt;p>&lt;img src="/images/2019-08-30-governance-shift-part_2.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>Preamble&lt;span class="hx-absolute -hx-mt-20" id="preamble">&lt;/span>
 &lt;a href="#preamble" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>In the previous post, the governance shift that is to take place with Bismuth was introduced, and the ETH voting protocol was examined. It was shown that this protocol does come with several issues that could be important flaws in the Bismuth context.&lt;/p>
 &lt;h3>Issues with the ETH voting protocol&lt;span class="hx-absolute -hx-mt-20" id="issues-with-the-eth-voting-protocol">&lt;/span>
@@ -2298,8 +2387,8 @@ The vote issue is an Oracle whose value is only known once the decision is immut
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener">Markdown Syntax&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://gohugo.io/content-management/formats/#markdown" target="_blank" rel="noopener">Hugo Markdown&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Bismuth Governance Shift - Part 1</title><link>https://bismuthcoin.org/blog/2019-08-29-governance-shift-part_1/</link><pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-08-29-governance-shift-part_1/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-08-29-governance-shift-part_1.png" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Bismuth Governance Shift - Part 1</title><link>/blog/2019-08-29-governance-shift-part_1/</link><pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate><guid>/blog/2019-08-29-governance-shift-part_1/</guid><description>
+&lt;p>&lt;img src="/images/2019-08-29-governance-shift-part_1.png" alt="" loading="lazy" />
 During the first two and a half years of the Bismuth blockchain project, important governance actions have been decided by the group of foundation members. Now the core team finds it is time to involve the community deeper into governance questions, and make more use of community feedback.&lt;/p>
 &lt;p>The Bismuth project has had a very active Discord community since the beginning, and it is seen as a very valuable resource for the project and it makes sense to consult the community more than in the past for input on important decisions. Therefore, the foundation members have decided to introduce a shift in the governance, by letting the stakeholders involved vote on important decisions concerning the future of the project.&lt;/p>
 &lt;p>Discord alone however can’t be seen as a source of actionable feedback:&lt;/p>
@@ -2320,7 +2409,7 @@ During the first two and a half years of the Bismuth blockchain project, importa
 &lt;p>Now, the core team feels that the time has come to let users hold their responsibilities and take the decision for everyone’s best interest, via a voting process. The team would prepare options to vote upon, the users will decide, the team will take action based on the final voting results.&lt;/p>
 &lt;h3>The first vote in Bismuth History&lt;span class="hx-absolute -hx-mt-20" id="the-first-vote-in-bismuth-history">&lt;/span>
 &lt;a href="#the-first-vote-in-bismuth-history" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>If you are familiar with the discord, you cannot avoid the economists lobbying for a supply modification.&lt;/p>
-&lt;p>The latest fork (&lt;a href="https://bismuthcoin.org/blog/2019-05-17-hard-fork-v4.3.0.0/" >see here&lt;/a>) was tailored to account for increased services to be provided by the Hypernodes, while not raising the dilution. It already went in the direction of reducing miner rewards. Currently the most vocal suggestions aim to address the dropping price concern, and are to significantly reduce the supply by cutting the emission: that is both block rewards and HN rewards.&lt;/p>
+&lt;p>The latest fork (&lt;a href="/blog/2019-05-17-hard-fork-v4.3.0.0/" >see here&lt;/a>) was tailored to account for increased services to be provided by the Hypernodes, while not raising the dilution. It already went in the direction of reducing miner rewards. Currently the most vocal suggestions aim to address the dropping price concern, and are to significantly reduce the supply by cutting the emission: that is both block rewards and HN rewards.&lt;/p>
 &lt;p>The team ran simulations, examined the available data but still it is not clear what the global implications can be, nor how action or inaction would be welcome by the users and the markets. The problem really is complex with implications at the ethical, economical level, involving the equilibrium of the whole system. The more you dig, the more it appears complex.&lt;/p>
 &lt;p>It looks like it is the perfect case where a community vote is needed and will make sense.&lt;/p>
 &lt;p>A voting process can be an equally daunting task, because blockchain based voting is tricky and dangerous. The difficulty is two fold:&lt;/p>
@@ -2367,8 +2456,8 @@ The first issue stakeholders will be able to vote upon is the need or not to cha
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener">Markdown Syntax&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://gohugo.io/content-management/formats/#markdown" target="_blank" rel="noopener">Hugo Markdown&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Coin Supply</title><link>https://bismuthcoin.org/blog/2019-07-03-supply/</link><pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-07-03-supply/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-07-03-supply-001.jpeg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Coin Supply</title><link>/blog/2019-07-03-supply/</link><pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate><guid>/blog/2019-07-03-supply/</guid><description>
+&lt;p>&lt;img src="/images/2019-07-03-supply-001.jpeg" alt="" loading="lazy" />
 When designing the coin supply and rewards model for a cryptocurrency, there are many factors to take into consideration.&lt;/p>
 &lt;h3>Bismuth Coin Supply and Rewards Model&lt;span class="hx-absolute -hx-mt-20" id="bismuth-coin-supply-and-rewards-model">&lt;/span>
 &lt;a href="#bismuth-coin-supply-and-rewards-model" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Some of the factors are:&lt;/strong>&lt;/p>
@@ -2388,11 +2477,11 @@ When designing the coin supply and rewards model for a cryptocurrency, there are
 &lt;/ol>
 &lt;p>The figure below shows the initial rewards model in blue color.
 The formula for the miners rewards was: &lt;code>15-x/1e6&lt;/code> where x is the block height. This means the mining reward was decreasing linearly with time, unlike the btc abrupt halvings.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-07-03-supply-002.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2019-07-03-supply-002.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>At block height 800,000 Bismuth’s Hypernodes were launched, and at the same time the rewards model was modified. The miners rewards formula was modified to make it decrease faster. As seen from the figure below (red curve) the miners rewards decrease twice as fast as previously while the 0.8 taken from the miners were allocated to Hypernode rewards instead (green curve below).&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-07-03-supply-003.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2019-07-03-supply-003.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>At block height 1,200,000 Bismuth’s reward formulas were modified again, to reward hypernodes relatively more compared to miners, see the figure below. The amount of 1.6 BIS per block were subtracted from the miners reward and added to the hypernodes rewards. The overall inflation was reduced only marginally because of this change.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-07-03-supply-004.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2019-07-03-supply-004.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>Python code to calculate Bismuth’s coin supply is available at the following link:
 &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/tree/master/CoinSupply" target="_blank" rel="noopener">https://github.com/bismuthfoundation/Bismuth-FAQ/tree/master/CoinSupply&lt;/a>&lt;/p>
 &lt;p>The Bismuth blockchain started May 1, 2017 and the inflation rates during the following 10 years are shown in the table below:&lt;/p>
@@ -2457,8 +2546,8 @@ The formula for the miners rewards was: &lt;code>15-x/1e6&lt;/code> where x is t
 &lt;p>At the time of writing approximately 4.5m BIS or almost 25% of the entire coin supply is locked in collateral by the hypernodes.&lt;/p>
 &lt;h3>Bitcoin Rewards, Coin Supply and Inflation&lt;span class="hx-absolute -hx-mt-20" id="bitcoin-rewards-coin-supply-and-inflation">&lt;/span>
 &lt;a href="#bitcoin-rewards-coin-supply-and-inflation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Bismuth rewards and coin supply model is compared with Bitcoin, the original cryptocurrency. Bitcoin was chosen for comparison, because this coin had no ICO and no pre-mine, just like Bismuth. The plots below show the Bitcoin block rewards which started at 50 BTC and halved every 210,000 blocks. The total coin supply in Bitcoin will eventually reach approximately 21 million BTC.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-07-03-supply-005.png" alt="" loading="lazy" />&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-07-03-supply-006.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2019-07-03-supply-005.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2019-07-03-supply-006.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>The Bitcoin blockchain started January 2009 and the inflation rates during the following 10 years are shown in the table below:&lt;/p>
 &lt;table>
 &lt;thead>
@@ -2513,8 +2602,8 @@ The formula for the miners rewards was: &lt;code>15-x/1e6&lt;/code> where x is t
 &lt;p>As seen from this table, although the numbers are different, the reduction in inflation rate from year to year is quite similar between Bitcoin and Bismuth.&lt;/p>
 &lt;h3>Zcash Rewards, Coin Supply and Inflation&lt;span class="hx-absolute -hx-mt-20" id="zcash-rewards-coin-supply-and-inflation">&lt;/span>
 &lt;a href="#zcash-rewards-coin-supply-and-inflation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Another cryptocurrency which is interesting to compare with Bismuth is Zcash, since it is largely limited to GPU mining rigs, just like Bismuth. The block rewards in Zcash started on 0.000625 ZEC and ramped up linearly to a block reward of 12.5 ZEC occuring at block height 20,000. Just like Bitcoin, Zcash has a reward halving. The blocktime in Zcash is 2,5 minutes, four times faster than Bitcoin. Hence, to achieve the same coin supply as Bitcoin with an upper limit of 21 million ZEC, the halving period measured in blocks for Zcash is every 840,000 blocks, 4 times higher than Bitcoin’s halving period. The halving period measured in days is the same for Zcash as for Bitcoin, since both the blocktime and the halving period have the factor 4 and cancel each other out. From the initial reward of 12.5 ZEC, 2.5 ZEC or 20% goes to the founders (core developers), as compared to 10% for the Bismuth project. The following two figures show the linear ramp up in Zcash block rewards and the total coin supply vs. block height.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-07-03-supply-007.png" alt="" loading="lazy" />&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-07-03-supply-008.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2019-07-03-supply-007.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2019-07-03-supply-008.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>The Zcash blockchain started on October 28, 2016 and the inflation rates during the following 10 years are shown in the table below:&lt;/p>
 &lt;table>
 &lt;thead>
@@ -2570,8 +2659,8 @@ The formula for the miners rewards was: &lt;code>15-x/1e6&lt;/code> where x is t
 &lt;h3>Ethereum Rewards, Coin Supply and Inflation&lt;span class="hx-absolute -hx-mt-20" id="ethereum-rewards-coin-supply-and-inflation">&lt;/span>
 &lt;a href="#ethereum-rewards-coin-supply-and-inflation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The cryptocurrency Ethereum has taken a different approach to block rewards. Initially, the block reward started out at 5 ETH. At block height 4,370,000 the reward dropped to 3 ETH in the Byzantium hardfork. At the upcoming Constantinople hardfork the plan is to reduce the block reward further to 2 ETH, see &lt;a href="https://web.archive.org/web/20201112015105/https://ethereumworldnews.com/ethereum-developers-cut-rewards-curb-inflation/" target="_blank" rel="noopener">EWN Article&lt;/a>. At the time of writing this reward reduction has not yet happened, but for the analysis below we will assume that this adjustment will be made at block height 7,500,000 and stay at 2 ETH indefinitely.&lt;/p>
 &lt;p>With these assumptions the Ethereum block rewards and the total coin supply vs. block height are shown in the two figures below.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-07-03-supply-009.png" alt="" loading="lazy" />&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-07-03-supply-0010.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2019-07-03-supply-009.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2019-07-03-supply-0010.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>The Ethereum blockchain started on July 30, 2015 and the inflation rates during the following 10 years are shown in the table below:&lt;/p>
 &lt;table>
 &lt;thead>
@@ -2627,8 +2716,8 @@ The formula for the miners rewards was: &lt;code>15-x/1e6&lt;/code> where x is t
 &lt;h3>Grin Rewards, Coin Supply and Inflation&lt;span class="hx-absolute -hx-mt-20" id="grin-rewards-coin-supply-and-inflation">&lt;/span>
 &lt;a href="#grin-rewards-coin-supply-and-inflation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Grin is a new cryptocurrency project launched in 2019. The currency has 1 minute block time, 60 GRIN block reward and no limit on coin supply or reward halving. There are no ICO, founders reward, pre-mine or masternodes available for this project. The block reward stays at 60 GRIN indefinitely.&lt;/p>
 &lt;p>The block rewards and the total coin supply vs. block height for GRIN are shown in the two figures below.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-07-03-supply-0011.png" alt="" loading="lazy" />&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-07-03-supply-0012.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2019-07-03-supply-0011.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2019-07-03-supply-0012.png" alt="" loading="lazy" />&lt;/p>
 &lt;p>As can be seen from the plots above, GRIN is an inflationary cryptocurrency with no upper limit on the total coin supply. The inflation rates for such a currency, especially when the coin supply starts at zero, are naturally expected to be high. The table below shows the inflation rates for the first 10 years of this project:&lt;/p>
 &lt;p>The GRIN blockchain started on January 15, 2019 and the inflation rates during the following 10 years are shown in the table below:&lt;/p>
 &lt;table>
@@ -2754,8 +2843,8 @@ The formula for the miners rewards was: &lt;code>15-x/1e6&lt;/code> where x is t
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/tree/master/CoinSupply" target="_blank" rel="noopener">Bismuth Coin Supply&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://web.archive.org/web/20201112015105/https://ethereumworldnews.com/ethereum-developers-cut-rewards-curb-inflation/" target="_blank" rel="noopener">EWN Article&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://arstechnica.com/information-technology/2014/02/dogecoin-to-allow-annual-inflation-of-5-billion-coins-each-year-forever/" target="_blank" rel="noopener">Arstechnica Article&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Bismuth Strategic Hard Fork v4.3.0.0</title><link>https://bismuthcoin.org/blog/2019-05-17-hard-fork-v4.3.0.0/</link><pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-05-17-hard-fork-v4.3.0.0/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-05-17-BIS-HARD-FORK-3.png" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Bismuth Strategic Hard Fork v4.3.0.0</title><link>/blog/2019-05-17-hard-fork-v4.3.0.0/</link><pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate><guid>/blog/2019-05-17-hard-fork-v4.3.0.0/</guid><description>
+&lt;p>&lt;img src="/images/2019-05-17-BIS-HARD-FORK-3.png" alt="" loading="lazy" />
 Over the past couple of months, Bismuth has undergone major shifts- technologically, socially, and economically. We witnessed a massive upgrade and restructuring of the core code that spanned over 200 commits, that was finalized in version 4.2.9.2 in late March of this year.&lt;/p>
 &lt;p>Fast forward to the start of May, and we made our first announcement for Hyperlanes- an infinitely scaling form of direct data exchange between nodes which enables the inter-connectivity of the future- coined “Internet Within Blockchain”. We have made strides in expanding our team to include new members that are actively assisting in areas where we were weakest. Although most of this goes under the radar, the effects of it all should be felt over the coming weeks and months.&lt;/p>
 &lt;p>Economically and socially, the overall bear market has caused much turmoil within the entirety of the cryptocurrency community. The Bismuth project wasn’t spared and unfortunately received the brunt of the market downturn as we have witnessed a precipitous drop from the peak in early 2018. Although the Bismuth foundation cannot exert control over the free market, there are factors and variables that can be adjusted by the development team when consensus within the community is reached. One of such factors is the inflation question, which has been widely debated within our social channels and internally.&lt;/p>
@@ -2772,8 +2861,8 @@ This will be used as basis for an upcoming Q&amp;amp;A post.&lt;/p>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener">Markdown Syntax&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://gohugo.io/content-management/formats/#markdown" target="_blank" rel="noopener">Hugo Markdown&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Semantic Interpretation</title><link>https://bismuthcoin.org/blog/2018-07-19-semantic/</link><pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2018-07-19-semantic/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2018-07-19-semantic-interpretation.webp" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>Semantic Interpretation</title><link>/blog/2018-07-19-semantic/</link><pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate><guid>/blog/2018-07-19-semantic/</guid><description>
+&lt;p>&lt;img src="/images/2018-07-19-semantic-interpretation.webp" alt="" loading="lazy" />
 Solution to the codebase consensus conflict in context of the &lt;strong>Bismuth Blockchain&lt;/strong>.&lt;/p>
 &lt;h3>The Problem&lt;span class="hx-absolute -hx-mt-20" id="the-problem">&lt;/span>
 &lt;a href="#the-problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>In 2017, a new type of a 51% attack became prolific. It was not of technical, but of governance (political) nature. The resilience of cryptocurrencies is supposed to lie within decentralization of the network, but the code repository is a single point of failure which became the target for this new type of attack – forking and network hijacking, a type of consensus rule attack.&lt;/p>
@@ -2814,14 +2903,14 @@ After some time, a new provider decides to copy the Interpretation Engine and is
 &lt;h2>Bibliography&lt;span class="hx-absolute -hx-mt-20" id="bibliography">&lt;/span>
 &lt;a href="#bibliography" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Goodman, L.M (2014). Tezos Whitepaper. &lt;a href="https://tezos.com/static/papers/white_paper.pdf" target="_blank" rel="noopener">https://tezos.com/static/papers/white_paper.pdf&lt;/a>
 2018 bitcoincash.org. Bitcoin Cash. &lt;a href="https://www.bitcoincash.org" target="_blank" rel="noopener">https://www.bitcoincash.org&lt;/a>&lt;/p>
-&lt;p>You can also refer to &lt;a href="https://github.com/bismuthfoundation/Hack-with-BIS/tree/master/01-Concepts/protocols" target="_blank" rel="noopener">https://github.com/bismuthfoundation/Hack-with-BIS/tree/master/01-Concepts/protocols&lt;/a> for more doc on existing Bismuth protocols.&lt;/p></description></item><item><title>Exploring the Bismuth Plugin System</title><link>https://bismuthcoin.org/blog/2018-07-16-plugin-system/</link><pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2018-07-16-plugin-system/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2018-07-16/plugin-system-001.png" alt="" loading="lazy" />
+&lt;p>You can also refer to &lt;a href="https://github.com/bismuthfoundation/Hack-with-BIS/tree/master/01-Concepts/protocols" target="_blank" rel="noopener">https://github.com/bismuthfoundation/Hack-with-BIS/tree/master/01-Concepts/protocols&lt;/a> for more doc on existing Bismuth protocols.&lt;/p></description></item><item><title>Exploring the Bismuth Plugin System</title><link>/blog/2018-07-16-plugin-system/</link><pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate><guid>/blog/2018-07-16-plugin-system/</guid><description>
+&lt;p>&lt;img src="/images/2018-07-16/plugin-system-001.png" alt="" loading="lazy" />
 When noticing that Bismuth ($BIS) has a &lt;strong>plugin system&lt;/strong>, I was somewhat surprised—because I don’t know any other blockchain-based cryptocurrency that openly promotes having a plugin system.&lt;/p>
 &lt;h3>Interview with Developers EggdraSyl &amp;amp; Iyomisc&lt;span class="hx-absolute -hx-mt-20" id="interview-with-developers-eggdrasyl--iyomisc">&lt;/span>
 &lt;a href="#interview-with-developers-eggdrasyl--iyomisc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
 &lt;p>The plugin feature immediately stood out to me. Plugins have long been powerful components in blogging and forum platforms—so seeing this concept in a blockchain context was exciting. Plugins enhance another software application. This alone sounds intriguing.&lt;/p>
 &lt;p>The following questions came to mind while exploring Bismuth’s plugin system, and the developers EggdraSyl and Iyomisc were kind enough to answer them.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2018-07-16/plugin-system-002.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="/images/2018-07-16/plugin-system-002.png" alt="" loading="lazy" />&lt;/p>
 &lt;h3>Bridging Blockchain and Plugin Architecture&lt;span class="hx-absolute -hx-mt-20" id="bridging-blockchain-and-plugin-architecture">&lt;/span>
 &lt;a href="#bridging-blockchain-and-plugin-architecture" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
 &lt;h6>Question: &lt;em>How did Bismuth achieve the connection between cutting-edge blockchain technology and traditional plugin applications?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-how-did-bismuth-achieve-the-connection-between-cutting-edge-blockchain-technology-and-traditional-plugin-applications">&lt;/span>

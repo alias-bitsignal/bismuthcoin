@@ -1,5 +1,5 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Bismuth2.0</title><link>https://bismuthcoin.org/tags/bismuth2.0/</link><description>Recent content in Bismuth2.0 on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bismuthcoin.org/tags/bismuth2.0/index.xml" rel="self" type="application/rss+xml"/><item><title>Bismuth 2.0 - Official Announcement</title><link>https://bismuthcoin.org/blog/2021-02-24-bis-2.0/</link><pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2021-02-24-bis-2.0/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2021-02-24-bis-2.0.png" alt="" loading="lazy" />
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Bismuth2.0</title><link>/tags/bismuth2.0/</link><description>Recent content in Bismuth2.0 on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/bismuth2.0/index.xml" rel="self" type="application/rss+xml"/><item><title>Bismuth 2.0 - Official Announcement</title><link>/blog/2021-02-24-bis-2.0/</link><pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate><guid>/blog/2021-02-24-bis-2.0/</guid><description>
+&lt;p>&lt;img src="/images/2021-02-24-bis-2.0.png" alt="" loading="lazy" />
 Late last year, the Bismuth Foundation unveiled “Bismuth2.0”. The reveal was brief, did not go into any detail and the team remained silent on the topic for the following months.&lt;/p>
 &lt;p>We would like to thank everyone for their patience, the time has finally come for the big reveal! Let’s get right into it.&lt;/p>
 &lt;h2>The Basics&lt;span class="hx-absolute -hx-mt-20" id="the-basics">&lt;/span>
@@ -101,5 +101,5 @@ This device will support signing of BIS transactions but also paves the way to m
 &lt;li>&lt;a href="https://xeggex.com/market/BIS_USDT" target="_blank" rel="noopener">Crypto Exchange&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.coingecko.com/en/coins/bismuth" target="_blank" rel="noopener">Coingecko&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://coinmarketcap.com/currencies/bismuth/" target="_blank" rel="noopener">Coinmarketcap&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bismuthcoin.org/blog" >Bismuth Blog&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/blog" >Bismuth Blog&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>

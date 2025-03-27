@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Mainnet</title><link>https://bismuthcoin.org/docs/mainnet/</link><description>Recent content in Mainnet on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://bismuthcoin.org/docs/mainnet/index.xml" rel="self" type="application/rss+xml"/><item><title>Exchanges</title><link>https://bismuthcoin.org/docs/mainnet/exchanges/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/mainnet/exchanges/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Mainnet</title><link>/docs/mainnet/</link><description>Recent content in Mainnet on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/mainnet/index.xml" rel="self" type="application/rss+xml"/><item><title>Exchanges</title><link>/docs/mainnet/exchanges/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/mainnet/exchanges/</guid><description>
 &lt;h2>Bismuth Exchange Implementation Guide&lt;span class="hx-absolute -hx-mt-20" id="bismuth-exchange-implementation-guide">&lt;/span>
 &lt;a href="#bismuth-exchange-implementation-guide" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Explore our comprehensive &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/How_to_Implement.md" target="_blank" rel="noopener">Bismuth Exchange Implementation Guide&lt;/a> for detailed, step-by-step instructions on integrating Bismuth into your exchange platform. This guide walks you through setting up your development environment, configuring API connections, signing transactions, and implementing robust security practices.&lt;/p>
 &lt;p>Designed to help you smoothly navigate common integration challenges, the guide includes practical examples, best practices, and troubleshooting tips.&lt;/p>
@@ -20,7 +20,7 @@
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/How_to_Implement.md" target="_blank" rel="noopener">Bismuth Implementation Guide&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Install Node</title><link>https://bismuthcoin.org/docs/mainnet/install-node/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/mainnet/install-node/</guid><description>
+&lt;/ul></description></item><item><title>Install Node</title><link>/docs/mainnet/install-node/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/mainnet/install-node/</guid><description>
 &lt;h2>How to Run a Mainnet Node&lt;span class="hx-absolute -hx-mt-20" id="how-to-run-a-mainnet-node">&lt;/span>
 &lt;a href="#how-to-run-a-mainnet-node" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This guide provides several methods to set up and run a Mainnet Node. Choose the approach that best fits your needs.&lt;/p>
 &lt;h3>Automatic Installation&lt;span class="hx-absolute -hx-mt-20" id="automatic-installation">&lt;/span>
@@ -41,7 +41,7 @@
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-Docker/tree/master/node" target="_blank" rel="noopener">Bismuth Docker Image&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Snapshot/Ledger_Mainnet.md" target="_blank" rel="noopener">Snapshot Guideline&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/util/blob/master/snapshot_create.py" target="_blank" rel="noopener">Bismuth Snapshot Script&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Mining</title><link>https://bismuthcoin.org/docs/mainnet/mining/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/mainnet/mining/</guid><description>
+&lt;/ul></description></item><item><title>Mining</title><link>/docs/mainnet/mining/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/mainnet/mining/</guid><description>
 &lt;h2>Bismuth Mining&lt;span class="hx-absolute -hx-mt-20" id="bismuth-mining">&lt;/span>
 &lt;a href="#bismuth-mining" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>Bismuth Heavy3 Mining Algorithm&lt;span class="hx-absolute -hx-mt-20" id="bismuth-heavy3-mining-algorithm">&lt;/span>
 &lt;a href="#bismuth-heavy3-mining-algorithm" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>On October 8, 2018 - block height 854,660 - the new and novel Heavy3 mining
@@ -84,11 +84,11 @@ hash state – is considered as the input vector to the difficulty matching func
 &lt;/ul>
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" >Bismuth Whitepaper&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/pdf/whitepaper.pdf" >Bismuth Whitepaper&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/kbkminer" target="_blank" rel="noopener">kbkminer&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Optipoolware" target="_blank" rel="noopener">Optipoolware&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://miningpoolstats.stream/bismuth" target="_blank" rel="noopener">Miningpoolstats&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Overview</title><link>https://bismuthcoin.org/docs/mainnet/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/mainnet/overview/</guid><description>
+&lt;/ul></description></item><item><title>Overview</title><link>/docs/mainnet/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/mainnet/overview/</guid><description>
 &lt;h2>Bismuth Technical Overview&lt;span class="hx-absolute -hx-mt-20" id="bismuth-technical-overview">&lt;/span>
 &lt;a href="#bismuth-technical-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Bismuth, an &lt;strong>account-based model&lt;/strong>, doesn’t require a unique identifier (like a nonce) to prevent replay attacks as Ethereum does. Instead, it uses its unique transaction signature for identification.&lt;/p>
 &lt;h3>How the Unique Signature Method Works&lt;span class="hx-absolute -hx-mt-20" id="how-the-unique-signature-method-works">&lt;/span>
