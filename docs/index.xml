@@ -1,12 +1,12 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Documentation</title><link>/docs/</link><description>Recent content in Documentation on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Articles</title><link>/docs/papers/articles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/papers/articles/</guid><description>
-&lt;p>&lt;img src="/images/2018-articles.webp" alt="" loading="lazy" />&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Documentation</title><link>https://bismuthcoin.org/docs/</link><description>Recent content in Documentation on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://bismuthcoin.org/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Articles</title><link>https://bismuthcoin.org/docs/papers/articles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/papers/articles/</guid><description>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2018-articles.webp" alt="" loading="lazy" />&lt;/p>
 &lt;h3>Bismuth Articles&lt;span class="hx-absolute -hx-mt-20" id="bismuth-articles">&lt;/span>
 &lt;a href="#bismuth-articles" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>
-&lt;p>&lt;a href="/pdf/2018-07-19-semantic.pdf" >Semantic Interpretation&lt;/a> - Jan Kucera, Jul 19, 2018&lt;/p>
+&lt;p>&lt;a href="https://bismuthcoin.org/pdf/2018-07-19-semantic.pdf" >Semantic Interpretation&lt;/a> - Jan Kucera, Jul 19, 2018&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="/pdf/2019-09-20-shielded.pdf" >Shielded Tokens&lt;/a> - Jan Kucera, Sep 20, 2019&lt;/p>
+&lt;p>&lt;a href="https://bismuthcoin.org/pdf/2019-09-20-shielded.pdf" >Shielded Tokens&lt;/a> - Jan Kucera, Sep 20, 2019&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="https://xamanap.medium.com/cryptointerview-with-tezosevangelist-b45cbb72e414" target="_blank" rel="noopener">Crypto Interview with @tezosevangelist&lt;/a> - Sep 29, 2017&lt;/p>
@@ -26,23 +26,23 @@
 &lt;li>
 &lt;p>&lt;a href="https://medium.com/@flashygordy/teamtalks-32-bismuth-82d56f9b37c" target="_blank" rel="noopener">TEAMTALKS #32 — BISMUTH&lt;/a> - August 8, 2019&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>Bismuth Whitepaper</title><link>/docs/papers/whitepaper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/papers/whitepaper/</guid><description>
-&lt;p>&lt;img src="/images/2025-03-05-whitepaper-bis.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;/ul></description></item><item><title>Bismuth Whitepaper</title><link>https://bismuthcoin.org/docs/papers/whitepaper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/papers/whitepaper/</guid><description>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2025-03-05-whitepaper-bis.jpg" alt="" loading="lazy" />&lt;/p>
 &lt;p>The Bismuth Whitepaper is available in English, Korean, Japanese and Chinese.&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;a href="/pdf/whitepaper.pdf" >English Bismuth Whitepaper&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" >English Bismuth Whitepaper&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="/pdf/whitepaper_kr.pdf" >Korean Bismuth Whitepaper&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://bismuthcoin.org/pdf/whitepaper_kr.pdf" >Korean Bismuth Whitepaper&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="/pdf/whitepaper_jp.pdf" >Japanese Bismuth Whitepaper&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://bismuthcoin.org/pdf/whitepaper_jp.pdf" >Japanese Bismuth Whitepaper&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="/pdf/whitepaper_cn.pdf" >Chinese Bismuth Whitepaper&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://bismuthcoin.org/pdf/whitepaper_cn.pdf" >Chinese Bismuth Whitepaper&lt;/a>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>Exchanges</title><link>/docs/mainnet/exchanges/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/mainnet/exchanges/</guid><description>
+&lt;/ul></description></item><item><title>Exchanges</title><link>https://bismuthcoin.org/docs/mainnet/exchanges/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/mainnet/exchanges/</guid><description>
 &lt;h2>Bismuth Exchange Implementation Guide&lt;span class="hx-absolute -hx-mt-20" id="bismuth-exchange-implementation-guide">&lt;/span>
 &lt;a href="#bismuth-exchange-implementation-guide" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Explore our comprehensive &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/How_to_Implement.md" target="_blank" rel="noopener">Bismuth Exchange Implementation Guide&lt;/a> for detailed, step-by-step instructions on integrating Bismuth into your exchange platform. This guide walks you through setting up your development environment, configuring API connections, signing transactions, and implementing robust security practices.&lt;/p>
 &lt;p>Designed to help you smoothly navigate common integration challenges, the guide includes practical examples, best practices, and troubleshooting tips.&lt;/p>
@@ -64,11 +64,11 @@
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/How_to_Implement.md" target="_blank" rel="noopener">Bismuth Implementation Guide&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Getting Started</title><link>/docs/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/getting-started/</guid><description>
+&lt;/ul></description></item><item><title>Getting Started</title><link>https://bismuthcoin.org/docs/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/getting-started/</guid><description>
 &lt;p>This guide will help you quickly get started with &lt;strong>BISMUTH&lt;/strong> as a &lt;strong>regular user&lt;/strong>, as a &lt;strong>developer&lt;/strong> or as an &lt;strong>exchange&lt;/strong> planning on implementing a $BIS trading pair.&lt;/p>
 &lt;h2>User Guideline&lt;span class="hx-absolute -hx-mt-20" id="user-guideline">&lt;/span>
 &lt;a href="#user-guideline" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Start with a &lt;a href="/wallet/" >Bismuth Wallet&lt;/a>&lt;/li>
+&lt;li>Start with a &lt;a href="https://bismuthcoin.org/wallet/" >Bismuth Wallet&lt;/a>&lt;/li>
 &lt;li>Get familiar with the different available address schemes (rsa, ecdsa, &amp;hellip;)&lt;/li>
 &lt;li>Get some $BIS from an exchange or ask on the discord server for a faucet&lt;/li>
 &lt;li>Do low value test transactions to learn sending/ receiving $BIS&lt;/li>
@@ -80,7 +80,7 @@
 &lt;li>Read the Whitepaper&lt;/li>
 &lt;li>Install the Bismuth Mainnet Node&lt;/li>
 &lt;li>Study the &lt;a href="https://github.com/bismuthfoundation/TornadoWallet/tree/master/wallet/crystals" target="_blank" rel="noopener">Tornado Wallet Apps&lt;/a> to learn how to extend the Mainnet node&lt;/li>
-&lt;li>Take a look at all Bismuth based &lt;a href="/docs/resources/apps/" >applications&lt;/a>&lt;/li>
+&lt;li>Take a look at all Bismuth based &lt;a href="https://bismuthcoin.org/docs/resources/apps/" >applications&lt;/a>&lt;/li>
 &lt;li>Read the &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ" target="_blank" rel="noopener">Bismuth FAQs&lt;/a>&lt;/li>
 &lt;li>Bismuth &lt;a href="https://github.com/bismuthfoundation/BismuthAPI/blob/master/Doc/commands_reference.md" target="_blank" rel="noopener">Native API&lt;/a> command reference&lt;/li>
 &lt;li>Client &lt;a href="https://github.com/bismuthfoundation/BismuthRPC/blob/master/RPCServer/Commands.md" target="_blank" rel="noopener">API Command List&lt;/a>&lt;/li>
@@ -91,8 +91,8 @@
 &lt;h2>Exchange Guideline&lt;span class="hx-absolute -hx-mt-20" id="exchange-guideline">&lt;/span>
 &lt;a href="#exchange-guideline" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>Bismuth &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/How_to_Implement.md" target="_blank" rel="noopener">Implementation Guide&lt;/a>&lt;/li>
-&lt;li>Install &lt;a href="/docs/mainnet/install-node/" >Mainnet Node&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Install Node</title><link>/docs/mainnet/install-node/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/mainnet/install-node/</guid><description>
+&lt;li>Install &lt;a href="https://bismuthcoin.org/docs/mainnet/install-node/" >Mainnet Node&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Install Node</title><link>https://bismuthcoin.org/docs/mainnet/install-node/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/mainnet/install-node/</guid><description>
 &lt;h2>How to Run a Mainnet Node&lt;span class="hx-absolute -hx-mt-20" id="how-to-run-a-mainnet-node">&lt;/span>
 &lt;a href="#how-to-run-a-mainnet-node" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This guide provides several methods to set up and run a Mainnet Node. Choose the approach that best fits your needs.&lt;/p>
 &lt;h3>Automatic Installation&lt;span class="hx-absolute -hx-mt-20" id="automatic-installation">&lt;/span>
@@ -113,7 +113,7 @@
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-Docker/tree/master/node" target="_blank" rel="noopener">Bismuth Docker Image&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Snapshot/Ledger_Mainnet.md" target="_blank" rel="noopener">Snapshot Guideline&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/util/blob/master/snapshot_create.py" target="_blank" rel="noopener">Bismuth Snapshot Script&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Mining</title><link>/docs/mainnet/mining/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/mainnet/mining/</guid><description>
+&lt;/ul></description></item><item><title>Mining</title><link>https://bismuthcoin.org/docs/mainnet/mining/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/mainnet/mining/</guid><description>
 &lt;h2>Bismuth Mining&lt;span class="hx-absolute -hx-mt-20" id="bismuth-mining">&lt;/span>
 &lt;a href="#bismuth-mining" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>Bismuth Heavy3 Mining Algorithm&lt;span class="hx-absolute -hx-mt-20" id="bismuth-heavy3-mining-algorithm">&lt;/span>
 &lt;a href="#bismuth-heavy3-mining-algorithm" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>On October 8, 2018 - block height 854,660 - the new and novel Heavy3 mining
@@ -156,11 +156,11 @@ hash state – is considered as the input vector to the difficulty matching func
 &lt;/ul>
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="/pdf/whitepaper.pdf" >Bismuth Whitepaper&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" >Bismuth Whitepaper&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/kbkminer" target="_blank" rel="noopener">kbkminer&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Optipoolware" target="_blank" rel="noopener">Optipoolware&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://miningpoolstats.stream/bismuth" target="_blank" rel="noopener">Miningpoolstats&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Overview</title><link>/docs/mainnet/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/mainnet/overview/</guid><description>
+&lt;/ul></description></item><item><title>Overview</title><link>https://bismuthcoin.org/docs/mainnet/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/mainnet/overview/</guid><description>
 &lt;h2>Bismuth Technical Overview&lt;span class="hx-absolute -hx-mt-20" id="bismuth-technical-overview">&lt;/span>
 &lt;a href="#bismuth-technical-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Bismuth, an &lt;strong>account-based model&lt;/strong>, doesn’t require a unique identifier (like a nonce) to prevent replay attacks as Ethereum does. Instead, it uses its unique transaction signature for identification.&lt;/p>
 &lt;h3>How the Unique Signature Method Works&lt;span class="hx-absolute -hx-mt-20" id="how-the-unique-signature-method-works">&lt;/span>
@@ -199,8 +199,8 @@ hash state – is considered as the input vector to the difficulty matching func
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth" target="_blank" rel="noopener">Github Bismuth Mainnet&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>References</title><link>/docs/papers/references/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/papers/references/</guid><description>
-&lt;p>&lt;img src="/images/2025-03-06-references.webp" alt="" loading="lazy" />&lt;/p>
+&lt;/ul></description></item><item><title>References</title><link>https://bismuthcoin.org/docs/papers/references/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/papers/references/</guid><description>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2025-03-06-references.webp" alt="" loading="lazy" />&lt;/p>
 &lt;h3>References to Bismuth&lt;span class="hx-absolute -hx-mt-20" id="references-to-bismuth">&lt;/span>
 &lt;a href="#references-to-bismuth" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>
@@ -227,15 +227,15 @@ hash state – is considered as the input vector to the difficulty matching func
 &lt;p>Wei Zhou, Information Department, Beijing University of Technology, Beijing, China&lt;br>
 &lt;a href="https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs189633" target="_blank" rel="noopener">Fuzzy rules based efficient event-driven simulation of blockchain-based applications&lt;/a>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>Research</title><link>/docs/papers/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/papers/research/</guid><description>
-&lt;p>&lt;img src="/images/2025-03-06-papers.webp" alt="" loading="lazy" />&lt;/p>
+&lt;/ul></description></item><item><title>Research</title><link>https://bismuthcoin.org/docs/papers/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/papers/research/</guid><description>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2025-03-06-papers.webp" alt="" loading="lazy" />&lt;/p>
 &lt;h3>Academics and Research&lt;span class="hx-absolute -hx-mt-20" id="academics-and-research">&lt;/span>
 &lt;a href="#academics-and-research" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>
 &lt;p>&lt;a href="http://www.mic-journal.no/ABS/MIC-2017-4-1.asp" target="_blank" rel="noopener">Nonlinear Feedback Control and Stability Analysis of a Proof-of-Work Blockchain&lt;/a> - Geir Hovland and Jan Kucera&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="/pdf/bis-security-20180505.pdf" >Security of the Bismuth Blockchain&lt;/a> - Geir Hovland and Jan Kucera&lt;/p>
+&lt;p>&lt;a href="https://bismuthcoin.org/pdf/bis-security-20180505.pdf" >Security of the Bismuth Blockchain&lt;/a> - Geir Hovland and Jan Kucera&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="http://www.mic-journal.no/ABS/MIC-2018-3-1.asp" target="_blank" rel="noopener">Tail Removal Block Validation: Implementation and Analysis&lt;/a> - Geir Hovland and Jan Kucera&lt;/p>

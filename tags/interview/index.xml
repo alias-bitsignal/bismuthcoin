@@ -1,11 +1,11 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Interview</title><link>/tags/interview/</link><description>Recent content in Interview on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 04 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>BisBabble Interview - Nyzblossom</title><link>/blog/2020-11-04-interview/</link><pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate><guid>/blog/2020-11-04-interview/</guid><description>
-&lt;p>&lt;img src="/images/2020-01-18/interview.jpg" alt="" loading="lazy" />
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Interview</title><link>https://bismuthcoin.org/tags/interview/</link><description>Recent content in Interview on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 04 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bismuthcoin.org/tags/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>BisBabble Interview - Nyzblossom</title><link>https://bismuthcoin.org/blog/2020-11-04-interview/</link><pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-11-04-interview/</guid><description>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-01-18/interview.jpg" alt="" loading="lazy" />
 &lt;strong>Q&amp;amp;A session&lt;/strong> with &lt;em>wBismuth&lt;/em> Developer &lt;strong>Nyzblossom&lt;/strong>.&lt;/p>
 &lt;p>During the past months, most of the crypto sphere has gone Uniswap crazy.
 Uniswap, based upon ETH smart contracts and running on Ethereum chain only, is a DEX allowing any token to be listed and exchanged, with a fast growing ecosystem and derivatives.
 The usual “when moon” on many discords were then replaced by “when Uniswap”?&lt;/p>
 &lt;p>On September 14 EggPool asked Twitter for feedback:
-&lt;img src="/images/2020-11-04/wbismuth-interview-002.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;img src="https://bismuthcoin.org/images/2020-11-04/wbismuth-interview-002.jpg" alt="" loading="lazy" />&lt;/p>
 &lt;p>The related &lt;a href="https://x.com/EggPoolNet/status/1305432898116497408" target="_blank" rel="noopener">Twitter thread&lt;/a> does provide several meaningful and useful answers, please check them 😉&lt;/p>
 &lt;p>Then, a third party developer team just said “let’s do it”.
 Bismuth is permission-less, the code is open, there are various repositories with integration and app examples: anyone can build on top.&lt;/p>
@@ -87,8 +87,8 @@ We are very grateful for the work that was done by the wBis team and wish them a
 &lt;li>Uniswap Pair &lt;a href="https://info.uniswap.org/pair/0x7ec5b4473e5bC8815DAb476025B3534765F691ca" target="_blank" rel="noopener">https://info.uniswap.org/pair/0x7ec5b4473e5bC8815DAb476025B3534765F691ca&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Disclaimer:&lt;/strong>&lt;br>
-As stated along the interview: the wBIS bridge is not operated by the Bismuth foundation, and the Bismuth team members have absolutely no control over the bridge, nor related BIS and ETH keys. There is nothing we could do in case of something going wrong.&lt;/p></description></item><item><title>BisBabble Interview - ShadowCrypto</title><link>/blog/2020-02-07-interview/</link><pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate><guid>/blog/2020-02-07-interview/</guid><description>
-&lt;p>&lt;img src="/images/2020-01-18-interview.jpg" alt="" loading="lazy" />
+As stated along the interview: the wBIS bridge is not operated by the Bismuth foundation, and the Bismuth team members have absolutely no control over the bridge, nor related BIS and ETH keys. There is nothing we could do in case of something going wrong.&lt;/p></description></item><item><title>BisBabble Interview - ShadowCrypto</title><link>https://bismuthcoin.org/blog/2020-02-07-interview/</link><pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-02-07-interview/</guid><description>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-01-18-interview.jpg" alt="" loading="lazy" />
 Welcome to another edition of &lt;strong>BisBabble&lt;/strong>! In this episode, we chat with &lt;strong>ShadowCrypto&lt;/strong>, a dedicated &lt;strong>Bismuth supporter&lt;/strong> and key contributor to the &lt;strong>Pawer bot&lt;/strong>.&lt;/p>
 &lt;h3>The Interview&lt;span class="hx-absolute -hx-mt-20" id="the-interview">&lt;/span>
 &lt;a href="#the-interview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>Q: Hello Shadow! We heard about you in a previous BisBabble episode. You are a vibrant supporter of Bismuth and a much-appreciated code contributor to the Pawer bot. Can you tell us a little about yourself?&lt;span class="hx-absolute -hx-mt-20" id="q-hello-shadow-we-heard-about-you-in-a-previous-bisbabble-episode-you-are-a-vibrant-supporter-of-bismuth-and-a-much-appreciated-code-contributor-to-the-pawer-bot-can-you-tell-us-a-little-about-yourself">&lt;/span>
@@ -203,8 +203,8 @@ keeping things &lt;strong>minimal&lt;/strong>, finding &lt;strong>patterns&lt;/s
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://discord.gg/DsEuMQ3" target="_blank" rel="noopener">Discord&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://twitter.com/_shadow_crypto" target="_blank" rel="noopener">Twitter @_shadow_crypto&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>BisBabble Interview - Endogen</title><link>/blog/2020-01-18-interview/</link><pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate><guid>/blog/2020-01-18-interview/</guid><description>
-&lt;p>&lt;img src="/images/2020-01-18-interview.jpg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>BisBabble Interview - Endogen</title><link>https://bismuthcoin.org/blog/2020-01-18-interview/</link><pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-01-18-interview/</guid><description>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-01-18-interview.jpg" alt="" loading="lazy" />
 In this second issue of the &lt;strong>“BisBabble”&lt;/strong> series we welcome &lt;strong>Endogen&lt;/strong>, a long-time Bismuth supporter and developer of the &lt;strong>Bismuth Telegram Bot, Bauer&lt;/strong>.&lt;/p>
 &lt;h2>📝 The Interview&lt;span class="hx-absolute -hx-mt-20" id="-the-interview">&lt;/span>
 &lt;a href="#-the-interview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>&lt;strong>Q: Can you tell us a little about yourself?&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="q-can-you-tell-us-a-little-about-yourself">&lt;/span>
@@ -312,8 +312,8 @@ After &lt;strong>falling in love with Python&lt;/strong>, I &lt;strong>never nee
 &lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>&lt;a href="https://github.com/Endogen/Telegram-Bauer-Bot" target="_blank" rel="noopener">Github - Bismuth Telegram Bauer Bot&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>BisBabble Interview - Aravind</title><link>/blog/2019-12-18-interview/</link><pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate><guid>/blog/2019-12-18-interview/</guid><description>
-&lt;p>&lt;img src="/images/2020-01-18/interview.jpg" alt="" loading="lazy" />
+&lt;/ul></description></item><item><title>BisBabble Interview - Aravind</title><link>https://bismuthcoin.org/blog/2019-12-18-interview/</link><pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-12-18-interview/</guid><description>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-01-18/interview.jpg" alt="" loading="lazy" />
 Welcome to the &lt;strong>BisBabble&lt;/strong> series! In this issue, we chat with &lt;strong>Aravind&lt;/strong>, a recent contributor to the Bismuth project.&lt;br>
 He shares insights into his background, interests, and development work.&lt;/p>
 &lt;h2>📝 The Interview&lt;span class="hx-absolute -hx-mt-20" id="-the-interview">&lt;/span>
