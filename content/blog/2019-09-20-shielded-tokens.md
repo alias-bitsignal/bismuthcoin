@@ -2,8 +2,8 @@
 title: Introduction to Bismuth Shielded Tokens
 date: 2019-09-20
 authors:
-  - name: Bismuth Foundation
-    link: https://github.com/bismuthfoundation
+  - name: HClivess
+    link: https://github.com/hclivess
     image: /favicon-32x32.png
 tags:
   - shielded
