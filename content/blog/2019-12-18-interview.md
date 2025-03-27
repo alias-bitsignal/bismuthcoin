@@ -9,7 +9,7 @@ tags:
   - interview
   - bisbabble
 ---
-![](/images/2020-01-18-interview.jpg)
+![](/images/2020-01-18/interview.jpg)
 Welcome to the **BisBabble** series! In this issue, we chat with **Aravind**, a recent contributor to the Bismuth project.  
 He shares insights into his background, interests, and development work.  
 <!--more-->
