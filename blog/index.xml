@@ -1297,6 +1297,73 @@ For those who are not able to run from the source code, updated binaries for Win
 &lt;li>&lt;a href="https://iopscience.iop.org/article/10.1149/2.0981913jes" target="_blank" rel="noopener">Benchmarks for New Battery Technologies&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://bismuthcoin.org/echanges" >BIS Exchanges&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://discord.gg/4tB3pYJ" target="_blank" rel="noopener">Bismuth Discord&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Android Battery Monitoring</title><link>https://bismuthcoin.org/blog/2020-05-09-battery-monitoring/</link><pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-05-09-battery-monitoring/</guid><description>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-09/battery.png" alt="" loading="lazy" />
+The Android operating system is installed in about 70% of mobile phones worldwide.&lt;/p>
+&lt;p>The majority of these phones are using Lithium-Ion (Li-ion) battery cells. Li-ion batteries are relatively expensive. To make sure that the battery lasts as long as possible, below are some tips to achieve that.&lt;/p>
+&lt;ul>
+&lt;li>Li-ion chemistry prefers partial discharge to deep discharge, so it is best to avoid taking the battery all the way down to zero. Since Li-ion chemistry does not have a memory, the battery pack is not harmed with a partial discharge. If the voltage of a lithium-ion cell drops below a certain level, it is ruined.&lt;/li>
+&lt;li>Li-ion batteries age and only last a few years, even if they are sitting on a shelf unused. So do not avoid using the battery with the thought that the battery pack will last longer. It will not. Also, if you are buying a new battery pack, you want to make sure it really is new. If it has been sitting on a shelf in the store for a year, it will not last as long as a brand new pack. Manufacturing dates are important.&lt;/li>
+&lt;li>Avoid heat, which degrades the battery. If the battery gets hot enough to ignite the electrolyte, there will be a fire, usually caused by an internal short.&lt;/li>
+&lt;/ul>
+&lt;p>A new &lt;strong>decentralized distributed app&lt;/strong> (dApp) has been developed with the aim of monitoring battery parameters, such as temperature, charging current, battery level and health status. The dApp uses the Bismuth public blockchain to store battery data, and makes use of a second layer asset protocol, see &lt;a href="https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/" target="_blank" rel="noopener">Condition Monitoring Link&lt;/a>.&lt;/p>
+&lt;p>A phone battery monitoring dApp serves several purposes, some of which are:&lt;/p>
+&lt;ol>
+&lt;li>collect enough publicly available data to allow and encourage development and verification of battery analytics algorithms,&lt;/li>
+&lt;li>to allow a user to monitor the performance of his/her mobile phone battery and to enable condition monitoring and hopefully early detection of abnormal performance, and&lt;/li>
+&lt;li>to record an immutable performance record of an asset (the mobile phone battery), with the potential to increase future resale value. For example, if a user records on the blockchain the battery data before and after every charging event, the number of battery cycles can then be counted and estimated remaining lifetime potentially calculated.&lt;/li>
+&lt;/ol>
+&lt;p>The dApp has a public website available at &lt;code>https://phone.batterylife.info&lt;/code>. At this site it is possible to search for and view performance data of different mobile phone batteries, submitted by users around the world. The submitted data can be linked to the serial number of the phone. This serial number can be submitted as is, or encrypted with a password to allow anonymous sharing of data. The encryption uses the password and the asset id as input to a sha256 hash, which guarantees anonymity. Later, if desired, the ownership of the asset can be proven by performing the hash calculation based on the password and the asset id again and comparing the result with the hash stored on the blockchain.&lt;/p>
+&lt;p>The public website allows for plotting of variables such as battery temperature, charging or discharging current and battery level. PDF reports can be generated and saved for individual mobile phones. Later, when more data has been submitted by a larger number of users, the data analysis section of the dApp will be expanded. The Bismuth project has several discussion channels on Discord and interested users submitting battery data could potentially discuss battery performance and warn each other if abnormal performance is detected.&lt;/p>
+&lt;p>In order to submit data to the public blockchain, it is necessary to run the Tornado wallet on the Android phone itself using Termux.&lt;/p>
+&lt;p>Instructions for how to install the Tornado wallet on Termux can be found here:&lt;br>
+&lt;a href="https://bismuthcoin.org/blog/2019-04-14-termux/" target="_blank" rel="noopener">https://bismuthcoin.org/blog/2019-04-14-termux/&lt;/a>&lt;/p>
+&lt;p>In addition to the instructions given, the Termux API must also be installed in order to collect battery data from the phone. Termux API can be installed with:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>pkg install termux-api&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>To submit mobile phone battery data to the Bismuth blockchain, activate the crystal named Phonebattery. A screenshot of the main menu of this crystal is shown below:&lt;/p>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-09/battery-02.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Note that as a safety feature, the Tornado Wallet needs to be restarted after a crystal has been activated. In this case, press CTRL+C in Termux to stop the wallet and restart it again with:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>cd ~/TornadoWallet/wallet; python wallet.py&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The top button in the menu above (Analyze Phone Data) leads to a screen which is identical to the one on the public website, &lt;a href="https://phone.batterylife.info" target="_blank" rel="noopener">https://phone.batterylife.info&lt;/a>. The other two menu items (Register Phone and Fetch Phone Data) are only available in the crystal and will only work when run using Termux on an Android phone.&lt;/p>
+&lt;p>The screenshot below shows the plot and DataTable for one specific Android phone, generated using the public website. In the “Select ID” field different Android phones can be selected. The IDs displayed here are either the asset number of the phone, or the asset number encrypted with an anonymizer password.&lt;/p>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-09/battery-03.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Example of public website display for a particular Android phone asset id.
+Data from individual phones can be exported to either PDF or CSV for further offline analysis. The screenshot below shows an example of a generated PDF file.&lt;/p>
+&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-09/battery-04.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Note that it costs 5 BIS to register a phone to participate in the data displayed in the crystal and at the public website. In addition, it costs 1 BIS for every submission of a new data transaction from the phone. These fees are mainly introduced to reduce spam.&lt;/p>
+&lt;p>BIS can be purchased on a number of exchanges, listed at &lt;a href="https://coinpaprika.com/coin/bis-bismuth/#!exchanges" target="_blank" rel="noopener">Coinpaprika&lt;/a>.&lt;/p>
+&lt;p>Any income generated by the paid fees will be used to reward new developers who would like to participate in further development of the dApp. The Tornado wallet itself and the Phone Battery crystal are both open source.&lt;/p>
+&lt;p>The source code of all the available crystals is available at the &lt;a href="https://github.com/bismuthfoundation/TornadoWallet/tree/master/wallet/crystals" target="_blank" rel="noopener">Github Tornado Wallet Repo&lt;/a>.&lt;/p>
+&lt;p>The following &amp;ldquo;Hello World&amp;rdquo; link explains how to get started with crystal development for the Tornado wallet:
+&lt;a href="https://bismuthcoin.org/blog/2020-04-13-hello-world/" target="_blank" rel="noopener">https://bismuthcoin.org/blog/2020-04-13-hello-world/&lt;/a>&lt;/p>
+&lt;p>Pull Requests can be used by anyone who is interested in contributing to the source code of the Bismuth Foundation, see for example:
+&lt;a href="http://oss-watch.ac.uk/resources/pullrequest" target="_blank" rel="noopener">http://oss-watch.ac.uk/resources/pullrequest&lt;/a>&lt;/p>
+&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Termux Android: &lt;a href="https://bismuthcoin.org/blog/2019-04-14-termux/" target="_blank" rel="noopener">Termux&lt;/a>&lt;/li>
+&lt;li>Coinpaprika Exchanges: &lt;a href="https://coinpaprika.com/coin/bis-bismuth/#!exchanges" target="_blank" rel="noopener">Coinpaprika&lt;/a>&lt;/li>
+&lt;li>Hello World App: &lt;a href="https://bismuthcoin.org/blog/2020-04-13-hello-world/" target="_blank" rel="noopener">Hello World&lt;/a>&lt;/li>
+&lt;li>Pull Request: &lt;a href="http://oss-watch.ac.uk/resources/pullrequest" target="_blank" rel="noopener">Pull Request&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Decentralized Condition Monitoring</title><link>https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/</guid><description>
 &lt;p>&lt;img src="https://bismuthcoin.org/images/2020-04-30-condition-monitoring.jpeg" alt="" loading="lazy" />
 Condition monitoring (CM) is the basis for condition based maintenance (CBM). CBM is an alternative to calendar based maintenance, where an asset is serviced in regular time intervals.&lt;/p>
