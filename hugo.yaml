@@ -68,3 +68,19 @@ params:
     # base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
     # base: "https://alias-bitsignal.github.io/bismuthcoin/main/content"
     base: "https://github.com/alias-bitsignal/bismuthcoin/tree/main/content"
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+    
+    article:
+      displayPagination: true
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover

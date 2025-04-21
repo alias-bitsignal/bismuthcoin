@@ -22,7 +22,7 @@ This guide will help you quickly get started with **BISMUTH** as a **regular use
 - Read the Whitepaper
 - Install the Bismuth Mainnet Node
 - Study the [Tornado Wallet Apps](https://github.com/bismuthfoundation/TornadoWallet/tree/master/wallet/crystals) to learn how to extend the Mainnet node
-- Take a look at all Bismuth based [applications](/docs/resources/apps/)
+- Take a look at all Bismuth based [Projects](https://github.com/hclivess/BismuthProjects)
 - Read the [Bismuth FAQs](https://github.com/bismuthfoundation/Bismuth-FAQ)
 - Bismuth [Native API](https://github.com/bismuthfoundation/BismuthAPI/blob/master/Doc/commands_reference.md) command reference
 - Client [API Command List](https://github.com/bismuthfoundation/BismuthRPC/blob/master/RPCServer/Commands.md)
