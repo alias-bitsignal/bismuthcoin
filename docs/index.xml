@@ -80,7 +80,7 @@
 &lt;li>Read the Whitepaper&lt;/li>
 &lt;li>Install the Bismuth Mainnet Node&lt;/li>
 &lt;li>Study the &lt;a href="https://github.com/bismuthfoundation/TornadoWallet/tree/master/wallet/crystals" target="_blank" rel="noopener">Tornado Wallet Apps&lt;/a> to learn how to extend the Mainnet node&lt;/li>
-&lt;li>Take a look at all Bismuth based &lt;a href="https://bismuthcoin.org/docs/resources/apps/" >applications&lt;/a>&lt;/li>
+&lt;li>Take a look at all Bismuth based &lt;a href="https://github.com/hclivess/BismuthProjects" target="_blank" rel="noopener">Projects&lt;/a>&lt;/li>
 &lt;li>Read the &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ" target="_blank" rel="noopener">Bismuth FAQs&lt;/a>&lt;/li>
 &lt;li>Bismuth &lt;a href="https://github.com/bismuthfoundation/BismuthAPI/blob/master/Doc/commands_reference.md" target="_blank" rel="noopener">Native API&lt;/a> command reference&lt;/li>
 &lt;li>Client &lt;a href="https://github.com/bismuthfoundation/BismuthRPC/blob/master/RPCServer/Commands.md" target="_blank" rel="noopener">API Command List&lt;/a>&lt;/li>
