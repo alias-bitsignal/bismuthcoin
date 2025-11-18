@@ -67,7 +67,7 @@ What the graph is actually showing:
 
 > These lines represent total historical supply accumulated from each reward type.
 > Once Dev + PoS rewards stop at block 4,380,000,
-> their curves become completely flat — they no longer increase.
+> their curves become completely flat, they no longer increase.
 
 In other words:
 
@@ -78,7 +78,7 @@ In other words:
 This is a normal behavior for cumulative-sum graphs.
 To avoid confusion, the labels and explanation make it clear that:
 
-“Flat line means no new rewards — not that the rewards still exist.”
+“Flat line means no new rewards.”
 
 
 ### 3. Mining Rewards Per Block
@@ -122,7 +122,7 @@ This uses precisely the same emission logic as the chain:
 To show how inflation evolves year-by-year in economic terms.
 
 **Why it matters:**
-Dilution is the best metric for understanding long-term monetary quality and supply dilution—much more meaningful than raw block rewards.
+Dilution is the best metric for understanding long-term monetary quality and supply dilution, much more meaningful than raw block rewards.
 
 
 #### Bismuth Timeline
