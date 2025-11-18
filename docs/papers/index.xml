@@ -1,86 +1,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Papers</title><link>https://bismuthcoin.org/docs/papers/</link><description>Recent content in Papers on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://bismuthcoin.org/docs/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Articles</title><link>https://bismuthcoin.org/docs/papers/articles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/papers/articles/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2018-articles.webp" alt="" loading="lazy" />&lt;/p>
-&lt;h3>Bismuth Articles&lt;span class="hx-absolute -hx-mt-20" id="bismuth-articles">&lt;/span>
-&lt;a href="#bismuth-articles" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://bismuthcoin.org/pdf/2018-07-19-semantic.pdf" >Semantic Interpretation&lt;/a> - Jan Kucera, Jul 19, 2018&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://bismuthcoin.org/pdf/2019-09-20-shielded.pdf" >Shielded Tokens&lt;/a> - Jan Kucera, Sep 20, 2019&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://xamanap.medium.com/cryptointerview-with-tezosevangelist-b45cbb72e414" target="_blank" rel="noopener">Crypto Interview with @tezosevangelist&lt;/a> - Sep 29, 2017&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://ecency.com/cryptocurrency/@aetsen/bismuth-developer-interview-hclivess" target="_blank" rel="noopener">Bismuth Developer Interview HCLivess&lt;/a> - Mar 7, 2018&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://medium.com/@cblackbeard/bismuth-the-first-python-blockchain-6e2fb0b53a4f" target="_blank" rel="noopener">Bismuth — the first Python Blockchain&lt;/a> - Jan 16, 2019&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://steemit.com/bitcoin/@kingscrown/bismuth-no-ico-no-premine-and-first-python-coin" target="_blank" rel="noopener">Bismuth - No ICO, No Premine and First Python Coin!&lt;/a> - Oct 05, 2017&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://steemit.com/crypto/@aetsen/how-to-cpu-pool-mine-bismuth-on-ubuntu-16-04" target="_blank" rel="noopener">How to CPU Pool Mine Bismuth on Ubuntu 16.04&lt;/a> - July 15, 2017&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://medium.com/@flashygordy/teamtalks-32-bismuth-82d56f9b37c" target="_blank" rel="noopener">TEAMTALKS #32 — BISMUTH&lt;/a> - August 8, 2019&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>Bismuth Whitepaper</title><link>https://bismuthcoin.org/docs/papers/whitepaper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/papers/whitepaper/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2025-03-05-whitepaper-bis.jpg" alt="" loading="lazy" />&lt;/p>
-&lt;p>The Bismuth Whitepaper is available in English, Korean, Japanese and Chinese.&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" >English Bismuth Whitepaper&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://bismuthcoin.org/pdf/whitepaper_kr.pdf" >Korean Bismuth Whitepaper&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://bismuthcoin.org/pdf/whitepaper_jp.pdf" >Japanese Bismuth Whitepaper&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://bismuthcoin.org/pdf/whitepaper_cn.pdf" >Chinese Bismuth Whitepaper&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>References</title><link>https://bismuthcoin.org/docs/papers/references/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/papers/references/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2025-03-06-references.webp" alt="" loading="lazy" />&lt;/p>
-&lt;h3>References to Bismuth&lt;span class="hx-absolute -hx-mt-20" id="references-to-bismuth">&lt;/span>
-&lt;a href="#references-to-bismuth" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>
-&lt;p>IBM Patent – PatentHwang et al&lt;br>
-&lt;a href="https://patentimages.storage.googleapis.com/8e/21/cb/25aaae13b0e165/US10880073.pdf" target="_blank" rel="noopener">Optimizing Performance of a Blockchain&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Pedro Pinheiro, Ricardo Santos, Ricardo Barbosa&lt;br>
-&lt;a href="https://link.springer.com/chapter/10.1007%2F978-3-030-01746-0_39" target="_blank" rel="noopener">Industry 4.0 Multi-agent System Based Knowledge Representation Through Blockchain&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Sotirios Liaskos, Bo Wang, Nahid Alimohammadi&lt;br>
-&lt;a href="http://dx.doi.org/10.1109/SEAMS.2019.00025" target="_blank" rel="noopener">Blockchain Networks as Adaptive Systems&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>George Bissias, David Thibodeau, Brian N. Levine&lt;br>
-&lt;a href="https://link.springer.com/chapter/10.1007%2F978-3-030-31500-9_24" target="_blank" rel="noopener">Bonded Mining: Difficulty Adjustment by Miner Commitment&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Alberto Leva, Silvia Strada, Mara Tanelli&lt;br>
-&lt;a href="https://ieeexplore.ieee.org/document/8795749" target="_blank" rel="noopener">Control-oriented modelling of proof-of-work blockchains&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Wei Zhou, Information Department, Beijing University of Technology, Beijing, China&lt;br>
-&lt;a href="https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs189633" target="_blank" rel="noopener">Fuzzy rules based efficient event-driven simulation of blockchain-based applications&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>Research</title><link>https://bismuthcoin.org/docs/papers/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/papers/research/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2025-03-06-papers.webp" alt="" loading="lazy" />&lt;/p>
-&lt;h3>Academics and Research&lt;span class="hx-absolute -hx-mt-20" id="academics-and-research">&lt;/span>
-&lt;a href="#academics-and-research" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="http://www.mic-journal.no/ABS/MIC-2017-4-1.asp" target="_blank" rel="noopener">Nonlinear Feedback Control and Stability Analysis of a Proof-of-Work Blockchain&lt;/a> - Geir Hovland and Jan Kucera&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://bismuthcoin.org/pdf/bis-security-20180505.pdf" >Security of the Bismuth Blockchain&lt;/a> - Geir Hovland and Jan Kucera&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="http://www.mic-journal.no/ABS/MIC-2018-3-1.asp" target="_blank" rel="noopener">Tail Removal Block Validation: Implementation and Analysis&lt;/a> - Geir Hovland and Jan Kucera&lt;/p>
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2018-articles.webp" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;Bismuth Articles&lt;span class="hx-absolute -hx-mt-20" id="bismuth-articles"&gt;&lt;/span&gt;
+&lt;a href="#bismuth-articles" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://bismuthcoin.org/pdf/2018-07-19-semantic.pdf" &gt;Semantic Interpretation&lt;/a&gt; - Jan Kucera, Jul 19, 2018&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://bismuthcoin.org/pdf/2019-09-20-shielded.pdf" &gt;Shielded Tokens&lt;/a&gt; - Jan Kucera, Sep 20, 2019&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://xamanap.medium.com/cryptointerview-with-tezosevangelist-b45cbb72e414" target="_blank" rel="noopener"&gt;Crypto Interview with @tezosevangelist&lt;/a&gt; - Sep 29, 2017&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://ecency.com/cryptocurrency/@aetsen/bismuth-developer-interview-hclivess" target="_blank" rel="noopener"&gt;Bismuth Developer Interview HCLivess&lt;/a&gt; - Mar 7, 2018&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://medium.com/@cblackbeard/bismuth-the-first-python-blockchain-6e2fb0b53a4f" target="_blank" rel="noopener"&gt;Bismuth — the first Python Blockchain&lt;/a&gt; - Jan 16, 2019&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://steemit.com/bitcoin/@kingscrown/bismuth-no-ico-no-premine-and-first-python-coin" target="_blank" rel="noopener"&gt;Bismuth - No ICO, No Premine and First Python Coin!&lt;/a&gt; - Oct 05, 2017&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://steemit.com/crypto/@aetsen/how-to-cpu-pool-mine-bismuth-on-ubuntu-16-04" target="_blank" rel="noopener"&gt;How to CPU Pool Mine Bismuth on Ubuntu 16.04&lt;/a&gt; - July 15, 2017&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://medium.com/@flashygordy/teamtalks-32-bismuth-82d56f9b37c" target="_blank" rel="noopener"&gt;TEAMTALKS #32 — BISMUTH&lt;/a&gt; - August 8, 2019&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Bismuth Whitepaper</title><link>https://bismuthcoin.org/docs/papers/whitepaper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/papers/whitepaper/</guid><description>
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2025-03-05-whitepaper-bis.jpg" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;The Bismuth Whitepaper is available in English, Korean, Japanese and Chinese.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" &gt;English Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://bismuthcoin.org/pdf/whitepaper_kr.pdf" &gt;Korean Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://bismuthcoin.org/pdf/whitepaper_jp.pdf" &gt;Japanese Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://bismuthcoin.org/pdf/whitepaper_cn.pdf" &gt;Chinese Bismuth Whitepaper&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>References</title><link>https://bismuthcoin.org/docs/papers/references/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/papers/references/</guid><description>
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2025-03-06-references.webp" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;References to Bismuth&lt;span class="hx-absolute -hx-mt-20" id="references-to-bismuth"&gt;&lt;/span&gt;
+&lt;a href="#references-to-bismuth" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;IBM Patent – PatentHwang et al&lt;br&gt;
+&lt;a href="https://patentimages.storage.googleapis.com/8e/21/cb/25aaae13b0e165/US10880073.pdf" target="_blank" rel="noopener"&gt;Optimizing Performance of a Blockchain&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pedro Pinheiro, Ricardo Santos, Ricardo Barbosa&lt;br&gt;
+&lt;a href="https://link.springer.com/chapter/10.1007%2F978-3-030-01746-0_39" target="_blank" rel="noopener"&gt;Industry 4.0 Multi-agent System Based Knowledge Representation Through Blockchain&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sotirios Liaskos, Bo Wang, Nahid Alimohammadi&lt;br&gt;
+&lt;a href="http://dx.doi.org/10.1109/SEAMS.2019.00025" target="_blank" rel="noopener"&gt;Blockchain Networks as Adaptive Systems&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;George Bissias, David Thibodeau, Brian N. Levine&lt;br&gt;
+&lt;a href="https://link.springer.com/chapter/10.1007%2F978-3-030-31500-9_24" target="_blank" rel="noopener"&gt;Bonded Mining: Difficulty Adjustment by Miner Commitment&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Alberto Leva, Silvia Strada, Mara Tanelli&lt;br&gt;
+&lt;a href="https://ieeexplore.ieee.org/document/8795749" target="_blank" rel="noopener"&gt;Control-oriented modelling of proof-of-work blockchains&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wei Zhou, Information Department, Beijing University of Technology, Beijing, China&lt;br&gt;
+&lt;a href="https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs189633" target="_blank" rel="noopener"&gt;Fuzzy rules based efficient event-driven simulation of blockchain-based applications&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Research</title><link>https://bismuthcoin.org/docs/papers/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/papers/research/</guid><description>
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2025-03-06-papers.webp" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;Academics and Research&lt;span class="hx-absolute -hx-mt-20" id="academics-and-research"&gt;&lt;/span&gt;
+&lt;a href="#academics-and-research" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.mic-journal.no/ABS/MIC-2017-4-1.asp" target="_blank" rel="noopener"&gt;Nonlinear Feedback Control and Stability Analysis of a Proof-of-Work Blockchain&lt;/a&gt; - Geir Hovland and Jan Kucera&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://bismuthcoin.org/pdf/bis-security-20180505.pdf" &gt;Security of the Bismuth Blockchain&lt;/a&gt; - Geir Hovland and Jan Kucera&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.mic-journal.no/ABS/MIC-2018-3-1.asp" target="_blank" rel="noopener"&gt;Tail Removal Block Validation: Implementation and Analysis&lt;/a&gt; - Geir Hovland and Jan Kucera&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

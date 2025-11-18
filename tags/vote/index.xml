@@ -1,395 +1,395 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Vote</title><link>https://bismuthcoin.org/tags/vote/</link><description>Recent content in Vote on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 06 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bismuthcoin.org/tags/vote/index.xml" rel="self" type="application/rss+xml"/><item><title>Outcome of Bismuth’s First Governance Vote</title><link>https://bismuthcoin.org/blog/2019-11-06-governance-vote/</link><pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-11-06-governance-vote/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-11-06-governance-vote.jpg" alt="" loading="lazy" />&lt;/p>
-&lt;p>Decisions are the most crucial part of advancing a project. Without them, ideas lie in-acted upon, development stalls, and instead of progress there is stagnation.&lt;/p>
-&lt;p>The Bismuth Foundation is well aware of the dangerous path of inaction, and has always committed a full effort towards advancing the platform at a steadfast pace. One such large advancements have come into fruition recently, with the conclusion of Bismuth’s first Governance Vote- BGV-01.&lt;/p>
-&lt;p>BGV-01 was a motion that combined a new and revolutionary governance protocol with branching decisions that would impact Bismuth on a grand scale – retain the current emission schedule (option A), or significantly reduce it (option B). Throughout October 1st and November 1st of 2019, Bismuth stakeholders could vote on either choice.&lt;/p>
-&lt;p>The results were resoundingly in favor of an inflation cut – option B, with a weight of over 89%, with the remainder 9.5% in support of option A and 1.5% choosing neither. A grand total of 68,952 Bismuth was committed to voting in BGV-01, an extraordinary figure proving the community’s willingness to partake in such motions.&lt;/p>
-&lt;p>From block 1,450,000, BGV-01 option B will be implemented to vastly lower inflation and supply dilution.&lt;/p>
-&lt;ul>
-&lt;li>Mining (PoW) Block rewards would be lowered from 9.7 to 5.5 (reduction of 43%), but the curve is then decreasing slower.&lt;/li>
-&lt;li>Hypernodes (PoS) rewards would begin to decrease instead of being constant.&lt;/li>
-&lt;li>Overall dilution would be reduced from 30.0% to 19.4%, and decrease up to a tail emission of 2% after 10 years.&lt;/li>
-&lt;li>Long-term lower limits on the rewards have been introduced to give miners and Hypernode owners incentives to remain in the ecosystem.&lt;/li>
-&lt;/ul>
-&lt;p>With &lt;strong>Option B&lt;/strong> the annual inflation per year starting from &lt;strong>block height 1,450,000&lt;/strong> would be:&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Time&lt;/th>
-&lt;th>Percentage&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Year 1&lt;/td>
-&lt;td>19.4%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 2&lt;/td>
-&lt;td>14.9%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 3&lt;/td>
-&lt;td>11.7%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 4&lt;/td>
-&lt;td>9.4%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 5&lt;/td>
-&lt;td>7.6%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 6&lt;/td>
-&lt;td>6.1%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 7&lt;/td>
-&lt;td>4.9%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 8&lt;/td>
-&lt;td>3.8%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 9&lt;/td>
-&lt;td>2.9%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 10&lt;/td>
-&lt;td>2.0%&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>Implications:&lt;span class="hx-absolute -hx-mt-20" id="implications">&lt;/span>
-&lt;a href="#implications" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>For holders: less dilution, one of the components of the sell pressure goes down.&lt;/li>
-&lt;li>For Hypernodes owners: no immediate change in the rewards, but on the long run Hypernodes rewards will decrease.&lt;/li>
-&lt;li>Still, because of the dilution drop, the Hypernodes yield in the beginning will be higher than the overall dilution rate.&lt;/li>
-&lt;li>For miners: reduction of rewards short term, but more rewards after some time (block height 5,300,000).&lt;/li>
-&lt;li>For dApps: no changes to fees or block times.&lt;/li>
-&lt;/ul>
-&lt;p>The new graph showing the miner, hypernode and dev rewards are shown below. In addition to the reduced emission, lower limits of 0.5 BIS have been put in place for both the miner and hypernode rewards. Since the dev reward is 10% of the miner reward, the lower limit on those will be 0.05 BIS per block. The lower limit will be reached at approximately block height 7,100,000.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-11-06-first-governance-vote.png" alt="" loading="lazy" />&lt;/p>
-&lt;p>Bismuth’s first governance vote was a great success, and the community has spoken to alter Bismuth’s emission schedule for the better. Not only has a major change been decided upon, but it has proven that the BGV protocol is a far more viable and effective voting mechanism compared to what other platforms have created.&lt;/p>
-&lt;p>All exchanges, pools and hypernode operators need to update their nodes by block height 1,450,000 which is expected to take place on November 27, 2019. The new release will be available at the &lt;a href="https://github.com/bismuthfoundation/Bismuth/releases" target="_blank" rel="noopener">Bismuth Github repository&lt;/a>.&lt;/p>
-&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
-&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://github.com/bismuthfoundation/Bismuth/releases" target="_blank" rel="noopener">Bismuth Github repository&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>BGV-01 - Bismuth Governance Vote 1</title><link>https://bismuthcoin.org/blog/2019-09-10-bgv-01/</link><pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-09-10-bgv-01/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-10-18-voting.jpg" alt="" loading="lazy" />
-Preamble - This blog article explains the &lt;strong>BGV-01&lt;/strong> motion and the options you can vote for.&lt;/p>
-&lt;h3>Abstract&lt;span class="hx-absolute -hx-mt-20" id="abstract">&lt;/span>
-&lt;a href="#abstract" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>Motion: Keep Bismuth supply emission as it currently is (A) , or significantly reduce emission – therefore option (B).&lt;/li>
-&lt;li>Voting period: From 2019-10-01 at 12h00 UTC to 2019-11-01 at 12h00 UTC (block time counts)&lt;/li>
-&lt;li>Vote reveal: From 2019-11-01 at 12h00 UTC to 2019-11-10 at 12h00 UTC&lt;/li>
-&lt;li>If a hardfork is decided, it could take place at block height 1,450,000, approximately on 2019-11-27&lt;/li>
-&lt;/ul>
-&lt;p>(draft timeline has been updated with final values)&lt;/p>
-&lt;h3>Background&lt;span class="hx-absolute -hx-mt-20" id="background">&lt;/span>
-&lt;a href="#background" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Changing the supply emission of Bismuth is not something to be taken lightly. There are many arguments in favor of both options. Hence, the members of the Bismuth Foundation have decided to make this decision the first community vote to be carried out. There will be two options to vote for:&lt;/p>
-&lt;p>A) Keep the status quo, ie. keep the emissions curve as it is currently programmed, or:&lt;/p>
-&lt;p>B) Modify the block rewards to significantly reduce the overall dilution.&lt;/p>
-&lt;h3>Option A: BGV-01/A&lt;span class="hx-absolute -hx-mt-20" id="option-a-bgv-01a">&lt;/span>
-&lt;a href="#option-a-bgv-01a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Do not change the supply, keep emission like it currently is, see the supply post.
-With Option A the annual dilution per year measured in $BIS starting from block height 1,450,000 (2.5 years into the project) would be:&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Year&lt;/th>
-&lt;th>Percentage&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Year 1&lt;/td>
-&lt;td>30.0%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 2&lt;/td>
-&lt;td>21.0%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 3&lt;/td>
-&lt;td>15.6%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 4&lt;/td>
-&lt;td>11.9%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 5&lt;/td>
-&lt;td>9.3%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 6&lt;/td>
-&lt;td>7.3%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 7&lt;/td>
-&lt;td>5.6%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 8&lt;/td>
-&lt;td>4.2%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 9&lt;/td>
-&lt;td>3.0%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 10&lt;/td>
-&lt;td>2.2%&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>Option B: BGV-01/B&lt;span class="hx-absolute -hx-mt-20" id="option-b-bgv-01b">&lt;/span>
-&lt;a href="#option-b-bgv-01b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Radically change the supply emission from block 1,450,000 to lower the dilution and part of the market sell pressure.&lt;/p>
-&lt;p>Mining (PoW) Block rewards would be lowered from 9.7 to 5.5 (reduction of 43%), but the curve is then decreasing slower.
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2019-11-06-governance-vote.jpg" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Decisions are the most crucial part of advancing a project. Without them, ideas lie in-acted upon, development stalls, and instead of progress there is stagnation.&lt;/p&gt;
+&lt;p&gt;The Bismuth Foundation is well aware of the dangerous path of inaction, and has always committed a full effort towards advancing the platform at a steadfast pace. One such large advancements have come into fruition recently, with the conclusion of Bismuth’s first Governance Vote- BGV-01.&lt;/p&gt;
+&lt;p&gt;BGV-01 was a motion that combined a new and revolutionary governance protocol with branching decisions that would impact Bismuth on a grand scale – retain the current emission schedule (option A), or significantly reduce it (option B). Throughout October 1st and November 1st of 2019, Bismuth stakeholders could vote on either choice.&lt;/p&gt;
+&lt;p&gt;The results were resoundingly in favor of an inflation cut – option B, with a weight of over 89%, with the remainder 9.5% in support of option A and 1.5% choosing neither. A grand total of 68,952 Bismuth was committed to voting in BGV-01, an extraordinary figure proving the community’s willingness to partake in such motions.&lt;/p&gt;
+&lt;p&gt;From block 1,450,000, BGV-01 option B will be implemented to vastly lower inflation and supply dilution.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mining (PoW) Block rewards would be lowered from 9.7 to 5.5 (reduction of 43%), but the curve is then decreasing slower.&lt;/li&gt;
+&lt;li&gt;Hypernodes (PoS) rewards would begin to decrease instead of being constant.&lt;/li&gt;
+&lt;li&gt;Overall dilution would be reduced from 30.0% to 19.4%, and decrease up to a tail emission of 2% after 10 years.&lt;/li&gt;
+&lt;li&gt;Long-term lower limits on the rewards have been introduced to give miners and Hypernode owners incentives to remain in the ecosystem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With &lt;strong&gt;Option B&lt;/strong&gt; the annual inflation per year starting from &lt;strong&gt;block height 1,450,000&lt;/strong&gt; would be:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Time&lt;/th&gt;
+&lt;th&gt;Percentage&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 1&lt;/td&gt;
+&lt;td&gt;19.4%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 2&lt;/td&gt;
+&lt;td&gt;14.9%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 3&lt;/td&gt;
+&lt;td&gt;11.7%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 4&lt;/td&gt;
+&lt;td&gt;9.4%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 5&lt;/td&gt;
+&lt;td&gt;7.6%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 6&lt;/td&gt;
+&lt;td&gt;6.1%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 7&lt;/td&gt;
+&lt;td&gt;4.9%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 8&lt;/td&gt;
+&lt;td&gt;3.8%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 9&lt;/td&gt;
+&lt;td&gt;2.9%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 10&lt;/td&gt;
+&lt;td&gt;2.0%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Implications:&lt;span class="hx-absolute -hx-mt-20" id="implications"&gt;&lt;/span&gt;
+&lt;a href="#implications" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;For holders: less dilution, one of the components of the sell pressure goes down.&lt;/li&gt;
+&lt;li&gt;For Hypernodes owners: no immediate change in the rewards, but on the long run Hypernodes rewards will decrease.&lt;/li&gt;
+&lt;li&gt;Still, because of the dilution drop, the Hypernodes yield in the beginning will be higher than the overall dilution rate.&lt;/li&gt;
+&lt;li&gt;For miners: reduction of rewards short term, but more rewards after some time (block height 5,300,000).&lt;/li&gt;
+&lt;li&gt;For dApps: no changes to fees or block times.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The new graph showing the miner, hypernode and dev rewards are shown below. In addition to the reduced emission, lower limits of 0.5 BIS have been put in place for both the miner and hypernode rewards. Since the dev reward is 10% of the miner reward, the lower limit on those will be 0.05 BIS per block. The lower limit will be reached at approximately block height 7,100,000.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2019-11-06-first-governance-vote.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Bismuth’s first governance vote was a great success, and the community has spoken to alter Bismuth’s emission schedule for the better. Not only has a major change been decided upon, but it has proven that the BGV protocol is a far more viable and effective voting mechanism compared to what other platforms have created.&lt;/p&gt;
+&lt;p&gt;All exchanges, pools and hypernode operators need to update their nodes by block height 1,450,000 which is expected to take place on November 27, 2019. The new release will be available at the &lt;a href="https://github.com/bismuthfoundation/Bismuth/releases" target="_blank" rel="noopener"&gt;Bismuth Github repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/bismuthfoundation/Bismuth/releases" target="_blank" rel="noopener"&gt;Bismuth Github repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>BGV-01 - Bismuth Governance Vote 1</title><link>https://bismuthcoin.org/blog/2019-09-10-bgv-01/</link><pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-09-10-bgv-01/</guid><description>
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2019-10-18-voting.jpg" alt="" loading="lazy" /&gt;
+Preamble - This blog article explains the &lt;strong&gt;BGV-01&lt;/strong&gt; motion and the options you can vote for.&lt;/p&gt;
+&lt;h3&gt;Abstract&lt;span class="hx-absolute -hx-mt-20" id="abstract"&gt;&lt;/span&gt;
+&lt;a href="#abstract" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Motion: Keep Bismuth supply emission as it currently is (A) , or significantly reduce emission – therefore option (B).&lt;/li&gt;
+&lt;li&gt;Voting period: From 2019-10-01 at 12h00 UTC to 2019-11-01 at 12h00 UTC (block time counts)&lt;/li&gt;
+&lt;li&gt;Vote reveal: From 2019-11-01 at 12h00 UTC to 2019-11-10 at 12h00 UTC&lt;/li&gt;
+&lt;li&gt;If a hardfork is decided, it could take place at block height 1,450,000, approximately on 2019-11-27&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(draft timeline has been updated with final values)&lt;/p&gt;
+&lt;h3&gt;Background&lt;span class="hx-absolute -hx-mt-20" id="background"&gt;&lt;/span&gt;
+&lt;a href="#background" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Changing the supply emission of Bismuth is not something to be taken lightly. There are many arguments in favor of both options. Hence, the members of the Bismuth Foundation have decided to make this decision the first community vote to be carried out. There will be two options to vote for:&lt;/p&gt;
+&lt;p&gt;A) Keep the status quo, ie. keep the emissions curve as it is currently programmed, or:&lt;/p&gt;
+&lt;p&gt;B) Modify the block rewards to significantly reduce the overall dilution.&lt;/p&gt;
+&lt;h3&gt;Option A: BGV-01/A&lt;span class="hx-absolute -hx-mt-20" id="option-a-bgv-01a"&gt;&lt;/span&gt;
+&lt;a href="#option-a-bgv-01a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Do not change the supply, keep emission like it currently is, see the supply post.
+With Option A the annual dilution per year measured in $BIS starting from block height 1,450,000 (2.5 years into the project) would be:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Year&lt;/th&gt;
+&lt;th&gt;Percentage&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 1&lt;/td&gt;
+&lt;td&gt;30.0%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 2&lt;/td&gt;
+&lt;td&gt;21.0%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 3&lt;/td&gt;
+&lt;td&gt;15.6%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 4&lt;/td&gt;
+&lt;td&gt;11.9%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 5&lt;/td&gt;
+&lt;td&gt;9.3%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 6&lt;/td&gt;
+&lt;td&gt;7.3%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 7&lt;/td&gt;
+&lt;td&gt;5.6%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 8&lt;/td&gt;
+&lt;td&gt;4.2%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 9&lt;/td&gt;
+&lt;td&gt;3.0%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 10&lt;/td&gt;
+&lt;td&gt;2.2%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Option B: BGV-01/B&lt;span class="hx-absolute -hx-mt-20" id="option-b-bgv-01b"&gt;&lt;/span&gt;
+&lt;a href="#option-b-bgv-01b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Radically change the supply emission from block 1,450,000 to lower the dilution and part of the market sell pressure.&lt;/p&gt;
+&lt;p&gt;Mining (PoW) Block rewards would be lowered from 9.7 to 5.5 (reduction of 43%), but the curve is then decreasing slower.
 Hypernodes (PoS) rewards would begin to decrease instead of being constant.
 Overall dilution would be reduced from 30.0% to 19.4%, and decrease up to a tail emission of 2% after 10 years.
 Long-term lower limits on the rewards have been introduced to give miners and Hypernode owners incentives to remain in the ecosystem.
-With Option B the annual inflation per year starting from block height 1,450,000 would be:&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Year&lt;/th>
-&lt;th>Percentage&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Year 1&lt;/td>
-&lt;td>19.4%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 2&lt;/td>
-&lt;td>14.9%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 3&lt;/td>
-&lt;td>11.7%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 4&lt;/td>
-&lt;td>9.4%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 5&lt;/td>
-&lt;td>7.6%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 6&lt;/td>
-&lt;td>6.1%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 7&lt;/td>
-&lt;td>4.9%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 8&lt;/td>
-&lt;td>3.8%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 9&lt;/td>
-&lt;td>2.9%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Year 10&lt;/td>
-&lt;td>2.0%&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;strong>Implications:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>For holders: less dilution, one of the components of the sell pressure goes down.&lt;/li>
-&lt;li>For Hypernodes owners: no immediate change in the rewards, but on the long run Hypernodes rewards will decrease.&lt;/li>
-&lt;li>Still, because of the dilution drop, the Hypernodes yield in the beginning will be higher than the overall dilution rate.&lt;/li>
-&lt;li>For miners: reduction of rewards short term, but more rewards after some time (block height 5,300,000).&lt;/li>
-&lt;li>For dApps: no changes to fees or block times.&lt;/li>
-&lt;/ul>
-&lt;h3>Graph: (A) vs (B)&lt;span class="hx-absolute -hx-mt-20" id="graph-a-vs-b">&lt;/span>
-&lt;a href="#graph-a-vs-b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The current emission curves (Option A) and the proposed modified curves (Option B) and the associated dilution rates are compared in the figure below:
-Current emission (A) is in Bold, emission for (B) is thinner.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-09-10-bgv_01_vote_alternatives.png" alt="" loading="lazy" />&lt;/p>
-&lt;h3>Use of the winning funds&lt;span class="hx-absolute -hx-mt-20" id="use-of-the-winning-funds">&lt;/span>
-&lt;a href="#use-of-the-winning-funds" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>As described in the Bismuth &lt;a href="https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/" >voting protocol&lt;/a>, the BIS of the losing side are sent back to their originating wallets, while funds of the winning side are kept in a fund to finance the option.
-For this motion the winning funds – whatever the issue will be – are to be used as exchange listing and dapps bounties funds.&lt;/p>
-&lt;h2>Arguments&lt;span class="hx-absolute -hx-mt-20" id="arguments">&lt;/span>
-&lt;a href="#arguments" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>Arguments for option A:&lt;span class="hx-absolute -hx-mt-20" id="arguments-for-option-a">&lt;/span>
-&lt;a href="#arguments-for-option-a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>Cryptocurrencies are supposed to be different from fiat currencies, where central banks regularly adjust monetary policies. See for example this article, where one of the conclusions is: “… cryptocurrencies offer a unique opportunity to engineer long term monetary policy that is carried out in full transparency. Unfortunately, many protocols we’ve looked at do not take advantage of this opportunity, or are prone to change (which defeats the purpose).”&lt;/li>
-&lt;li>Option B, although seemingly radical towards the miners (initial 43% reduction), shifts the emissions curve by approximately one year. The Bismuth Foundation has a long-term perspective, and one year means very little in the grand scheme.&lt;/li>
-&lt;li>The miners play a very important role, by securing the chain with their hash power, and building it in the first place. The PoS chain wouldn’t exist without the PoW chain, and Bismuth is – at core – a PoW chain.
-By reducing the miners rewards (Option B) there is a high probability that the overall hash power will be reduced. With a reduced overall hash power in the network, the Bismuth blockchain will become more vulnerable to a 51% attack. Should such an attack occur, it is likely to be detrimental for the $BIS price.&lt;/li>
-&lt;li>Bismuth is mainly a PoW coin, with no premine or ICO. It is meaningless to compare its supply model or dilution to pure PoS models, ICOs or premined coins.&lt;/li>
-&lt;li>Supply is just one component of sell pressure. Holders selling when market goes down also play a significant role in sell pressure. Everyone’s time would be put to better use in building the demand side up rather than trying short term hacks with supply.&lt;/li>
-&lt;li>Market could play a more important role than the supply curve. No need to play against the market, better wait for a purge and the next bull run.&lt;/li>
-&lt;li>In order to reduce the dilution, option B requires the PoS rewards – part of the dilution – to decrease instead of being constant. This can be seen as a time bomb for Hypernode owners, unless use-cases based upon the Hypernodes do add new income sources to Hypernode owners.&lt;/li>
-&lt;li>Option A would not require a hardfork, so there is less work for all the network participants (exchanges, pools, Hypernode owners) which all would have to update their nodes if Option B is selected.&lt;/li>
-&lt;/ul>
-&lt;h3>Arguments for option B:&lt;span class="hx-absolute -hx-mt-20" id="arguments-for-option-b">&lt;/span>
-&lt;a href="#arguments-for-option-b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>By significantly reducing the miners block rewards – hence dilution – the staking yield for Hypernode owners will initially become net positive (larger than the dilution caused by new coins).&lt;/li>
-&lt;li>By reducing the block rewards some believe that the supply reduction and increased scarcity will help recover the $BIS price, which has fallen significantly in recent times.&lt;/li>
-&lt;li>If the $BIS price would increase by a factor 2x or more after the supply reduction, the miners would be better off measured in USD compared to before, since the miners’ rewards measured in $BIS will initially be reduced by a factor of less than 2x.&lt;/li>
-&lt;li>Option B introduces a long-term lower limit of Hypernode rewards of 0.5 $BIS per block to ensure that the block rewards can never reach zero, meaning the Hypernode owners have an incentive to stay in the ecosystem, in case future fees from use-cases are not sufficient or too irregular.&lt;/li>
-&lt;li>Option B introduces a long-term lower limit of the miners reward of 0.5 $BIS per block to ensure that the block rewards can never reach zero, meaning that the hash power will not disappear in case future network fees are not sufficient or too irregular to reward the miners.&lt;/li>
-&lt;li>With Option B the developer rewards do not go to zero either, but have a lower limit of 0.05 $BIS per block (10% of the miners block rewards), giving the core team a long-term incentive to keep working on and improving the blockchain, it’s ecosystem, as well as a marketing and exchange listing budget.&lt;/li>
-&lt;li>Many blockchain projects have modified their emissions curves recently, including Ethereum which is ranked 2nd in terms of marketcap value. It is believed that these modifications have been made to become more comparable with Bitcoin’s dilution rates. Bitcoin being the first cryptocurrency, has had many years a headstart on other projects, and it has reached the tail end of it’s emission curve. It can be argued that Bismuth must modify its emissions curve too, or be left behind.&lt;/li>
-&lt;/ul>
-&lt;p>Many more arguments and discussions can be found on the discord, #trade channel.&lt;/p>
-&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
-&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://discord.gg/G5gUbkn" target="_blank" rel="noopener">Bismuth Discord&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/" >Voting Protocol&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Bismuth Governance Shift - Part 2</title><link>https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/</link><pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-08-30-governance-shift-part_2.png" alt="" loading="lazy" />&lt;/p>
-&lt;h3>Preamble&lt;span class="hx-absolute -hx-mt-20" id="preamble">&lt;/span>
-&lt;a href="#preamble" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>In the previous post, the governance shift that is to take place with Bismuth was introduced, and the ETH voting protocol was examined. It was shown that this protocol does come with several issues that could be important flaws in the Bismuth context.&lt;/p>
-&lt;h3>Issues with the ETH voting protocol&lt;span class="hx-absolute -hx-mt-20" id="issues-with-the-eth-voting-protocol">&lt;/span>
-&lt;a href="#issues-with-the-eth-voting-protocol" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>There is nothing at stake. You do not directly win or lose anything by voting (just some gas)&lt;/li>
-&lt;li>Exchanges as well as shared services, dev funds, and founders have a huge voting power&lt;/li>
-&lt;li>The holders are by definition the ones getting the most votes, so the issue is likely to be in favor of the holders group, and potentially detrimental to others and the coin in general.&lt;/li>
-&lt;li>Since the votes are public, it allows for any kind of psychological manipulation by influence groups. You could pretend to vote for the other group, so other users are not incited to vote as it appears there is a clear winner. Then swap votes at the very last moment. Influence groups can play mind games.&lt;/li>
-&lt;li>You do not vote “your best”, you just vote enough so your group wins.&lt;/li>
-&lt;li>You can bribe big balances who do not care to vote for your group, they have nothing to lose, so why not take the bribe and vote?&lt;/li>
-&lt;li>Many users could also be bribed to vote against their long term interest: they would get the bribe right now, and have nothing immediate to lose.&lt;/li>
-&lt;/ul>
-&lt;p>In the case of Bismuth, mean exchanges – including Cryptopia’s inactive wallet – or one entity – including the core team – could vote and have chances to impose their own decisions.&lt;/p>
-&lt;h3>An alternate voting protocol&lt;span class="hx-absolute -hx-mt-20" id="an-alternate-voting-protocol">&lt;/span>
-&lt;a href="#an-alternate-voting-protocol" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Now comes a description of the Bismuth Governance Voting Model (BGVM). The goal is to have voters put their money where their mouth is. With this protocol:&lt;/p>
-&lt;ul>
-&lt;li>You only vote for something you really want to happen.&lt;/li>
-&lt;li>You do take risks, you have to show your motivation. Your vote is not an empty word, the core team is not the only one wetting the shirt.&lt;/li>
-&lt;li>Every category has a similar weight and cost to vote. Big balances are not over-represented.&lt;/li>
-&lt;li>Still, the richest wallets can have the most weight, and are also the ones benefiting from a higher future price.&lt;/li>
-&lt;li>You help finance the project you voted for.&lt;/li>
-&lt;li>There is no bribe advantage.&lt;/li>
-&lt;li>If you lose, you can still be happy.&lt;/li>
-&lt;li>There is no possible mind games nor manipulation until the vote is over.&lt;/li>
-&lt;li>The voters involvement is known in real time&lt;/li>
-&lt;li>The issue of the vote is secret until it is finished.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>«Bismuth defines a new voting protocol: users have to put their money where their mouth is. Involvement is known in real time but the issue of the vote is secret until over! Good idea?» &lt;a href="https://x.com/intent/tweet?text=%23Bismuth%20defines%20a%20new%20voting%20protocol:%20users%20have%20to%20put%20their%20money%20where%20their%20mouth%20is.%20Involvement%20is%20known%20in%20real%20time%20but%20the%20issue%20of%20the%20vote%20is%20secret%20until%20over!" target="_blank" rel="noopener">Click to tweet&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;h3>The protocol&lt;span class="hx-absolute -hx-mt-20" id="the-protocol">&lt;/span>
-&lt;a href="#the-protocol" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The public interface of the protocol is as follows:&lt;/p>
-&lt;ul>
-&lt;li>A motion is proposed, with 2 or more options.&lt;/li>
-&lt;li>You vote by sending $BIS + data to the vote address. The amount you send is public, whereas data (your vote) is encrypted and private.&lt;/li>
-&lt;li>The $BIS you send are your voting weight. Their use – should the motion pass – are stated in the motion.&lt;/li>
-&lt;/ul>
-&lt;h4>Options:&lt;span class="hx-absolute -hx-mt-20" id="options">&lt;/span>
-&lt;a href="#options" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>You can issue several voting transactions, so you can increase your weight during the voting period.&lt;/li>
-&lt;li>you can invert a previous transaction vote (but not cancel it) should you change your mind.&lt;/li>
-&lt;/ul>
-&lt;p>Once the voting period is finished:&lt;/p>
-&lt;ul>
-&lt;li>Votes – and related flips – are revealed.&lt;/li>
-&lt;li>If you do not reveal your vote, it cannot be counted, and you do not get your money back.&lt;/li>
-&lt;li>Losers get their $BIS back (less transaction fees).&lt;/li>
-&lt;li>In the winners’ case, their $BIS go into a community fund to be used as stated by the motion.&lt;/li>
-&lt;/ul>
-&lt;h3>Pros&lt;span class="hx-absolute -hx-mt-20" id="pros">&lt;/span>
-&lt;a href="#pros" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>There is no need to bribe people, you would have to bribe them more than by voting yourself.&lt;/li>
-&lt;li>There will be no mind games, the issue is totally opaque until the end. Even the core team does not have access to the results before votes are revealed.&lt;/li>
-&lt;li>You take risks, and only vote for what you really want, because if this happens, your $BIS vote will be used to build it.&lt;/li>
-&lt;li>There is no incentive in voting for the other side, since if it wins, you lose your tokens.&lt;/li>
-&lt;li>Trolls and fudders have no voice, no leverage. Only final $BIS votes count, once revealed.&lt;/li>
-&lt;li>It’s safer for big holders with funds in cold wallet: you don’t have to move your cold funds out to vote. Just vote what you want.&lt;/li>
-&lt;li>Involvement (total amount of $BIS) is known in real time.&lt;/li>
-&lt;li>No need to run a balance vote on one side, then a miner vote by block signaling on the other side: everyone votes with the same protocol, the same unit.&lt;/li>
-&lt;li>You know what the minimum proposal budget will be (at worse, 50.01% of the votes for a vote with 2 options).&lt;/li>
-&lt;li>Every group has the same voting cost/power. Holders do not have more power than miners because they have a higher balance. What everyone bets for is what they risk, should they win. If the miners’ group want to overrule the holders, they do not need to have as much balance as the holders, they just need to vote as much as them.&lt;/li>
-&lt;li>The amount you vote reflects your belief and involvement in the proposal you vote for, and what you are willing to contribute to see it succeed.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>«Contrary to the Carbonvote process, the #Bismuth “blind” voting protocol renders the vote immune to bribery attacks, and forces users to vote for the long term success of the project. Read more: » &lt;a href="https://x.com/intent/tweet?text=Contrary%20to%20the%20Carbonvote%20process,%20the%20%23Bismuth%20%27blind%27%20voting%20protocol%20renders%20the%20vote%20immune%20to%20bribery%20attacks,%20and%20forces%20users%20to%20vote%20for%20the%20long%20term%20success%20of%20the%20project." target="_blank" rel="noopener">Click to tweet&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;h3>Conclusion&lt;span class="hx-absolute -hx-mt-20" id="conclusion">&lt;/span>
-&lt;a href="#conclusion" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The “blind auction” introduced by the innovative and new BGVM avoids the pitfalls of more common voting and blockchain governance mechanisms seen to date. The protocol protects the project’s global interest by allowing everyone to be represented in a fair manner and forces voters to vote for what they really want in the long term, and not for what would give them the most short term advantage.
-The vote issue is an Oracle whose value is only known once the decision is immutable.&lt;/p>
-&lt;blockquote>
-&lt;p>«The new #Bismuth voting protocol merges carbonvoting and block signaling into a single process where every actor votes with the same process and unit for a fair vote that can not be bribed nor manipulated. Read more: » &lt;a href="https://x.com/intent/tweet?text=The%20new%20%23Bismuth%20voting%20protocol%20merges%20carbonvoting%20and%20block%20signaling%20into%20a%20single%20process%20where%20every%20actor%20votes%20with%20the%20same%20process%20and%20unit%20for%20a%20fair%20vote%20that%20can%20not%20be%20bribed%20nor%20manipulated." target="_blank" rel="noopener">Click to tweet&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
-&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener">Markdown Syntax&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://gohugo.io/content-management/formats/#markdown" target="_blank" rel="noopener">Hugo Markdown&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Bismuth Governance Shift - Part 1</title><link>https://bismuthcoin.org/blog/2019-08-29-governance-shift-part_1/</link><pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-08-29-governance-shift-part_1/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-08-29-governance-shift-part_1.png" alt="" loading="lazy" />
-During the first two and a half years of the Bismuth blockchain project, important governance actions have been decided by the group of foundation members. Now the core team finds it is time to involve the community deeper into governance questions, and make more use of community feedback.&lt;/p>
-&lt;p>The Bismuth project has had a very active Discord community since the beginning, and it is seen as a very valuable resource for the project and it makes sense to consult the community more than in the past for input on important decisions. Therefore, the foundation members have decided to introduce a shift in the governance, by letting the stakeholders involved vote on important decisions concerning the future of the project.&lt;/p>
-&lt;p>Discord alone however can’t be seen as a source of actionable feedback:&lt;/p>
-&lt;ul>
-&lt;li>Not everyone is active there.&lt;/li>
-&lt;li>Some voices do flood day after day with the same suggestions (count as one, no matter how many times you repeat yourself).&lt;/li>
-&lt;li>Not all suggestions are well presented and actionable.&lt;/li>
-&lt;li>You can’t map a discord user to a Bismuth User (unless some flavor or KYC or associated wallets with Discord ids).&lt;/li>
-&lt;/ul>
-&lt;p>Twitter polls are also totally un-trustable:&lt;/p>
-&lt;ul>
-&lt;li>Like with Discord, you do not reach everyone.&lt;/li>
-&lt;li>You can’t map a Twitter user to a Bismuth user (unless KYC/ de-pseudonymization).&lt;/li>
-&lt;li>Twitter polls are easily manipulable, there are plenty of services to buy votes.&lt;/li>
-&lt;/ul>
-&lt;p>So, the core team came to realize that if Discord is ok to gather some feedback and proposals, if everyone’s voice is to be heard and a decision in the common interest is to be taken, the voting process has to go further than that.&lt;/p>
-&lt;p>Until then, the Bismuth team was the only responsible entity for core changes, like the introduction of the Hypernodes and related rewards, and later on, the move of some part of the mining reward toward Hypernodes. The Team always had in mind the long term success of the project, and took every class of user point of view into account before deciding: investors, miners, devs, etc.&lt;/p>
-&lt;p>Now, the core team feels that the time has come to let users hold their responsibilities and take the decision for everyone’s best interest, via a voting process. The team would prepare options to vote upon, the users will decide, the team will take action based on the final voting results.&lt;/p>
-&lt;h3>The first vote in Bismuth History&lt;span class="hx-absolute -hx-mt-20" id="the-first-vote-in-bismuth-history">&lt;/span>
-&lt;a href="#the-first-vote-in-bismuth-history" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>If you are familiar with the discord, you cannot avoid the economists lobbying for a supply modification.&lt;/p>
-&lt;p>The latest fork (&lt;a href="https://bismuthcoin.org/blog/2019-05-17-hard-fork-v4.3.0.0/" >see here&lt;/a>) was tailored to account for increased services to be provided by the Hypernodes, while not raising the dilution. It already went in the direction of reducing miner rewards. Currently the most vocal suggestions aim to address the dropping price concern, and are to significantly reduce the supply by cutting the emission: that is both block rewards and HN rewards.&lt;/p>
-&lt;p>The team ran simulations, examined the available data but still it is not clear what the global implications can be, nor how action or inaction would be welcome by the users and the markets. The problem really is complex with implications at the ethical, economical level, involving the equilibrium of the whole system. The more you dig, the more it appears complex.&lt;/p>
-&lt;p>It looks like it is the perfect case where a community vote is needed and will make sense.&lt;/p>
-&lt;p>A voting process can be an equally daunting task, because blockchain based voting is tricky and dangerous. The difficulty is two fold:&lt;/p>
-&lt;h3>A – What is “one” vote?&lt;span class="hx-absolute -hx-mt-20" id="a--what-is-one-vote">&lt;/span>
-&lt;a href="#a--what-is-one-vote" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Blockchains usually are non-KYC (Know Your Customer) and anonymous or pseudonymous. One user can have many addresses. Some do require KYC (Like Tezos), that’s a road the core team does not want to take. So you never can map one vote to one user. Even if you could, voters could be bribed.&lt;/p>
-&lt;ul>
-&lt;li>Is a vote one address?&lt;/li>
-&lt;li>One coin?&lt;/li>
-&lt;li>One IP address?&lt;/li>
-&lt;li>One hash unit? In any case, you could pretend you have several voices when all are yours.&lt;/li>
-&lt;/ul>
-&lt;h3>B – Will I vote for the best common interest?&lt;span class="hx-absolute -hx-mt-20" id="b--will-i-vote-for-the-best-common-interest">&lt;/span>
-&lt;a href="#b--will-i-vote-for-the-best-common-interest" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>In a blockchain context, you can have several classes of people with different objectives. For Bismuth for instance, a Proof-of-Work (PoW) utility token, you can think of:&lt;/p>
-&lt;ul>
-&lt;li>The miners.&lt;/li>
-&lt;li>The holders.&lt;/li>
-&lt;li>The dApps developers.&lt;/li>
-&lt;li>The core foundation team.&lt;/li>
-&lt;/ul>
-&lt;p>Each of these classes can have a different egoistic goal when speaking of chain governance. Just as a quick illustration, miners would like higher fees or block rewards, holders want less dilution and more marketing, dapps developers want low fees and fast blocks, core team wants the token to go mainstream, be secure and used in the real world.&lt;/p>
-&lt;p>Game theory shows that this can lead to votes that are counter productive for the chain as a whole (see “tragedy of the commons“, this is somehow related).&lt;/p>
-&lt;h3>Ethereum Case – Carbonvote&lt;span class="hx-absolute -hx-mt-20" id="ethereum-case--carbonvote">&lt;/span>
-&lt;a href="#ethereum-case--carbonvote" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Before presenting the proposed Bismuth voting model, an example vote based on the Ethereum blockchain is briefly discussed. In order to decide about the “ice age” issue, ETH owners could vote on a motion to delay it.&lt;/p>
-&lt;p>How did it work?&lt;/p>
-&lt;ul>
-&lt;li>Every address could vote, address balance = vote weight.&lt;/li>
-&lt;li>0 ETH sent, but consumes gas.&lt;/li>
-&lt;li>You could change your vote anytime, or move ETH to change your vote weight.&lt;/li>
-&lt;li>The current, real time state of the vote was public at carbonvote.com.&lt;/li>
-&lt;/ul>
-&lt;p>The core team feels this model has several flaws, that can be deduced from the voting protocol.&lt;/p>
-&lt;ul>
-&lt;li>Gives advantage to holders, exchanges and service providers (the higher your wallet balance, the more your weight).&lt;/li>
-&lt;li>Public votes, real time stats, means you can play mind games, swap votes last moment and heavily influence the whole process.&lt;/li>
-&lt;li>Users do vote but take no real risk, no responsibility. They have nothing to gain or lose if they don’t care about the results.&lt;/li>
-&lt;li>You can be bribed to vote.&lt;/li>
-&lt;/ul>
-&lt;p>In a next article, you’ll be presented the Bismuth Governance Voting Model (BGVM), which is a novel protocol to address fair voting in the context of blockchain governance, and addresses the issues we just saw with the naive protocol above.&lt;/p>
-&lt;h2>Summary&lt;span class="hx-absolute -hx-mt-20" id="summary">&lt;/span>
-&lt;a href="#summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The Bismuth team will begin to introduce governance to help decide about some core Bismuth choices.
+With Option B the annual inflation per year starting from block height 1,450,000 would be:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Year&lt;/th&gt;
+&lt;th&gt;Percentage&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 1&lt;/td&gt;
+&lt;td&gt;19.4%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 2&lt;/td&gt;
+&lt;td&gt;14.9%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 3&lt;/td&gt;
+&lt;td&gt;11.7%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 4&lt;/td&gt;
+&lt;td&gt;9.4%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 5&lt;/td&gt;
+&lt;td&gt;7.6%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 6&lt;/td&gt;
+&lt;td&gt;6.1%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 7&lt;/td&gt;
+&lt;td&gt;4.9%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 8&lt;/td&gt;
+&lt;td&gt;3.8%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 9&lt;/td&gt;
+&lt;td&gt;2.9%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Year 10&lt;/td&gt;
+&lt;td&gt;2.0%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Implications:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For holders: less dilution, one of the components of the sell pressure goes down.&lt;/li&gt;
+&lt;li&gt;For Hypernodes owners: no immediate change in the rewards, but on the long run Hypernodes rewards will decrease.&lt;/li&gt;
+&lt;li&gt;Still, because of the dilution drop, the Hypernodes yield in the beginning will be higher than the overall dilution rate.&lt;/li&gt;
+&lt;li&gt;For miners: reduction of rewards short term, but more rewards after some time (block height 5,300,000).&lt;/li&gt;
+&lt;li&gt;For dApps: no changes to fees or block times.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Graph: (A) vs (B)&lt;span class="hx-absolute -hx-mt-20" id="graph-a-vs-b"&gt;&lt;/span&gt;
+&lt;a href="#graph-a-vs-b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The current emission curves (Option A) and the proposed modified curves (Option B) and the associated dilution rates are compared in the figure below:
+Current emission (A) is in Bold, emission for (B) is thinner.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2019-09-10-bgv_01_vote_alternatives.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;Use of the winning funds&lt;span class="hx-absolute -hx-mt-20" id="use-of-the-winning-funds"&gt;&lt;/span&gt;
+&lt;a href="#use-of-the-winning-funds" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;As described in the Bismuth &lt;a href="https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/" &gt;voting protocol&lt;/a&gt;, the BIS of the losing side are sent back to their originating wallets, while funds of the winning side are kept in a fund to finance the option.
+For this motion the winning funds – whatever the issue will be – are to be used as exchange listing and dapps bounties funds.&lt;/p&gt;
+&lt;h2&gt;Arguments&lt;span class="hx-absolute -hx-mt-20" id="arguments"&gt;&lt;/span&gt;
+&lt;a href="#arguments" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Arguments for option A:&lt;span class="hx-absolute -hx-mt-20" id="arguments-for-option-a"&gt;&lt;/span&gt;
+&lt;a href="#arguments-for-option-a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Cryptocurrencies are supposed to be different from fiat currencies, where central banks regularly adjust monetary policies. See for example this article, where one of the conclusions is: “… cryptocurrencies offer a unique opportunity to engineer long term monetary policy that is carried out in full transparency. Unfortunately, many protocols we’ve looked at do not take advantage of this opportunity, or are prone to change (which defeats the purpose).”&lt;/li&gt;
+&lt;li&gt;Option B, although seemingly radical towards the miners (initial 43% reduction), shifts the emissions curve by approximately one year. The Bismuth Foundation has a long-term perspective, and one year means very little in the grand scheme.&lt;/li&gt;
+&lt;li&gt;The miners play a very important role, by securing the chain with their hash power, and building it in the first place. The PoS chain wouldn’t exist without the PoW chain, and Bismuth is – at core – a PoW chain.
+By reducing the miners rewards (Option B) there is a high probability that the overall hash power will be reduced. With a reduced overall hash power in the network, the Bismuth blockchain will become more vulnerable to a 51% attack. Should such an attack occur, it is likely to be detrimental for the $BIS price.&lt;/li&gt;
+&lt;li&gt;Bismuth is mainly a PoW coin, with no premine or ICO. It is meaningless to compare its supply model or dilution to pure PoS models, ICOs or premined coins.&lt;/li&gt;
+&lt;li&gt;Supply is just one component of sell pressure. Holders selling when market goes down also play a significant role in sell pressure. Everyone’s time would be put to better use in building the demand side up rather than trying short term hacks with supply.&lt;/li&gt;
+&lt;li&gt;Market could play a more important role than the supply curve. No need to play against the market, better wait for a purge and the next bull run.&lt;/li&gt;
+&lt;li&gt;In order to reduce the dilution, option B requires the PoS rewards – part of the dilution – to decrease instead of being constant. This can be seen as a time bomb for Hypernode owners, unless use-cases based upon the Hypernodes do add new income sources to Hypernode owners.&lt;/li&gt;
+&lt;li&gt;Option A would not require a hardfork, so there is less work for all the network participants (exchanges, pools, Hypernode owners) which all would have to update their nodes if Option B is selected.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Arguments for option B:&lt;span class="hx-absolute -hx-mt-20" id="arguments-for-option-b"&gt;&lt;/span&gt;
+&lt;a href="#arguments-for-option-b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;By significantly reducing the miners block rewards – hence dilution – the staking yield for Hypernode owners will initially become net positive (larger than the dilution caused by new coins).&lt;/li&gt;
+&lt;li&gt;By reducing the block rewards some believe that the supply reduction and increased scarcity will help recover the $BIS price, which has fallen significantly in recent times.&lt;/li&gt;
+&lt;li&gt;If the $BIS price would increase by a factor 2x or more after the supply reduction, the miners would be better off measured in USD compared to before, since the miners’ rewards measured in $BIS will initially be reduced by a factor of less than 2x.&lt;/li&gt;
+&lt;li&gt;Option B introduces a long-term lower limit of Hypernode rewards of 0.5 $BIS per block to ensure that the block rewards can never reach zero, meaning the Hypernode owners have an incentive to stay in the ecosystem, in case future fees from use-cases are not sufficient or too irregular.&lt;/li&gt;
+&lt;li&gt;Option B introduces a long-term lower limit of the miners reward of 0.5 $BIS per block to ensure that the block rewards can never reach zero, meaning that the hash power will not disappear in case future network fees are not sufficient or too irregular to reward the miners.&lt;/li&gt;
+&lt;li&gt;With Option B the developer rewards do not go to zero either, but have a lower limit of 0.05 $BIS per block (10% of the miners block rewards), giving the core team a long-term incentive to keep working on and improving the blockchain, it’s ecosystem, as well as a marketing and exchange listing budget.&lt;/li&gt;
+&lt;li&gt;Many blockchain projects have modified their emissions curves recently, including Ethereum which is ranked 2nd in terms of marketcap value. It is believed that these modifications have been made to become more comparable with Bitcoin’s dilution rates. Bitcoin being the first cryptocurrency, has had many years a headstart on other projects, and it has reached the tail end of it’s emission curve. It can be argued that Bismuth must modify its emissions curve too, or be left behind.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Many more arguments and discussions can be found on the discord, #trade channel.&lt;/p&gt;
+&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discord.gg/G5gUbkn" target="_blank" rel="noopener"&gt;Bismuth Discord&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/" &gt;Voting Protocol&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Bismuth Governance Shift - Part 2</title><link>https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/</link><pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-08-30-governance-shift-part_2/</guid><description>
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2019-08-30-governance-shift-part_2.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;Preamble&lt;span class="hx-absolute -hx-mt-20" id="preamble"&gt;&lt;/span&gt;
+&lt;a href="#preamble" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In the previous post, the governance shift that is to take place with Bismuth was introduced, and the ETH voting protocol was examined. It was shown that this protocol does come with several issues that could be important flaws in the Bismuth context.&lt;/p&gt;
+&lt;h3&gt;Issues with the ETH voting protocol&lt;span class="hx-absolute -hx-mt-20" id="issues-with-the-eth-voting-protocol"&gt;&lt;/span&gt;
+&lt;a href="#issues-with-the-eth-voting-protocol" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;There is nothing at stake. You do not directly win or lose anything by voting (just some gas)&lt;/li&gt;
+&lt;li&gt;Exchanges as well as shared services, dev funds, and founders have a huge voting power&lt;/li&gt;
+&lt;li&gt;The holders are by definition the ones getting the most votes, so the issue is likely to be in favor of the holders group, and potentially detrimental to others and the coin in general.&lt;/li&gt;
+&lt;li&gt;Since the votes are public, it allows for any kind of psychological manipulation by influence groups. You could pretend to vote for the other group, so other users are not incited to vote as it appears there is a clear winner. Then swap votes at the very last moment. Influence groups can play mind games.&lt;/li&gt;
+&lt;li&gt;You do not vote “your best”, you just vote enough so your group wins.&lt;/li&gt;
+&lt;li&gt;You can bribe big balances who do not care to vote for your group, they have nothing to lose, so why not take the bribe and vote?&lt;/li&gt;
+&lt;li&gt;Many users could also be bribed to vote against their long term interest: they would get the bribe right now, and have nothing immediate to lose.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the case of Bismuth, mean exchanges – including Cryptopia’s inactive wallet – or one entity – including the core team – could vote and have chances to impose their own decisions.&lt;/p&gt;
+&lt;h3&gt;An alternate voting protocol&lt;span class="hx-absolute -hx-mt-20" id="an-alternate-voting-protocol"&gt;&lt;/span&gt;
+&lt;a href="#an-alternate-voting-protocol" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Now comes a description of the Bismuth Governance Voting Model (BGVM). The goal is to have voters put their money where their mouth is. With this protocol:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You only vote for something you really want to happen.&lt;/li&gt;
+&lt;li&gt;You do take risks, you have to show your motivation. Your vote is not an empty word, the core team is not the only one wetting the shirt.&lt;/li&gt;
+&lt;li&gt;Every category has a similar weight and cost to vote. Big balances are not over-represented.&lt;/li&gt;
+&lt;li&gt;Still, the richest wallets can have the most weight, and are also the ones benefiting from a higher future price.&lt;/li&gt;
+&lt;li&gt;You help finance the project you voted for.&lt;/li&gt;
+&lt;li&gt;There is no bribe advantage.&lt;/li&gt;
+&lt;li&gt;If you lose, you can still be happy.&lt;/li&gt;
+&lt;li&gt;There is no possible mind games nor manipulation until the vote is over.&lt;/li&gt;
+&lt;li&gt;The voters involvement is known in real time&lt;/li&gt;
+&lt;li&gt;The issue of the vote is secret until it is finished.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;«Bismuth defines a new voting protocol: users have to put their money where their mouth is. Involvement is known in real time but the issue of the vote is secret until over! Good idea?» &lt;a href="https://x.com/intent/tweet?text=%23Bismuth%20defines%20a%20new%20voting%20protocol:%20users%20have%20to%20put%20their%20money%20where%20their%20mouth%20is.%20Involvement%20is%20known%20in%20real%20time%20but%20the%20issue%20of%20the%20vote%20is%20secret%20until%20over!" target="_blank" rel="noopener"&gt;Click to tweet&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;The protocol&lt;span class="hx-absolute -hx-mt-20" id="the-protocol"&gt;&lt;/span&gt;
+&lt;a href="#the-protocol" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The public interface of the protocol is as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A motion is proposed, with 2 or more options.&lt;/li&gt;
+&lt;li&gt;You vote by sending $BIS + data to the vote address. The amount you send is public, whereas data (your vote) is encrypted and private.&lt;/li&gt;
+&lt;li&gt;The $BIS you send are your voting weight. Their use – should the motion pass – are stated in the motion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Options:&lt;span class="hx-absolute -hx-mt-20" id="options"&gt;&lt;/span&gt;
+&lt;a href="#options" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;You can issue several voting transactions, so you can increase your weight during the voting period.&lt;/li&gt;
+&lt;li&gt;you can invert a previous transaction vote (but not cancel it) should you change your mind.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once the voting period is finished:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Votes – and related flips – are revealed.&lt;/li&gt;
+&lt;li&gt;If you do not reveal your vote, it cannot be counted, and you do not get your money back.&lt;/li&gt;
+&lt;li&gt;Losers get their $BIS back (less transaction fees).&lt;/li&gt;
+&lt;li&gt;In the winners’ case, their $BIS go into a community fund to be used as stated by the motion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pros&lt;span class="hx-absolute -hx-mt-20" id="pros"&gt;&lt;/span&gt;
+&lt;a href="#pros" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;There is no need to bribe people, you would have to bribe them more than by voting yourself.&lt;/li&gt;
+&lt;li&gt;There will be no mind games, the issue is totally opaque until the end. Even the core team does not have access to the results before votes are revealed.&lt;/li&gt;
+&lt;li&gt;You take risks, and only vote for what you really want, because if this happens, your $BIS vote will be used to build it.&lt;/li&gt;
+&lt;li&gt;There is no incentive in voting for the other side, since if it wins, you lose your tokens.&lt;/li&gt;
+&lt;li&gt;Trolls and fudders have no voice, no leverage. Only final $BIS votes count, once revealed.&lt;/li&gt;
+&lt;li&gt;It’s safer for big holders with funds in cold wallet: you don’t have to move your cold funds out to vote. Just vote what you want.&lt;/li&gt;
+&lt;li&gt;Involvement (total amount of $BIS) is known in real time.&lt;/li&gt;
+&lt;li&gt;No need to run a balance vote on one side, then a miner vote by block signaling on the other side: everyone votes with the same protocol, the same unit.&lt;/li&gt;
+&lt;li&gt;You know what the minimum proposal budget will be (at worse, 50.01% of the votes for a vote with 2 options).&lt;/li&gt;
+&lt;li&gt;Every group has the same voting cost/power. Holders do not have more power than miners because they have a higher balance. What everyone bets for is what they risk, should they win. If the miners’ group want to overrule the holders, they do not need to have as much balance as the holders, they just need to vote as much as them.&lt;/li&gt;
+&lt;li&gt;The amount you vote reflects your belief and involvement in the proposal you vote for, and what you are willing to contribute to see it succeed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;«Contrary to the Carbonvote process, the #Bismuth “blind” voting protocol renders the vote immune to bribery attacks, and forces users to vote for the long term success of the project. Read more: » &lt;a href="https://x.com/intent/tweet?text=Contrary%20to%20the%20Carbonvote%20process,%20the%20%23Bismuth%20%27blind%27%20voting%20protocol%20renders%20the%20vote%20immune%20to%20bribery%20attacks,%20and%20forces%20users%20to%20vote%20for%20the%20long%20term%20success%20of%20the%20project." target="_blank" rel="noopener"&gt;Click to tweet&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Conclusion&lt;span class="hx-absolute -hx-mt-20" id="conclusion"&gt;&lt;/span&gt;
+&lt;a href="#conclusion" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The “blind auction” introduced by the innovative and new BGVM avoids the pitfalls of more common voting and blockchain governance mechanisms seen to date. The protocol protects the project’s global interest by allowing everyone to be represented in a fair manner and forces voters to vote for what they really want in the long term, and not for what would give them the most short term advantage.
+The vote issue is an Oracle whose value is only known once the decision is immutable.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;«The new #Bismuth voting protocol merges carbonvoting and block signaling into a single process where every actor votes with the same process and unit for a fair vote that can not be bribed nor manipulated. Read more: » &lt;a href="https://x.com/intent/tweet?text=The%20new%20%23Bismuth%20voting%20protocol%20merges%20carbonvoting%20and%20block%20signaling%20into%20a%20single%20process%20where%20every%20actor%20votes%20with%20the%20same%20process%20and%20unit%20for%20a%20fair%20vote%20that%20can%20not%20be%20bribed%20nor%20manipulated." target="_blank" rel="noopener"&gt;Click to tweet&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener"&gt;Markdown Syntax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gohugo.io/content-management/formats/#markdown" target="_blank" rel="noopener"&gt;Hugo Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Bismuth Governance Shift - Part 1</title><link>https://bismuthcoin.org/blog/2019-08-29-governance-shift-part_1/</link><pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-08-29-governance-shift-part_1/</guid><description>
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2019-08-29-governance-shift-part_1.png" alt="" loading="lazy" /&gt;
+During the first two and a half years of the Bismuth blockchain project, important governance actions have been decided by the group of foundation members. Now the core team finds it is time to involve the community deeper into governance questions, and make more use of community feedback.&lt;/p&gt;
+&lt;p&gt;The Bismuth project has had a very active Discord community since the beginning, and it is seen as a very valuable resource for the project and it makes sense to consult the community more than in the past for input on important decisions. Therefore, the foundation members have decided to introduce a shift in the governance, by letting the stakeholders involved vote on important decisions concerning the future of the project.&lt;/p&gt;
+&lt;p&gt;Discord alone however can’t be seen as a source of actionable feedback:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Not everyone is active there.&lt;/li&gt;
+&lt;li&gt;Some voices do flood day after day with the same suggestions (count as one, no matter how many times you repeat yourself).&lt;/li&gt;
+&lt;li&gt;Not all suggestions are well presented and actionable.&lt;/li&gt;
+&lt;li&gt;You can’t map a discord user to a Bismuth User (unless some flavor or KYC or associated wallets with Discord ids).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Twitter polls are also totally un-trustable:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Like with Discord, you do not reach everyone.&lt;/li&gt;
+&lt;li&gt;You can’t map a Twitter user to a Bismuth user (unless KYC/ de-pseudonymization).&lt;/li&gt;
+&lt;li&gt;Twitter polls are easily manipulable, there are plenty of services to buy votes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, the core team came to realize that if Discord is ok to gather some feedback and proposals, if everyone’s voice is to be heard and a decision in the common interest is to be taken, the voting process has to go further than that.&lt;/p&gt;
+&lt;p&gt;Until then, the Bismuth team was the only responsible entity for core changes, like the introduction of the Hypernodes and related rewards, and later on, the move of some part of the mining reward toward Hypernodes. The Team always had in mind the long term success of the project, and took every class of user point of view into account before deciding: investors, miners, devs, etc.&lt;/p&gt;
+&lt;p&gt;Now, the core team feels that the time has come to let users hold their responsibilities and take the decision for everyone’s best interest, via a voting process. The team would prepare options to vote upon, the users will decide, the team will take action based on the final voting results.&lt;/p&gt;
+&lt;h3&gt;The first vote in Bismuth History&lt;span class="hx-absolute -hx-mt-20" id="the-first-vote-in-bismuth-history"&gt;&lt;/span&gt;
+&lt;a href="#the-first-vote-in-bismuth-history" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If you are familiar with the discord, you cannot avoid the economists lobbying for a supply modification.&lt;/p&gt;
+&lt;p&gt;The latest fork (&lt;a href="https://bismuthcoin.org/blog/2019-05-17-hard-fork-v4.3.0.0/" &gt;see here&lt;/a&gt;) was tailored to account for increased services to be provided by the Hypernodes, while not raising the dilution. It already went in the direction of reducing miner rewards. Currently the most vocal suggestions aim to address the dropping price concern, and are to significantly reduce the supply by cutting the emission: that is both block rewards and HN rewards.&lt;/p&gt;
+&lt;p&gt;The team ran simulations, examined the available data but still it is not clear what the global implications can be, nor how action or inaction would be welcome by the users and the markets. The problem really is complex with implications at the ethical, economical level, involving the equilibrium of the whole system. The more you dig, the more it appears complex.&lt;/p&gt;
+&lt;p&gt;It looks like it is the perfect case where a community vote is needed and will make sense.&lt;/p&gt;
+&lt;p&gt;A voting process can be an equally daunting task, because blockchain based voting is tricky and dangerous. The difficulty is two fold:&lt;/p&gt;
+&lt;h3&gt;A – What is “one” vote?&lt;span class="hx-absolute -hx-mt-20" id="a--what-is-one-vote"&gt;&lt;/span&gt;
+&lt;a href="#a--what-is-one-vote" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Blockchains usually are non-KYC (Know Your Customer) and anonymous or pseudonymous. One user can have many addresses. Some do require KYC (Like Tezos), that’s a road the core team does not want to take. So you never can map one vote to one user. Even if you could, voters could be bribed.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Is a vote one address?&lt;/li&gt;
+&lt;li&gt;One coin?&lt;/li&gt;
+&lt;li&gt;One IP address?&lt;/li&gt;
+&lt;li&gt;One hash unit? In any case, you could pretend you have several voices when all are yours.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;B – Will I vote for the best common interest?&lt;span class="hx-absolute -hx-mt-20" id="b--will-i-vote-for-the-best-common-interest"&gt;&lt;/span&gt;
+&lt;a href="#b--will-i-vote-for-the-best-common-interest" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In a blockchain context, you can have several classes of people with different objectives. For Bismuth for instance, a Proof-of-Work (PoW) utility token, you can think of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The miners.&lt;/li&gt;
+&lt;li&gt;The holders.&lt;/li&gt;
+&lt;li&gt;The dApps developers.&lt;/li&gt;
+&lt;li&gt;The core foundation team.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of these classes can have a different egoistic goal when speaking of chain governance. Just as a quick illustration, miners would like higher fees or block rewards, holders want less dilution and more marketing, dapps developers want low fees and fast blocks, core team wants the token to go mainstream, be secure and used in the real world.&lt;/p&gt;
+&lt;p&gt;Game theory shows that this can lead to votes that are counter productive for the chain as a whole (see “tragedy of the commons“, this is somehow related).&lt;/p&gt;
+&lt;h3&gt;Ethereum Case – Carbonvote&lt;span class="hx-absolute -hx-mt-20" id="ethereum-case--carbonvote"&gt;&lt;/span&gt;
+&lt;a href="#ethereum-case--carbonvote" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Before presenting the proposed Bismuth voting model, an example vote based on the Ethereum blockchain is briefly discussed. In order to decide about the “ice age” issue, ETH owners could vote on a motion to delay it.&lt;/p&gt;
+&lt;p&gt;How did it work?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Every address could vote, address balance = vote weight.&lt;/li&gt;
+&lt;li&gt;0 ETH sent, but consumes gas.&lt;/li&gt;
+&lt;li&gt;You could change your vote anytime, or move ETH to change your vote weight.&lt;/li&gt;
+&lt;li&gt;The current, real time state of the vote was public at carbonvote.com.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The core team feels this model has several flaws, that can be deduced from the voting protocol.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gives advantage to holders, exchanges and service providers (the higher your wallet balance, the more your weight).&lt;/li&gt;
+&lt;li&gt;Public votes, real time stats, means you can play mind games, swap votes last moment and heavily influence the whole process.&lt;/li&gt;
+&lt;li&gt;Users do vote but take no real risk, no responsibility. They have nothing to gain or lose if they don’t care about the results.&lt;/li&gt;
+&lt;li&gt;You can be bribed to vote.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In a next article, you’ll be presented the Bismuth Governance Voting Model (BGVM), which is a novel protocol to address fair voting in the context of blockchain governance, and addresses the issues we just saw with the naive protocol above.&lt;/p&gt;
+&lt;h2&gt;Summary&lt;span class="hx-absolute -hx-mt-20" id="summary"&gt;&lt;/span&gt;
+&lt;a href="#summary" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Bismuth team will begin to introduce governance to help decide about some core Bismuth choices.
 A novel voting process was designed and will be used.
-The first issue stakeholders will be able to vote upon is the need or not to change the core supply metrics.&lt;/p>
-&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
-&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener">Markdown Syntax&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://gohugo.io/content-management/formats/#markdown" target="_blank" rel="noopener">Hugo Markdown&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+The first issue stakeholders will be able to vote upon is the need or not to change the core supply metrics.&lt;/p&gt;
+&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener"&gt;Markdown Syntax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gohugo.io/content-management/formats/#markdown" target="_blank" rel="noopener"&gt;Hugo Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

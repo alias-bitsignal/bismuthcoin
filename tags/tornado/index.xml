@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Tornado</title><link>https://bismuthcoin.org/tags/tornado/</link><description>Recent content in Tornado on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 14 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bismuthcoin.org/tags/tornado/index.xml" rel="self" type="application/rss+xml"/><item><title>Bismuth Tornado Wallet on Android via Termux</title><link>https://bismuthcoin.org/blog/2019-04-14-termux/</link><pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-04-14-termux/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2019-04-14/termux.png" alt="" loading="lazy" />
-The &lt;strong>Bismuth Tornado Wallet&lt;/strong> can be used on an &lt;strong>Android mobile phone&lt;/strong> in combination with &lt;strong>Termux&lt;/strong>.&lt;/p>
-&lt;h3>How to Use Tornado Wallet on Android with Termux&lt;span class="hx-absolute -hx-mt-20" id="how-to-use-tornado-wallet-on-android-with-termux">&lt;/span>
-&lt;a href="#how-to-use-tornado-wallet-on-android-with-termux" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>This document describes how to get the wallet running under this setup. First, find Termux in the Play Store and install it as shown in the screenshot on the left.&lt;/p>
-&lt;p>Once installed, start Termux and type in the following commands (except the lines starting with &lt;code>#&lt;/code>, which are comments):&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;pre>&lt;code>pkg install python wget clang
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2019-04-14/termux.png" alt="" loading="lazy" /&gt;
+The &lt;strong&gt;Bismuth Tornado Wallet&lt;/strong&gt; can be used on an &lt;strong&gt;Android mobile phone&lt;/strong&gt; in combination with &lt;strong&gt;Termux&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;How to Use Tornado Wallet on Android with Termux&lt;span class="hx-absolute -hx-mt-20" id="how-to-use-tornado-wallet-on-android-with-termux"&gt;&lt;/span&gt;
+&lt;a href="#how-to-use-tornado-wallet-on-android-with-termux" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This document describes how to get the wallet running under this setup. First, find Termux in the Play Store and install it as shown in the screenshot on the left.&lt;/p&gt;
+&lt;p&gt;Once installed, start Termux and type in the following commands (except the lines starting with &lt;code&gt;#&lt;/code&gt;, which are comments):&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;pre&gt;&lt;code&gt;pkg install python wget clang
 pkg install build-essential
 pkg install git
 # default wget doesn’t handle https
@@ -17,22 +17,22 @@ cd TornadoWallet
 pip install -r requirements.txt
 cd wallet
 python wallet.py
-# wait a little while and open web browser at localhost:8888&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+# wait a little while and open web browser at localhost:8888&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>If &lt;code>localhost:8888&lt;/code> shows an error or timeout, it means that the wallet has not booted yet. In this case wait a bit more and retry.&lt;/p>
-&lt;p>The instructions above will create a new &lt;code>wallet.json&lt;/code> file. If you already have a wallet created on a PC which you would also like to use on your phone, you need to transfer the following file from your PC to the phone (replace username with your own):&lt;/p>
-&lt;p>&lt;code>C:\Users\username\bismuth-private\wallet.json&lt;/code>&lt;/p>
-&lt;p>First, make sure that your wallet on the PC is encrypted and protected by a password. Then, the file wallet.json can be transferred to the phone, for example by email or by using a cloud storage such as Dropbox, Google Drive, etc. You can then use Termux to transfer the wallet.json file to the correct location:&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;pre>&lt;code># Stop the Tornado wallet (using ctrl&amp;#43;c) before copying wallet.json
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If &lt;code&gt;localhost:8888&lt;/code&gt; shows an error or timeout, it means that the wallet has not booted yet. In this case wait a bit more and retry.&lt;/p&gt;
+&lt;p&gt;The instructions above will create a new &lt;code&gt;wallet.json&lt;/code&gt; file. If you already have a wallet created on a PC which you would also like to use on your phone, you need to transfer the following file from your PC to the phone (replace username with your own):&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;C:\Users\username\bismuth-private\wallet.json&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;First, make sure that your wallet on the PC is encrypted and protected by a password. Then, the file wallet.json can be transferred to the phone, for example by email or by using a cloud storage such as Dropbox, Google Drive, etc. You can then use Termux to transfer the wallet.json file to the correct location:&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;pre&gt;&lt;code&gt;# Stop the Tornado wallet (using ctrl&amp;#43;c) before copying wallet.json
 # Allow phone to access the storage area (answer Allow)
 termux-setup-storage
 cd $HOME/bismuth-private
@@ -42,90 +42,90 @@ mv wallet.json wallet-backup.json
 cp /storage/emulated/0/Download/wallet.json .
 cd ..
 python wallet.py
-# wait a little while and open web browser at localhost:8888&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+# wait a little while and open web browser at localhost:8888&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>Another option is to install openssh and then copy wallet.json using sftp, if you have your own server available:&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;pre>&lt;code>pkg install openssh
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Another option is to install openssh and then copy wallet.json using sftp, if you have your own server available:&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;pre&gt;&lt;code&gt;pkg install openssh
 cd ~/bismuth-private
 sftp username@mysecureserver.com
-get wallet.json / after successful login &lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+get wallet.json / after successful login &lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>The screenshot below shows the phone’s web browser after wallet.py has been restarted with an encrypted wallet.json file successfully copied from a PC to the phone’s bismuth-private folder. Note that the wallet decryption takes some time on the phone, especially if wallet.json contains multiple addresses.&lt;/p>
-&lt;ul>
-&lt;li>credits go to Discord users &lt;strong>bizzy&lt;/strong> and &lt;strong>heavens&lt;/strong> for working out how to use the Tornado wallet with Termux.&lt;/li>
-&lt;li>heavens also provided the following script, which can be used to start the wallet and automatically launch the web-browser&lt;/li>
-&lt;/ul>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;pre>&lt;code>#!/bin/bash
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The screenshot below shows the phone’s web browser after wallet.py has been restarted with an encrypted wallet.json file successfully copied from a PC to the phone’s bismuth-private folder. Note that the wallet decryption takes some time on the phone, especially if wallet.json contains multiple addresses.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;credits go to Discord users &lt;strong&gt;bizzy&lt;/strong&gt; and &lt;strong&gt;heavens&lt;/strong&gt; for working out how to use the Tornado wallet with Termux.&lt;/li&gt;
+&lt;li&gt;heavens also provided the following script, which can be used to start the wallet and automatically launch the web-browser&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
 cd ~/TornadoWallet/wallet
 (sleep 7;am start −−user 0 -a android.intent.action.VIEW -d http://localhost:8888) &amp;amp;
-python wallet.py&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+python wallet.py&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>This script can be written directly on the phone, for example using the nano text editor:&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;pre>&lt;code>nano mystart&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This script can be written directly on the phone, for example using the nano text editor:&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;pre&gt;&lt;code&gt;nano mystart&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>Then use CTRL+O to save and CTRL+X to return to the terminal window. To make the script executable:&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;pre>&lt;code>chmod u&amp;#43;x mystart&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Then use CTRL+O to save and CTRL+X to return to the terminal window. To make the script executable:&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;pre&gt;&lt;code&gt;chmod u&amp;#43;x mystart&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>and to run it:&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;pre>&lt;code>./mystart&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;and to run it:&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;pre&gt;&lt;code&gt;./mystart&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>Termux Widget is an addon available at Google Play or F-droid (both Termux and the Widget need to be installed from the same source, you cannot mix). Widget provides an easy way to start small scriptlets from the home screen of the phone. The script “mystartup” needs to be moved to the $HOME/.shortcuts directory, see &lt;a href="https://wiki.termux.com/wiki/Termux:Widget" target="_blank" rel="noopener">https://wiki.termux.com/wiki/Termux:Widget&lt;/a>.&lt;/p>
-&lt;p>After that, add Termux:Widget to your phone’s home screen and select to launch the “mystartup” script. The home screen should then look as shown below. The Bismuth Tornado Wallet can now be launched on Android with one simple touch.&lt;/p>
-&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
-&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>F-droid: &lt;a href="https://f-droid.org/en/packages/com.termux.widget/" target="_blank" rel="noopener">F-droid&lt;/a>&lt;/li>
-&lt;li>Termux: &lt;a href="https://wiki.termux.com/wiki/Termux:Widget" target="_blank" rel="noopener">Termux&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Termux Widget is an addon available at Google Play or F-droid (both Termux and the Widget need to be installed from the same source, you cannot mix). Widget provides an easy way to start small scriptlets from the home screen of the phone. The script “mystartup” needs to be moved to the $HOME/.shortcuts directory, see &lt;a href="https://wiki.termux.com/wiki/Termux:Widget" target="_blank" rel="noopener"&gt;https://wiki.termux.com/wiki/Termux:Widget&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After that, add Termux:Widget to your phone’s home screen and select to launch the “mystartup” script. The home screen should then look as shown below. The Bismuth Tornado Wallet can now be launched on Android with one simple touch.&lt;/p&gt;
+&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;F-droid: &lt;a href="https://f-droid.org/en/packages/com.termux.widget/" target="_blank" rel="noopener"&gt;F-droid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Termux: &lt;a href="https://wiki.termux.com/wiki/Termux:Widget" target="_blank" rel="noopener"&gt;Termux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

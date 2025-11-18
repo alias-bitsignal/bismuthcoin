@@ -1,50 +1,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Website</title><link>https://bismuthcoin.org/tags/website/</link><description>Recent content in Website on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://bismuthcoin.org/tags/website/index.xml" rel="self" type="application/rss+xml"/><item><title>Announcing the Information Hub Site</title><link>https://bismuthcoin.org/blog/2025-03-26-website/</link><pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2025-03-26-website/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2025-03-26/bismuthcoin.jpeg" alt="" loading="lazy" />
-The Bismuth Foundation is proud to introduce our new, community-powered Information Hub.&lt;/p>
-&lt;h3>Website&lt;span class="hx-absolute -hx-mt-20" id="website">&lt;/span>
-&lt;a href="#website" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Welcome to &lt;a href="https://bismuthcoin.org" target="_blank" rel="noopener">bismuthcoin.org&lt;/a>&lt;/p>
-&lt;h3>A Sustainable, Forkable Resource&lt;span class="hx-absolute -hx-mt-20" id="a-sustainable-forkable-resource">&lt;/span>
-&lt;a href="#a-sustainable-forkable-resource" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Our top priority was ensuring this new site is not dependent on a single domain. By leveraging &lt;strong>GitHub Pages&lt;/strong> and the Hugo static site generator, we give the &lt;strong>Bismuth community&lt;/strong> a fully forkable repository.&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>If a valuable website goes offline, it is better to have anyone be able to clone or fork the GitHub repo of the site to instantly restore the website on their own domain.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>The site’s main branch automatically generates content in the gh-pages branch, making updates and replication seamless.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3>Migrating Valuable Content&lt;span class="hx-absolute -hx-mt-20" id="migrating-valuable-content">&lt;/span>
-&lt;a href="#migrating-valuable-content" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Several crucial blog posts previously hosted on &lt;code>hypernodes.bismuth.live&lt;/code> contain important Bismuth history and technical insights. Because that site is now offline, we’ve imported the most essential posts into our new Hub and will continue adding more. This ensures the community retains access to key information.&lt;/p>
-&lt;h3>Why bismuthcoin.org?&lt;span class="hx-absolute -hx-mt-20" id="why-bismuthcoinorg">&lt;/span>
-&lt;a href="#why-bismuthcoinorg" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>We chose bismuthcoin.org because the term “coin” immediately signals our project’s cryptocurrency focus—making it memorable, approachable, and inviting for newcomers and blockchain enthusiasts alike.&lt;/p>
-&lt;h3>Site Highlights&lt;span class="hx-absolute -hx-mt-20" id="site-highlights">&lt;/span>
-&lt;a href="#site-highlights" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>
-&lt;p>Docs Section
-Features crucial documents and reference materials from the main Bismuth repositories, making it easy to find up-to-date information.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Blog Section
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2025-03-26/bismuthcoin.jpeg" alt="" loading="lazy" /&gt;
+The Bismuth Foundation is proud to introduce our new, community-powered Information Hub.&lt;/p&gt;
+&lt;h3&gt;Website&lt;span class="hx-absolute -hx-mt-20" id="website"&gt;&lt;/span&gt;
+&lt;a href="#website" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Welcome to &lt;a href="https://bismuthcoin.org" target="_blank" rel="noopener"&gt;bismuthcoin.org&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;A Sustainable, Forkable Resource&lt;span class="hx-absolute -hx-mt-20" id="a-sustainable-forkable-resource"&gt;&lt;/span&gt;
+&lt;a href="#a-sustainable-forkable-resource" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Our top priority was ensuring this new site is not dependent on a single domain. By leveraging &lt;strong&gt;GitHub Pages&lt;/strong&gt; and the Hugo static site generator, we give the &lt;strong&gt;Bismuth community&lt;/strong&gt; a fully forkable repository.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If a valuable website goes offline, it is better to have anyone be able to clone or fork the GitHub repo of the site to instantly restore the website on their own domain.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The site’s main branch automatically generates content in the gh-pages branch, making updates and replication seamless.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Migrating Valuable Content&lt;span class="hx-absolute -hx-mt-20" id="migrating-valuable-content"&gt;&lt;/span&gt;
+&lt;a href="#migrating-valuable-content" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Several crucial blog posts previously hosted on &lt;code&gt;hypernodes.bismuth.live&lt;/code&gt; contain important Bismuth history and technical insights. Because that site is now offline, we’ve imported the most essential posts into our new Hub and will continue adding more. This ensures the community retains access to key information.&lt;/p&gt;
+&lt;h3&gt;Why bismuthcoin.org?&lt;span class="hx-absolute -hx-mt-20" id="why-bismuthcoinorg"&gt;&lt;/span&gt;
+&lt;a href="#why-bismuthcoinorg" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We chose bismuthcoin.org because the term “coin” immediately signals our project’s cryptocurrency focus—making it memorable, approachable, and inviting for newcomers and blockchain enthusiasts alike.&lt;/p&gt;
+&lt;h3&gt;Site Highlights&lt;span class="hx-absolute -hx-mt-20" id="site-highlights"&gt;&lt;/span&gt;
+&lt;a href="#site-highlights" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Docs Section
+Features crucial documents and reference materials from the main Bismuth repositories, making it easy to find up-to-date information.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Blog Section
 Gathers important articles and updates, organized by tags. View all tags at:
-&lt;a href="https://bismuthcoin.org/tags/" target="_blank" rel="noopener">https://bismuthcoin.org/tags/&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3>Technical Improvements&lt;span class="hx-absolute -hx-mt-20" id="technical-improvements">&lt;/span>
-&lt;a href="#technical-improvements" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>
-&lt;p>GitHub Pages Hosting
-Ensures open collaboration where anyone can contribute, propose changes, or fork the site to keep content alive.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Hugo Framework + Hextra Theme
-Replaces our old WordPress setup with a light, modern static site that’s simpler to maintain and replicate.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3>Explore the Repo&lt;span class="hx-absolute -hx-mt-20" id="explore-the-repo">&lt;/span>
-&lt;a href="#explore-the-repo" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Repository URL:
-&lt;a href="https://github.com/alias-bitsignal/bismuthcoin" target="_blank" rel="noopener">https://github.com/alias-bitsignal/bismuthcoin&lt;/a>&lt;/p>
-&lt;p>Feel free to fork or contribute. Community pull requests are welcome to keep the site accurate and comprehensive.&lt;/p>
-&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
-&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Medium Blog Post: &lt;a href="https://medium.com/@bismuthplatform/announcing-the-new-bismuth-cryptocurrency-information-hub-426220941d7b" target="_blank" rel="noopener">Bismuth Information Hub&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;a href="https://bismuthcoin.org/tags/" target="_blank" rel="noopener"&gt;https://bismuthcoin.org/tags/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Technical Improvements&lt;span class="hx-absolute -hx-mt-20" id="technical-improvements"&gt;&lt;/span&gt;
+&lt;a href="#technical-improvements" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;GitHub Pages Hosting
+Ensures open collaboration where anyone can contribute, propose changes, or fork the site to keep content alive.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hugo Framework + Hextra Theme
+Replaces our old WordPress setup with a light, modern static site that’s simpler to maintain and replicate.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Explore the Repo&lt;span class="hx-absolute -hx-mt-20" id="explore-the-repo"&gt;&lt;/span&gt;
+&lt;a href="#explore-the-repo" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Repository URL:
+&lt;a href="https://github.com/alias-bitsignal/bismuthcoin" target="_blank" rel="noopener"&gt;https://github.com/alias-bitsignal/bismuthcoin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Feel free to fork or contribute. Community pull requests are welcome to keep the site accurate and comprehensive.&lt;/p&gt;
+&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Medium Blog Post: &lt;a href="https://medium.com/@bismuthplatform/announcing-the-new-bismuth-cryptocurrency-information-hub-426220941d7b" target="_blank" rel="noopener"&gt;Bismuth Information Hub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

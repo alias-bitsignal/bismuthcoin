@@ -1,328 +1,328 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Plugin</title><link>https://bismuthcoin.org/tags/plugin/</link><description>Recent content in Plugin on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bismuthcoin.org/tags/plugin/index.xml" rel="self" type="application/rss+xml"/><item><title>Tesla Battery Monitoring</title><link>https://bismuthcoin.org/blog/2020-05-25-tesla-battery-monitoring/</link><pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-05-25-tesla-battery-monitoring/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-battery-monitoring.webp" alt="" loading="lazy" />
-Tesla is a market leader in electric vehicles (EVs). They have currently sold and delivered more than 1 million EVs worldwide while production is ramping up fast with new factories in Europe and China.&lt;/p>
-&lt;h2>Tesla Battery Monitoring on Blockchain&lt;span class="hx-absolute -hx-mt-20" id="tesla-battery-monitoring-on-blockchain">&lt;/span>
-&lt;a href="#tesla-battery-monitoring-on-blockchain" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Although EVs in general require little maintenance, one expensive component in the car needs to be treated with care: the battery. This video explains what can happen if it is not. With Tesla EVs, there is an 8-year warranty on the battery. After this period of time, there is no longer a warranty, but a car is normally expected to last much longer than this. Although battery costs are declining over time, a replacement battery would typically cost $10,000 or more nowadays.&lt;/p>
-&lt;p>So, what can an owner do to maximize the lifetime of his or her EV battery? The CEO of Tesla – Elon Musk – has previously recommended to keep the battery level between 80% and 30%, see this tweet and the reply.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-tweet.png" alt="" loading="lazy" />&lt;/p>
-&lt;p>The table below illustrates that the lifetime of Li-Ion batteries is limited to a number of charging cycles. As seen from the table, smaller charging cycles consume proportionally less lifetime compared with full charges. The typical lifetime of a Li-Ion battery with 0-100% charge cycles is typically 450 cycles. With 10% charge cycles, on the other hand, the lifetime would typically be 10,000 cycles or more. So, a battery with 10% charging cycles will typically achieve a double lifetime compared to one which has done 0-100% cycles, for the same kWh energy consumption. It is clear from this observation that the charging behavior of the owner will significantly influence the condition of the battery, and hence the potential resale value of the vehicle.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Li-cycle-life.png" alt="" loading="lazy" />
-Table from the paper: Yu Miao et.al., “Current Li-Ion Battery Technologies in Electric Vehicles and Opportunities for Advancements”, &lt;a href="https://doi.org/10.3390/en12061074" target="_blank" rel="noopener">https://doi.org/10.3390/en12061074&lt;/a>&lt;/p>
-&lt;p>When selling an EV on the second hand market, the remaining lifetime of the battery should be one of the most important questions. However, this question could be quite difficult to answer. If the battery condition is unknown, this could affect the resale value by giving the owner a lower price regardless of the actual condition. If, on the other hand the owner can prove, somehow, that the battery was treated with care and the expected amount of remaining lifetime is significant, the resale value of the vehicle should naturally be higher.&lt;/p>
-&lt;p>On the Tesla screen inside the vehicle and also on Tesla’s phone app, it is possible to view and inspect some battery parameters. However, these parameters are lost over time. There is a plot in the car which shows the efficiency (Wh/mi or Wh/km), but this plot is limited to the last few miles or kilometers. After a certain distance those values are lost for the owner.&lt;/p>
-&lt;p>Tesla has an (unofficial) API which allows 3rd party services to log data from owner’s cars. However, by using these services you have to either expose your Tesla login credentials or give an API token to these services. Many owners do not feel comfortable doing this, because it means the 3rd party service could potentially take control over your car, not just read data. Also, there is no guarantee that a 3rd party web service will continue to exist over the lifetime of your car. The average lifetime of an app or a web service is usually considerably shorter than a vehicle. If the operator of the service decides to discontinue – for whatever reason – your vehicle data may be lost. Even if you have a backup of the data, this may not be very useful if the user interface to display and analyze the data is no longer available. Another factor is the cost: most of the 3rd party services require you to pay a monthly fee to use their service to display and analyze your own historic data.&lt;/p>
-&lt;p>This is where blockchain technology enters the picture. The article &lt;a href="https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/" >“Decentralized Condition Monitoring”&lt;/a> explains how a public blockchain can be a good solution when the following conditions are met:&lt;/p>
-&lt;ul>
-&lt;li>More than one participant needs to be able to submit and update data.&lt;/li>
-&lt;li>The participants do not need to know and trust each other.&lt;/li>
-&lt;li>The data does not need to be private.&lt;/li>
-&lt;li>The database needs to be resistant to attacks or censorship.&lt;/li>
-&lt;/ul>
-&lt;p>For the above-mentioned reasons a solution for battery condition monitoring of Tesla EVs has been implemented by using the open source Bismuth public blockchain. Specifically, a Tesla plug-in (also called “crystal” in Bismuth terminology) has been developed for use together with the open source &lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener">TornadoWallet&lt;/a>. Some of the features of the implemented solution are:&lt;/p>
-&lt;ul>
-&lt;li>The vehicle owner will not expose his or her login credentials to anyone, since the app runs on the local computer.&lt;/li>
-&lt;li>All the code involved is open source and publicly available on GitHub on the official account of the Bismuth Foundation. Hence, anyone can verify that the software is safe to use and that there is no malicious intent.&lt;/li>
-&lt;li>When the owner submits data from the vehicle to the public blockchain, he or she can decide to publish the vehicle’s identification number (VIN) openly, or to encrypt it with a password to remain anonymous. This should ideally be a strong password, and not identical to an existing one used for other apps or services.&lt;/li>
-&lt;li>If the owner wants to sell the vehicle in the future, the password can be revealed to the new owner. The new owner can then verify that the submitted data actually belongs to the vehicle’s VIN.&lt;/li>
-&lt;li>The first owner can transfer the virtual asset on the blockchain to the new owner, to allow the new owner to continue to submit data from the vehicle using his or her own account, while keeping the entire track record.&lt;/li>
-&lt;li>To discourage spam and fake data, there are some costs (fees in BIS currency) involved when registering a new VIN on the chain and to submit data.&lt;/li>
-&lt;li>If someone submits fake data to the chain, this would most likely be detected by other users, or by new data analysis services based on the publicly available data. For example, the odometer of a car can never decrease, or the amount of energy (kWh) added should, to some extent, match the battery level and distance driven parameters.&lt;/li>
-&lt;li>To view and analyze the data is free for everyone. A public website has been set up for this purpose, to allow anyone to view and analyze the data without owning a Tesla vehicle or the need to run the TornadoWallet on their local computer.&lt;/li>
-&lt;/ul>
-&lt;p>The public website has been developed to also work well with the Tesla in-car browser (Chromium). The screenshots below are taken from an actual vehicle, for both Night and Day mode.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-01.png" alt="" loading="lazy" />
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-05-25-battery-monitoring.webp" alt="" loading="lazy" /&gt;
+Tesla is a market leader in electric vehicles (EVs). They have currently sold and delivered more than 1 million EVs worldwide while production is ramping up fast with new factories in Europe and China.&lt;/p&gt;
+&lt;h2&gt;Tesla Battery Monitoring on Blockchain&lt;span class="hx-absolute -hx-mt-20" id="tesla-battery-monitoring-on-blockchain"&gt;&lt;/span&gt;
+&lt;a href="#tesla-battery-monitoring-on-blockchain" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Although EVs in general require little maintenance, one expensive component in the car needs to be treated with care: the battery. This video explains what can happen if it is not. With Tesla EVs, there is an 8-year warranty on the battery. After this period of time, there is no longer a warranty, but a car is normally expected to last much longer than this. Although battery costs are declining over time, a replacement battery would typically cost $10,000 or more nowadays.&lt;/p&gt;
+&lt;p&gt;So, what can an owner do to maximize the lifetime of his or her EV battery? The CEO of Tesla – Elon Musk – has previously recommended to keep the battery level between 80% and 30%, see this tweet and the reply.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-05-25-tweet.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;The table below illustrates that the lifetime of Li-Ion batteries is limited to a number of charging cycles. As seen from the table, smaller charging cycles consume proportionally less lifetime compared with full charges. The typical lifetime of a Li-Ion battery with 0-100% charge cycles is typically 450 cycles. With 10% charge cycles, on the other hand, the lifetime would typically be 10,000 cycles or more. So, a battery with 10% charging cycles will typically achieve a double lifetime compared to one which has done 0-100% cycles, for the same kWh energy consumption. It is clear from this observation that the charging behavior of the owner will significantly influence the condition of the battery, and hence the potential resale value of the vehicle.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-05-25-Li-cycle-life.png" alt="" loading="lazy" /&gt;
+Table from the paper: Yu Miao et.al., “Current Li-Ion Battery Technologies in Electric Vehicles and Opportunities for Advancements”, &lt;a href="https://doi.org/10.3390/en12061074" target="_blank" rel="noopener"&gt;https://doi.org/10.3390/en12061074&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When selling an EV on the second hand market, the remaining lifetime of the battery should be one of the most important questions. However, this question could be quite difficult to answer. If the battery condition is unknown, this could affect the resale value by giving the owner a lower price regardless of the actual condition. If, on the other hand the owner can prove, somehow, that the battery was treated with care and the expected amount of remaining lifetime is significant, the resale value of the vehicle should naturally be higher.&lt;/p&gt;
+&lt;p&gt;On the Tesla screen inside the vehicle and also on Tesla’s phone app, it is possible to view and inspect some battery parameters. However, these parameters are lost over time. There is a plot in the car which shows the efficiency (Wh/mi or Wh/km), but this plot is limited to the last few miles or kilometers. After a certain distance those values are lost for the owner.&lt;/p&gt;
+&lt;p&gt;Tesla has an (unofficial) API which allows 3rd party services to log data from owner’s cars. However, by using these services you have to either expose your Tesla login credentials or give an API token to these services. Many owners do not feel comfortable doing this, because it means the 3rd party service could potentially take control over your car, not just read data. Also, there is no guarantee that a 3rd party web service will continue to exist over the lifetime of your car. The average lifetime of an app or a web service is usually considerably shorter than a vehicle. If the operator of the service decides to discontinue – for whatever reason – your vehicle data may be lost. Even if you have a backup of the data, this may not be very useful if the user interface to display and analyze the data is no longer available. Another factor is the cost: most of the 3rd party services require you to pay a monthly fee to use their service to display and analyze your own historic data.&lt;/p&gt;
+&lt;p&gt;This is where blockchain technology enters the picture. The article &lt;a href="https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/" &gt;“Decentralized Condition Monitoring”&lt;/a&gt; explains how a public blockchain can be a good solution when the following conditions are met:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;More than one participant needs to be able to submit and update data.&lt;/li&gt;
+&lt;li&gt;The participants do not need to know and trust each other.&lt;/li&gt;
+&lt;li&gt;The data does not need to be private.&lt;/li&gt;
+&lt;li&gt;The database needs to be resistant to attacks or censorship.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For the above-mentioned reasons a solution for battery condition monitoring of Tesla EVs has been implemented by using the open source Bismuth public blockchain. Specifically, a Tesla plug-in (also called “crystal” in Bismuth terminology) has been developed for use together with the open source &lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener"&gt;TornadoWallet&lt;/a&gt;. Some of the features of the implemented solution are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The vehicle owner will not expose his or her login credentials to anyone, since the app runs on the local computer.&lt;/li&gt;
+&lt;li&gt;All the code involved is open source and publicly available on GitHub on the official account of the Bismuth Foundation. Hence, anyone can verify that the software is safe to use and that there is no malicious intent.&lt;/li&gt;
+&lt;li&gt;When the owner submits data from the vehicle to the public blockchain, he or she can decide to publish the vehicle’s identification number (VIN) openly, or to encrypt it with a password to remain anonymous. This should ideally be a strong password, and not identical to an existing one used for other apps or services.&lt;/li&gt;
+&lt;li&gt;If the owner wants to sell the vehicle in the future, the password can be revealed to the new owner. The new owner can then verify that the submitted data actually belongs to the vehicle’s VIN.&lt;/li&gt;
+&lt;li&gt;The first owner can transfer the virtual asset on the blockchain to the new owner, to allow the new owner to continue to submit data from the vehicle using his or her own account, while keeping the entire track record.&lt;/li&gt;
+&lt;li&gt;To discourage spam and fake data, there are some costs (fees in BIS currency) involved when registering a new VIN on the chain and to submit data.&lt;/li&gt;
+&lt;li&gt;If someone submits fake data to the chain, this would most likely be detected by other users, or by new data analysis services based on the publicly available data. For example, the odometer of a car can never decrease, or the amount of energy (kWh) added should, to some extent, match the battery level and distance driven parameters.&lt;/li&gt;
+&lt;li&gt;To view and analyze the data is free for everyone. A public website has been set up for this purpose, to allow anyone to view and analyze the data without owning a Tesla vehicle or the need to run the TornadoWallet on their local computer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The public website has been developed to also work well with the Tesla in-car browser (Chromium). The screenshots below are taken from an actual vehicle, for both Night and Day mode.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-01.png" alt="" loading="lazy" /&gt;
 viewed in a Tesla vehicle (Night Mode).
-&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-02.png" alt="" loading="lazy" />
-viewed in a Tesla vehicle (Day Mode).&lt;/p>
-&lt;p>If you have an Android phone it is also possible to run the Tesla plug-in locally by using Termux, &lt;a href="https://steinbuch.wordpress.com/2015/01/24/tesla-model-s-battery-degradation-data" target="_blank" rel="noopener">see link&lt;/a>. In this way, it is possible to submit vehicle data while on the road, for example just before and after charging your vehicle at a public supercharger station.&lt;/p>
-&lt;p>The screenshot below shows the data viewing and analysis section of the app. In this example, the vehicle IDs available for viewing have been encrypted with a password. Hence the actual VIN numbers of these cars are not available. The address on the right shows which Bismuth account has submitted the data.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-03.png" alt="" loading="lazy" />&lt;/p>
-&lt;p>In the menu above, a vehicle asset ID is selected as well as the start and end dates. After that, a number of parameters are available for viewing and analysis. One example plot is the “Estimated Max Range vs. Odometer” and the associated curve fit, see plot below.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-04.png" alt="" loading="lazy" />
-Estimated Range vs. Odometer and Curve Fit.&lt;/p>
-&lt;p>The green dots in this plot represent individual data points submitted by the owner to the blockchain. The parameter “Estimated Max Range” is based on data from the Tesla API, by dividing the estimated remaining range with the battery level. The curve fit is based on the data points matching the “Range Filter”. In this example only the 1% largest values are used to estimate the red curve. As can be seen from this plot, the estimated max range is falling, from about 485km to 480km. However, this plot does not necessarily represent the true battery condition, since a number of parameters may influence the estimate, such as ambient temperature, driving style, road conditions, etc. The way to get a more accurate measure of maximum range is to do a full charge (0-100%) and then check the EPA rated range (in North America) or Typical range (in Europe and Asia/Pacific), see link. However, you don’t want to do this exercise too often, as a 0-100% deep charging cycle is exactly what reduces the remaining lifetime of the battery the most.&lt;/p>
-&lt;p>If the owner submits data to the blockchain regularly, just before and after every charging event, it is instead possible to estimate the battery life without having to do deep charges. If all the charging events are recorded, Bismuth’s Tesla app allows for counting the cycles, using a method called rainflow counting, as illustrated in the screenshots below. The rainflow method is normally used in counting fatigue cycles in mechanical engineering, but it can also be used for counting battery cycles.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-05.png" alt="" loading="lazy" />
-&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-06.png" alt="" loading="lazy" />
-Counted battery cycles and “Full Cycle Equivalent” during a selected time period.&lt;/p>
-&lt;p>The plot above shows that the owner has made several charging cycles at various levels from 10% up to 100%. By using the Li-Ion cycle life table from Miao et.al, these charging events are converted and summed up to a “Full Cycle Equivalent” of 6.03 during the time period selected (May 2020). Since the battery is expected to have a life time of about 450 full cycles, it can be estimated that 1.3% of the battery life was used up during this particular month. If this owner charges the equivalent of 6 full cycles every month, this battery can be expected to last about 77 months, or 6.5 years – significantly less than the normal expected lifetime of a car. Hence, by using the developed app, an owner can monitor the battery lifetime consumption of the vehicle on a daily, weekly or monthly basis, without performing harmful 0-100% deep charges.&lt;/p>
-&lt;p>Currently, there is talk about new batteries which will be capable of “a million miles” and a much higher number of charging cycles. In the paper by Harlow et.al, “&lt;a href="https://iopscience.iop.org/article/10.1149/2.0981913jes" target="_blank" rel="noopener">A Wide Range of Testing Results on an Excellent Lithium-Ion Cell Chemistry to be used as Benchmarks for New Battery Technologies&lt;/a>” (2019) batteries with NMC532 cathodes have been found capable of higher cycle life, of 5000 or more deep charges. However, it is currently being speculated that such batteries will be used in vehicles connected to the grid (V2G), which means that deep charges could potentially happen much more frequently, perhaps even on a daily basis (charge at night when power prices are low, and sell during the day when prices are high). In such scenarios it could be of even larger importance to record the charging cycles to document remaining lifetime and ensure as high a resale value of the vehicle as possible. If and when V2G becomes a reality, the Bismuth team will make available automated data to blockchain submission scripts to capture high-frequency charging events.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-07.png" alt="" loading="lazy" />&lt;/p>
-&lt;p>With Bismuth’s Tesla app, PDF files can also be generated for selected dates to document, for example, total distance driven during a given period or the sum of charge energy (kWh) added. In the example above, the sum of charge energy added is found to be 131.13kWh, since there are only three actual charging events (58.49, 51.18 and 21.46 kWh) in the submitted data. Such reports could for example follow the car when sold, as an alternative to giving away the password for the asset id on the blockchain.&lt;/p>
-&lt;p>The remaining two screenshots below are only available in the local app, and not on the public website. The first screenshot shows the asset registration screen. Here, the Tesla credentials are entered (username and password) as well as a (strong) anonymizer password if the user does not want to expose the actual VIN number. When the asset id has been registered, it will be linked to the Bismuth wallet address by paying a small fee. Only data for this asset id submitted from this account will be visible on the public website and in the plotting and analytics section of the app. If the owner later wants to transfer the vehicle to another owner, it must first be unregistered on the chain which allows the new owner to register it. By using the same password as the previous owner the original data set for the vehicle can be continued by the new owner. If a different password is used, then the asset id will be different and a new data set will be started from scratch. The Tesla credentials (username and password) will always stay on the local computer, and are never exposed to any external websites or services.&lt;/p>
-&lt;p>By entering the Tesla credentials and the anonymizer password (if any), battery data is collected from the vehicle. Once the data has been collected, it can be submitted to the Bismuth blockchain by paying a small fee.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-09.png" alt="" loading="lazy" />
-Screen for fetching battery data using the Tesla API.&lt;/p>
-&lt;p>Bismuth crypto currency is required to pay for fees and can be purchased on one of the BIS &lt;a href="https://bismuthcoin.org/exchanges" >exchanges&lt;/a>.&lt;/p>
-&lt;p>Help and support is given in our &lt;a href="https://discord.gg/4tB3pYJ" target="_blank" rel="noopener">Discord&lt;/a> There is a dedicated channel named #batterylife.&lt;br>
-For those who are not able to run from the source code, updated binaries for Windows, Mac and Linux are available at our &lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener">Github Repository&lt;/a>.&lt;/p>
-&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
-&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://doi.org/10.3390/en12061074" target="_blank" rel="noopener">Current Li-Ion Battery Technologies in Electric Vehicles and Opportunities for Advancements&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://iopscience.iop.org/article/10.1149/2.0981913jes" target="_blank" rel="noopener">Benchmarks for New Battery Technologies&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bismuthcoin.org/echanges" >BIS Exchanges&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://discord.gg/4tB3pYJ" target="_blank" rel="noopener">Bismuth Discord&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Decentralized Condition Monitoring</title><link>https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-04-30-condition-monitoring.jpeg" alt="" loading="lazy" />
-Condition monitoring (CM) is the basis for condition based maintenance (CBM). CBM is an alternative to calendar based maintenance, where an asset is serviced in regular time intervals.&lt;/p>
-&lt;p>Calendar based maintenance is easy to plan and schedule but it has some weaknesses:&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>Assets which are in a good condition do not need to be regularly taken out of production for service, and&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>an asset can still fail between regular calendar based maintenance events, causing downtime in production. CM and CBM are therefore used by many industries as an alternative to calendar based maintenance to strike a balance between maintenance costs and costs associated with unplanned downtime in production.&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;p>One example from everyday life is the annual service of your car. Since it is done on a regular basis without considering the actual condition of the car, this would be classified as calendar based maintenance. On the other hand, if you one day start to feel a small vibration in the steering wheel while driving and you take the car to service because of this observation, that would be classified as condition based maintenance.&lt;/p>
-&lt;p>CM and CBM work well in a single organisation where traditional database tools (or data historians) are used to store and secure the data. This single organisation then owns the data and can control who has access. However, when more than one organisation or individual are involved, CM and CBM initiatives often fail because of the following issue: who owns the data and controls the server storing the data? Data and data analysis can have large potential value, and organisations and individuals are often reluctant to give this value away for free or lose control.&lt;/p>
-&lt;p>However, data sharing among many participants can have large overall benefits for the group or society as a whole. A single asset does not normally operate in isolation, but forms part of a larger machinery or a plant. A condition which may be optimal for a single asset, may not be optimal for the overall machinery. By sharing data between participants, the performance of the overall machinery or industrial plant can be analyzed and optimized. Another example is the case where there are hundreds, thousands or millions of identical assets operating in the consumer industries. By sharing data, under-performing assets can be identified and corrective actions can be taken- benefiting society as a whole.&lt;/p>
-&lt;p>In the article &lt;a href="https://ieeexplore.ieee.org/document/8048838" target="_blank" rel="noopener">“Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem”&lt;/a>, IEEE Spectrum, 2017, Morgan E. Peck presented the chart below.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2020-04-30-condition-monitoring-002.jpeg" alt="" loading="lazy" />
-Image from: Morgan E. Peck, “Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem“, IEEE Spectrum, 2017.&lt;/p>
-&lt;p>This chart illustrates that a public blockchain may be a good solution for problems where:&lt;/p>
-&lt;ul>
-&lt;li>More than one participant needs to be able to submit and update data.&lt;/li>
-&lt;li>The participants do not need to know and trust each other.&lt;/li>
-&lt;li>The data does not need to be private.&lt;/li>
-&lt;li>The database needs to be resistant to attacks or censorship.&lt;/li>
-&lt;/ul>
-&lt;p>In this article it will be explained how the Bismuth public blockchain can be used to implement a system for distributed condition monitoring. For more information about Bismuth, see the &lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" >whitepaper&lt;/a>.&lt;/p>
-&lt;p>Bismuth is ideally suited to this type of applications, because it contains two fields in the transaction structure which are named “operation” and “datafield”. These two fields allow for building new meta protocols on top of the core blockchain software. In this article it will be demonstrated how a new meta protocol can be used in the development of a solution for decentralized condition monitoring.&lt;/p>
-&lt;p>One general problem with a decentralized public blockchain is spam. Any participant can submit any data to the chain and this can not be avoided. Instead of trying to prevent spam from occurring completely, a supplementary approach would be to filter out fake data. There are several ways spam protection and filtering can be achieved, for example:&lt;/p>
-&lt;ul>
-&lt;li>Introducing fees to submit data. Anyone can still submit spam, but it will be expensive to do so.&lt;/li>
-&lt;li>Introduce a meta protocol built on top of Bismuth’s operation and data fields to allow for filtering of fake data.&lt;/li>
-&lt;/ul>
-&lt;p>The class &lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py" target="_blank" rel="noopener">BismuthSimpleAsset&lt;/a> was written with this purpose, to provide tools for filtering of fake data. This class implements at the time of writing three operations in the meta protocol:&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;pre>&lt;code>myapp:register
+&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-02.png" alt="" loading="lazy" /&gt;
+viewed in a Tesla vehicle (Day Mode).&lt;/p&gt;
+&lt;p&gt;If you have an Android phone it is also possible to run the Tesla plug-in locally by using Termux, &lt;a href="https://steinbuch.wordpress.com/2015/01/24/tesla-model-s-battery-degradation-data" target="_blank" rel="noopener"&gt;see link&lt;/a&gt;. In this way, it is possible to submit vehicle data while on the road, for example just before and after charging your vehicle at a public supercharger station.&lt;/p&gt;
+&lt;p&gt;The screenshot below shows the data viewing and analysis section of the app. In this example, the vehicle IDs available for viewing have been encrypted with a password. Hence the actual VIN numbers of these cars are not available. The address on the right shows which Bismuth account has submitted the data.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-03.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;In the menu above, a vehicle asset ID is selected as well as the start and end dates. After that, a number of parameters are available for viewing and analysis. One example plot is the “Estimated Max Range vs. Odometer” and the associated curve fit, see plot below.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-04.png" alt="" loading="lazy" /&gt;
+Estimated Range vs. Odometer and Curve Fit.&lt;/p&gt;
+&lt;p&gt;The green dots in this plot represent individual data points submitted by the owner to the blockchain. The parameter “Estimated Max Range” is based on data from the Tesla API, by dividing the estimated remaining range with the battery level. The curve fit is based on the data points matching the “Range Filter”. In this example only the 1% largest values are used to estimate the red curve. As can be seen from this plot, the estimated max range is falling, from about 485km to 480km. However, this plot does not necessarily represent the true battery condition, since a number of parameters may influence the estimate, such as ambient temperature, driving style, road conditions, etc. The way to get a more accurate measure of maximum range is to do a full charge (0-100%) and then check the EPA rated range (in North America) or Typical range (in Europe and Asia/Pacific), see link. However, you don’t want to do this exercise too often, as a 0-100% deep charging cycle is exactly what reduces the remaining lifetime of the battery the most.&lt;/p&gt;
+&lt;p&gt;If the owner submits data to the blockchain regularly, just before and after every charging event, it is instead possible to estimate the battery life without having to do deep charges. If all the charging events are recorded, Bismuth’s Tesla app allows for counting the cycles, using a method called rainflow counting, as illustrated in the screenshots below. The rainflow method is normally used in counting fatigue cycles in mechanical engineering, but it can also be used for counting battery cycles.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-05.png" alt="" loading="lazy" /&gt;
+&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-06.png" alt="" loading="lazy" /&gt;
+Counted battery cycles and “Full Cycle Equivalent” during a selected time period.&lt;/p&gt;
+&lt;p&gt;The plot above shows that the owner has made several charging cycles at various levels from 10% up to 100%. By using the Li-Ion cycle life table from Miao et.al, these charging events are converted and summed up to a “Full Cycle Equivalent” of 6.03 during the time period selected (May 2020). Since the battery is expected to have a life time of about 450 full cycles, it can be estimated that 1.3% of the battery life was used up during this particular month. If this owner charges the equivalent of 6 full cycles every month, this battery can be expected to last about 77 months, or 6.5 years – significantly less than the normal expected lifetime of a car. Hence, by using the developed app, an owner can monitor the battery lifetime consumption of the vehicle on a daily, weekly or monthly basis, without performing harmful 0-100% deep charges.&lt;/p&gt;
+&lt;p&gt;Currently, there is talk about new batteries which will be capable of “a million miles” and a much higher number of charging cycles. In the paper by Harlow et.al, “&lt;a href="https://iopscience.iop.org/article/10.1149/2.0981913jes" target="_blank" rel="noopener"&gt;A Wide Range of Testing Results on an Excellent Lithium-Ion Cell Chemistry to be used as Benchmarks for New Battery Technologies&lt;/a&gt;” (2019) batteries with NMC532 cathodes have been found capable of higher cycle life, of 5000 or more deep charges. However, it is currently being speculated that such batteries will be used in vehicles connected to the grid (V2G), which means that deep charges could potentially happen much more frequently, perhaps even on a daily basis (charge at night when power prices are low, and sell during the day when prices are high). In such scenarios it could be of even larger importance to record the charging cycles to document remaining lifetime and ensure as high a resale value of the vehicle as possible. If and when V2G becomes a reality, the Bismuth team will make available automated data to blockchain submission scripts to capture high-frequency charging events.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-07.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;With Bismuth’s Tesla app, PDF files can also be generated for selected dates to document, for example, total distance driven during a given period or the sum of charge energy (kWh) added. In the example above, the sum of charge energy added is found to be 131.13kWh, since there are only three actual charging events (58.49, 51.18 and 21.46 kWh) in the submitted data. Such reports could for example follow the car when sold, as an alternative to giving away the password for the asset id on the blockchain.&lt;/p&gt;
+&lt;p&gt;The remaining two screenshots below are only available in the local app, and not on the public website. The first screenshot shows the asset registration screen. Here, the Tesla credentials are entered (username and password) as well as a (strong) anonymizer password if the user does not want to expose the actual VIN number. When the asset id has been registered, it will be linked to the Bismuth wallet address by paying a small fee. Only data for this asset id submitted from this account will be visible on the public website and in the plotting and analytics section of the app. If the owner later wants to transfer the vehicle to another owner, it must first be unregistered on the chain which allows the new owner to register it. By using the same password as the previous owner the original data set for the vehicle can be continued by the new owner. If a different password is used, then the asset id will be different and a new data set will be started from scratch. The Tesla credentials (username and password) will always stay on the local computer, and are never exposed to any external websites or services.&lt;/p&gt;
+&lt;p&gt;By entering the Tesla credentials and the anonymizer password (if any), battery data is collected from the vehicle. Once the data has been collected, it can be submitted to the Bismuth blockchain by paying a small fee.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-05-25-Tesla-Bismuth-Crystal-09.png" alt="" loading="lazy" /&gt;
+Screen for fetching battery data using the Tesla API.&lt;/p&gt;
+&lt;p&gt;Bismuth crypto currency is required to pay for fees and can be purchased on one of the BIS &lt;a href="https://bismuthcoin.org/exchanges" &gt;exchanges&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Help and support is given in our &lt;a href="https://discord.gg/4tB3pYJ" target="_blank" rel="noopener"&gt;Discord&lt;/a&gt; There is a dedicated channel named #batterylife.&lt;br&gt;
+For those who are not able to run from the source code, updated binaries for Windows, Mac and Linux are available at our &lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener"&gt;Github Repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://doi.org/10.3390/en12061074" target="_blank" rel="noopener"&gt;Current Li-Ion Battery Technologies in Electric Vehicles and Opportunities for Advancements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://iopscience.iop.org/article/10.1149/2.0981913jes" target="_blank" rel="noopener"&gt;Benchmarks for New Battery Technologies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bismuthcoin.org/echanges" &gt;BIS Exchanges&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://discord.gg/4tB3pYJ" target="_blank" rel="noopener"&gt;Bismuth Discord&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Decentralized Condition Monitoring</title><link>https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/</guid><description>
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-04-30-condition-monitoring.jpeg" alt="" loading="lazy" /&gt;
+Condition monitoring (CM) is the basis for condition based maintenance (CBM). CBM is an alternative to calendar based maintenance, where an asset is serviced in regular time intervals.&lt;/p&gt;
+&lt;p&gt;Calendar based maintenance is easy to plan and schedule but it has some weaknesses:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Assets which are in a good condition do not need to be regularly taken out of production for service, and&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;an asset can still fail between regular calendar based maintenance events, causing downtime in production. CM and CBM are therefore used by many industries as an alternative to calendar based maintenance to strike a balance between maintenance costs and costs associated with unplanned downtime in production.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;One example from everyday life is the annual service of your car. Since it is done on a regular basis without considering the actual condition of the car, this would be classified as calendar based maintenance. On the other hand, if you one day start to feel a small vibration in the steering wheel while driving and you take the car to service because of this observation, that would be classified as condition based maintenance.&lt;/p&gt;
+&lt;p&gt;CM and CBM work well in a single organisation where traditional database tools (or data historians) are used to store and secure the data. This single organisation then owns the data and can control who has access. However, when more than one organisation or individual are involved, CM and CBM initiatives often fail because of the following issue: who owns the data and controls the server storing the data? Data and data analysis can have large potential value, and organisations and individuals are often reluctant to give this value away for free or lose control.&lt;/p&gt;
+&lt;p&gt;However, data sharing among many participants can have large overall benefits for the group or society as a whole. A single asset does not normally operate in isolation, but forms part of a larger machinery or a plant. A condition which may be optimal for a single asset, may not be optimal for the overall machinery. By sharing data between participants, the performance of the overall machinery or industrial plant can be analyzed and optimized. Another example is the case where there are hundreds, thousands or millions of identical assets operating in the consumer industries. By sharing data, under-performing assets can be identified and corrective actions can be taken- benefiting society as a whole.&lt;/p&gt;
+&lt;p&gt;In the article &lt;a href="https://ieeexplore.ieee.org/document/8048838" target="_blank" rel="noopener"&gt;“Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem”&lt;/a&gt;, IEEE Spectrum, 2017, Morgan E. Peck presented the chart below.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-04-30-condition-monitoring-002.jpeg" alt="" loading="lazy" /&gt;
+Image from: Morgan E. Peck, “Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem“, IEEE Spectrum, 2017.&lt;/p&gt;
+&lt;p&gt;This chart illustrates that a public blockchain may be a good solution for problems where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;More than one participant needs to be able to submit and update data.&lt;/li&gt;
+&lt;li&gt;The participants do not need to know and trust each other.&lt;/li&gt;
+&lt;li&gt;The data does not need to be private.&lt;/li&gt;
+&lt;li&gt;The database needs to be resistant to attacks or censorship.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this article it will be explained how the Bismuth public blockchain can be used to implement a system for distributed condition monitoring. For more information about Bismuth, see the &lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" &gt;whitepaper&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Bismuth is ideally suited to this type of applications, because it contains two fields in the transaction structure which are named “operation” and “datafield”. These two fields allow for building new meta protocols on top of the core blockchain software. In this article it will be demonstrated how a new meta protocol can be used in the development of a solution for decentralized condition monitoring.&lt;/p&gt;
+&lt;p&gt;One general problem with a decentralized public blockchain is spam. Any participant can submit any data to the chain and this can not be avoided. Instead of trying to prevent spam from occurring completely, a supplementary approach would be to filter out fake data. There are several ways spam protection and filtering can be achieved, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Introducing fees to submit data. Anyone can still submit spam, but it will be expensive to do so.&lt;/li&gt;
+&lt;li&gt;Introduce a meta protocol built on top of Bismuth’s operation and data fields to allow for filtering of fake data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The class &lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py" target="_blank" rel="noopener"&gt;BismuthSimpleAsset&lt;/a&gt; was written with this purpose, to provide tools for filtering of fake data. This class implements at the time of writing three operations in the meta protocol:&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;pre&gt;&lt;code&gt;myapp:register
 myapp:unregister
-myapp:transfer&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+myapp:transfer&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>The app name, in this example &lt;code>myapp&lt;/code>, can be renamed to distinguish the implementation from other use-cases also using the same public blockchain.&lt;/p>
-&lt;p>A physical asset often comes with a serial number or identification code printed on the asset itself somewhere. This number is in general not publicly available, but only known by the manufacturer initially, and later the customer. The manufacturer or the customer can use this identification number in Bismuth’s datafield, together with the &lt;strong>operation&lt;/strong> &lt;code>myapp:register&lt;/code> to link the serial number of the asset with his or her public/private key on the Bismuth blockchain.&lt;br>
-Valid &lt;strong>asset registrations&lt;/strong> in this &lt;code>myapp&lt;/code> example can also be filtered with a minimum amount paid, to discourage spammers from randomly guessing and submitting asset id numbers. In addition to being a tool for filtering spam, a registration amount also gives the developer of the myapp use-case an income which can be used to maintain and further develop the service. Similarly, there could be an amount requirement also on the actual asset data submitted.&lt;/p>
-&lt;p>One decentralized system everyone is familiar with and where everyone is allowed to submit data, is the email system. Anyone can set up a new email server and start sending from it. One of the techniques used in filtering email spam is to use a PTR record. A pointer record, or PTR record, maps an IP address to a FQDN (fully qualified domain name). It is the counterpart to the A record and is used for reverse DNS lookup, which can help with blocking spammers. Many SMTP servers reject emails if no PTR record is found for the sending server.&lt;/p>
-&lt;p>The proposed approach presented in this article where an asset id number is linked to the public/private key on the blockchain to filter spam is similar to the reverse DNS method to filter email spam. The first user to link the asset’s identification number to his or her account, can be considered to be the rightful owner of the asset. This information can then later be used to filter out fake data about this asset submitted by other users. The following Python function in &lt;strong>BismuthSimpleAsset&lt;/strong> returns the valid registrant given an asset id:&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;pre>&lt;code>def get_registrant(self,asset_id):
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The app name, in this example &lt;code&gt;myapp&lt;/code&gt;, can be renamed to distinguish the implementation from other use-cases also using the same public blockchain.&lt;/p&gt;
+&lt;p&gt;A physical asset often comes with a serial number or identification code printed on the asset itself somewhere. This number is in general not publicly available, but only known by the manufacturer initially, and later the customer. The manufacturer or the customer can use this identification number in Bismuth’s datafield, together with the &lt;strong&gt;operation&lt;/strong&gt; &lt;code&gt;myapp:register&lt;/code&gt; to link the serial number of the asset with his or her public/private key on the Bismuth blockchain.&lt;br&gt;
+Valid &lt;strong&gt;asset registrations&lt;/strong&gt; in this &lt;code&gt;myapp&lt;/code&gt; example can also be filtered with a minimum amount paid, to discourage spammers from randomly guessing and submitting asset id numbers. In addition to being a tool for filtering spam, a registration amount also gives the developer of the myapp use-case an income which can be used to maintain and further develop the service. Similarly, there could be an amount requirement also on the actual asset data submitted.&lt;/p&gt;
+&lt;p&gt;One decentralized system everyone is familiar with and where everyone is allowed to submit data, is the email system. Anyone can set up a new email server and start sending from it. One of the techniques used in filtering email spam is to use a PTR record. A pointer record, or PTR record, maps an IP address to a FQDN (fully qualified domain name). It is the counterpart to the A record and is used for reverse DNS lookup, which can help with blocking spammers. Many SMTP servers reject emails if no PTR record is found for the sending server.&lt;/p&gt;
+&lt;p&gt;The proposed approach presented in this article where an asset id number is linked to the public/private key on the blockchain to filter spam is similar to the reverse DNS method to filter email spam. The first user to link the asset’s identification number to his or her account, can be considered to be the rightful owner of the asset. This information can then later be used to filter out fake data about this asset submitted by other users. The following Python function in &lt;strong&gt;BismuthSimpleAsset&lt;/strong&gt; returns the valid registrant given an asset id:&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;pre&gt;&lt;code&gt;def get_registrant(self,asset_id):
 &amp;#34;&amp;#34;&amp;#34;Returns the current registrant of a specified asset id&amp;#34;&amp;#34;&amp;#34;
 regs = self.__get_reg_unreg_sorted(asset_id)
 registrant = self.__get_registrant_from_regs(regs)
-return registrant&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+return registrant&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>If the asset owner later wants to release his or her registration of the asset, this can be done by submitting the &lt;strong>operation&lt;/strong> &lt;code>myapp:unregister&lt;/code> together with the asset id in the &lt;strong>datafield&lt;/strong>. Alternatively, the asset owner can transfer the ownership of the asset to another account by submitting the operation myapp:transfer together with the following in the &lt;strong>datafield&lt;/strong>: &lt;code>asset_id,new address&lt;/code>.&lt;/p>
-&lt;p>Another function in the BismuthSimpleAsset class- &lt;code>get_all_asset_ids()&lt;/code> -returns all valid asset id numbers and associated Bismuth accounts. This function handles multiple register, unregister and transfer events of assets.&lt;/p>
-&lt;p>Whenever a participant submits data to the public blockchain, the command &lt;code>myapp:data&lt;/code> can for example be used, or something more specific, for example &lt;code>myapp:vibration_data&lt;/code>. In the datafield a JSON string can be submitted, allowing for a flexible list of variables to be used. The asset id should be part of this JSON structure, to allow the filtering of fake data. Bismuth allows for a string of up to &lt;strong>100,000 characters in the datafield&lt;/strong>, so relatively large amount of data can be submitted. However, the transaction fee increases linearly with the data size.&lt;/p>
-&lt;p>Having a decentralized public blockchain with open data for everyone to access has potentially many benefits. Some of the benefits are:&lt;/p>
-&lt;ul>
-&lt;li>It allows for independent 3rd party data analysts to offer services to the participants. This analysis can for example tell you about the performance of your asset, and what you can do to improve it.&lt;/li>
-&lt;li>If someone registers a valid asset id and starts submitting fake data, this can potentially be detected by 3rd party data analysis. For example, some physical variables like the odometer value of a car can only increase over time. Invalid data based on more complex relationships between variables can potentially also be detected. The 3rd party service could then for example offer a whitelist and blacklist of asset id numbers, to allow for even more advanced data filtering.&lt;/li>
-&lt;li>The owner of an asset can compare the performance of his or her asset with other peers, detect sub-optimal performance, and apply corrective actions.
-If the owner later wants to sell the asset to someone else, he or she can provide proof of asset performance during it’s lifetime to the new owner by using the publicly available data. By giving proof that the asset has been operated with care and within the specifications, the resale value of the asset may be higher than it otherwise would be.&lt;/li>
-&lt;li>An increasing number of assets and consumer products are connected to the internet, and come with API interfaces which the owner or operator can use. Hence, the submission of data to the public blockchain can easily be automated or semi-automated for such assets.&lt;/li>
-&lt;/ul>
-&lt;p>This article has given an introduction to some building blocks for decentralized condition monitoring using the Bismuth public blockchain. Several future applications and implementations using the principles laid out here are currently being worked on and will be published separately when ready.&lt;/p>
-&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
-&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="hhttps://ieeexplore.ieee.org/document/8048838" >Blockchain World - Do you need a blockchain?&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" >Bismuth Whitepaper&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py" target="_blank" rel="noopener">Github - Bismuth SimpleAsset&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Exploring the Bismuth Plugin System</title><link>https://bismuthcoin.org/blog/2018-07-16-plugin-system/</link><pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2018-07-16-plugin-system/</guid><description>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2018-07-16/plugin-system-001.png" alt="" loading="lazy" />
-When noticing that Bismuth ($BIS) has a &lt;strong>plugin system&lt;/strong>, I was somewhat surprised—because I don’t know any other blockchain-based cryptocurrency that openly promotes having a plugin system.&lt;/p>
-&lt;h3>Interview with Developers EggdraSyl &amp;amp; Iyomisc&lt;span class="hx-absolute -hx-mt-20" id="interview-with-developers-eggdrasyl--iyomisc">&lt;/span>
-&lt;a href="#interview-with-developers-eggdrasyl--iyomisc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
-&lt;p>The plugin feature immediately stood out to me. Plugins have long been powerful components in blogging and forum platforms—so seeing this concept in a blockchain context was exciting. Plugins enhance another software application. This alone sounds intriguing.&lt;/p>
-&lt;p>The following questions came to mind while exploring Bismuth’s plugin system, and the developers EggdraSyl and Iyomisc were kind enough to answer them.&lt;/p>
-&lt;p>&lt;img src="https://bismuthcoin.org/images/2018-07-16/plugin-system-002.png" alt="" loading="lazy" />&lt;/p>
-&lt;h3>Bridging Blockchain and Plugin Architecture&lt;span class="hx-absolute -hx-mt-20" id="bridging-blockchain-and-plugin-architecture">&lt;/span>
-&lt;a href="#bridging-blockchain-and-plugin-architecture" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
-&lt;h6>Question: &lt;em>How did Bismuth achieve the connection between cutting-edge blockchain technology and traditional plugin applications?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-how-did-bismuth-achieve-the-connection-between-cutting-edge-blockchain-technology-and-traditional-plugin-applications">&lt;/span>
-&lt;a href="#question-how-did-bismuth-achieve-the-connection-between-cutting-edge-blockchain-technology-and-traditional-plugin-applications" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
-Well, it actually came from a personal need. For my pools and notification/monitoring systems, I needed more data—and faster—than what the node could provide.&lt;/p>
-&lt;p>I tried various approaches:&lt;/p>
-&lt;ul>
-&lt;li>JSON-RPC server (another layer, verbose, added latency)&lt;/li>
-&lt;li>Modding the node (risky, painful when upgrading core code)&lt;/li>
-&lt;li>Adding native API commands to the core (which were merged)&lt;/li>
-&lt;/ul>
-&lt;p>Still, I needed more.&lt;/p>
-&lt;p>I’m familiar with WordPress and its plugin/filter system. That inspired the solution: extensions to the core, not affected by updates.&lt;/p>
-&lt;p>As far as I know, no other crypto offers this. Bismuth plugins allow you to extend node functionality with just a few lines of Python — &lt;strong>no new language to learn&lt;/strong>.&lt;/p>
-&lt;h3>Decentralization and Cross-Node Use&lt;span class="hx-absolute -hx-mt-20" id="decentralization-and-cross-node-use">&lt;/span>
-&lt;a href="#decentralization-and-cross-node-use" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
-&lt;h6>Question: &lt;em>Can Bismuth plugins run in a decentralized manner? Can different nodes run the same plugin?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-can-bismuth-plugins-run-in-a-decentralized-manner-can-different-nodes-run-the-same-plugin">&lt;/span>
-&lt;a href="#question-can-bismuth-plugins-run-in-a-decentralized-manner-can-different-nodes-run-the-same-plugin" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
-Let me rephrase: A Bismuth plugin is extra code run by a node, triggered by events—like a new block or change in network difficulty.&lt;/p>
-&lt;p>Plugins can:&lt;/p>
-&lt;ul>
-&lt;li>Be &lt;strong>autonomous&lt;/strong> (e.g., play a sound on incoming transactions)&lt;/li>
-&lt;li>Use external APIs (e.g., send notifications, emails)&lt;/li>
-&lt;li>Interact with other blockchains&lt;/li>
-&lt;li>Even &lt;strong>call other plugins&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>You could build abstract protocols and token-based cooperation between plugins, but that’s beyond today’s scope. :)&lt;/p>
-&lt;h3>Learning Curve and Language&lt;span class="hx-absolute -hx-mt-20" id="learning-curve-and-language">&lt;/span>
-&lt;a href="#learning-curve-and-language" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
-&lt;h6>Question: &lt;em>If I can write plugins for WordPress or phpBB, how hard is it to write one for Bismuth?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-if-i-can-write-plugins-for-wordpress-or-phpbb-how-hard-is-it-to-write-one-for-bismuth">&lt;/span>
-&lt;a href="#question-if-i-can-write-plugins-for-wordpress-or-phpbb-how-hard-is-it-to-write-one-for-bismuth" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
-Bismuth plugins are written in Python, just like the node itself. Python is a great high-level language, widely used in machine learning and other fields.&lt;/p>
-&lt;p>Start with:&lt;/p>
-&lt;ul>
-&lt;li>The &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins/tree/master/doc" target="_blank" rel="noopener">plugin docs&lt;/a> and hook references&lt;/li>
-&lt;li>The demo plugins—they’re short and well-commented&lt;/li>
-&lt;/ul>
-&lt;h3>Plugin Architecture and Activation&lt;span class="hx-absolute -hx-mt-20" id="plugin-architecture-and-activation">&lt;/span>
-&lt;a href="#plugin-architecture-and-activation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
-&lt;h6>Question: &lt;em>How does the plugin system work structurally? How are plugins activated?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-how-does-the-plugin-system-work-structurally-how-are-plugins-activated">&lt;/span>
-&lt;a href="#question-how-does-the-plugin-system-work-structurally-how-are-plugins-activated" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>All plugins live in the &lt;code>plugins/&lt;/code> directory&lt;/li>
-&lt;li>Each plugin is its own folder, with at least an &lt;code>__init__.py&lt;/code> file&lt;/li>
-&lt;li>Directory names follow a 000_plugin-name format, where the number sets priority&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Priority conventions:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>000–099: Low-level (e.g., IFTTT APIs)&lt;/li>
-&lt;li>100–199: Demos and examples&lt;/li>
-&lt;li>900–999: Tests&lt;/li>
-&lt;li>Others: For your own use&lt;/li>
-&lt;/ul>
-&lt;p>To deactivate a plugin: move its folder to &lt;code>plugins_available/&lt;/code>.&lt;/p>
-&lt;p>Note: Plugins load at node startup. Restart the node to activate/deactivate.&lt;/p>
-&lt;h3>Supported Hooks&lt;span class="hx-absolute -hx-mt-20" id="supported-hooks">&lt;/span>
-&lt;a href="#supported-hooks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
-&lt;h6>Question: &lt;em>What action hooks does the plugin system support?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--what-action-hooks-does-the-plugin-system-support">&lt;/span>
-&lt;a href="#question--what-action-hooks-does-the-plugin-system-support" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
-See the &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins/tree/master/doc" target="_blank" rel="noopener">documentation&lt;/a>. The main hooks are:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>&amp;quot;block&amp;quot;&lt;/code> – Triggered on new blocks&lt;/li>
-&lt;li>&lt;code>&amp;quot;fullblock&amp;quot;&lt;/code> – Triggered with all block transactions&lt;/li>
-&lt;/ul>
-&lt;p>The &amp;ldquo;fullblock&amp;rdquo; hook is especially powerful—great for reacting to specific transactions.&lt;/p>
-&lt;h3>Real-World Use Cases&lt;span class="hx-absolute -hx-mt-20" id="real-world-use-cases">&lt;/span>
-&lt;a href="#real-world-use-cases" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
-&lt;h6>Question: &lt;em>What can Bismuth plugins do?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--what-can-bismuth-plugins-do">&lt;/span>
-&lt;a href="#question--what-can-bismuth-plugins-do" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
-With the &amp;ldquo;fullblock&amp;rdquo; hook and a few lines of code, you can:&lt;/p>
-&lt;ul>
-&lt;li>Get mobile notifications for pool payouts&lt;/li>
-&lt;li>Track transactions in Google Sheets&lt;/li>
-&lt;li>Deliver digital goods after payment (like in the Dragginator use case)&lt;/li>
-&lt;li>Decode data and execute functions (like serverless computing on-chain!)&lt;/li>
-&lt;/ul>
-&lt;h3>Scalability and Comparison&lt;span class="hx-absolute -hx-mt-20" id="scalability-and-comparison">&lt;/span>
-&lt;a href="#scalability-and-comparison" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
-&lt;h6>Question: &lt;em>Can Bismuth plugin applications scale?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--can-bismuth-plugin-applications-scale">&lt;/span>
-&lt;a href="#question--can-bismuth-plugin-applications-scale" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
-Absolutely. Think of them as a layer above Bismuth—you can use:&lt;/p>
-&lt;ul>
-&lt;li>Master/slave models&lt;/li>
-&lt;li>Sharding&lt;/li>
-&lt;li>Round-robin distribution&lt;/li>
-&lt;li>Load balancing&lt;/li>
-&lt;li>Service tiers&lt;/li>
-&lt;/ul>
-&lt;h6>Question: &lt;em>Is this system comparable to Ethereum smart contracts?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--is-this-system-comparable-to-ethereum-smart-contracts">&lt;/span>
-&lt;a href="#question--is-this-system-comparable-to-ethereum-smart-contracts" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
-Nope.&lt;/p>
-&lt;p>Ethereum smart contracts:&lt;/p>
-&lt;ul>
-&lt;li>Use a specific language&lt;/li>
-&lt;li>Run on every node&lt;/li>
-&lt;li>Act as a slow, redundant virtual PC&lt;/li>
-&lt;/ul>
-&lt;p>Bismuth plugins:&lt;/p>
-&lt;ul>
-&lt;li>Run only on the node you choose&lt;/li>
-&lt;li>Add features you need, not others&lt;/li>
-&lt;li>Do not need global consensus&lt;/li>
-&lt;li>It’s a different design and purpose.&lt;/li>
-&lt;/ul>
-&lt;h3>Plugin and Blockchain Interaction&lt;span class="hx-absolute -hx-mt-20" id="plugin-and-blockchain-interaction">&lt;/span>
-&lt;a href="#plugin-and-blockchain-interaction" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
-&lt;h6>Question: &lt;em>Does every plugin interaction need to be recorded on the blockchain?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--does-every-plugin-interaction-need-to-be-recorded-on-the-blockchain">&lt;/span>
-&lt;a href="#question--does-every-plugin-interaction-need-to-be-recorded-on-the-blockchain" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
-No. By default, they are not.&lt;/p>
-&lt;p>However, certified plugins may be introduced—audited by the team and verifiable via their signature or hash stored on-chain.&lt;/p>
-&lt;h3>Learning Resources and Best Practices&lt;span class="hx-absolute -hx-mt-20" id="learning-resources-and-best-practices">&lt;/span>
-&lt;a href="#learning-resources-and-best-practices" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
-&lt;h6>Question: &lt;em>Are demo plugins available to help developers learn?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-are-demo-plugins-available-to-help-developers-learn">&lt;/span>
-&lt;a href="#question-are-demo-plugins-available-to-help-developers-learn" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
-Yes! Check the &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins" target="_blank" rel="noopener">BismuthPlugins repo&lt;/a>. If you need a new hook, open an issue or ping me on Discord (#dev channel).&lt;/p>
-&lt;h6>Question: &lt;em>Is there a best practices guide or cheat sheet?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--is-there-a-best-practices-guide-or-cheat-sheet">&lt;/span>
-&lt;a href="#question--is-there-a-best-practices-guide-or-cheat-sheet" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
-Stick to the style of the demo plugins—but hey, they’re your plugins, build them your way. :)&lt;/p>
-&lt;h3>Why It Matters&lt;span class="hx-absolute -hx-mt-20" id="why-it-matters">&lt;/span>
-&lt;a href="#why-it-matters" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
-&lt;h6>Question: &lt;em>What are the benefits of Bismuth having an integrated plugin system?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--what-are-the-benefits-of-bismuth-having-an-integrated-plugin-system">&lt;/span>
-&lt;a href="#question--what-are-the-benefits-of-bismuth-having-an-integrated-plugin-system" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>EggdraSyl:&lt;/strong>&lt;br>
-If I needed to react to a transaction in most cryptos, I’d have to:&lt;/p>
-&lt;ol>
-&lt;li>Build an app&lt;/li>
-&lt;li>Integrate JSON-RPC libs&lt;/li>
-&lt;li>Manage credentials&lt;/li>
-&lt;li>Poll the node constantly&lt;/li>
-&lt;li>Write logic, logs, and webhook handlers&lt;/li>
-&lt;li>Run everything 24/7&lt;/li>
-&lt;/ol>
-&lt;p>With Bismuth plugins, all of this—except the custom logic—is &lt;strong>already handled&lt;/strong>.&lt;/p>
-&lt;p>You can &lt;strong>focus on what matters&lt;/strong>.&lt;/p>
-&lt;h3>The Dragginator Plugin: A Real-World Use Case&lt;span class="hx-absolute -hx-mt-20" id="the-dragginator-plugin-a-real-world-use-case">&lt;/span>
-&lt;a href="#the-dragginator-plugin-a-real-world-use-case" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
-&lt;h6>Question: &lt;em>Iyomisc, how did you learn the plugin system?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--iyomisc-how-did-you-learn-the-plugin-system">&lt;/span>
-&lt;a href="#question--iyomisc-how-did-you-learn-the-plugin-system" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>Iyomisc:&lt;/strong>&lt;br>
-It was the first &lt;strong>real-world use&lt;/strong> of the plugin system. I read the docs, checked the examples—it was easy to adapt. EggdraSyl also helped when needed.&lt;/p>
-&lt;h6>Question: &lt;em>What inspired the Dragginator plugin?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--what-inspired-the-dragginator-plugin">&lt;/span>
-&lt;a href="#question--what-inspired-the-dragginator-plugin" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>Iyomisc:&lt;/strong>&lt;br>
-I wanted to automate dragon deliveries. I needed to detect matching incoming transactions: correct amount, recipient, and not already processed.&lt;/p>
-&lt;p>The demo code was perfect. I added:&lt;/p>
-&lt;ul>
-&lt;li>A hash store for tracking processed transactions&lt;/li>
-&lt;li>The &lt;code>send_no_gui.py&lt;/code> script to deliver tokens and data&lt;/li>
-&lt;/ul>
-&lt;p>Now, it’s &lt;strong>self-contained&lt;/strong>. No external app needed—and reusable for other projects.&lt;/p>
-&lt;h6>Question: &lt;em>How long did it take?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question--how-long-did-it-take">&lt;/span>
-&lt;a href="#question--how-long-did-it-take" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>Iyomisc:&lt;/strong>&lt;br>
-Just a few weeks for the plugin. The real time sink is the website, writing guides, and user text.&lt;/p>
-&lt;h6>Question: &lt;em>Will you open-source any plugins in the future?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-will-you-open-source-any-plugins-in-the-future">&lt;/span>
-&lt;a href="#question-will-you-open-source-any-plugins-in-the-future" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>Iyomisc:&lt;/strong>&lt;br>
-My current plugin is basic—very close to the demo. Maybe I’ll release others later. Not sure yet.&lt;/p>
-&lt;h6>Question: &lt;em>What’s your vision for Bismuth plugins going forward?&lt;/em>&lt;span class="hx-absolute -hx-mt-20" id="question-whats-your-vision-for-bismuth-plugins-going-forward">&lt;/span>
-&lt;a href="#question-whats-your-vision-for-bismuth-plugins-going-forward" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h6>&lt;p>&lt;strong>Iyomisc:&lt;/strong>&lt;br>
-They’ll keep evolving. Expect:&lt;/p>
-&lt;ul>
-&lt;li>More hooks&lt;/li>
-&lt;li>More ready-to-use plugins&lt;/li>
-&lt;li>More apps built directly on the plugin layer&lt;/li>
-&lt;/ul>
-&lt;p>It’s the best way to interact with the Bismuth blockchain—easier than using the native or JSON-RPC APIs.&lt;/p>
-&lt;h3>Final Thoughts&lt;span class="hx-absolute -hx-mt-20" id="final-thoughts">&lt;/span>
-&lt;a href="#final-thoughts" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;hr>
-&lt;p>A big thank-you to &lt;strong>EggdraSyl&lt;/strong> and &lt;strong>Iyomisc&lt;/strong> for sharing their insights into the powerful Bismuth plugin system and its real-world use in the Dragginator project.&lt;/p>
-&lt;p>This system clearly shows that &lt;strong>Bismuth isn’t just a blockchain—it’s a flexible development platform&lt;/strong>, built for creators.&lt;/p>
-&lt;h2>References&lt;span class="hx-absolute -hx-mt-20" id="references">&lt;/span>
-&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Github Rep: &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins" target="_blank" rel="noopener">Bismuth Plugins&lt;/a>&lt;/li>
-&lt;li>Github Docs: &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins/tree/master/doc" target="_blank" rel="noopener">Plugin Docs&lt;/a>&lt;/li>
-&lt;li>Github Link: &lt;a href="https://github.com/EggPool" target="_blank" rel="noopener">EggdraSyl&lt;/a>&lt;/li>
-&lt;li>Github Link: &lt;a href="https://github.com/iyomisc" target="_blank" rel="noopener">Iyomisc&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If the asset owner later wants to release his or her registration of the asset, this can be done by submitting the &lt;strong&gt;operation&lt;/strong&gt; &lt;code&gt;myapp:unregister&lt;/code&gt; together with the asset id in the &lt;strong&gt;datafield&lt;/strong&gt;. Alternatively, the asset owner can transfer the ownership of the asset to another account by submitting the operation myapp:transfer together with the following in the &lt;strong&gt;datafield&lt;/strong&gt;: &lt;code&gt;asset_id,new address&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Another function in the BismuthSimpleAsset class- &lt;code&gt;get_all_asset_ids()&lt;/code&gt; -returns all valid asset id numbers and associated Bismuth accounts. This function handles multiple register, unregister and transfer events of assets.&lt;/p&gt;
+&lt;p&gt;Whenever a participant submits data to the public blockchain, the command &lt;code&gt;myapp:data&lt;/code&gt; can for example be used, or something more specific, for example &lt;code&gt;myapp:vibration_data&lt;/code&gt;. In the datafield a JSON string can be submitted, allowing for a flexible list of variables to be used. The asset id should be part of this JSON structure, to allow the filtering of fake data. Bismuth allows for a string of up to &lt;strong&gt;100,000 characters in the datafield&lt;/strong&gt;, so relatively large amount of data can be submitted. However, the transaction fee increases linearly with the data size.&lt;/p&gt;
+&lt;p&gt;Having a decentralized public blockchain with open data for everyone to access has potentially many benefits. Some of the benefits are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It allows for independent 3rd party data analysts to offer services to the participants. This analysis can for example tell you about the performance of your asset, and what you can do to improve it.&lt;/li&gt;
+&lt;li&gt;If someone registers a valid asset id and starts submitting fake data, this can potentially be detected by 3rd party data analysis. For example, some physical variables like the odometer value of a car can only increase over time. Invalid data based on more complex relationships between variables can potentially also be detected. The 3rd party service could then for example offer a whitelist and blacklist of asset id numbers, to allow for even more advanced data filtering.&lt;/li&gt;
+&lt;li&gt;The owner of an asset can compare the performance of his or her asset with other peers, detect sub-optimal performance, and apply corrective actions.
+If the owner later wants to sell the asset to someone else, he or she can provide proof of asset performance during it’s lifetime to the new owner by using the publicly available data. By giving proof that the asset has been operated with care and within the specifications, the resale value of the asset may be higher than it otherwise would be.&lt;/li&gt;
+&lt;li&gt;An increasing number of assets and consumer products are connected to the internet, and come with API interfaces which the owner or operator can use. Hence, the submission of data to the public blockchain can easily be automated or semi-automated for such assets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article has given an introduction to some building blocks for decentralized condition monitoring using the Bismuth public blockchain. Several future applications and implementations using the principles laid out here are currently being worked on and will be published separately when ready.&lt;/p&gt;
+&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="hhttps://ieeexplore.ieee.org/document/8048838" &gt;Blockchain World - Do you need a blockchain?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" &gt;Bismuth Whitepaper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py" target="_blank" rel="noopener"&gt;Github - Bismuth SimpleAsset&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Exploring the Bismuth Plugin System</title><link>https://bismuthcoin.org/blog/2018-07-16-plugin-system/</link><pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2018-07-16-plugin-system/</guid><description>
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2018-07-16/plugin-system-001.png" alt="" loading="lazy" /&gt;
+When noticing that Bismuth ($BIS) has a &lt;strong&gt;plugin system&lt;/strong&gt;, I was somewhat surprised—because I don’t know any other blockchain-based cryptocurrency that openly promotes having a plugin system.&lt;/p&gt;
+&lt;h3&gt;Interview with Developers EggdraSyl &amp;amp; Iyomisc&lt;span class="hx-absolute -hx-mt-20" id="interview-with-developers-eggdrasyl--iyomisc"&gt;&lt;/span&gt;
+&lt;a href="#interview-with-developers-eggdrasyl--iyomisc" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;The plugin feature immediately stood out to me. Plugins have long been powerful components in blogging and forum platforms—so seeing this concept in a blockchain context was exciting. Plugins enhance another software application. This alone sounds intriguing.&lt;/p&gt;
+&lt;p&gt;The following questions came to mind while exploring Bismuth’s plugin system, and the developers EggdraSyl and Iyomisc were kind enough to answer them.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2018-07-16/plugin-system-002.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;Bridging Blockchain and Plugin Architecture&lt;span class="hx-absolute -hx-mt-20" id="bridging-blockchain-and-plugin-architecture"&gt;&lt;/span&gt;
+&lt;a href="#bridging-blockchain-and-plugin-architecture" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;h6&gt;Question: &lt;em&gt;How did Bismuth achieve the connection between cutting-edge blockchain technology and traditional plugin applications?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-how-did-bismuth-achieve-the-connection-between-cutting-edge-blockchain-technology-and-traditional-plugin-applications"&gt;&lt;/span&gt;
+&lt;a href="#question-how-did-bismuth-achieve-the-connection-between-cutting-edge-blockchain-technology-and-traditional-plugin-applications" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;EggdraSyl:&lt;/strong&gt;&lt;br&gt;
+Well, it actually came from a personal need. For my pools and notification/monitoring systems, I needed more data—and faster—than what the node could provide.&lt;/p&gt;
+&lt;p&gt;I tried various approaches:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JSON-RPC server (another layer, verbose, added latency)&lt;/li&gt;
+&lt;li&gt;Modding the node (risky, painful when upgrading core code)&lt;/li&gt;
+&lt;li&gt;Adding native API commands to the core (which were merged)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Still, I needed more.&lt;/p&gt;
+&lt;p&gt;I’m familiar with WordPress and its plugin/filter system. That inspired the solution: extensions to the core, not affected by updates.&lt;/p&gt;
+&lt;p&gt;As far as I know, no other crypto offers this. Bismuth plugins allow you to extend node functionality with just a few lines of Python — &lt;strong&gt;no new language to learn&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Decentralization and Cross-Node Use&lt;span class="hx-absolute -hx-mt-20" id="decentralization-and-cross-node-use"&gt;&lt;/span&gt;
+&lt;a href="#decentralization-and-cross-node-use" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;h6&gt;Question: &lt;em&gt;Can Bismuth plugins run in a decentralized manner? Can different nodes run the same plugin?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-can-bismuth-plugins-run-in-a-decentralized-manner-can-different-nodes-run-the-same-plugin"&gt;&lt;/span&gt;
+&lt;a href="#question-can-bismuth-plugins-run-in-a-decentralized-manner-can-different-nodes-run-the-same-plugin" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;EggdraSyl:&lt;/strong&gt;&lt;br&gt;
+Let me rephrase: A Bismuth plugin is extra code run by a node, triggered by events—like a new block or change in network difficulty.&lt;/p&gt;
+&lt;p&gt;Plugins can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Be &lt;strong&gt;autonomous&lt;/strong&gt; (e.g., play a sound on incoming transactions)&lt;/li&gt;
+&lt;li&gt;Use external APIs (e.g., send notifications, emails)&lt;/li&gt;
+&lt;li&gt;Interact with other blockchains&lt;/li&gt;
+&lt;li&gt;Even &lt;strong&gt;call other plugins&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You could build abstract protocols and token-based cooperation between plugins, but that’s beyond today’s scope. :)&lt;/p&gt;
+&lt;h3&gt;Learning Curve and Language&lt;span class="hx-absolute -hx-mt-20" id="learning-curve-and-language"&gt;&lt;/span&gt;
+&lt;a href="#learning-curve-and-language" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;h6&gt;Question: &lt;em&gt;If I can write plugins for WordPress or phpBB, how hard is it to write one for Bismuth?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-if-i-can-write-plugins-for-wordpress-or-phpbb-how-hard-is-it-to-write-one-for-bismuth"&gt;&lt;/span&gt;
+&lt;a href="#question-if-i-can-write-plugins-for-wordpress-or-phpbb-how-hard-is-it-to-write-one-for-bismuth" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;EggdraSyl:&lt;/strong&gt;&lt;br&gt;
+Bismuth plugins are written in Python, just like the node itself. Python is a great high-level language, widely used in machine learning and other fields.&lt;/p&gt;
+&lt;p&gt;Start with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins/tree/master/doc" target="_blank" rel="noopener"&gt;plugin docs&lt;/a&gt; and hook references&lt;/li&gt;
+&lt;li&gt;The demo plugins—they’re short and well-commented&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Plugin Architecture and Activation&lt;span class="hx-absolute -hx-mt-20" id="plugin-architecture-and-activation"&gt;&lt;/span&gt;
+&lt;a href="#plugin-architecture-and-activation" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;h6&gt;Question: &lt;em&gt;How does the plugin system work structurally? How are plugins activated?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-how-does-the-plugin-system-work-structurally-how-are-plugins-activated"&gt;&lt;/span&gt;
+&lt;a href="#question-how-does-the-plugin-system-work-structurally-how-are-plugins-activated" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;EggdraSyl:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All plugins live in the &lt;code&gt;plugins/&lt;/code&gt; directory&lt;/li&gt;
+&lt;li&gt;Each plugin is its own folder, with at least an &lt;code&gt;__init__.py&lt;/code&gt; file&lt;/li&gt;
+&lt;li&gt;Directory names follow a 000_plugin-name format, where the number sets priority&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Priority conventions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;000–099: Low-level (e.g., IFTTT APIs)&lt;/li&gt;
+&lt;li&gt;100–199: Demos and examples&lt;/li&gt;
+&lt;li&gt;900–999: Tests&lt;/li&gt;
+&lt;li&gt;Others: For your own use&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To deactivate a plugin: move its folder to &lt;code&gt;plugins_available/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Note: Plugins load at node startup. Restart the node to activate/deactivate.&lt;/p&gt;
+&lt;h3&gt;Supported Hooks&lt;span class="hx-absolute -hx-mt-20" id="supported-hooks"&gt;&lt;/span&gt;
+&lt;a href="#supported-hooks" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;h6&gt;Question: &lt;em&gt;What action hooks does the plugin system support?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question--what-action-hooks-does-the-plugin-system-support"&gt;&lt;/span&gt;
+&lt;a href="#question--what-action-hooks-does-the-plugin-system-support" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;EggdraSyl:&lt;/strong&gt;&lt;br&gt;
+See the &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins/tree/master/doc" target="_blank" rel="noopener"&gt;documentation&lt;/a&gt;. The main hooks are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;quot;block&amp;quot;&lt;/code&gt; – Triggered on new blocks&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;quot;fullblock&amp;quot;&lt;/code&gt; – Triggered with all block transactions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &amp;ldquo;fullblock&amp;rdquo; hook is especially powerful—great for reacting to specific transactions.&lt;/p&gt;
+&lt;h3&gt;Real-World Use Cases&lt;span class="hx-absolute -hx-mt-20" id="real-world-use-cases"&gt;&lt;/span&gt;
+&lt;a href="#real-world-use-cases" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;h6&gt;Question: &lt;em&gt;What can Bismuth plugins do?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question--what-can-bismuth-plugins-do"&gt;&lt;/span&gt;
+&lt;a href="#question--what-can-bismuth-plugins-do" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;EggdraSyl:&lt;/strong&gt;&lt;br&gt;
+With the &amp;ldquo;fullblock&amp;rdquo; hook and a few lines of code, you can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Get mobile notifications for pool payouts&lt;/li&gt;
+&lt;li&gt;Track transactions in Google Sheets&lt;/li&gt;
+&lt;li&gt;Deliver digital goods after payment (like in the Dragginator use case)&lt;/li&gt;
+&lt;li&gt;Decode data and execute functions (like serverless computing on-chain!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Scalability and Comparison&lt;span class="hx-absolute -hx-mt-20" id="scalability-and-comparison"&gt;&lt;/span&gt;
+&lt;a href="#scalability-and-comparison" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;h6&gt;Question: &lt;em&gt;Can Bismuth plugin applications scale?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question--can-bismuth-plugin-applications-scale"&gt;&lt;/span&gt;
+&lt;a href="#question--can-bismuth-plugin-applications-scale" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;EggdraSyl:&lt;/strong&gt;&lt;br&gt;
+Absolutely. Think of them as a layer above Bismuth—you can use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Master/slave models&lt;/li&gt;
+&lt;li&gt;Sharding&lt;/li&gt;
+&lt;li&gt;Round-robin distribution&lt;/li&gt;
+&lt;li&gt;Load balancing&lt;/li&gt;
+&lt;li&gt;Service tiers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6&gt;Question: &lt;em&gt;Is this system comparable to Ethereum smart contracts?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question--is-this-system-comparable-to-ethereum-smart-contracts"&gt;&lt;/span&gt;
+&lt;a href="#question--is-this-system-comparable-to-ethereum-smart-contracts" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;EggdraSyl:&lt;/strong&gt;&lt;br&gt;
+Nope.&lt;/p&gt;
+&lt;p&gt;Ethereum smart contracts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use a specific language&lt;/li&gt;
+&lt;li&gt;Run on every node&lt;/li&gt;
+&lt;li&gt;Act as a slow, redundant virtual PC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bismuth plugins:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Run only on the node you choose&lt;/li&gt;
+&lt;li&gt;Add features you need, not others&lt;/li&gt;
+&lt;li&gt;Do not need global consensus&lt;/li&gt;
+&lt;li&gt;It’s a different design and purpose.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Plugin and Blockchain Interaction&lt;span class="hx-absolute -hx-mt-20" id="plugin-and-blockchain-interaction"&gt;&lt;/span&gt;
+&lt;a href="#plugin-and-blockchain-interaction" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;h6&gt;Question: &lt;em&gt;Does every plugin interaction need to be recorded on the blockchain?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question--does-every-plugin-interaction-need-to-be-recorded-on-the-blockchain"&gt;&lt;/span&gt;
+&lt;a href="#question--does-every-plugin-interaction-need-to-be-recorded-on-the-blockchain" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;EggdraSyl:&lt;/strong&gt;&lt;br&gt;
+No. By default, they are not.&lt;/p&gt;
+&lt;p&gt;However, certified plugins may be introduced—audited by the team and verifiable via their signature or hash stored on-chain.&lt;/p&gt;
+&lt;h3&gt;Learning Resources and Best Practices&lt;span class="hx-absolute -hx-mt-20" id="learning-resources-and-best-practices"&gt;&lt;/span&gt;
+&lt;a href="#learning-resources-and-best-practices" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;h6&gt;Question: &lt;em&gt;Are demo plugins available to help developers learn?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-are-demo-plugins-available-to-help-developers-learn"&gt;&lt;/span&gt;
+&lt;a href="#question-are-demo-plugins-available-to-help-developers-learn" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;EggdraSyl:&lt;/strong&gt;&lt;br&gt;
+Yes! Check the &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins" target="_blank" rel="noopener"&gt;BismuthPlugins repo&lt;/a&gt;. If you need a new hook, open an issue or ping me on Discord (#dev channel).&lt;/p&gt;
+&lt;h6&gt;Question: &lt;em&gt;Is there a best practices guide or cheat sheet?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question--is-there-a-best-practices-guide-or-cheat-sheet"&gt;&lt;/span&gt;
+&lt;a href="#question--is-there-a-best-practices-guide-or-cheat-sheet" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;EggdraSyl:&lt;/strong&gt;&lt;br&gt;
+Stick to the style of the demo plugins—but hey, they’re your plugins, build them your way. :)&lt;/p&gt;
+&lt;h3&gt;Why It Matters&lt;span class="hx-absolute -hx-mt-20" id="why-it-matters"&gt;&lt;/span&gt;
+&lt;a href="#why-it-matters" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;h6&gt;Question: &lt;em&gt;What are the benefits of Bismuth having an integrated plugin system?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question--what-are-the-benefits-of-bismuth-having-an-integrated-plugin-system"&gt;&lt;/span&gt;
+&lt;a href="#question--what-are-the-benefits-of-bismuth-having-an-integrated-plugin-system" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;EggdraSyl:&lt;/strong&gt;&lt;br&gt;
+If I needed to react to a transaction in most cryptos, I’d have to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Build an app&lt;/li&gt;
+&lt;li&gt;Integrate JSON-RPC libs&lt;/li&gt;
+&lt;li&gt;Manage credentials&lt;/li&gt;
+&lt;li&gt;Poll the node constantly&lt;/li&gt;
+&lt;li&gt;Write logic, logs, and webhook handlers&lt;/li&gt;
+&lt;li&gt;Run everything 24/7&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;With Bismuth plugins, all of this—except the custom logic—is &lt;strong&gt;already handled&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;You can &lt;strong&gt;focus on what matters&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;The Dragginator Plugin: A Real-World Use Case&lt;span class="hx-absolute -hx-mt-20" id="the-dragginator-plugin-a-real-world-use-case"&gt;&lt;/span&gt;
+&lt;a href="#the-dragginator-plugin-a-real-world-use-case" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;h6&gt;Question: &lt;em&gt;Iyomisc, how did you learn the plugin system?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question--iyomisc-how-did-you-learn-the-plugin-system"&gt;&lt;/span&gt;
+&lt;a href="#question--iyomisc-how-did-you-learn-the-plugin-system" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;Iyomisc:&lt;/strong&gt;&lt;br&gt;
+It was the first &lt;strong&gt;real-world use&lt;/strong&gt; of the plugin system. I read the docs, checked the examples—it was easy to adapt. EggdraSyl also helped when needed.&lt;/p&gt;
+&lt;h6&gt;Question: &lt;em&gt;What inspired the Dragginator plugin?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question--what-inspired-the-dragginator-plugin"&gt;&lt;/span&gt;
+&lt;a href="#question--what-inspired-the-dragginator-plugin" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;Iyomisc:&lt;/strong&gt;&lt;br&gt;
+I wanted to automate dragon deliveries. I needed to detect matching incoming transactions: correct amount, recipient, and not already processed.&lt;/p&gt;
+&lt;p&gt;The demo code was perfect. I added:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A hash store for tracking processed transactions&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;send_no_gui.py&lt;/code&gt; script to deliver tokens and data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now, it’s &lt;strong&gt;self-contained&lt;/strong&gt;. No external app needed—and reusable for other projects.&lt;/p&gt;
+&lt;h6&gt;Question: &lt;em&gt;How long did it take?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question--how-long-did-it-take"&gt;&lt;/span&gt;
+&lt;a href="#question--how-long-did-it-take" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;Iyomisc:&lt;/strong&gt;&lt;br&gt;
+Just a few weeks for the plugin. The real time sink is the website, writing guides, and user text.&lt;/p&gt;
+&lt;h6&gt;Question: &lt;em&gt;Will you open-source any plugins in the future?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-will-you-open-source-any-plugins-in-the-future"&gt;&lt;/span&gt;
+&lt;a href="#question-will-you-open-source-any-plugins-in-the-future" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;Iyomisc:&lt;/strong&gt;&lt;br&gt;
+My current plugin is basic—very close to the demo. Maybe I’ll release others later. Not sure yet.&lt;/p&gt;
+&lt;h6&gt;Question: &lt;em&gt;What’s your vision for Bismuth plugins going forward?&lt;/em&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-whats-your-vision-for-bismuth-plugins-going-forward"&gt;&lt;/span&gt;
+&lt;a href="#question-whats-your-vision-for-bismuth-plugins-going-forward" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;Iyomisc:&lt;/strong&gt;&lt;br&gt;
+They’ll keep evolving. Expect:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;More hooks&lt;/li&gt;
+&lt;li&gt;More ready-to-use plugins&lt;/li&gt;
+&lt;li&gt;More apps built directly on the plugin layer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It’s the best way to interact with the Bismuth blockchain—easier than using the native or JSON-RPC APIs.&lt;/p&gt;
+&lt;h3&gt;Final Thoughts&lt;span class="hx-absolute -hx-mt-20" id="final-thoughts"&gt;&lt;/span&gt;
+&lt;a href="#final-thoughts" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;A big thank-you to &lt;strong&gt;EggdraSyl&lt;/strong&gt; and &lt;strong&gt;Iyomisc&lt;/strong&gt; for sharing their insights into the powerful Bismuth plugin system and its real-world use in the Dragginator project.&lt;/p&gt;
+&lt;p&gt;This system clearly shows that &lt;strong&gt;Bismuth isn’t just a blockchain—it’s a flexible development platform&lt;/strong&gt;, built for creators.&lt;/p&gt;
+&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Github Rep: &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins" target="_blank" rel="noopener"&gt;Bismuth Plugins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github Docs: &lt;a href="https://github.com/bismuthfoundation/BismuthPlugins/tree/master/doc" target="_blank" rel="noopener"&gt;Plugin Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github Link: &lt;a href="https://github.com/EggPool" target="_blank" rel="noopener"&gt;EggdraSyl&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github Link: &lt;a href="https://github.com/iyomisc" target="_blank" rel="noopener"&gt;Iyomisc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
