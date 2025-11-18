@@ -165,9 +165,10 @@ After the soft fork, PoS/Hypernode rewards are discontinued, and this address re
 ### Script Sources (Reproducible Graphs)
 All graphs on this page are fully reproducible using open-source scripts:
 
-| Graph                                                    | Script                  | Link                                                                                                                                                       |
-| -------------------------------------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Total Supply Over Time**                            | `supply_mining_plot.py` | [https://github.com/bismuthfoundation/util/blob/master/supply_mining_plot.py](https://github.com/bismuthfoundation/util/blob/master/supply_mining_plot.py) |
-| **2. Rewards per Category**<br>**3. Supply Over Blocks** | `supply_calc.py`        | [https://github.com/bismuthfoundation/util/blob/master/supply_calc.py](https://github.com/bismuthfoundation/util/blob/master/supply_calc.py)               |
-| **4. Annual Dilution**                                   | `bismuth_dilution.py`   | [https://github.com/bismuthfoundation/util/blob/master/bismuth_dilution.py](https://github.com/bismuthfoundation/util/blob/master/bismuth_dilution.py)     |
+| Graph                                                | Script                  | Link                                                                                         |
+| ---------------------------------------------------- | ----------------------- | -------------------------------------------------------------------------------------------- |
+| 1. Total Supply Over Time                            | `supply_mining_plot.py` | [Total Supply](https://github.com/bismuthfoundation/util/blob/master/supply_mining_plot.py)  |
+| 2. Rewards per Category                              | `supply_calc.py`        | [Rewards per Category](https://github.com/bismuthfoundation/util/blob/master/supply_calc.py) |
+| 3. Supply Over Blocks                                | `supply_calc.py`        | [Supply over Blocks](https://github.com/bismuthfoundation/util/blob/master/supply_calc.py)   |
+| 4. Annual Dilution                                   | `bismuth_dilution.py`   | [Anual Dilution](https://github.com/bismuthfoundation/util/blob/master/bismuth_dilution.py)  |
 
