@@ -3,7 +3,7 @@ title: Supply
 type: docs
 prev: docs/mainnet/
 ---
-## Bismuth Monetary System — Mining, Supply & Dilution
+## Bismuth — Mining, Supply & Dilution
 
 This page provides a clear overview of how Bismuth emits new coins, how supply evolves over time, and how the protocol has changed across several hard forks.
 
