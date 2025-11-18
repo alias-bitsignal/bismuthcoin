@@ -16,9 +16,8 @@ Four different graphs visualize the emission schedule from complementary perspec
 
 A short explanation accompanies each graph so every reader—technical or non-technical—can immediately understand what they’re looking at.
 
-[![](/images/2025-11-17/bis_mining_supply.jpg)](/images/2025-11-17/bis_mining_supply.jpg)
-
 ### 1. Total Bismuth Supply Over Time
+[![](/images/2025-11-17/bis_mining_supply.jpg)](/images/2025-11-17/bis_mining_supply.jpg)
 
 This graph shows:
 * The cumulative circulating supply of BIS from the genesis block (May 1st, 2017) to the far future.
@@ -34,9 +33,8 @@ To give a birds-eye view of how BIS supply grows under the emission schedule, in
 Investors and node operators can understand long-term inflation, block reward decay, and supply trajectory.
 
 
-[![](/images/2025-11-17/bis_rewards.jpg)](/images/2025-11-17/bis_rewards.jpg)
-
 ### 2. Rewards Per Category (PoW / Dev / Hypernode)
+[![](/images/2025-11-17/bis_rewards.jpg)](/images/2025-11-17/bis_rewards.jpg)
 
 This graph visualizes cumulative supply added by each reward type:
 * PoW Mining rewards
@@ -82,9 +80,9 @@ To avoid confusion, the labels and explanation make it clear that:
 
 “Flat line means no new rewards — not that the rewards still exist.”
 
-[![](/images/2025-11-17/bis_supply.jpg)](/images/2025-11-17/bis_supply.jpg)
 
 ### 3. Mining Rewards Per Block
+[![](/images/2025-11-17/bis_supply.jpg)](/images/2025-11-17/bis_supply.jpg)
 
 This graph displays the per-block reward schedule:
 * PoW miner reward
@@ -103,9 +101,9 @@ To show the instantaneous emission rate per block, and how it changes over Bismu
 **Why it matters:**
 Useful for miners, pool operators, emission analysts, and explorers.
 
-[![](/images/2025-11-17/bis_dilution.png)](/images/2025-11-17/bis_dilution.png)
 
 ### 4. Annual Dilution
+[![](/images/2025-11-17/bis_dilution.png)](/images/2025-11-17/bis_dilution.png)
 
 This graph (and CSV table) calculate Bismuth’s annual dilution rate, defined by:
 
@@ -126,7 +124,6 @@ To show how inflation evolves year-by-year in economic terms.
 **Why it matters:**
 Dilution is the best metric for understanding long-term monetary quality and supply dilution—much more meaningful than raw block rewards.
 
----
 
 #### Bismuth Timeline
 
@@ -144,13 +141,13 @@ Bismuth Monetary Policy Timeline
 | 2025/07/18 | 4,380,000 | HF4 Soft Fork — Removal of Dev & HN rewards (return to pure PoW) |
 
 
-**Notes**
+
+#### Notes
 
 * Hypernodes remain functional but no longer receive block rewards after HF4.
 * Dev reward (10% of PoW) also ends at HF4.
 
 **Development & Hypernode Reward Addresses (for verification)**
-
 All historical Dev and PoS/Hypernode rewards were paid to fixed, public on-chain addresses.
 
 Development Fund Address:
@@ -164,4 +161,13 @@ Hypernode (PoS) Reward Address:
 
 This address collected all PoS / Hypernode payouts.
 After the soft fork, PoS/Hypernode rewards are discontinued, and this address receives nothing further.
+
+### Script Sources (Reproducible Graphs)
+All graphs on this page are fully reproducible using open-source scripts:
+
+| Graph                                                    | Script                  | Link                                                                                                                                                       |
+| -------------------------------------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Total Supply Over Time**                            | `supply_mining_plot.py` | [https://github.com/bismuthfoundation/util/blob/master/supply_mining_plot.py](https://github.com/bismuthfoundation/util/blob/master/supply_mining_plot.py) |
+| **2. Rewards per Category**<br>**3. Supply Over Blocks** | `supply_calc.py`        | [https://github.com/bismuthfoundation/util/blob/master/supply_calc.py](https://github.com/bismuthfoundation/util/blob/master/supply_calc.py)               |
+| **4. Annual Dilution**                                   | `bismuth_dilution.py`   | [https://github.com/bismuthfoundation/util/blob/master/bismuth_dilution.py](https://github.com/bismuthfoundation/util/blob/master/bismuth_dilution.py)     |
 
