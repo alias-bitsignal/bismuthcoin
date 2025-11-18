@@ -18,9 +18,8 @@ This signature *is* the transaction ID.
 **Replay Prevention**  
 If someone attempts to replay a transaction, the node detects that the signature/ID already exists in the ledger and rejects it automatically.
 
----
 
-#### Consensus & Mining
+### Consensus & Mining
 
 * Consensus Timeline
   - **Pure Proof-of-Work:** block `1 → 800,000`  
@@ -62,7 +61,7 @@ If someone attempts to replay a transaction, the node detects that the signature
   - Total PoW minted is calculated dynamically  
   - See *Supply & Charts* section of the documentation
 
-#### Addresses & Identity
+### Addresses & Identity
 
 - **Legacy RSA** addresses  
 - **ECDSA (Bis1...)** address format  
@@ -70,26 +69,26 @@ If someone attempts to replay a transaction, the node detects that the signature
 - Smallest unit: **0.00000001 BIS (8 decimals)**  
 - 1 confirmation required before respending
 
-#### Networking
+### Networking
 
 - Plain-text peers list  
 - Optional Tor proxying  
 - **Mainnet port:** `5658/tcp`  
 - **Testnet port:** `2829/tcp`
 
-#### Ledger & Storage
+### Ledger & Storage
 
 - Dual-database system: RAM ledger + disk ledger  
 - Hyperblock compression (≈96% RAM reduction)  
 - Pruning & snapshot support for fast bootstrapping
 
-#### Transaction Layer
+### Transaction Layer
 
 - Supports arbitrary data fields  
 - Custom operations (e.g., `token:issue`, `token:transfer`)  
 - Optional encrypted payloads (asymmetric crypto)
 
-#### Projects & Ecosystem
+### Projects & Ecosystem
 
 - Mining pool  
 - Experimental casino  
@@ -97,7 +96,7 @@ If someone attempts to replay a transaction, the node detects that the signature
 - Peer map  
 - Hypernode sidechain (historical PoS era)
 
-#### Node Configuration & Extensibility
+### Node Configuration & Extensibility
 
 - Fully configurable via `config.txt`  
 - Plug-in system for:  
@@ -107,12 +106,11 @@ If someone attempts to replay a transaction, the node detects that the signature
   - Tokens  
   - Custom features
 
-#### Open Source
+### Open Source
 
 - 100% open source  
 - Repository: https://github.com/bismuthfoundation
 
----
 
 ### References
 
