@@ -16,9 +16,7 @@ Four different graphs visualize the emission schedule from complementary perspec
 
 A short explanation accompanies each graph so every reader—technical or non-technical—can immediately understand what they’re looking at.
 
----
-
-![](/images/2025-11-17/bis_mining_supply.jpg)
+[![](/images/2025-11-17/bis_mining_supply.jpg)](/images/2025-11-17/bis_mining_supply.jpg)
 
 ### 1. Total Bismuth Supply Over Time
 
@@ -35,9 +33,8 @@ To give a birds-eye view of how BIS supply grows under the emission schedule, in
 **Why it matters:**
 Investors and node operators can understand long-term inflation, block reward decay, and supply trajectory.
 
----
 
-![](/images/2025-11-17/bis_rewards.jpg)
+[![](/images/2025-11-17/bis_rewards.jpg)](/images/2025-11-17/bis_rewards.jpg)
 
 ### 2. Rewards Per Category (PoW / Dev / Hypernode)
 
@@ -85,9 +82,7 @@ To avoid confusion, the labels and explanation make it clear that:
 
 “Flat line means no new rewards — not that the rewards still exist.”
 
---- 
-
-![](/images/2025-11-17/bis_supply.jpg)
+[![](/images/2025-11-17/bis_supply.jpg)](/images/2025-11-17/bis_supply.jpg)
 
 ### 3. Mining Rewards Per Block
 
@@ -108,9 +103,7 @@ To show the instantaneous emission rate per block, and how it changes over Bismu
 **Why it matters:**
 Useful for miners, pool operators, emission analysts, and explorers.
 
----
-
-![](/images/2025-11-17/bis_dilution.png)
+[![](/images/2025-11-17/bis_dilution.png)](/images/2025-11-17/bis_dilution.png)
 
 ### 4. Annual Dilution
 
