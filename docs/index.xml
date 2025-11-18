@@ -251,9 +251,9 @@ hash state – is considered as the input vector to the difficulty matching func
 &lt;li&gt;Annual Dilution&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;A short explanation accompanies each graph so every reader—technical or non-technical—can immediately understand what they’re looking at.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://bismuthcoin.org/images/2025-11-17/bis_mining_supply.jpg" &gt;&lt;img src="https://bismuthcoin.org/images/2025-11-17/bis_mining_supply.jpg" alt="" loading="lazy" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1. Total Bismuth Supply Over Time&lt;span class="hx-absolute -hx-mt-20" id="1-total-bismuth-supply-over-time"&gt;&lt;/span&gt;
-&lt;a href="#1-total-bismuth-supply-over-time" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This graph shows:&lt;/p&gt;
+&lt;a href="#1-total-bismuth-supply-over-time" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://bismuthcoin.org/images/2025-11-17/bis_mining_supply.jpg" &gt;&lt;img src="https://bismuthcoin.org/images/2025-11-17/bis_mining_supply.jpg" alt="" loading="lazy" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This graph shows:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The cumulative circulating supply of BIS from the genesis block (May 1st, 2017) to the far future.&lt;/li&gt;
 &lt;li&gt;All supply components:
@@ -265,9 +265,9 @@ PoW mining, Dev rewards (10% of miner rewards), and PoS/Hypernode payouts (until
 To give a birds-eye view of how BIS supply grows under the emission schedule, including slope changes after each emission fork.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Why it matters:&lt;/strong&gt;
 Investors and node operators can understand long-term inflation, block reward decay, and supply trajectory.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://bismuthcoin.org/images/2025-11-17/bis_rewards.jpg" &gt;&lt;img src="https://bismuthcoin.org/images/2025-11-17/bis_rewards.jpg" alt="" loading="lazy" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;2. Rewards Per Category (PoW / Dev / Hypernode)&lt;span class="hx-absolute -hx-mt-20" id="2-rewards-per-category-pow--dev--hypernode"&gt;&lt;/span&gt;
-&lt;a href="#2-rewards-per-category-pow--dev--hypernode" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This graph visualizes cumulative supply added by each reward type:&lt;/p&gt;
+&lt;a href="#2-rewards-per-category-pow--dev--hypernode" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://bismuthcoin.org/images/2025-11-17/bis_rewards.jpg" &gt;&lt;img src="https://bismuthcoin.org/images/2025-11-17/bis_rewards.jpg" alt="" loading="lazy" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This graph visualizes cumulative supply added by each reward type:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;PoW Mining rewards&lt;/li&gt;
 &lt;li&gt;Dev rewards&lt;/li&gt;
@@ -307,9 +307,9 @@ their curves become completely flat — they no longer increase.&lt;/p&gt;
 &lt;p&gt;This is a normal behavior for cumulative-sum graphs.
 To avoid confusion, the labels and explanation make it clear that:&lt;/p&gt;
 &lt;p&gt;“Flat line means no new rewards — not that the rewards still exist.”&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://bismuthcoin.org/images/2025-11-17/bis_supply.jpg" &gt;&lt;img src="https://bismuthcoin.org/images/2025-11-17/bis_supply.jpg" alt="" loading="lazy" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;3. Mining Rewards Per Block&lt;span class="hx-absolute -hx-mt-20" id="3-mining-rewards-per-block"&gt;&lt;/span&gt;
-&lt;a href="#3-mining-rewards-per-block" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This graph displays the per-block reward schedule:&lt;/p&gt;
+&lt;a href="#3-mining-rewards-per-block" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://bismuthcoin.org/images/2025-11-17/bis_supply.jpg" &gt;&lt;img src="https://bismuthcoin.org/images/2025-11-17/bis_supply.jpg" alt="" loading="lazy" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This graph displays the per-block reward schedule:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;PoW miner reward&lt;/li&gt;
 &lt;li&gt;Dev reward&lt;/li&gt;
@@ -326,9 +326,9 @@ To avoid confusion, the labels and explanation make it clear that:&lt;/p&gt;
 To show the instantaneous emission rate per block, and how it changes over Bismuth’s lifetime.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Why it matters:&lt;/strong&gt;
 Useful for miners, pool operators, emission analysts, and explorers.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://bismuthcoin.org/images/2025-11-17/bis_dilution.png" &gt;&lt;img src="https://bismuthcoin.org/images/2025-11-17/bis_dilution.png" alt="" loading="lazy" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4. Annual Dilution&lt;span class="hx-absolute -hx-mt-20" id="4-annual-dilution"&gt;&lt;/span&gt;
-&lt;a href="#4-annual-dilution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This graph (and CSV table) calculate Bismuth’s annual dilution rate, defined by:&lt;/p&gt;
+&lt;a href="#4-annual-dilution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://bismuthcoin.org/images/2025-11-17/bis_dilution.png" &gt;&lt;img src="https://bismuthcoin.org/images/2025-11-17/bis_dilution.png" alt="" loading="lazy" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This graph (and CSV table) calculate Bismuth’s annual dilution rate, defined by:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;New BIS minted during a calendar year
 divided by
@@ -346,7 +346,6 @@ Total supply at the beginning of that year.&lt;/p&gt;
 To show how inflation evolves year-by-year in economic terms.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Why it matters:&lt;/strong&gt;
 Dilution is the best metric for understanding long-term monetary quality and supply dilution—much more meaningful than raw block rewards.&lt;/p&gt;
-&lt;hr&gt;
 &lt;h4&gt;Bismuth Timeline&lt;span class="hx-absolute -hx-mt-20" id="bismuth-timeline"&gt;&lt;/span&gt;
 &lt;a href="#bismuth-timeline" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Below is a clear, concise timeline of only the forks that directly affect monetary policy.
 This avoids clutter while still informing the user.&lt;/p&gt;
@@ -387,13 +386,13 @@ This avoids clutter while still informing the user.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
+&lt;h4&gt;Notes&lt;span class="hx-absolute -hx-mt-20" id="notes"&gt;&lt;/span&gt;
+&lt;a href="#notes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;Hypernodes remain functional but no longer receive block rewards after HF4.&lt;/li&gt;
 &lt;li&gt;Dev reward (10% of PoW) also ends at HF4.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Development &amp;amp; Hypernode Reward Addresses (for verification)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;All historical Dev and PoS/Hypernode rewards were paid to fixed, public on-chain addresses.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Development &amp;amp; Hypernode Reward Addresses (for verification)&lt;/strong&gt;
+All historical Dev and PoS/Hypernode rewards were paid to fixed, public on-chain addresses.&lt;/p&gt;
 &lt;p&gt;Development Fund Address:
 &lt;code&gt;4edadac9093d9326ee4b17f869b14f1a2534f96f9c5d7b48dc9acaed&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This address received 10% of the miner reward at each eligible block.
@@ -401,4 +400,32 @@ After the soft fork at block 4,380,000, this address receives no further rewards
 &lt;p&gt;Hypernode (PoS) Reward Address:
 &lt;code&gt;3e08b5538a4509d9daa99e01ca5912cda3e98a7f79ca01248c2bde16&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This address collected all PoS / Hypernode payouts.
-After the soft fork, PoS/Hypernode rewards are discontinued, and this address receives nothing further.&lt;/p&gt;</description></item></channel></rss>
+After the soft fork, PoS/Hypernode rewards are discontinued, and this address receives nothing further.&lt;/p&gt;
+&lt;h3&gt;Script Sources (Reproducible Graphs)&lt;span class="hx-absolute -hx-mt-20" id="script-sources-reproducible-graphs"&gt;&lt;/span&gt;
+&lt;a href="#script-sources-reproducible-graphs" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;All graphs on this page are fully reproducible using open-source scripts:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Graph&lt;/th&gt;
+&lt;th&gt;Script&lt;/th&gt;
+&lt;th&gt;Link&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;1. Total Supply Over Time&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;supply_mining_plot.py&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://github.com/bismuthfoundation/util/blob/master/supply_mining_plot.py" target="_blank" rel="noopener"&gt;https://github.com/bismuthfoundation/util/blob/master/supply_mining_plot.py&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2. Rewards per Category&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;3. Supply Over Blocks&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;supply_calc.py&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://github.com/bismuthfoundation/util/blob/master/supply_calc.py" target="_blank" rel="noopener"&gt;https://github.com/bismuthfoundation/util/blob/master/supply_calc.py&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;4. Annual Dilution&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;bismuth_dilution.py&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuth_dilution.py" target="_blank" rel="noopener"&gt;https://github.com/bismuthfoundation/util/blob/master/bismuth_dilution.py&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description></item></channel></rss>
