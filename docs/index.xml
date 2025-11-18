@@ -166,36 +166,78 @@ hash state – is considered as the input vector to the difficulty matching func
 &lt;h3&gt;How the Unique Signature Method Works&lt;span class="hx-absolute -hx-mt-20" id="how-the-unique-signature-method-works"&gt;&lt;/span&gt;
 &lt;a href="#how-the-unique-signature-method-works" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Intrinsic Uniqueness:&lt;/strong&gt; In Bismuth, every transaction is signed in such a way that the resulting signature is unique. This signature then becomes also the transaction’s identity.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Replay Prevention:&lt;/strong&gt; Since a valid transaction is uniquely identified by its signature, if someone tries to replay the same transaction, the system can detect that the signature (and thus the transaction ID) has already been used and reject the duplicate.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;System: Proof-of-Work (custom implementation) + HyperNodes (custom implementation)&lt;/li&gt;
-&lt;li&gt;Hashing algorithm: SHA224&lt;/li&gt;
-&lt;li&gt;Mining algorithm: Heavy3&lt;/li&gt;
-&lt;li&gt;Signing algorithm: PKCS1_v1_5&lt;/li&gt;
-&lt;li&gt;Block time interval: 60 seconds&lt;/li&gt;
-&lt;li&gt;Transaction size: ~650 bytes + data fees&lt;/li&gt;
-&lt;li&gt;Mining reward: Tapering from 15 at block 1 to 0 at block 7,100,000&lt;/li&gt;
-&lt;li&gt;Difficulty: Proportional–integral–derivative controller&lt;/li&gt;
-&lt;li&gt;Difficulty retarget: Every block&lt;/li&gt;
-&lt;li&gt;Total PoW reward: 51,370,000 (plus 10% dev rewards)&lt;/li&gt;
-&lt;li&gt;PoS reward (HyperNodes): 0.8 per block from block 800,000 to 1,200,000&lt;/li&gt;
-&lt;li&gt;PoS reward (HyperNodes): 2.4 per block indefinitely from block 1,200,000&lt;/li&gt;
-&lt;li&gt;Smallest unit: 0.00000001&lt;/li&gt;
-&lt;li&gt;Confirmations before respending: 1&lt;/li&gt;
-&lt;li&gt;Plain text peer list file&lt;/li&gt;
-&lt;li&gt;Tor proxy support&lt;/li&gt;
-&lt;li&gt;Optimized towards efficiency&lt;/li&gt;
-&lt;li&gt;Dual database system for maximum performance&lt;/li&gt;
-&lt;li&gt;Database compression/pruning&lt;/li&gt;
-&lt;li&gt;Arbitrary data storage ecosystem and philosophy&lt;/li&gt;
-&lt;li&gt;Address-based anonymizing transaction mixer&lt;/li&gt;
-&lt;li&gt;Asymmetric message and data encryption&lt;/li&gt;
-&lt;li&gt;Batteries included: Pool, casino, mixer, peer map&lt;/li&gt;
-&lt;li&gt;Node options fully configurable&lt;/li&gt;
-&lt;li&gt;All layers built from scratch&lt;/li&gt;
-&lt;li&gt;100% OpenSource&lt;/li&gt;
-&lt;li&gt;Mainnet Port: 5658&lt;/li&gt;
-&lt;li&gt;Testnet Port: 2829&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Consensus mechanism:
+Pure Proof-of-Work (block 1 → 800,000)
+Hybrid PoW + Hypernodes (PoS sidechain) (800,000 → 4,380,000)
+Pure Proof-of-Work again (after block 4,380,000)&lt;/p&gt;
+&lt;p&gt;Hashing algorithm:
+SHA-224 (block header hashing)
+Mining algorithm:
+Heavy3 (CPU/GPU friendly PoW function)&lt;/p&gt;
+&lt;p&gt;Block time:
+60 seconds (target)&lt;/p&gt;
+&lt;p&gt;Transaction size:
+ca. 650 bytes per transaction + dynamic data fees&lt;/p&gt;
+&lt;p&gt;Reward schedule:
+Mining reward decays from ~15 BIS → 0.5 BIS per block (tail emission)
+Tail emission: 0.5 BIS per block forever (~262,800 BIS/year)&lt;/p&gt;
+&lt;p&gt;Reward forks:
+HF1 (800k): Introduced Hypernode/PoS payouts (0.8 BIS)
+HF2 (1.2M): Adjusted emission slope
+HF3 (1.45M): BGV-01 emission change (new linear decay model)
+HF4 (4.38M, 2025): Removed Dev rewards &amp;amp; Hypernode payouts permanently&lt;/p&gt;
+&lt;p&gt;Current reward system (post-HF4):
+Miner reward only
+No Dev reward
+No PoS/Hypernode reward&lt;/p&gt;
+&lt;p&gt;PoS / Hypernode payouts:
+0.8 BIS (block 800k → 1,200,000)
+2.4 BIS (block 1.2M → 4.38M)
+Permanently removed at block 4,380,000&lt;/p&gt;
+&lt;p&gt;Dev reward:
+10% of miner reward (until block 4,380,000)
+Removed entirely at HF4&lt;/p&gt;
+&lt;p&gt;Total PoW minted to date:
+Dynamically calculated — see supply graphs in documentation&lt;/p&gt;
+&lt;p&gt;Smallest unit:
+0.00000001 BIS (8 decimals)&lt;/p&gt;
+&lt;p&gt;Difficulty algorithm:
+Proportional–Integral–Derivative (PID) controller&lt;/p&gt;
+&lt;p&gt;Difficulty retarget:
+Every block&lt;/p&gt;
+&lt;p&gt;Consensus rules:
+1 confirmation to respent funds
+No premine, no ICO&lt;/p&gt;
+&lt;p&gt;Addresses:
+Legacy RSA Bismuth addresses
+Supports ECDSA addresses (Bis1&amp;hellip;)
+Also supports modern Ed25519 plug-ins (wallet-side)&lt;/p&gt;
+&lt;p&gt;Peer system:
+Plain-text peers list
+Tor proxy support available&lt;/p&gt;
+&lt;p&gt;Ledger database:
+Dual-database (RAM ledger + disk ledger)
+Hyperblock compression (≈96% RAM reduction)
+Pruning and snapshot support (fast bootstrapping)&lt;/p&gt;
+&lt;p&gt;Transaction layer:
+Arbitrary data fields
+Custom operation system (token:issue, token:transfer, etc.)
+Optional asymmetrically encrypted payloads&lt;/p&gt;
+&lt;p&gt;Projects:
+Mining pool
+Casino (experimental)
+Mixer (address-based anonymizer)
+Peer map
+Hypernode sidechain (for PoS era)&lt;/p&gt;
+&lt;p&gt;Node configuration:
+Fully customizable via config file
+Plugin system for wallet, explorer, monitoring, tokens&lt;/p&gt;
+&lt;p&gt;Open Source:
+100% open – &lt;a href="https://github.com/bismuthfoundation" target="_blank" rel="noopener"&gt;https://github.com/bismuthfoundation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mainnet port:
+5658/tcp&lt;/p&gt;
+&lt;p&gt;Testnet port:
+2829/tcp&lt;/p&gt;
 &lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/bismuthfoundation/Bismuth" target="_blank" rel="noopener"&gt;Github Bismuth Mainnet&lt;/a&gt;&lt;/li&gt;
