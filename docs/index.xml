@@ -390,7 +390,7 @@ But this is &lt;em&gt;not&lt;/em&gt; the case.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;These lines represent total historical supply accumulated from each reward type.
 Once Dev + PoS rewards stop at block 4,380,000,
-their curves become completely flat — they no longer increase.&lt;/p&gt;
+their curves become completely flat, they no longer increase.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;In other words:&lt;/p&gt;
 &lt;ul&gt;
@@ -400,7 +400,7 @@ their curves become completely flat — they no longer increase.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;This is a normal behavior for cumulative-sum graphs.
 To avoid confusion, the labels and explanation make it clear that:&lt;/p&gt;
-&lt;p&gt;“Flat line means no new rewards — not that the rewards still exist.”&lt;/p&gt;
+&lt;p&gt;“Flat line means no new rewards.”&lt;/p&gt;
 &lt;h3&gt;3. Mining Rewards Per Block&lt;span class="hx-absolute -hx-mt-20" id="3-mining-rewards-per-block"&gt;&lt;/span&gt;
 &lt;a href="#3-mining-rewards-per-block" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://bismuthcoin.org/images/2025-11-17/bis_supply.jpg" &gt;&lt;img src="https://bismuthcoin.org/images/2025-11-17/bis_supply.jpg" alt="" loading="lazy" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This graph displays the per-block reward schedule:&lt;/p&gt;
@@ -439,7 +439,7 @@ Total supply at the beginning of that year.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Purpose:&lt;/strong&gt;
 To show how inflation evolves year-by-year in economic terms.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Why it matters:&lt;/strong&gt;
-Dilution is the best metric for understanding long-term monetary quality and supply dilution—much more meaningful than raw block rewards.&lt;/p&gt;
+Dilution is the best metric for understanding long-term monetary quality and supply dilution, much more meaningful than raw block rewards.&lt;/p&gt;
 &lt;h4&gt;Bismuth Timeline&lt;span class="hx-absolute -hx-mt-20" id="bismuth-timeline"&gt;&lt;/span&gt;
 &lt;a href="#bismuth-timeline" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Below is a clear, concise timeline of only the forks that directly affect monetary policy.
 This avoids clutter while still informing the user.&lt;/p&gt;
