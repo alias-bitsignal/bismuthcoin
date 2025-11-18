@@ -14,7 +14,7 @@ Four different graphs visualize the emission schedule from complementary perspec
 3. Mining Rewards Per Block
 4. Annual Dilution
 
-A short explanation accompanies each graph so every reader—technical or non-technical—can immediately understand what they’re looking at.
+A short explanation accompanies each graph for technical/ non-technical readers.
 
 ### 1. Total Bismuth Supply Over Time
 [![](/images/2025-11-17/bis_mining_supply.jpg)](/images/2025-11-17/bis_mining_supply.jpg)
