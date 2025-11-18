@@ -89,86 +89,120 @@ hash state – is considered as the input vector to the difficulty matching func
 &lt;li&gt;&lt;a href="https://github.com/bismuthfoundation/Optipoolware" target="_blank" rel="noopener"&gt;Optipoolware&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://miningpoolstats.stream/bismuth" target="_blank" rel="noopener"&gt;Miningpoolstats&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Overview</title><link>https://bismuthcoin.org/docs/mainnet/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/mainnet/overview/</guid><description>
-&lt;h2&gt;Bismuth Technical Overview&lt;span class="hx-absolute -hx-mt-20" id="bismuth-technical-overview"&gt;&lt;/span&gt;
-&lt;a href="#bismuth-technical-overview" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Bismuth, an &lt;strong&gt;account-based model&lt;/strong&gt;, doesn’t require a unique identifier (like a nonce) to prevent replay attacks as Ethereum does. Instead, it uses its unique transaction signature for identification.&lt;/p&gt;
-&lt;h3&gt;How the Unique Signature Method Works&lt;span class="hx-absolute -hx-mt-20" id="how-the-unique-signature-method-works"&gt;&lt;/span&gt;
-&lt;a href="#how-the-unique-signature-method-works" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Intrinsic Uniqueness:&lt;/strong&gt; In Bismuth, every transaction is signed in such a way that the resulting signature is unique. This signature then becomes also the transaction’s identity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Replay Prevention:&lt;/strong&gt; Since a valid transaction is uniquely identified by its signature, if someone tries to replay the same transaction, the system can detect that the signature (and thus the transaction ID) has already been used and reject the duplicate.&lt;/p&gt;
-&lt;p&gt;Consensus mechanism:
-Pure Proof-of-Work (block 1 → 800,000)
-Hybrid PoW + Hypernodes (PoS sidechain) (800,000 → 4,380,000)
-Pure Proof-of-Work again (after block 4,380,000)&lt;/p&gt;
-&lt;p&gt;Hashing algorithm:
-SHA-224 (block header hashing)
-Mining algorithm:
-Heavy3 (CPU/GPU friendly PoW function)&lt;/p&gt;
-&lt;p&gt;Block time:
-60 seconds (target)&lt;/p&gt;
-&lt;p&gt;Transaction size:
-ca. 650 bytes per transaction + dynamic data fees&lt;/p&gt;
-&lt;p&gt;Reward schedule:
-Mining reward decays from ~15 BIS → 0.5 BIS per block (tail emission)
-Tail emission: 0.5 BIS per block forever (~262,800 BIS/year)&lt;/p&gt;
-&lt;p&gt;Reward forks:
-HF1 (800k): Introduced Hypernode/PoS payouts (0.8 BIS)
-HF2 (1.2M): Adjusted emission slope
-HF3 (1.45M): BGV-01 emission change (new linear decay model)
-HF4 (4.38M, 2025): Removed Dev rewards &amp;amp; Hypernode payouts permanently&lt;/p&gt;
-&lt;p&gt;Current reward system (post-HF4):
-Miner reward only
-No Dev reward
-No PoS/Hypernode reward&lt;/p&gt;
-&lt;p&gt;PoS / Hypernode payouts:
-0.8 BIS (block 800k → 1,200,000)
-2.4 BIS (block 1.2M → 4.38M)
-Permanently removed at block 4,380,000&lt;/p&gt;
-&lt;p&gt;Dev reward:
-10% of miner reward (until block 4,380,000)
-Removed entirely at HF4&lt;/p&gt;
-&lt;p&gt;Total PoW minted to date:
-Dynamically calculated — see supply graphs in documentation&lt;/p&gt;
-&lt;p&gt;Smallest unit:
-0.00000001 BIS (8 decimals)&lt;/p&gt;
-&lt;p&gt;Difficulty algorithm:
-Proportional–Integral–Derivative (PID) controller&lt;/p&gt;
-&lt;p&gt;Difficulty retarget:
-Every block&lt;/p&gt;
-&lt;p&gt;Consensus rules:
-1 confirmation to respent funds
-No premine, no ICO&lt;/p&gt;
-&lt;p&gt;Addresses:
-Legacy RSA Bismuth addresses
-Supports ECDSA addresses (Bis1&amp;hellip;)
-Also supports modern Ed25519 plug-ins (wallet-side)&lt;/p&gt;
-&lt;p&gt;Peer system:
-Plain-text peers list
-Tor proxy support available&lt;/p&gt;
-&lt;p&gt;Ledger database:
-Dual-database (RAM ledger + disk ledger)
-Hyperblock compression (≈96% RAM reduction)
-Pruning and snapshot support (fast bootstrapping)&lt;/p&gt;
-&lt;p&gt;Transaction layer:
-Arbitrary data fields
-Custom operation system (token:issue, token:transfer, etc.)
-Optional asymmetrically encrypted payloads&lt;/p&gt;
-&lt;p&gt;Projects:
-Mining pool
-Casino (experimental)
-Mixer (address-based anonymizer)
-Peer map
-Hypernode sidechain (for PoS era)&lt;/p&gt;
-&lt;p&gt;Node configuration:
-Fully customizable via config file
-Plugin system for wallet, explorer, monitoring, tokens&lt;/p&gt;
-&lt;p&gt;Open Source:
-100% open – &lt;a href="https://github.com/bismuthfoundation" target="_blank" rel="noopener"&gt;https://github.com/bismuthfoundation&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Mainnet port:
-5658/tcp&lt;/p&gt;
-&lt;p&gt;Testnet port:
-2829/tcp&lt;/p&gt;
+&lt;h1&gt;Bismuth Technical Overview&lt;/h1&gt;&lt;p&gt;Bismuth uses an &lt;strong&gt;account-based model&lt;/strong&gt; with a unique signature-based transaction identifier.&lt;br&gt;
+Unlike Ethereum, Bismuth does &lt;strong&gt;not&lt;/strong&gt; require a nonce to prevent replay attacks.&lt;/p&gt;
+&lt;h2&gt;Unique Transaction Signature Model&lt;span class="hx-absolute -hx-mt-20" id="unique-transaction-signature-model"&gt;&lt;/span&gt;
+&lt;a href="#unique-transaction-signature-model" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Intrinsic Uniqueness&lt;/strong&gt;&lt;br&gt;
+Every transaction is signed in a way that guarantees a unique digital signature.&lt;br&gt;
+This signature &lt;em&gt;is&lt;/em&gt; the transaction ID.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Replay Prevention&lt;/strong&gt;&lt;br&gt;
+If someone attempts to replay a transaction, the node detects that the signature/ID already exists in the ledger and rejects it automatically.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;Consensus &amp;amp; Mining&lt;/h1&gt;&lt;h2&gt;Consensus Timeline&lt;span class="hx-absolute -hx-mt-20" id="consensus-timeline"&gt;&lt;/span&gt;
+&lt;a href="#consensus-timeline" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pure Proof-of-Work:&lt;/strong&gt; block &lt;code&gt;1 → 800,000&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hybrid PoW + Hypernodes (PoS sidechain):&lt;/strong&gt; block &lt;code&gt;800,000 → 4,380,000&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pure Proof-of-Work (Post-HF4):&lt;/strong&gt; from block &lt;code&gt;4,380,000&lt;/code&gt; onward&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Algorithms&lt;span class="hx-absolute -hx-mt-20" id="algorithms"&gt;&lt;/span&gt;
+&lt;a href="#algorithms" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hashing:&lt;/strong&gt; SHA-224 (block header)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mining:&lt;/strong&gt; Heavy3 (CPU/GPU-friendly)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Difficulty:&lt;/strong&gt; PID controller (retargets every block)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Block Time:&lt;/strong&gt; 60 seconds target&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Reward Schedule&lt;span class="hx-absolute -hx-mt-20" id="reward-schedule"&gt;&lt;/span&gt;
+&lt;a href="#reward-schedule" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Mining reward declines from &lt;strong&gt;~15 BIS → 0.5 BIS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Tail emission: &lt;strong&gt;0.5 BIS per block indefinitely&lt;/strong&gt; (~262,800 BIS/year)&lt;/li&gt;
+&lt;li&gt;No premine, no ICO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Historical Reward Forks&lt;span class="hx-absolute -hx-mt-20" id="historical-reward-forks"&gt;&lt;/span&gt;
+&lt;a href="#historical-reward-forks" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HF1 (800k):&lt;/strong&gt; Introduced Hypernode/PoS rewards (0.8 BIS)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HF2 (1.2M):&lt;/strong&gt; Adjusted emission slope&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HF3 (1.45M):&lt;/strong&gt; BGV-01 linear emission model&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HF4 (4.38M, 2025):&lt;/strong&gt; Removed Dev rewards &amp;amp; Hypernode payouts permanently&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Current Reward Model (Post-HF4)&lt;span class="hx-absolute -hx-mt-20" id="current-reward-model-post-hf4"&gt;&lt;/span&gt;
+&lt;a href="#current-reward-model-post-hf4" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Miner reward only&lt;/li&gt;
+&lt;li&gt;No Dev reward&lt;/li&gt;
+&lt;li&gt;No PoS/Hypernode reward&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Hypernode (PoS) Era Summary&lt;span class="hx-absolute -hx-mt-20" id="hypernode-pos-era-summary"&gt;&lt;/span&gt;
+&lt;a href="#hypernode-pos-era-summary" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;0.8 BIS:&lt;/strong&gt; block &lt;code&gt;800k → 1,200,000&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2.4 BIS:&lt;/strong&gt; block &lt;code&gt;1.2M → 4.38M&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Removed:&lt;/strong&gt; at block &lt;code&gt;4,380,000&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Dev Reward&lt;span class="hx-absolute -hx-mt-20" id="dev-reward"&gt;&lt;/span&gt;
+&lt;a href="#dev-reward" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;10% of miner reward (until HF4)&lt;/li&gt;
+&lt;li&gt;Removed permanently after block &lt;code&gt;4,380,000&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Supply&lt;span class="hx-absolute -hx-mt-20" id="supply"&gt;&lt;/span&gt;
+&lt;a href="#supply" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Total PoW minted is calculated dynamically&lt;/li&gt;
+&lt;li&gt;See &lt;em&gt;Supply &amp;amp; Charts&lt;/em&gt; section of the documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1&gt;Addresses &amp;amp; Identity&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Legacy RSA&lt;/strong&gt; addresses&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ECDSA (Bis1&amp;hellip;)&lt;/strong&gt; modern address format&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ed25519 support&lt;/strong&gt; via plug-ins&lt;/li&gt;
+&lt;li&gt;Smallest unit: &lt;strong&gt;0.00000001 BIS (8 decimals)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;1 confirmation required before respending&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1&gt;Networking&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Plain-text peers list&lt;/li&gt;
+&lt;li&gt;Optional Tor proxying&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mainnet port:&lt;/strong&gt; &lt;code&gt;5658/tcp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testnet port:&lt;/strong&gt; &lt;code&gt;2829/tcp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1&gt;Ledger &amp;amp; Storage&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Dual-database system: RAM ledger + disk ledger&lt;/li&gt;
+&lt;li&gt;Hyperblock compression (≈96% RAM reduction)&lt;/li&gt;
+&lt;li&gt;Pruning &amp;amp; snapshot support for fast bootstrapping&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1&gt;Transaction Layer&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Supports arbitrary data fields&lt;/li&gt;
+&lt;li&gt;Custom operations (e.g., &lt;code&gt;token:issue&lt;/code&gt;, &lt;code&gt;token:transfer&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Optional encrypted payloads (asymmetric crypto)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1&gt;Projects &amp;amp; Ecosystem&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Mining pool&lt;/li&gt;
+&lt;li&gt;Experimental casino&lt;/li&gt;
+&lt;li&gt;Mixer (address-anonymization)&lt;/li&gt;
+&lt;li&gt;Peer map&lt;/li&gt;
+&lt;li&gt;Hypernode sidechain (historical PoS era)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1&gt;Node Configuration &amp;amp; Extensibility&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Fully configurable via &lt;code&gt;config.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Plug-in system for:
+&lt;ul&gt;
+&lt;li&gt;Wallet&lt;/li&gt;
+&lt;li&gt;Explorer&lt;/li&gt;
+&lt;li&gt;Monitoring&lt;/li&gt;
+&lt;li&gt;Tokens&lt;/li&gt;
+&lt;li&gt;Custom features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1&gt;Open Source&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;100% open source&lt;/li&gt;
+&lt;li&gt;Repository: &lt;a href="https://github.com/bismuthfoundation" target="_blank" rel="noopener"&gt;https://github.com/bismuthfoundation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
 &lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/bismuthfoundation/Bismuth" target="_blank" rel="noopener"&gt;Github Bismuth Mainnet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/bismuthfoundation/Bismuth" target="_blank" rel="noopener"&gt;Bismuth Mainnet – GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Supply</title><link>https://bismuthcoin.org/docs/mainnet/supply/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/docs/mainnet/supply/</guid><description>
 &lt;h2&gt;Bismuth Monetary System — Mining, Supply &amp;amp; Dilution&lt;span class="hx-absolute -hx-mt-20" id="bismuth-monetary-system--mining-supply--dilution"&gt;&lt;/span&gt;
 &lt;a href="#bismuth-monetary-system--mining-supply--dilution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This page provides a clear overview of how Bismuth emits new coins, how supply evolves over time, and how the protocol has changed across several hard forks.&lt;/p&gt;
