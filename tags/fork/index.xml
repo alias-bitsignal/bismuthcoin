@@ -1,18 +1,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bismuthcoin.org – Fork</title><link>https://bismuthcoin.org/tags/fork/</link><description>Recent content in Fork on bismuthcoin.org</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bismuthcoin.org/tags/fork/index.xml" rel="self" type="application/rss+xml"/><item><title>Bismuth Hard Fork</title><link>https://bismuthcoin.org/blog/2019-11-19-hardfork/</link><pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-11-19-hardfork/</guid><description>
 &lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2019-11-19-hardfork.webp" alt="" loading="lazy" /&gt;
 During November 2019 the Bismuth community went with the first governance vote, about supply emission. The issue was overwhelming votes for a fork to support a supply reduction.&lt;/p&gt;
-&lt;p&gt;If you missed it, you can find the &lt;a href="https://bismuthcoin.org/blog/2019-11-06-governance-vote/" &gt;link here&lt;/a&gt;. Since then, the team worked hard to implement the change and release a stable version, now out.
+&lt;p&gt;If you missed it, you can find the &lt;a href="https://bismuthcoin.org/blog/2019-11-06-governance-vote/"&gt;link here&lt;/a&gt;. Since then, the team worked hard to implement the change and release a stable version, now out.
 Questions and answers regarding this fork have been divided into three categories- Regular users, Hypernode owners, and miners.&lt;/p&gt;
-&lt;h2&gt;Bismuth Hard Fork at block 1,450,000 – Nov 26.&lt;span class="hx-absolute -hx-mt-20" id="bismuth-hard-fork-at-block-1450000--nov-26"&gt;&lt;/span&gt;
-&lt;a href="#bismuth-hard-fork-at-block-1450000--nov-26" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Hard Fork FAQ&lt;span class="hx-absolute -hx-mt-20" id="hard-fork-faq"&gt;&lt;/span&gt;
-&lt;a href="#hard-fork-faq" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;General Questions&lt;span class="hx-absolute -hx-mt-20" id="general-questions"&gt;&lt;/span&gt;
+&lt;h2&gt;Bismuth Hard Fork at block 1,450,000 – Nov 26.&lt;span class="hx:absolute hx:-mt-20" id="bismuth-hard-fork-at-block-1450000--nov-26"&gt;&lt;/span&gt;
+&lt;a href="#bismuth-hard-fork-at-block-1450000--nov-26" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Hard Fork FAQ&lt;span class="hx:absolute hx:-mt-20" id="hard-fork-faq"&gt;&lt;/span&gt;
+&lt;a href="#hard-fork-faq" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;General Questions&lt;span class="hx:absolute hx:-mt-20" id="general-questions"&gt;&lt;/span&gt;
 &lt;a href="#general-questions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Can you explain why there will be a hard fork?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; A hard fork was scheduled in response to the first Bismuth community vote. It’s the result of a democratic process that showed significant involvement from the Bismuth community.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; When is the Hard Fork taking place?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; The HF will occur at block 1,450,000, roughly on November 26.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;Regular Users&lt;span class="hx-absolute -hx-mt-20" id="regular-users"&gt;&lt;/span&gt;
+&lt;h3&gt;Regular Users&lt;span class="hx:absolute hx:-mt-20" id="regular-users"&gt;&lt;/span&gt;
 &lt;a href="#regular-users" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Do I have to DO anything? New wallet? No swapping BS or anything, right?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Regular wallet owners can optionally upgrade; however, it is not necessary. It will continue to work. Mandatory upgrades apply only to node and Hypernode owners. There is no swap.&lt;/p&gt;
 &lt;hr&gt;
@@ -20,7 +20,7 @@ Questions and answers regarding this fork have been divided into three categorie
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; The “old” (Legacy) wallet remains compatible and usable. You don’t have to worry about the wallet. Yours will continue to work. As a user, the only critical responsibility is to securely back up your wallet.der/json file, containing your private key(s).&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Can you summarize the current daily emission and what it will be after the hard fork?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; See the emission curve and blog post &lt;a href="https://bismuthcoin.org/blog/2019-11-06-governance-vote/" &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; See the emission curve and blog post &lt;a href="https://bismuthcoin.org/blog/2019-11-06-governance-vote/"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; What will be the new total BIS supply?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; By 2032, at block height 8,000,000, the total BIS supply will reach 49.3 million BIS, compared to 63.5 million BIS under the previous emissions curve. Thus, the supply will decrease by more than 14 million BIS over the next 13 years. After 2032, the supply will slowly increase (less than 2% annually) to account for lost wallets and maintain incentives for miners and Hypernode operators.&lt;/p&gt;
@@ -31,27 +31,29 @@ Questions and answers regarding this fork have been divided into three categorie
 &lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Have you informed exchanges to avoid any trading halt, as happened previously?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; All partners, exchanges, service operators, and pools have been informed. All recent forks proceeded smoothly without trading halts.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;Hypernode and Node Owners&lt;span class="hx-absolute -hx-mt-20" id="hypernode-and-node-owners"&gt;&lt;/span&gt;
+&lt;h3&gt;Hypernode and Node Owners&lt;span class="hx:absolute hx:-mt-20" id="hypernode-and-node-owners"&gt;&lt;/span&gt;
 &lt;a href="#hypernode-and-node-owners" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; After the hard fork, how can I re-operate my Hypernode? Will I need to do anything with my HN?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Every Hypernode relies on a local Node to operate. Hypernodes using version 0.0.99i5 don&amp;rsquo;t need updating, but the local BIS node does. It’s mandatory to upgrade your node to the latest release &lt;strong&gt;BEFORE&lt;/strong&gt; the fork. &lt;a href="https://github.com/bismuthfoundation/Bismuth/releases" target="_blank" rel="noopener"&gt;Node Releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Every Hypernode relies on a local Node to operate. Hypernodes using version 0.0.99i5 don&amp;rsquo;t need updating, but the local BIS node does. It’s mandatory to upgrade your node to the latest release &lt;strong&gt;BEFORE&lt;/strong&gt; the fork. &lt;a href="https://github.com/bismuthfoundation/Bismuth/releases"target="_blank" rel="noopener"&gt;Node Releases&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Will there be a Hypernode update tutorial before the hard fork?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Yes. We&amp;rsquo;ve updated our easy-to-use update script, covering common scenarios:&lt;/p&gt;
 &lt;p&gt;Run the following commands in your Hypernode terminal:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;rm hn_node_update.py
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;wget https://raw.githubusercontent.com/bismuthfoundation/util/master/hn_node_update.py
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python3 hn_node_update.py&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python3 hn_node_update.py&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;The script requires Python 3.7 and will prompt you about missing packages if needed. For feedback, visit the &lt;a href="https://discord.gg/4tB3pYJ" target="_blank" rel="noopener"&gt;Discord #hypernodes channel&lt;/a&gt;. Additional manual update instructions can be found &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/Hypernodes_Upgrade_0-0-99.md" target="_blank" rel="noopener"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The script requires Python 3.7 and will prompt you about missing packages if needed. For feedback, visit the &lt;a href="https://discord.gg/4tB3pYJ"target="_blank" rel="noopener"&gt;Discord #hypernodes channel&lt;/a&gt;. Additional manual update instructions can be found &lt;a href="https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/Hypernodes_Upgrade_0-0-99.md"target="_blank" rel="noopener"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; What will be the new annual yield for running a BIS Hypernode after the fork?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Yield depends on the number of Hypernode operators. If total collateral remains stable, the yield will initially stay around 20%, aligning with a 19.4% inflation rate. Hypernode owners will no longer experience dilution post-fork. In the second year, inflation will drop below 15%, potentially leading to net positive income after inflation.&lt;/p&gt;
@@ -59,45 +61,45 @@ title="Copy code"
 &lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; What if I don’t upgrade in time?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; All other BIS nodes will curse then ban you. Immediate upgrading is essential, both for the network&amp;rsquo;s health and your rewards.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;Miners&lt;span class="hx-absolute -hx-mt-20" id="miners"&gt;&lt;/span&gt;
+&lt;h3&gt;Miners&lt;span class="hx:absolute hx:-mt-20" id="miners"&gt;&lt;/span&gt;
 &lt;a href="#miners" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Do I have anything to do?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; No action is required. Pools will update automatically, and mining software doesn&amp;rsquo;t need upgrading. You can continue mining as before.&lt;/p&gt;
-&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;h2&gt;References&lt;span class="hx:absolute hx:-mt-20" id="references"&gt;&lt;/span&gt;
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/pytransitions/transitions" target="_blank" rel="noopener"&gt;Github - Pyrtransitions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/pgularski/pysm" target="_blank" rel="noopener"&gt;Github - Prysm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Finite-state_machine" target="_blank" rel="noopener"&gt;Wikipedia - Finite State Machine&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/pytransitions/transitions-gui" target="_blank" rel="noopener"&gt;Github - Transitions GUI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/pytransitions/transitions"target="_blank" rel="noopener"&gt;Github - Pyrtransitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/pgularski/pysm"target="_blank" rel="noopener"&gt;Github - Prysm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Finite-state_machine"target="_blank" rel="noopener"&gt;Wikipedia - Finite State Machine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/pytransitions/transitions-gui"target="_blank" rel="noopener"&gt;Github - Transitions GUI&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Voting page Helper - Dev and Bounty</title><link>https://bismuthcoin.org/blog/2019-10-18-voting/</link><pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-10-18-voting/</guid><description>
 &lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2019-10-18-voting.jpg" alt="" loading="lazy" /&gt;
 Bismuth community is currently voting whether or not change the supply emission (see BGVP-1).
 In order to allow easy and un-restricted access to the vote, the team went for a full client side helper to generate voting transactions.
 This ensures full privacy and allows to vote from any wallet. External help was welcome to get it successfully running and a Bounty will be awarded.&lt;/p&gt;
-&lt;h3&gt;The voting helper&lt;span class="hx-absolute -hx-mt-20" id="the-voting-helper"&gt;&lt;/span&gt;
+&lt;h3&gt;The voting helper&lt;span class="hx:absolute hx:-mt-20" id="the-voting-helper"&gt;&lt;/span&gt;
 &lt;a href="#the-voting-helper" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The voting helper works by using a BIP-39 passphrase as an entropy source, deriving keys (alike a HD wallet) for your voting addresses, then disposable keys for every motion you vote upon.&lt;/p&gt;
 &lt;p&gt;From a UX point of view: a single passphrase to remind, and you have access to any voting key you&amp;rsquo;(ll ever need.&lt;/p&gt;
 &lt;p&gt;Handling these key generation and transaction assembling on the client side, in a browser, allows for easy and secure access (it’s hosted on Github pages: Bismuth Voting Helper, but can also be run locally or on an air gapped computer) whatever the user OS.&lt;/p&gt;
-&lt;h3&gt;Help was needed&lt;span class="hx-absolute -hx-mt-20" id="help-was-needed"&gt;&lt;/span&gt;
+&lt;h3&gt;Help was needed&lt;span class="hx:absolute hx:-mt-20" id="help-was-needed"&gt;&lt;/span&gt;
 &lt;a href="#help-was-needed" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Bismuth is a Python centered coin, and the team devs do not have extensive experience with JS development.&lt;/p&gt;
 &lt;p&gt;A call for help was made to the community, in order to get some back up.
 We needed a proper scaffold, help with syntax, gluing things together, building and distribution of the helper…&lt;/p&gt;
 &lt;p&gt;The specs were written, a Python implementation was working, we needed more.&lt;/p&gt;
-&lt;h3&gt;Third party dev to the rescue&lt;span class="hx-absolute -hx-mt-20" id="third-party-dev-to-the-rescue"&gt;&lt;/span&gt;
-&lt;a href="#third-party-dev-to-the-rescue" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Hopefully it was not long until &lt;a href="https://x.com/aravindballa" target="_blank" rel="noopener"&gt;@aravindballa&lt;/a&gt; said hi and gave a hand.&lt;/p&gt;
+&lt;h3&gt;Third party dev to the rescue&lt;span class="hx:absolute hx:-mt-20" id="third-party-dev-to-the-rescue"&gt;&lt;/span&gt;
+&lt;a href="#third-party-dev-to-the-rescue" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Hopefully it was not long until &lt;a href="https://x.com/aravindballa"target="_blank" rel="noopener"&gt;@aravindballa&lt;/a&gt; said hi and gave a hand.&lt;/p&gt;
 &lt;p&gt;Thanks to his kind and professional help, the helper was up and running in time for day 1 of the vote.&lt;/p&gt;
 &lt;p&gt;The team did work on the core crypto engine, and Aravind helped scaffold, design, package, test… the whole thing to have it working and usable.&lt;/p&gt;
 &lt;p&gt;Aravind’s experience proved most useful and the Bismuth team is very grateful for his help!&lt;/p&gt;
-&lt;h3&gt;Bounty&lt;span class="hx-absolute -hx-mt-20" id="bounty"&gt;&lt;/span&gt;
+&lt;h3&gt;Bounty&lt;span class="hx:absolute hx:-mt-20" id="bounty"&gt;&lt;/span&gt;
 &lt;a href="#bounty" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A few tips have been sent via the discord Bot, but did not reflect Aravind’s work and implication.&lt;/p&gt;
 &lt;p&gt;A 1000 $BIS bounty will be awarded from the dev funds for the help so far.&lt;/p&gt;
-&lt;h3&gt;Conclusion&lt;span class="hx-absolute -hx-mt-20" id="conclusion"&gt;&lt;/span&gt;
+&lt;h3&gt;Conclusion&lt;span class="hx:absolute hx:-mt-20" id="conclusion"&gt;&lt;/span&gt;
 &lt;a href="#conclusion" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;It was really amazing to witness the power and dedication of the Bismuth and open source community.
 State you problem, ask for help, and you can get invaluable help from users.&lt;/p&gt;
 &lt;p&gt;This is the kind of experience that gives faith in a community and let foresee nice things for the future!&lt;/p&gt;
 &lt;p&gt;You can follow Aravind on twitter: @aravindballa.&lt;/p&gt;
-&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;h2&gt;References&lt;span class="hx:absolute hx:-mt-20" id="references"&gt;&lt;/span&gt;
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://x.com/aravindballa" target="_blank" rel="noopener"&gt;@aravindballa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://x.com/aravindballa"target="_blank" rel="noopener"&gt;@aravindballa&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Bismuth Strategic Hard Fork v4.3.0.0</title><link>https://bismuthcoin.org/blog/2019-05-17-hard-fork-v4.3.0.0/</link><pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2019-05-17-hard-fork-v4.3.0.0/</guid><description>
 &lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2019-05-17-BIS-HARD-FORK-3.png" alt="" loading="lazy" /&gt;
 Over the past couple of months, Bismuth has undergone major shifts- technologically, socially, and economically. We witnessed a massive upgrade and restructuring of the core code that spanned over 200 commits, that was finalized in version 4.2.9.2 in late March of this year.&lt;/p&gt;
@@ -110,10 +112,10 @@ Over the past couple of months, Bismuth has undergone major shifts- technologica
 &lt;p&gt;As the Hypernode network expands, it becomes a more and more viable parallel network for utilitarian purposes. Bismuth is the leading platform for Python development in the blockchain industry, and Python itself is the world’s most popular and fastest growing programming language. With those factors coupled together, the Bismuth project retains some of the largest growth potential in the entire industry, and can tap into the intellectual capital of millions of Python developers. The possibilities are endless, as we move forward to build the virtual infrastructure that will provide the utility of the digital world.&lt;/p&gt;
 &lt;p&gt;Signed,
 The Bismuth Foundation&lt;/p&gt;
-&lt;p&gt;You can give feedback and ask your questions about this fork via the following form: &lt;a href="https://framaforms.org/bismuth-fork-questions-1558081292" target="_blank" rel="noopener"&gt;https://framaforms.org/bismuth-fork-questions-1558081292&lt;/a&gt;
+&lt;p&gt;You can give feedback and ask your questions about this fork via the following form: &lt;a href="https://framaforms.org/bismuth-fork-questions-1558081292"target="_blank" rel="noopener"&gt;https://framaforms.org/bismuth-fork-questions-1558081292&lt;/a&gt;
 This will be used as basis for an upcoming Q&amp;amp;A post.&lt;/p&gt;
-&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;h2&gt;References&lt;span class="hx:absolute hx:-mt-20" id="references"&gt;&lt;/span&gt;
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener"&gt;Markdown Syntax&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://gohugo.io/content-management/formats/#markdown" target="_blank" rel="noopener"&gt;Hugo Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.markdownguide.org/basic-syntax/"target="_blank" rel="noopener"&gt;Markdown Syntax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gohugo.io/content-management/formats/#markdown"target="_blank" rel="noopener"&gt;Hugo Markdown&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

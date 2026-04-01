@@ -11,10 +11,10 @@ This app was already showcased in previous progress report:&lt;/p&gt;
 &lt;li&gt;June 15, 2020 progress report&lt;/li&gt;
 &lt;li&gt;September 2020, progress report&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Interview with Whatever&lt;span class="hx-absolute -hx-mt-20" id="interview-with-whatever"&gt;&lt;/span&gt;
+&lt;h2&gt;Interview with Whatever&lt;span class="hx:absolute hx:-mt-20" id="interview-with-whatever"&gt;&lt;/span&gt;
 &lt;a href="#interview-with-whatever" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Very nice work and a much-needed app! So, we had to get in touch and ask him a few questions. 🙂&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;Getting to Know You&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="getting-to-know-you"&gt;&lt;/span&gt;
+&lt;h3&gt;&lt;strong&gt;Getting to Know You&lt;/strong&gt;&lt;span class="hx:absolute hx:-mt-20" id="getting-to-know-you"&gt;&lt;/span&gt;
 &lt;a href="#getting-to-know-you" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Can you tell us a little about yourself?&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I’m an elder guy (&amp;gt;25 y.o.) with a young soul (~25 y.o.), working a 9-to-5 job and enjoying hobbies like programming and cryptocurrencies.&lt;br&gt;
@@ -27,7 +27,7 @@ My programming journey started with Pascal and Basic (if you don’t know these,
 Sadly, my career path didn’t require coding, so it remained a hobby.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;Introduction to Blockchain &amp;amp; Bismuth&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="introduction-to-blockchain--bismuth"&gt;&lt;/span&gt;
+&lt;h3&gt;&lt;strong&gt;Introduction to Blockchain &amp;amp; Bismuth&lt;/strong&gt;&lt;span class="hx:absolute hx:-mt-20" id="introduction-to-blockchain--bismuth"&gt;&lt;/span&gt;
 &lt;a href="#introduction-to-blockchain--bismuth" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; How did you first get introduced to blockchain?&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; It was early 2017, just before the global crypto hype. ETH was around $10 at the time.&lt;br&gt;
@@ -38,7 +38,7 @@ BIS was different—it wasn’t just “another shitcoin to mine.” I actually 
 What kept me around was the &lt;strong&gt;friendly and supportive community&lt;/strong&gt; (shoutout to EggdraSyl, Evilpokerqueen, Raetch, and others).&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;Tech &amp;amp; Development&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="tech--development"&gt;&lt;/span&gt;
+&lt;h3&gt;&lt;strong&gt;Tech &amp;amp; Development&lt;/strong&gt;&lt;span class="hx:absolute hx:-mt-20" id="tech--development"&gt;&lt;/span&gt;
 &lt;a href="#tech--development" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Is there a piece of code you wish you had written?&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; I wish I had written Microsoft Windows—or, at the very least, I wish they would stop developing it (they have no idea what they’re doing 😆).&lt;/p&gt;
@@ -50,7 +50,7 @@ If anything, I’m ashamed of most of my code.&lt;br&gt;
 However, I’m proud of the &lt;strong&gt;scientific solutions&lt;/strong&gt; I’ve achieved using my ugly code.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;Strengths &amp;amp; Weaknesses of Bismuth&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="strengths--weaknesses-of-bismuth"&gt;&lt;/span&gt;
+&lt;h3&gt;&lt;strong&gt;Strengths &amp;amp; Weaknesses of Bismuth&lt;/strong&gt;&lt;span class="hx:absolute hx:-mt-20" id="strengths--weaknesses-of-bismuth"&gt;&lt;/span&gt;
 &lt;a href="#strengths--weaknesses-of-bismuth" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; What do you think is Bismuth’s biggest strength?&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; A &lt;strong&gt;talented dev team&lt;/strong&gt; and an &lt;strong&gt;engaged, supportive community&lt;/strong&gt;.&lt;/p&gt;
@@ -63,7 +63,7 @@ The dev team has done excellent work, but now it’s time to &lt;strong&gt;sell 
 &lt;strong&gt;The time has come to sketch out a real marketing campaign.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;Programming Preferences&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="programming-preferences"&gt;&lt;/span&gt;
+&lt;h3&gt;&lt;strong&gt;Programming Preferences&lt;/strong&gt;&lt;span class="hx:absolute hx:-mt-20" id="programming-preferences"&gt;&lt;/span&gt;
 &lt;a href="#programming-preferences" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Your most loved programming language, and why?&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Hard to pick just one. If I had to choose two:&lt;/p&gt;
@@ -83,19 +83,19 @@ The dev team has done excellent work, but now it’s time to &lt;strong&gt;sell 
 &lt;p&gt;I’m switching to Kotlin as soon as I finish my current project (&lt;strong&gt;Bismuth Toolbox&lt;/strong&gt;).&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h3&gt;&lt;strong&gt;Final Words &amp;amp; Reward&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="final-words--reward"&gt;&lt;/span&gt;
+&lt;h3&gt;&lt;strong&gt;Final Words &amp;amp; Reward&lt;/strong&gt;&lt;span class="hx:absolute hx:-mt-20" id="final-words--reward"&gt;&lt;/span&gt;
 &lt;a href="#final-words--reward" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; “Keep your friends close and your enemies closer” could be your dev motto? 😆&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Haha! Honestly, I’m not one to give programming advice—I should be the one receiving it.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Bismuth Toolbox has proven its value, and that’s all we needed!&lt;br&gt;
 Thank you for your &lt;strong&gt;support of Bismuth&lt;/strong&gt; and your &lt;strong&gt;contributions to its ecosystem&lt;/strong&gt;—much appreciated!&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Reward Time 🎉&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="reward-time-"&gt;&lt;/span&gt;
+&lt;h3&gt;&lt;strong&gt;Reward Time 🎉&lt;/strong&gt;&lt;span class="hx:absolute hx:-mt-20" id="reward-time-"&gt;&lt;/span&gt;
 &lt;a href="#reward-time-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The &lt;strong&gt;Bismuth team&lt;/strong&gt; is currently redefining its bounty system and priorities, but we always reward valuable community contributions.&lt;br&gt;
-Since &lt;strong&gt;Bismuth Toolbox&lt;/strong&gt; has been released as &lt;strong&gt;open-source&lt;/strong&gt; (&lt;a href="https://github.com/DoNutsLise/BismuthToolbox" target="_blank" rel="noopener"&gt;GitHub Repo&lt;/a&gt;), we are awarding &lt;strong&gt;Whatever&lt;/strong&gt; a &lt;strong&gt;10,000 $BIS reward&lt;/strong&gt; for his &lt;strong&gt;work and dedication&lt;/strong&gt;. 🎉&lt;/p&gt;
-&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+Since &lt;strong&gt;Bismuth Toolbox&lt;/strong&gt; has been released as &lt;strong&gt;open-source&lt;/strong&gt; (&lt;a href="https://github.com/DoNutsLise/BismuthToolbox"target="_blank" rel="noopener"&gt;GitHub Repo&lt;/a&gt;), we are awarding &lt;strong&gt;Whatever&lt;/strong&gt; a &lt;strong&gt;10,000 $BIS reward&lt;/strong&gt; for his &lt;strong&gt;work and dedication&lt;/strong&gt;. 🎉&lt;/p&gt;
+&lt;h2&gt;References&lt;span class="hx:absolute hx:-mt-20" id="references"&gt;&lt;/span&gt;
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/DoNutsLise/BismuthToolbox" target="_blank" rel="noopener"&gt;Github - Bismuth Toolbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/DoNutsLise/BismuthToolbox"target="_blank" rel="noopener"&gt;Github - Bismuth Toolbox&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Decentralized Condition Monitoring</title><link>https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-04-30-condition-monitoring/</guid><description>
 &lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-04-30-condition-monitoring.jpeg" alt="" loading="lazy" /&gt;
 Condition monitoring (CM) is the basis for condition based maintenance (CBM). CBM is an alternative to calendar based maintenance, where an asset is serviced in regular time intervals.&lt;/p&gt;
@@ -111,7 +111,7 @@ Condition monitoring (CM) is the basis for condition based maintenance (CBM). CB
 &lt;p&gt;One example from everyday life is the annual service of your car. Since it is done on a regular basis without considering the actual condition of the car, this would be classified as calendar based maintenance. On the other hand, if you one day start to feel a small vibration in the steering wheel while driving and you take the car to service because of this observation, that would be classified as condition based maintenance.&lt;/p&gt;
 &lt;p&gt;CM and CBM work well in a single organisation where traditional database tools (or data historians) are used to store and secure the data. This single organisation then owns the data and can control who has access. However, when more than one organisation or individual are involved, CM and CBM initiatives often fail because of the following issue: who owns the data and controls the server storing the data? Data and data analysis can have large potential value, and organisations and individuals are often reluctant to give this value away for free or lose control.&lt;/p&gt;
 &lt;p&gt;However, data sharing among many participants can have large overall benefits for the group or society as a whole. A single asset does not normally operate in isolation, but forms part of a larger machinery or a plant. A condition which may be optimal for a single asset, may not be optimal for the overall machinery. By sharing data between participants, the performance of the overall machinery or industrial plant can be analyzed and optimized. Another example is the case where there are hundreds, thousands or millions of identical assets operating in the consumer industries. By sharing data, under-performing assets can be identified and corrective actions can be taken- benefiting society as a whole.&lt;/p&gt;
-&lt;p&gt;In the article &lt;a href="https://ieeexplore.ieee.org/document/8048838" target="_blank" rel="noopener"&gt;“Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem”&lt;/a&gt;, IEEE Spectrum, 2017, Morgan E. Peck presented the chart below.&lt;/p&gt;
+&lt;p&gt;In the article &lt;a href="https://ieeexplore.ieee.org/document/8048838"target="_blank" rel="noopener"&gt;“Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem”&lt;/a&gt;, IEEE Spectrum, 2017, Morgan E. Peck presented the chart below.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-04-30-condition-monitoring-002.jpeg" alt="" loading="lazy" /&gt;
 Image from: Morgan E. Peck, “Blockchain world – Do you need a blockchain? This chart will tell you if the technology can solve your problem“, IEEE Spectrum, 2017.&lt;/p&gt;
 &lt;p&gt;This chart illustrates that a public blockchain may be a good solution for problems where:&lt;/p&gt;
@@ -121,24 +121,26 @@ Image from: Morgan E. Peck, “Blockchain world – Do you need a blockchain? Th
 &lt;li&gt;The data does not need to be private.&lt;/li&gt;
 &lt;li&gt;The database needs to be resistant to attacks or censorship.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this article it will be explained how the Bismuth public blockchain can be used to implement a system for distributed condition monitoring. For more information about Bismuth, see the &lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" &gt;whitepaper&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this article it will be explained how the Bismuth public blockchain can be used to implement a system for distributed condition monitoring. For more information about Bismuth, see the &lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf"&gt;whitepaper&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Bismuth is ideally suited to this type of applications, because it contains two fields in the transaction structure which are named “operation” and “datafield”. These two fields allow for building new meta protocols on top of the core blockchain software. In this article it will be demonstrated how a new meta protocol can be used in the development of a solution for decentralized condition monitoring.&lt;/p&gt;
 &lt;p&gt;One general problem with a decentralized public blockchain is spam. Any participant can submit any data to the chain and this can not be avoided. Instead of trying to prevent spam from occurring completely, a supplementary approach would be to filter out fake data. There are several ways spam protection and filtering can be achieved, for example:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Introducing fees to submit data. Anyone can still submit spam, but it will be expensive to do so.&lt;/li&gt;
 &lt;li&gt;Introduce a meta protocol built on top of Bismuth’s operation and data fields to allow for filtering of fake data.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The class &lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py" target="_blank" rel="noopener"&gt;BismuthSimpleAsset&lt;/a&gt; was written with this purpose, to provide tools for filtering of fake data. This class implements at the time of writing three operations in the meta protocol:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;myapp:register
+&lt;p&gt;The class &lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py"target="_blank" rel="noopener"&gt;BismuthSimpleAsset&lt;/a&gt; was written with this purpose, to provide tools for filtering of fake data. This class implements at the time of writing three operations in the meta protocol:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;myapp:register
 myapp:unregister
-myapp:transfer&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+myapp:transfer&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -147,18 +149,20 @@ title="Copy code"
 Valid &lt;strong&gt;asset registrations&lt;/strong&gt; in this &lt;code&gt;myapp&lt;/code&gt; example can also be filtered with a minimum amount paid, to discourage spammers from randomly guessing and submitting asset id numbers. In addition to being a tool for filtering spam, a registration amount also gives the developer of the myapp use-case an income which can be used to maintain and further develop the service. Similarly, there could be an amount requirement also on the actual asset data submitted.&lt;/p&gt;
 &lt;p&gt;One decentralized system everyone is familiar with and where everyone is allowed to submit data, is the email system. Anyone can set up a new email server and start sending from it. One of the techniques used in filtering email spam is to use a PTR record. A pointer record, or PTR record, maps an IP address to a FQDN (fully qualified domain name). It is the counterpart to the A record and is used for reverse DNS lookup, which can help with blocking spammers. Many SMTP servers reject emails if no PTR record is found for the sending server.&lt;/p&gt;
 &lt;p&gt;The proposed approach presented in this article where an asset id number is linked to the public/private key on the blockchain to filter spam is similar to the reverse DNS method to filter email spam. The first user to link the asset’s identification number to his or her account, can be considered to be the rightful owner of the asset. This information can then later be used to filter out fake data about this asset submitted by other users. The following Python function in &lt;strong&gt;BismuthSimpleAsset&lt;/strong&gt; returns the valid registrant given an asset id:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;def get_registrant(self,asset_id):
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;def get_registrant(self,asset_id):
 &amp;#34;&amp;#34;&amp;#34;Returns the current registrant of a specified asset id&amp;#34;&amp;#34;&amp;#34;
 regs = self.__get_reg_unreg_sorted(asset_id)
 registrant = self.__get_registrant_from_regs(regs)
-return registrant&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+return registrant&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -174,11 +178,11 @@ If the owner later wants to sell the asset to someone else, he or she can provid
 &lt;li&gt;An increasing number of assets and consumer products are connected to the internet, and come with API interfaces which the owner or operator can use. Hence, the submission of data to the public blockchain can easily be automated or semi-automated for such assets.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This article has given an introduction to some building blocks for decentralized condition monitoring using the Bismuth public blockchain. Several future applications and implementations using the principles laid out here are currently being worked on and will be published separately when ready.&lt;/p&gt;
-&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;h2&gt;References&lt;span class="hx:absolute hx:-mt-20" id="references"&gt;&lt;/span&gt;
 &lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="hhttps://ieeexplore.ieee.org/document/8048838" &gt;Blockchain World - Do you need a blockchain?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf" &gt;Bismuth Whitepaper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py" target="_blank" rel="noopener"&gt;Github - Bismuth SimpleAsset&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="hhttps://ieeexplore.ieee.org/document/8048838"&gt;Blockchain World - Do you need a blockchain?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bismuthcoin.org/pdf/whitepaper.pdf"&gt;Bismuth Whitepaper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/bismuthfoundation/util/blob/master/bismuthsimpleasset.py"target="_blank" rel="noopener"&gt;Github - Bismuth SimpleAsset&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>HelloWorld Crystal for Bismuth’s Tornado Wallet</title><link>https://bismuthcoin.org/blog/2020-04-13-hello-world/</link><pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate><guid>https://bismuthcoin.org/blog/2020-04-13-hello-world/</guid><description>
 &lt;p&gt;&lt;img src="https://bismuthcoin.org/images/2020-04-13-hello-world.jpeg" alt="" loading="lazy" /&gt;
 Bismuth is a chemical element and a metal with number 83 in the periodic table.&lt;/p&gt;
@@ -193,21 +197,23 @@ Bismuth is a chemical element and a metal with number 83 in the periodic table.&
 &lt;p&gt;Each crystal in the wallet is given a unique number, followed by an underscore and the name, in this case it is: &lt;code&gt;101_helloworld&lt;/code&gt;. The figure below shows the files and folder structure of the Hello World crystal. The example consists of one Python file (&lt;code&gt;__init__.py&lt;/code&gt;), one data file (&lt;code&gt;about.json&lt;/code&gt;), one graphics file (&lt;code&gt;logo.png&lt;/code&gt;), and three html files (&lt;code&gt;about.html&lt;/code&gt;, &lt;code&gt;message_pop.html&lt;/code&gt; and &lt;code&gt;page1.html&lt;/code&gt;).&lt;/p&gt;
 &lt;p&gt;Hello World Crystal Files and Folders.&lt;br&gt;
 General information about a crystal can be found in the &lt;code&gt;about.json&lt;/code&gt; file. In this example the contents is as follows:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;{
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{
 &amp;#34;author&amp;#34;: &amp;#34;GH2&amp;#34;,
 &amp;#34;description&amp;#34;: &amp;#34;Hellow world example crystal for the Tornado wallet&amp;#34;,
 &amp;#34;email&amp;#34;: &amp;#34;N/A&amp;#34;,
 &amp;#34;version&amp;#34;: &amp;#34;1.0.0&amp;#34;,
 &amp;#34;date&amp;#34;: &amp;#34;2020-04-11&amp;#34;,
 &amp;#34;url&amp;#34;:&amp;#34;https://github.com/bismuthfoundation/TornadoWallet/tree/master/wallet/crystals/101_helloworld&amp;#34;
-}&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -215,102 +221,114 @@ title="Copy code"
 &lt;p&gt;The first four functions, &lt;code&gt;get()&lt;/code&gt;, &lt;code&gt;post()&lt;/code&gt;, &lt;code&gt;get_template_path()&lt;/code&gt; and &lt;code&gt;static()&lt;/code&gt;, are generic and should be part of any crystal. The two functions &lt;code&gt;get()&lt;/code&gt; and &lt;code&gt;post()&lt;/code&gt; handle get and post form requests from html or javascript and will be described later.&lt;/p&gt;
 &lt;p&gt;The function &lt;code&gt;get_template_path()&lt;/code&gt; just returns &lt;code&gt;DEFAULT_THEME_PATH&lt;/code&gt;, to let Tornado know where to find the html files. In the Hello World crystal this path is defined to be the base path plus &lt;code&gt;crystals/101_helloworld/themes/default&lt;/code&gt; The fourth function, &lt;code&gt;static()&lt;/code&gt; just creates a static handler pointing to a local /static crystal folder.&lt;/p&gt;
 &lt;p&gt;The fifth function, about(), contains the following Python code:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;async def about(self, params=None):
-self.render(&amp;#34;about.html&amp;#34;, bismuth=self.bismuth_vars)&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;async def about(self, params=None):
+self.render(&amp;#34;about.html&amp;#34;, bismuth=self.bismuth_vars)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;It means that when Tornado receives an url request of &lt;code&gt;http://127.0.0.1:8888/crystal/helloworld/about&lt;/code&gt; the &lt;code&gt;about()&lt;/code&gt; Python function inside &lt;code&gt;__init__.py&lt;/code&gt; is called. All this function does is to render the &lt;code&gt;about.html&lt;/code&gt; file and pass the variable “bismuth” to it. The html file &lt;code&gt;about.html&lt;/code&gt; is stored in the folder specified by DEFAULT_THEME_PATH. The file &lt;code&gt;about.html&lt;/code&gt; contains the opening screen of the crystal &lt;code&gt;101_helloworld&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Bismuth’s Tornado wallet is based on the Material Dashboard Dark Edition and the documentation for it can be found here: &lt;a href="https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html" target="_blank" rel="noopener"&gt;https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html&lt;/a&gt; For example, the button in the figure above is formatted using: &lt;code&gt;class=”btn btn-success”&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Bismuth’s Tornado wallet is based on the Material Dashboard Dark Edition and the documentation for it can be found here: &lt;a href="https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html"target="_blank" rel="noopener"&gt;https://demos.creative-tim.com/material-dashboard-dark/docs/2.0/getting-started/introduction.html&lt;/a&gt; For example, the button in the figure above is formatted using: &lt;code&gt;class=”btn btn-success”&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;The displayed logo is the file &lt;code&gt;logo.png&lt;/code&gt; in the &lt;code&gt;static/&lt;/code&gt; folder. The first two lines of code in &lt;code&gt;about.html&lt;/code&gt; are:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;{% extends &amp;#34;base.html&amp;#34; %}
-&amp;lt;!-- &amp;#34;../../../../themes/material/base.html&amp;#34; --&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{% extends &amp;#34;base.html&amp;#34; %}
+&amp;lt;!-- &amp;#34;../../../../themes/material/base.html&amp;#34; --&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The symbols {% and %} are used by the Tornado templates. In this case &lt;code&gt;about.html&lt;/code&gt; extends the parent wallet file &lt;code&gt;base.html&lt;/code&gt;. The crystal can then make use of styling and formatting inherited from the wallet. The theme and css framework in the Tornado wallet try to be semantic. For example, the css uses success/danger/error/info as class names, so it does not depend on a specific color theme and remains consistent. If the Tornado wallet were later to switch to another template, there would be no changes required in the crystals such as color or css. If the devs always use for example “-danger” the crystals would use the theme color for that. Keeping this in mind ensures that the crystals will be compatible with alternative themes. As an example the following two lines in about.html:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;#34;card-header card-header-info&amp;#34;&amp;gt;
-&amp;lt;div class=&amp;#34;card-header card-header-success&amp;#34;&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;#34;card-header card-header-info&amp;#34;&amp;gt;
+&amp;lt;div class=&amp;#34;card-header card-header-success&amp;#34;&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;generate the turqoise and green menus labeled “About” and “Menu”, respectively, in the screenshot above.&lt;/p&gt;
 &lt;p&gt;Except for the Tornado templates, &lt;code&gt;about.html&lt;/code&gt; contains pure html code. When clicked, the command button in &lt;code&gt;about.html&lt;/code&gt; opens up &lt;code&gt;page1&lt;/code&gt;. When &lt;code&gt;page1.html&lt;/code&gt; opens it displays two cards named “Commands” using &lt;code&gt;card-header-info&lt;/code&gt; (turqoise color) and “Output” using &lt;code&gt;card-header-success&lt;/code&gt; (green color). The Commands card contains 4 buttons and a text input field. The first button “Show Latest Account Transactions” generates a &lt;code&gt;&amp;lt;table&amp;gt;&lt;/code&gt; in the Output card with data obtained from the blockchain for the active account in the wallet. The Python code to obtain the blockchain data is:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;button1 = self.get_argument(&amp;#34;button1&amp;#34;, default=None, strip=False)
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;button1 = self.get_argument(&amp;#34;button1&amp;#34;, default=None, strip=False)
 if button1 is not None:
 data[&amp;#39;txs&amp;#39;] = self.bismuth.latest_transactions(5, for_display=True, mempool_included=True)
 ...
-self.render(&amp;#34;page1.html&amp;#34;, bismuth=self.bismuth_vars, data=data)&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+self.render(&amp;#34;page1.html&amp;#34;, bismuth=self.bismuth_vars, data=data)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The dict data[‘txs’] is passed back to page1.html where it is rendered using the following Tornado templates:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;table&amp;gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;table&amp;gt;
 &amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;Block Height&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Amount&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Recipient&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Timestamp&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
 {% for item in data[&amp;#39;txs&amp;#39;] %}
 {% block item %}
 &amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;{{ item[&amp;#39;block_height&amp;#39;] }}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;{{ item[&amp;#39;amount&amp;#39;] }}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;{{ item[&amp;#39;recipient&amp;#39;] }}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;{{ datetime.datetime.utcfromtimestamp(item[&amp;#39;timestamp&amp;#39;]).strftime(&amp;#39;%Y-%m-%d %H:%M:%S&amp;#39;) }}&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
 {% end %}
 {% end %}
-&amp;lt;/table&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&amp;lt;/table&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The Tornado template {{ variable_name }} outputs the Python variable into the html page.&lt;/p&gt;
 &lt;p&gt;The second button “Show Hypernodes” collects data from an external site using the following Python code:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;button2 = self.get_argument(&amp;#34;button2&amp;#34;, default=None, strip=False)
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;button2 = self.get_argument(&amp;#34;button2&amp;#34;, default=None, strip=False)
 if button2 is not None:
 data[&amp;#39;hns&amp;#39;] = await async_get_with_http_fallback(&amp;#34;https://hypernodes.bismuth.live/status.json&amp;#34;)
 ...
-self.render(&amp;#34;page1.html&amp;#34;, bismuth=self.bismuth_vars, data=data)&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+self.render(&amp;#34;page1.html&amp;#34;, bismuth=self.bismuth_vars, data=data)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The dict data[‘hns’] is then rendered in &lt;code&gt;page1.html&lt;/code&gt; using Tornado templates as follows:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;table&amp;gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;table&amp;gt;
 &amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;IP Address&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Height&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
 {% for key,value in data[&amp;#39;hns&amp;#39;].items() %}
 {% block key %}
@@ -323,20 +341,22 @@ title="Copy code"
 &amp;lt;/tr&amp;gt;
 {% end %}
 {% end %}
-&amp;lt;/table&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&amp;lt;/table&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;As can be seen from this example, Tornado templates allow for embedding Python code into the html file to display data, similar to the templates &lt;code&gt;&amp;lt;?php … ?&amp;gt;&lt;/code&gt; for those familiar with PHP.&lt;/p&gt;
 &lt;p&gt;The last two buttons in &lt;code&gt;page1.html&lt;/code&gt; generate the “Hello World” pop-up message. When clicking on either of these two buttons, one of two javascript functions, &lt;code&gt;message_get()&lt;/code&gt; or &lt;code&gt;message_post()&lt;/code&gt;, defined in &lt;code&gt;page1.html&lt;/code&gt; is called. The two javascript functions are implemented as follows:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
 function message_get(title,msg,type){
 $.get(&amp;#39;message_popup?msg=&amp;#39; &amp;#43; msg &amp;#43; &amp;#39;&amp;amp;title=&amp;#39; &amp;#43; title &amp;#43; &amp;#39;&amp;amp;type=&amp;#39; &amp;#43; type,function(page){
 $(&amp;#34;#message_window&amp;#34;).html(page);
@@ -350,68 +370,78 @@ $(&amp;#34;#message_window&amp;#34;).html(page);
 $(&amp;#34;#message_window&amp;#34;).modal(&amp;#34;show&amp;#34;);
 });
 }
-&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Note that the _xsrf token is required in order to post data. In addition the following template must be included in page1.html in order to allow posting:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;{% raw xsrf_form_html() %}&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;{% raw xsrf_form_html() %}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;In some cases it is preferred to post() data to Tornado instead of &lt;code&gt;get()&lt;/code&gt; to avoid the data being displayed in the url at the top of the browser. Examples are cases where the end-user has to type in a password or a pin code.&lt;/p&gt;
 &lt;p&gt;The javascript functions call the Python function &lt;code&gt;message_popup()&lt;/code&gt; which contains the following code:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;async def message_popup(self, params=None):
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;async def message_popup(self, params=None):
 title = self.get_argument(&amp;#34;title&amp;#34;, default=None, strip=False)
 message = self.get_argument(&amp;#34;msg&amp;#34;, default=None, strip=False)
 type = self.get_argument(&amp;#34;type&amp;#34;, default=None, strip=False)
-self.render(&amp;#34;message_pop.html&amp;#34;, bismuth=self.bismuth_vars, title=title, message=message, type=type)&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+self.render(&amp;#34;message_pop.html&amp;#34;, bismuth=self.bismuth_vars, title=title, message=message, type=type)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The type can be either “info”, “warning” or “danger” resulting in different colors used in the pop up message.&lt;/p&gt;
 &lt;p&gt;The file &lt;code&gt;page1.html&lt;/code&gt; includes a hidden element:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;#34;message_window&amp;#34; class=&amp;#34;modal&amp;#34; tabindex=&amp;#34;-1&amp;#34; role=&amp;#34;dialog&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;#34;message_window&amp;#34; class=&amp;#34;modal&amp;#34; tabindex=&amp;#34;-1&amp;#34; role=&amp;#34;dialog&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The hidden “message_window” gets replaced by the html code inside message_pop.html by the following two commands in the javascript callback function:&lt;/p&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;$(&amp;#34;#message_window&amp;#34;).html(page);
-$(&amp;#34;#message_window&amp;#34;).modal(&amp;#34;show&amp;#34;);&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;$(&amp;#34;#message_window&amp;#34;).html(page);
+$(&amp;#34;#message_window&amp;#34;).modal(&amp;#34;show&amp;#34;);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -419,6 +449,6 @@ title="Copy code"
 &lt;p&gt;The screen page1.html after clicking “Show Hypernodes” followed by Submit (Post).&lt;/p&gt;
 &lt;p&gt;The screenshot below shows the page1.html screen after “Show Hypernodes” followed by “Submit (Post)” have been clicked. The message inside the pop-up window is generated from the text input field above the two Submit buttons.&lt;/p&gt;
 &lt;p&gt;This blog article has described the file structure and contents of the Hello World crystal in Bismuth’s Tornado wallet. The purpose of this article has been to explain some common functions and features which are believed that most future Dapp developers will need (display of blockchain and 3rd party data, interaction between Python, javascript and html and display of messages).&lt;/p&gt;
-&lt;p&gt;The GitHub link for the Tornado Wallet and all of it’s crystals supported by the Bismuth Foundation is: &lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener"&gt;https://github.com/bismuthfoundation/TornadoWallet&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;References&lt;span class="hx-absolute -hx-mt-20" id="references"&gt;&lt;/span&gt;
-&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://github.com/bismuthfoundation/TornadoWallet" target="_blank" rel="noopener"&gt;Tornado Wallet&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;The GitHub link for the Tornado Wallet and all of it’s crystals supported by the Bismuth Foundation is: &lt;a href="https://github.com/bismuthfoundation/TornadoWallet"target="_blank" rel="noopener"&gt;https://github.com/bismuthfoundation/TornadoWallet&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;References&lt;span class="hx:absolute hx:-mt-20" id="references"&gt;&lt;/span&gt;
+&lt;a href="#references" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://github.com/bismuthfoundation/TornadoWallet"target="_blank" rel="noopener"&gt;Tornado Wallet&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

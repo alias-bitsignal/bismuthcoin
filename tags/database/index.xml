@@ -12,18 +12,20 @@ Using the provided snapshots significantly reduces syncing time for both the mai
 &lt;/ul&gt;
 &lt;p&gt;Each network maintains its own database. If you encounter database corruption or need to set up a new node, you can either synchronize from the genesis block or speed up the process using the June 2024 snapshot files.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;Main-Net Snapshot&lt;span class="hx-absolute -hx-mt-20" id="main-net-snapshot"&gt;&lt;/span&gt;
+&lt;h3&gt;Main-Net Snapshot&lt;span class="hx:absolute hx:-mt-20" id="main-net-snapshot"&gt;&lt;/span&gt;
 &lt;a href="#main-net-snapshot" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Download the snapshot&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;wget https://bismuth.world/snapshot/ledger-3822000.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;wget https://bismuth.world/snapshot/ledger-3822000.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -36,33 +38,37 @@ title="Copy code"
 &lt;ol start="3"&gt;
 &lt;li&gt;Extract the new snapshot&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;tar -xvzf ledger-3822000.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;tar -xvzf ledger-3822000.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;ol start="4"&gt;
 &lt;li&gt;Start the node&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;python3 node.py&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;python3 node.py&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h3&gt;Hypernode Snapshot&lt;span class="hx-absolute -hx-mt-20" id="hypernode-snapshot"&gt;&lt;/span&gt;
+&lt;h3&gt;Hypernode Snapshot&lt;span class="hx:absolute hx:-mt-20" id="hypernode-snapshot"&gt;&lt;/span&gt;
 &lt;a href="#hypernode-snapshot" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Remove corrupted data&lt;/li&gt;
 &lt;/ol&gt;
@@ -72,28 +78,32 @@ title="Copy code"
 &lt;ol start="2"&gt;
 &lt;li&gt;Download the snapshot&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;wget https://bismuth.world/snapshot/hypernode_2024_06_17.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;wget https://bismuth.world/snapshot/hypernode_2024_06_17.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;ol start="3"&gt;
 &lt;li&gt;Extract the new snapshot&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;tar -xvzf hypernode_2024_06_16.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;tar -xvzf hypernode_2024_06_16.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -106,14 +116,16 @@ This process will&lt;/li&gt;
 &lt;li&gt;display some info&lt;/li&gt;
 &lt;li&gt;check the ledger.db is readable&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;python3 hn_check.py&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;python3 hn_check.py&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -123,14 +135,16 @@ title="Copy code"
 &lt;ul&gt;
 &lt;li&gt;Use your existing Hypernode startup command, which will now load from the fresh snapshot.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
-&lt;pre&gt;&lt;code&gt;python3 hn_instance.py -v&lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;python3 hn_instance.py -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description></item></channel></rss>
