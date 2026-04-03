@@ -31,7 +31,7 @@ The wallet is designed for Bismuth’s ed25519 address scheme and supports multi
 #### Bismuth Tokens
 Beyond standard BIS transfers, myBismuth Wallet also supports Bismuth-based tokens. Users can view token balances, inspect token transaction history, and send supported tokens from the same interface. This makes it more than a basic wallet for BIS alone, extending its usefulness across the wider Bismuth ecosystem.
 
-#### Compatibility
+#### Interoperability
 The generated seed phrases are compatible with the BIS-Paper wallet, allowing seamless recovery and interoperability between myBismuth Wallet and BIS-Paper. While myBismuth Wallet does not directly display private keys, they can still be accessed through BIS-Paper and, if needed, imported into the Tornado Bismuth Wallet.
 
 #### Languages
