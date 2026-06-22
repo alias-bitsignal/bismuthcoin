@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="660" viewBox="0 0 1400 660" role="img">
+
+  <rect width="1400" height="660" rx="28" fill="#f7f9fc"/>
+  <text x="60" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="800" fill="#182033">Bismuth timeline: early primitives, later names</text>
+  <text x="60" y="110" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" fill="#596275">A compact web version of the 2017-2026 record described in the anniversary paper.</text>
+  <line x1="110" y1="220" x2="1290" y2="220" stroke="#d9e1ee" stroke-width="8" stroke-linecap="round"/>
+
+  <circle cx="110" cy="220" r="25" fill="#5fa1ee"/>
+  <text x="110" y="228" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff">17</text>
+  <line x1="110" y1="245" x2="110" y2="280" stroke="#5fa1ee" stroke-width="3" stroke-dasharray="5 7"/>
+  <rect x="14" y="280" width="192" height="190" rx="18" fill="#ffffff" stroke="#d9e1ee"/>
+  <text x="32" y="320" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#5fa1ee">2017</text>
+  <text x="32" y="350" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#182033">Fair launch</text>
+  <text x="32" y="382" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">Mainnet launches on 1</text>
+  <text x="32" y="404" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">May with no ICO and no</text>
+  <text x="32" y="426" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">premine. PID</text>
+  <text x="32" y="448" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">difficulty research</text>
+
+  <circle cx="346" cy="220" r="25" fill="#b364c2"/>
+  <text x="346" y="228" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff">18</text>
+  <line x1="346" y1="245" x2="346" y2="350" stroke="#b364c2" stroke-width="3" stroke-dasharray="5 7"/>
+  <rect x="250" y="350" width="192" height="190" rx="18" fill="#ffffff" stroke="#d9e1ee"/>
+  <text x="268" y="390" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#b364c2">2018</text>
+  <text x="268" y="420" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#182033">Semantic layer</text>
+  <text x="268" y="452" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">Operation/openfield</text>
+  <text x="268" y="474" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">model, plugin system,</text>
+  <text x="268" y="496" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">state channels,</text>
+  <text x="268" y="518" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">Dragginator</text>
+
+  <circle cx="582" cy="220" r="25" fill="#5fa1ee"/>
+  <text x="582" y="228" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff">19</text>
+  <line x1="582" y1="245" x2="582" y2="280" stroke="#5fa1ee" stroke-width="3" stroke-dasharray="5 7"/>
+  <rect x="486" y="280" width="192" height="190" rx="18" fill="#ffffff" stroke="#d9e1ee"/>
+  <text x="504" y="320" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#5fa1ee">2019</text>
+  <text x="504" y="350" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#182033">Privacy + governance</text>
+  <text x="504" y="382" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">Shielded tokens and</text>
+  <text x="504" y="404" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">the first formal</text>
+  <text x="504" y="426" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">Bismuth governance</text>
+  <text x="504" y="448" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">vote.</text>
+
+  <circle cx="818" cy="220" r="25" fill="#b364c2"/>
+  <text x="818" y="228" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff">20</text>
+  <line x1="818" y1="245" x2="818" y2="350" stroke="#b364c2" stroke-width="3" stroke-dasharray="5 7"/>
+  <rect x="722" y="350" width="192" height="190" rx="18" fill="#ffffff" stroke="#d9e1ee"/>
+  <text x="740" y="390" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#b364c2">2020</text>
+  <text x="740" y="420" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#182033">Physical-world data</text>
+  <text x="740" y="452" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">Condition, Android</text>
+  <text x="740" y="474" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">battery, and Tesla</text>
+  <text x="740" y="496" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">battery monitoring</text>
+  <text x="740" y="518" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">on-chain.</text>
+
+  <circle cx="1054" cy="220" r="25" fill="#5fa1ee"/>
+  <text x="1054" y="228" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff">21</text>
+  <line x1="1054" y1="245" x2="1054" y2="280" stroke="#5fa1ee" stroke-width="3" stroke-dasharray="5 7"/>
+  <rect x="958" y="280" width="192" height="190" rx="18" fill="#ffffff" stroke="#d9e1ee"/>
+  <text x="976" y="320" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#5fa1ee">2021</text>
+  <text x="976" y="350" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#182033">Interoperability</text>
+  <text x="976" y="382" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">BIS↔ETH and BIS↔BSC</text>
+  <text x="976" y="404" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">Crystal bridges;</text>
+  <text x="976" y="426" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">state-machine</text>
+  <text x="976" y="448" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">programmability.</text>
+
+  <circle cx="1290" cy="220" r="25" fill="#b364c2"/>
+  <text x="1290" y="228" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff">26</text>
+  <line x1="1290" y1="245" x2="1290" y2="350" stroke="#b364c2" stroke-width="3" stroke-dasharray="5 7"/>
+  <rect x="1194" y="350" width="192" height="190" rx="18" fill="#ffffff" stroke="#d9e1ee"/>
+  <text x="1212" y="390" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#b364c2">2026</text>
+  <text x="1212" y="420" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#182033">Modernisation</text>
+  <text x="1212" y="452" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">Canonical transaction</text>
+  <text x="1212" y="474" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">IDs and deterministic</text>
+  <text x="1212" y="496" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#596275">VM direction.</text>
+</svg>
